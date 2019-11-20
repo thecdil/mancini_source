@@ -1,0 +1,18 @@
+# blank-dev-template
+# basic bootstrap template
+
+title: blank-dev-template
+
+# url is your gh-pages base, following the pattern: username.github.io
+url: https://uidaholib.github.io
+# baseurl is your github repository's name prefixed with a /
+baseurl: /blank-dev-template
+
+# Use Bootstrap (true, false)
+bootstrap: true
+# Use optional Bootstrap JS (true, false)
+bootstrap-js: true
+# Use JQuery Core
+jquery: true
+# Use fontawesome CDN (true, false)
+fontawesome: false
