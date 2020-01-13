@@ -1,0 +1,25 @@
+---
+layout: default
+gallery: true
+---
+
+{%- assign letter = site.data.mancini | where: 'title', page.title -%}
+{%- for l in letter -%}
+{%- assign images = l.pages | split: ";" -%}
+{%- endfor -%}
+
+<div class="container py-4">
+    <h1>{{ page.title }}</h1>
+    <div class="row my-4">
+        <div class="col-md-8">
+            {{ content }}
+        </div>
+        <div class="col-md-4" id="lightgallery">
+            {%- for i in images -%}
+            <div class="gallery-img" data-src="{{ i | prepend: '/assets/letters/' | append: '.jpg' | relative_url }}">
+                <img src="{{ i | prepend: '/assets/letters/thumbs/' | append: '_thm.jpg' | relative_url }}" class="m-2 rounded" alt="letter thumbnail" class="img-fluid">
+            </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
