@@ -1,12 +1,16 @@
-# blank-dev-template
-# basic bootstrap template
+# The Letters of Maria Mancini
 
 title: blank-dev-template
 
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://uidaholib.github.io
+url: https://thecdil.github.io
 # baseurl is your github repository's name prefixed with a /
-baseurl: /blank-dev-template
+baseurl: /mancini_source
+
+# Collections
+collections:
+  letters:
+    output: true
 
 # Use Bootstrap (true, false)
 bootstrap: true
@@ -16,3 +20,6 @@ bootstrap-js: true
 jquery: true
 # Use fontawesome CDN (true, false)
 fontawesome: false
+
+# url to the shared assets folder on Digital
+digital-assets: https://www.lib.uidaho.edu/assets
