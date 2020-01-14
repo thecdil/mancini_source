@@ -3,6 +3,14 @@
     <head>
         {% include head.html %}
     </head>
+    {% if page.layout == "home" %}
+    <body>
+        <main id="content" role="main">
+        {{ content }}
+        </main>
+        {% include foot.html %}
+    </body>
+    {% else %}
     <body>
         {% include header.html %}
         <main id="content" role="main">
@@ -11,4 +19,5 @@
         {% include footer.html %}
         {% include foot.html %}
     </body>
+    {% endif %}
 </html>
