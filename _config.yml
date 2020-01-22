@@ -23,3 +23,6 @@ fontawesome: false
 
 # url to the shared assets folder on Digital
 digital-assets: https://www.lib.uidaho.edu/assets
+
+# url to the directory of images on Digital
+digital-objects: https://www.lib.uidaho.edu/digital/objects/mancini

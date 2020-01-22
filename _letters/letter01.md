@@ -19,14 +19,52 @@ Maria Mancini Colonna
 
 ## Raw Transcription
 
-D’avenay le 29<sup>me</sup> octto[bre] 1672
+Collocazione -II-C.P.1 lett. 13\\
+Lett. di Maria Mancini – 1672\\
+Nr d’ordine – 13
 
-Dalle tante istanse que fate per riavermi conosco a bastansa [crossed out word? hard to read] che mi sono ingannata circa i sospesti che o auto [<strike>q</strike>] del vostro poco affetto et stima verso di me vi prego di creder che la poca salute ch’avevo in Roma mi haveva nudrita un aversione per quella citta la quale acreciuta dal imposibilita duscirne mi fece prender una cosi grand resolutione di allontanarmene con mio tanto rischio et doppo non no oprato in modo d’aver rimproveri <sup>da</sup> nessuno; ne meritavo desser trattata in questa forma; quando party di grenoble non hebbi altra mira che d’andar a pariggi per parlar a Re veder tutti i miei parenti et doppo mettermi
+D. Maria Colonna-Mancini –
 
-in un convento in quella citta o poco lontano; dove non avevo pensier di veder altri che loro conforme o fatto sino hora ne vi deve parer stravagante che io [<strike>scel</strike>] scegliessi una citta comme pariggi per star; mentre vi sono tutti y miei parenti et dove trovavo ogni sorte dapoggio et di commodita il Re per il contrario volendo aver ogni sorte di compiacensa per voi mi a mandato in un <sup>monasterio</sup> deserto a trenta legue di pariggi dove mi trovo con pochissima salute, se mi darete campo d’aderere un poco alli miei desideri mi trovarete altresi sempre pronta a risarcir col proprio sangue il danno che credete vi abbia [<strike>fatto</strike>] potuto fare  
+=
 
+Lettera al Contestabile Colonna\\
+in data	29 Ottobre 1672 d’Avenay\\
+Sigillo – tutta di pugno –
+
+{:.text-center}
+oggetto:
+
+[On left side of the image, the diagonally folded paper with address written on outside: \\
+“A Monsieur\\
+Monsieur le Conestable\\ 
+Colonna\\
+Roma”\\
+\+ 1 red wax seal]
+
+[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, appears to be written the date—probably written by an archivist?? or secretary?? Although the ink looks similar to Marie’s ink.]
+
+[On the right half of the sheet:]
+
+D’avenay le 29{% include tag.md type="super" text="me" %} octto[bre] 1672
+
+Dalle tante istanse que fate per riavermi conosco a bastansa [crossed out word? hard to read] che mi sono ingannata circa i sospesti che o auto [{% include tag.md type="strike" text="q" %}] del vostro poco affetto et stima verso di me vi prego di creder che la poca salute ch’avevo in Roma mi haveva nudrita un aversione per quella citta la quale acreciuta dal imposibilita duscirne mi fece prender una cosi grand resolutione di allontanarmene con mio tanto rischio et doppo non no oprato in modo d’aver rimproveri {% include tag.md type="super" text="da" %} nessuno; ne meritavo desser trattata in questa forma; quando party di grenoble non hebbi altra mira che d’andar a pariggi per parlar a Re veder tutti i miei parenti et doppo mettermi
+
+[on the right half of the sheet:]
+
+in un convento in quella citta o poco lontano; dove non avevo pensier di veder altri che loro conforme o fatto sino hora ne vi deve parer stravagante che io [{% include tag.md type="strike" text="scel" %}] scegliessi una citta comme pariggi per star; mentre vi sono tutti y miei parenti et dove trovavo ogni sorte dapoggio et di commodita il Re per il contrario volendo aver ogni sorte di compiacensa per voi mi a mandato in un {% include tag.md type="super" text="monasterio" %} deserto a trenta legue di pariggi dove mi trovo con pochissima salute, se mi darete campo d’aderere un poco alli miei desideri mi trovarete altresi sempre pronta a risarcir col proprio sangue il danno che credete vi abbia [{% include tag.md type="strike" text="fatto" %}] potuto fare  
+
+{:.text-right}
 Maria Mancini Colonna
 
 ---
 
 ## Edited Transcription
+
+D’Avenay il 29 ottobre 1672
+
+Dalle tante istanze che fate per riavermi conosco abbastanza che mi sono ingannata circa i sospetti che ho avuto del vostro poco affetto e stima verso di me. Vi prego di credere che la poca salute ch’avevo in Roma mi aveva nutrito un’avversione per quella citt{% include entity.md type="grave" letter="a" %}, la quale accresciuta dall’impossibilit{% include entity.md type="grave" letter="a" %} di uscirne, mi fece prendere una cos{% include entity.md type="grave" letter="i" %} gran risoluzione di allontanarmene con mio tanto rischio; e dopo non ho operato in modo di avere rimproveri da nessuno, n{% include entity.md type="accute" letter="e" %} meritavo di essere trattata in questa forma. Quando partii da Grenoble, non ebbi altra mira che di andare a Parigi per parlare al Re, vedere tutti i miei parenti et dopo mettermi
+
+in un convento in quella citt{% include entity.md type="grave" letter="a" %} o poco lontano. Dove non avevo pensiero di vedere altri che loro, conforme ho fatto sino a ora, n{% include entity.md type="accute" letter="e" %} vi deve parere stravagante che io scegliessi una citt{% include entity.md type="grave" letter="a" %} come Parigi per stare, mentre vi sono tutti i miei parenti e dove trovavo ogni sorta di appoggio e di comodit{% include entity.md type="grave" letter="a" %}. Il Re, per il contrario, volendo avere ogni sorta di compiacenza per voi, mi ha mandata in un monasterio deserto a trenta leghe di Parigi, dove mi trovo con pochissima salute. Se mi darete campo di aderire un poco agli miei desideri, mi trovarete altres{% include entity.md type="grave" letter="i" %} sempre pronta a risarcire col proprio sangue il danno che credete vi abbia potuto fare.
+
+{:.text-right}
+Maria Mancini Colonna
