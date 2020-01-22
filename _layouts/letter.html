@@ -16,8 +16,8 @@ gallery: true
         </div>
         <div class="col-md-4" id="lightgallery">
             {%- for i in images -%}
-            <div class="gallery-img" data-src="{{ i | prepend: '/assets/letters/' | append: '.jpg' | relative_url }}">
-                <img src="{{ i | prepend: '/assets/letters/thumbs/' | append: '_thm.jpg' | relative_url }}" class="m-2 rounded" alt="letter thumbnail" class="img-fluid">
+            <div class="gallery-img" data-src="{{ site.digital-objects }}/{{ i | append: '.jpg' }}">
+                <img src="{{ site.digital-objects }}/thumbs/{{ i | append: '_thm.jpg' }}" class="m-2 rounded" alt="letter thumbnail" class="img-fluid">
             </div>
             {%- endfor -%}
         </div>
