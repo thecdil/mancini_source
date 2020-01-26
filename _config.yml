@@ -21,7 +21,7 @@ bootstrap-js: true
 # Use JQuery Core
 jquery: true
 # Use fontawesome CDN (true, false)
-fontawesome: false
+fontawesome: true
 
 # url to the shared assets folder on Digital
 digital-assets: https://www.lib.uidaho.edu/assets

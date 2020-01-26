@@ -1,9 +1,7 @@
 ---
 letter: 13
-section: trans
+section: translation
 ---
-
-## Annotated Translation
 
 Avenay {% include annotation.md id="avenay" no="1" %}, 29 October 1672
 

@@ -3,8 +3,6 @@ letter: 13
 section: raw
 ---
 
-## Raw Transcription
-
 Collocazione -II-C.P.1 lett. 13\\
 Lett. di Maria Mancini – 1672\\
 Nr d’ordine – 13

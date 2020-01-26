@@ -3,8 +3,6 @@ letter: 13
 section: edit
 ---
 
-## Edited Transcription
-
 D’Avenay il 29 ottobre 1672
 
 Dalle tante istanze che fate per riavermi conosco abbastanza che mi sono ingannata circa i sospetti che ho avuto del vostro poco affetto e stima verso di me. Vi prego di credere che la poca salute ch’avevo in Roma mi aveva nutrito un’avversione per quella citt&#224;, la quale accresciuta dall’impossibilit&#224; di uscirne, mi fece prendere una cos&#236; gran risoluzione di allontanarmene con mio tanto rischio; e dopo non ho operato in modo di avere rimproveri da nessuno, n&#233; meritavo di essere trattata in questa forma. Quando partii da Grenoble, non ebbi altra mira che di andare a Parigi per parlare al Re, vedere tutti i miei parenti et dopo mettermi

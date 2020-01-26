@@ -6,13 +6,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 {%- endif -%}
 
-{% if layout.lazyload == true or page.lazyload == true %}<script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>{% endif %}
-{% if layout.gallery == true %}{% include js/gallery-js.html %}{% endif %}
-{% if page.layout == "timeline" %}{% include js/timeline-js.html %}{% endif %}
-{%- if page.layout == "letter" -%}
-<script>
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
-{%- endif -%}
+{%- if layout.lazyload == true or page.lazyload == true -%}<script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>{%- endif -%}
+{%- if layout.gallery == true -%}{% include js/gallery-js.html %}{%- endif -%}
+{%- if page.layout == "timeline" -%}{% include js/tooltip-js.html %}{%- endif -%}
+{%- if page.layout == "letter" -%}{% include js/tooltip-js.html %}{%- endif -%}
