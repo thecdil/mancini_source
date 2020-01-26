@@ -28,3 +28,13 @@ alternative call for images on letter layout:
         <a href="about.html" role="button" class="btn btn-lg btn-outline-light mx-2">About</a>
     </div>
 </div>
+
+
+{% include tag.md type="strike" text="scel" %}
+{% include entity.md type="grave" letter="i" %}
+
+            {% for part in site.parts %}
+            {% if part.letter == page.letter and part.section == 'a' %}
+            {{ part.content }}
+            {% endif %}
+            {% endfor %}

@@ -9,6 +9,8 @@ baseurl: /mancini_source
 
 # Collections
 collections:
+  parts:
+    output: false
   letters:
     output: true
 

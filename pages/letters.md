@@ -7,5 +7,7 @@ permalink: letters.html
 # Letters
 
 <ul>
-    <li><a href="{{ '/letters/letter01.html' | relative_url }}">Letter 13</a></li>
+    {% for letter in site.letters %}
+    <li><a href="{{ letter.url | relative_url }}">{{ letter.title }}</a></li>
+    {% endfor %}
 </ul>
