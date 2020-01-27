@@ -55,7 +55,7 @@ gallery: true
       </div>
     </div>
 
-    <div class="col-md-4" id="lightgallery">
+    <div class="col-md-4 text-center" id="lightgallery">
       {%- for i in images -%}
       <div class="gallery-img" data-src="{{ site.digital-objects }}/{{ i | append: '.jpg' }}">
         <img src="{{ site.digital-objects }}/thumbs/{{ i | append: '_thm.jpg' }}" class="m-2 rounded" alt="letter thumbnail" class="img-fluid">
