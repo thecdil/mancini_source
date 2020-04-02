@@ -12,9 +12,6 @@
         <xsl:apply-templates select="//tei:body/tei:div"/>
     </xsl:template>
     
-    <xsl:template match="head">
-        <xsl:apply-templates select="*"></xsl:apply-templates>
-    </xsl:template>
     <!-- <xsl:strip-space elements="*"/>-->
     
     <!-- grab value of @xml:id -->
@@ -23,16 +20,16 @@
         <!-- Name the file-->
         <xsl:variable name="sect_id" select="@xml:id"/>
         <xsl:result-document method="text" encoding="utf-8"
-            href="../mancini_source/_texts/{$sect_id}-annotated.md" omit-xml-declaration="yes">
+            href="../mancini_source/_texts/{$sect_id}.md" omit-xml-declaration="yes">
             
             <!-- yaml header -->
             <xsl:text>---&#x0A;letter: </xsl:text>
-            <xsl:value-of select="tei:teiHeader/fileDesc/sourceDesc/bibl"/>
+            <xsl:value-of select="tei:head/@n"/>
             <xsl:text>&#x0A;</xsl:text>
             <xsl:text>section: </xsl:text>
-            <xsl:value-of select="tei:head[@type='version']"/>
+            <xsl:value-of select="tei:head/@type"/>
             <xsl:text>&#x0A;</xsl:text>
-            <xsl:text>---&#x0A;&#x0A;</xsl:text>
+            <xsl:text>---</xsl:text>
             
             <xsl:apply-templates/>
             

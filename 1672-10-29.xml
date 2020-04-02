@@ -21,7 +21,7 @@
                 <title>Letters of Marie and Lorenzo Mancini</title>
             </seriesStmt>
             <sourceDesc>
-                <bibl type="letternumber">13</bibl>
+                <bibl>13</bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -32,8 +32,8 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter013">
-                <head type="version">Translation</head>
+            <div type="letter" xml:id="letter13a">
+                <head type="translation" n="13"></head>
                 <opener>
                     <dateline>
                         <placeName>Avenay</placeName>
@@ -45,6 +45,7 @@
                 <closer>
                     <signed><persName>Maria Mancini Colonna</persName>.</signed>
                 </closer>
+                
             </div>
         </body>
     </text>
