@@ -12,6 +12,9 @@
         <xsl:apply-templates select="//tei:body/tei:div"/>
     </xsl:template>
     
+    <xsl:template match="head">
+        <xsl:apply-templates select="*"></xsl:apply-templates>
+    </xsl:template>
     <!-- <xsl:strip-space elements="*"/>-->
     
     <!-- grab value of @xml:id -->
@@ -20,13 +23,13 @@
         <!-- Name the file-->
         <xsl:variable name="sect_id" select="@xml:id"/>
         <xsl:result-document method="text" encoding="utf-8"
-            href="../_texts/{$sect_id}-annotated.md" omit-xml-declaration="yes">
+            href="../mancini_source/_texts/{$sect_id}-annotated.md" omit-xml-declaration="yes">
             
             <!-- yaml header -->
             <xsl:text>---&#x0A;letter: </xsl:text>
-            <xsl:value-of select="tei:teiHeader/fileDesc/sourceDesc/bibl[@type='letternumber']"/>
+            <xsl:value-of select="tei:teiHeader/fileDesc/sourceDesc/bibl"/>
             <xsl:text>&#x0A;</xsl:text>
-            <xsl:text>section:</xsl:text>
+            <xsl:text>section: </xsl:text>
             <xsl:value-of select="tei:head[@type='version']"/>
             <xsl:text>&#x0A;</xsl:text>
             <xsl:text>---&#x0A;&#x0A;</xsl:text>
@@ -34,6 +37,15 @@
             <xsl:apply-templates/>
             
         </xsl:result-document>
+    </xsl:template>
+    
+    <!-- opener -->
+    <xsl:template match="tei:opener">
+        <xsl:text>&#x0A;</xsl:text>
+        <xsl:value-of select="tei:dateline/tei:placeName"/>
+        <xsl:text>&#x0A;&#x0A;</xsl:text>
+        <xsl:value-of select="tei:dateline/tei:date"/>
+        <xsl:text>&#x0A;</xsl:text>
     </xsl:template>
     
     <!-- paragraphs -->
@@ -47,6 +59,7 @@
     <xsl:template match="tei:persName">
         
     </xsl:template>
+    
 
 
     
