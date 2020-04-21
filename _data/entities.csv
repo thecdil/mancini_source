@@ -1,7 +1,12 @@
-type,letter,code
+type,letter,hexcode,htmlcode
 grave,a,&#224;
 grave,e,&#232;
 grave,i,&#236;
 grave,o,&#242;
 grave,u,&#249;
 accute,e,&#233;
+percent,%,&#x25;,&#37;
+left curly bracket,{,&#x7b;,&#123;
+right curly bracket,},&#x7D;,&#125;
+left angle bracket,<,&lt;
+right angle bracket,>,&gt;
