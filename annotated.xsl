@@ -12,9 +12,7 @@
         <xsl:apply-templates select="//tei:body/tei:div"/>
     </xsl:template>
     
-    <!-- <xsl:strip-space elements="*"/>-->
-    
-    <!-- grab value of @xml:id -->
+    <xsl:strip-space elements="*"/>
     
     <xsl:template match="tei:body/tei:div">
         <!-- Name the file-->
@@ -30,7 +28,7 @@
             <xsl:value-of select="tei:head/@type"/>
             <xsl:text>&#x0A;</xsl:text>
             <xsl:text>---</xsl:text>
-            
+          
             <xsl:apply-templates/>
             
         </xsl:result-document>
@@ -38,25 +36,82 @@
     
     <!-- opener -->
     <xsl:template match="tei:opener">
-        <xsl:text>&#x0A;</xsl:text>
-        <xsl:value-of select="tei:dateline/tei:placeName"/>
         <xsl:text>&#x0A;&#x0A;</xsl:text>
-        <xsl:value-of select="tei:dateline/tei:date"/>
+        <xsl:apply-templates select="tei:dateline/tei:placeName" />
+        <xsl:text>, </xsl:text>
+        <xsl:apply-templates select="tei:dateline/tei:date"/>
         <xsl:text>&#x0A;</xsl:text>
     </xsl:template>
     
-    <!-- paragraphs -->
+    <!-- markdown paragraphs -->
     <xsl:template match="tei:p">
         <xsl:text>&#x0A;</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>&#x0A;</xsl:text>
     </xsl:template>
     
-    <!-- create annotation tooltips -->
-    <xsl:template match="tei:persName">
-        
+    <!-- annotation tooltips -->
+    <xsl:template match="tei:placeName">
+        <xsl:for-each select=".">
+            <xsl:choose>
+            <xsl:when test="starts-with(@type, 'a')">
+                <xsl:apply-templates />
+                <xsl:text> &#x7b;&#x25; include annotate.md id="</xsl:text>
+                <xsl:value-of select="@ref"/>
+                <xsl:text>" no="</xsl:text>
+                <xsl:value-of select="@n"/>
+                <xsl:text>" &#x25;&#x7D;</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates />
+            </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
     </xsl:template>
     
+    <!-- text emphasis -->
+    <!-- to-do: simplify with variable -->
+    <xsl:template match="tei:hi">
+        <xsl:for-each select=".">
+            <xsl:choose>
+                <xsl:when test="contains(@rend, 'sup')">
+                    <xsl:text>&lt;sup&gt;</xsl:text>
+                    <xsl:apply-templates />
+                    <xsl:text>&lt;/sup&gt;</xsl:text>
+                </xsl:when>
+                <xsl:when test="contains(@rend, 'strike')">
+                    <xsl:text>&lt;strike&gt;</xsl:text>
+                    <xsl:apply-templates />
+                    <xsl:text>&lt;/strike&gt;</xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates />
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <!-- closer -->
+    <xsl:template match="tei:closer">
+        <xsl:text>&#x0A;{:.text-right}&#x0A;</xsl:text>
+        <xsl:apply-templates select="tei:signed/tei:persName" />
+    </xsl:template>
+
+
+    <!-- create annotation tooltips (old) -->
+    <!--<xsl:template match="tei:placeName">
+        <xsl:apply-templates />
+        <xsl:text> &#x7b;&#x25; include annotate.md id="</xsl:text>
+        <xsl:value-of select="@ref"/>
+        <xsl:text>" no="</xsl:text>
+        <xsl:value-of select="@n"/>
+        <xsl:text>" &#x25;&#x7D;</xsl:text>
+    </xsl:template>-->
+ 
+
+   
+    
+
 
 
     
