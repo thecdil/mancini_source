@@ -18,7 +18,7 @@
         <!-- Name the file-->
         <xsl:variable name="sect_id" select="@xml:id"/>
         <xsl:result-document method="text" encoding="utf-8"
-            href="../mancini_source/_texts/{$sect_id}.md" omit-xml-declaration="yes">
+            href="../mancini_source/_parts/{$sect_id}.md" omit-xml-declaration="yes">
             
             <!-- yaml header -->
             <xsl:text>---&#x0A;letter: </xsl:text>
@@ -54,10 +54,10 @@
     <xsl:template match="tei:placeName">
         <xsl:for-each select=".">
             <xsl:choose>
-            <xsl:when test="starts-with(@type, 'a')">
+            <xsl:when test="contains(@type, 'annotate')">
                 <xsl:apply-templates />
                 <xsl:text> &#x7b;&#x25; include annotate.md id="</xsl:text>
-                <xsl:value-of select="@ref"/>
+                <xsl:value-of select="@key"/>
                 <xsl:text>" no="</xsl:text>
                 <xsl:value-of select="@n"/>
                 <xsl:text>" &#x25;&#x7D;</xsl:text>
@@ -70,11 +70,10 @@
     </xsl:template>
     
     <!-- text emphasis -->
-    <!-- to-do: simplify with variable -->
     <xsl:template match="tei:hi">
         <xsl:for-each select=".">
             <xsl:choose>
-                <xsl:when test="contains(@rend, 'sup')">
+                <xsl:when test="contains(@rend, 'superscript')">
                     <xsl:text>&lt;sup&gt;</xsl:text>
                     <xsl:apply-templates />
                     <xsl:text>&lt;/sup&gt;</xsl:text>
@@ -109,10 +108,6 @@
     </xsl:template>-->
  
 
-   
-    
-
-
-
+  
     
 </xsl:stylesheet>
