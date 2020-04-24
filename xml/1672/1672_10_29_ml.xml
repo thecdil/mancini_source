@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>1672-10-29 IICP1 lett 13 Marie to Lorenzo</title>
-                <author key="Mancini, Marie">Marie Mancini</author>
+                <author key="mancini-marie">Marie Mancini</author>
                 <respStmt>
                     <resp>Transcribed and tanslated by</resp>
                     <name xml:id="sn">Sarah Nelson</name>
@@ -33,7 +33,7 @@
                 </distributor>
                 <date>2020</date>
                 <availability>
-                    <p>The Mancini Project is freely distributed by the Center for Digital Research in the Humanities at the University of Nebraska–Lincoln and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License
+                    <p>The Mancini Project is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
                     </p>
                 </availability>
             </publicationStmt>
@@ -42,7 +42,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <author key="marie-mancini">Marie Mancini</author>
+                    <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
                     <date when="1672-10-29">October 29 1672</date>
                 </bibl>
@@ -54,7 +54,7 @@
                         <collection>
                             Collection
                         </collection>
-                        <idno type="collection">MSAm1925</idno>
+                        <idno type="collection">IICPI</idno>
                     </msIdentifier>
                     <msContents>
                         <p>Document is one leaf, handwritten on recto and verso.</p>
