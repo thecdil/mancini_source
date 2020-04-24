@@ -18,7 +18,7 @@
         <!-- Name the file-->
         <xsl:variable name="sect_id" select="@xml:id"/>
         <xsl:result-document method="text" encoding="utf-8"
-            href="../mancini_source/_parts/{$sect_id}.md" omit-xml-declaration="yes">
+            href="../../_parts/{$sect_id}.md" omit-xml-declaration="yes">
             
             <!-- yaml header -->
             <xsl:text>---&#x0A;letter: </xsl:text>
