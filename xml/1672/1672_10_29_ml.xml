@@ -5,11 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>1672-10-29 IICP1 lett 13 Marie to Lorenzo</title>
+                <title>1672-10-29 IICP1 lett 13</title>
                 <author key="mancini-marie">Marie Mancini</author>
                 <respStmt>
                     <resp>Transcribed and tanslated by</resp>
-                    <name xml:id="sn">Sarah Nelson</name>
+                    <name xml:id="smn">Sarah M. Nelson</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoded by</resp>
@@ -17,7 +17,7 @@
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <authority>The Mancini Project</authority>
+                <authority>The Correspondence of Marie Mancini</authority>
                 <publisher>University of Idaho Library</publisher>
                 <address>
                     <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
@@ -33,12 +33,12 @@
                 </distributor>
                 <date>2020</date>
                 <availability>
-                    <p>The Mancini Project is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
                     </p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
-                <title>The Letters of Marie Mancini</title>
+                <title>The Correspondence of Marie Mancini</title>
             </seriesStmt>
             <sourceDesc>
                 <bibl>
@@ -52,9 +52,9 @@
                             Library
                         </repository>
                         <collection>
-                            Collection
+                            Lettere di Maria Mancini
                         </collection>
-                        <idno type="collection">IICPI</idno>
+                        <idno type="collection">IICP1</idno>
                     </msIdentifier>
                     <msContents>
                         <p>Document is one leaf, handwritten on recto and verso.</p>
@@ -68,7 +68,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="mm_hand" medium="pen">
+                            <handNote xml:id="mm" medium="ink">
                                 Marie Mancini handwritten
                             </handNote>
                         </handDesc>
