@@ -17,12 +17,13 @@
 	- Intro to Markdown
 		- Markdown: <https://evanwill.github.io/write-md/content/2-markdown.html>
 	- [My questions:
-		- Copying and pasting will remove spacing from raw, but we weren't going to show this on the site anyway?
-		- Similarly: signature spacing?
-		- Strikethrough/cross outs. Leave as they are? Sometimes what is crossed out is unknown. Should we put a space-holder here on the website?
-		- Should in-text descriptions about ripped or illegible parts be annotations?
-        - I noticed that others are starting to do transcriptions now. Is it possible for them to start using the ID naming system, and add an entry to the metadata spreadsheet each time they create a letter?]
+		- Copying and pasting will remove some horizontal spacing from raw, but we weren't going to show this in front matter on the site anyway?
+		- Similarly: signature spacing? Spacing won't render in markdown but can be left in md files so it will be encoded... or we can have encoder always look at image when determining signature location on the page.
+		- Strikethrough/cross outs. Leave as they are in raw transcriptions now? Sometimes what is crossed out is unknown. Should we put a space-holder here on the website? Or annotation? Also see next question:
+			- Should in-text descriptions about ripped or illegible parts of letters be annotations?
 		- Should encoder capture all of your bracketed descriptive text?
+        - I noticed that others are starting to do transcriptions now. Is it possible for them to start using the ID naming system, and add an entry to the metadata spreadsheet each time they create a letter?
+		- Should we add a place in the spreadsheet to indicate when a letter is ready for encoding? (see 1672 letter 13 for example)]
 	- [Git Push](https://lib-static.github.io/howto/howtos/pushpullchanges.html)
 	- For new letters, be sure to update the metadata spreadsheet!
 		- Spreadsheet link: <https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing>

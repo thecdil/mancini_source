@@ -27,14 +27,14 @@ If you are creating a new folder with a raw transcription that is *not* already 
     - Specific changes you may have to make to **raw files** and **edited files**:
 		- Add line breaks: `\`
 		- Add superscripts: `<sup></sup>`
-        - Add strikethrough: `<strike></strike>`
 
     - Specific changes you may have to make to **translation files**:
         - Add footnotes: 
-            - In text: `footnote.[^1]`
+            - In text: `[^1]`
             - End of document: `[^1]: example footnote definition.`
 8. Save your markdown file in Visual Studio Code, then use GitHub Desktop to [Push your changes](https://lib-static.github.io/howto/howtos/pushpullchanges.html) to the GitHub repository.
 9. Add your [editor tag](https://docs.google.com/spreadsheets/d/1eKKw5Y33Yk4MzeiUJoUkh8yhO-J4BHNmGoucA-Y9YK8/edit?usp=sharing) to the [Mancini metadata](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing) spreadsheet to indicate which file you edited/created.
+10. To see how your markdown renders, go to the root of the [mancini_source](https://github.com/thecdil/mancini_source) GitHub repository. Click on the **Transcriptions** folder, and find the new folder and file that you created. When you click on the file, you can see how your markdown formatting looks when published.
 
 
 ## Markdown rules that you may need to implement: 
@@ -62,6 +62,7 @@ Nr d’ordine – 29
 | `<strike>`strikethrough content`</strike>` | <strike>superscript content</strike>|
 | `*Emphasis*` or `_emphasis_` | *Emphasis* or _emphasis_ |
 | `**Strong**` or `__strong__` | **Strong** or __strong__ |
+| `\+` escape a special character | \+ |
 | `inline [hyperlink](https://www.google.com)` | inline [hyperlink](https://www.google.com) |
 | `footnote.[^1]` | footnote.[^1] |
 
