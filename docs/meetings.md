@@ -19,7 +19,10 @@
 	- [My questions:
 		- Copying and pasting will remove spacing from raw, but we weren't going to show this on the site anyway?
 		- Similarly: signature spacing?
+		- Strikethrough/cross outs. Leave as they are? Sometimes what is crossed out is unknown. Should we put a space-holder here on the website?
+		- Should in-text descriptions about ripped or illegible parts be annotations?
         - I noticed that others are starting to do transcriptions now. Is it possible for them to start using the ID naming system, and add an entry to the metadata spreadsheet each time they create a letter?]
+		- Should encoder capture all of your bracketed descriptive text?
 	- [Git Push](https://lib-static.github.io/howto/howtos/pushpullchanges.html)
 	- For new letters, be sure to update the metadata spreadsheet!
 		- Spreadsheet link: <https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing>

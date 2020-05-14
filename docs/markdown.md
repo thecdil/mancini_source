@@ -14,11 +14,11 @@ If you are creating a new folder with a raw transcription that is *not* already 
 2. Navigate to the folder of the letter you want to transfer. Open the word doc as a google doc (or download it). 
 3. Using GitHub Desktop, [Pull](https://lib-static.github.io/howto/howtos/pushpullchanges.html) any recent changes made to the [mancini_source](https://github.com/thecdil/mancini_source) GitHub repository. 
 4. [Open the repository](https://lib-static.github.io/howto/howtos/openrepointexteditor.html) in Visual Studio Code.
-5. In the repository's **transcriptions** folder, create a new sub-folder, **titled with the ID of the letter you are working on**. You can find the ID in the [Mancini metadata](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing) spreadsheet, or in the title of the document. The ID follows these conventions:
+5. In the repository's **transcriptions** folder, create a new sub-folder, **titled with the ID of the letter you are working on**. You can find the ID in the [Mancini metadata](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing) spreadsheet, or in the title of the document. **The ID follows these conventions**:
     - `yyyy_mm_dd_SenderInitials2ReceiverInitials`
     - Example: `1672_10_29_mm2lc`
 6. Inside your new sub-folder, create a new file. This should be a markdown file and should follow these naming conventions:
-    - filenames are labeled `id_filetype.md`, where `id` is the ID described above, and `filetype` = `raw`, `edit`, or `translation`
+    - **Filenames** are labeled `id_filetype.md`, where `id` is the ID described above, and `filetype` = `raw`, `edit`, or `translation`
     - Example: `1672_10_29_mm2lc_raw.md`
     - Be sure that the file extension is `.md` (stands for markdown)
 7. Carefully copy and paste the material from the google doc into the markdown file in Visual Studio Code. 
