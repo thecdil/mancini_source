@@ -2,36 +2,41 @@
 
 ## Creating a New Transcription/Translation
 If you are creating a new raw transcription, be sure to update the [metadata spreadsheet](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing)!
-- Find sender and receiver initials in Google Drive Folder **tags** > [**persName** spreadsheet](https://docs.google.com/spreadsheets/d/1LAvt-O72kRdg07OP7rPGmpFmYtjBstf51lrXT5hL3vU/edit?usp=sharing) > column **filename-code**
 - Insert the letter's ID into the metadata spreadsheet, and fill in the data for the columns
+    - Create a letter ID:
+        - Naming convention: `yyyy_mm_dd_SenderInitials2ReceiverInitials`
+        - Ex. `1672_10_29_mm2lc`
+        - Find sender and receiver initials in Google Drive Folder **tags** > [**persName** spreadsheet](https://docs.google.com/spreadsheets/d/1LAvt-O72kRdg07OP7rPGmpFmYtjBstf51lrXT5hL3vU/edit?usp=sharing) > **filename-code** column
 
 
-## Transfering an Existing Transcription/Translation to Markdown
+## Transferring an Existing Transcription/Translation to Markdown
 1. Open the **demo_material** folder in [Google Drive](https://drive.google.com/drive/folders/1a-OmhVezrV3SK1xYITv-tBVST8cqOeHv?usp=sharing)
 2. Navigate to the folder of the letter you want to transfer. Open the word doc as a google doc (or download it). 
-3. Open the **mancini_source** repository in Visual Studio Code.
-4. In the **transcriptions** folder, create a new sub-folder, **titled with the ID of the letter you are working on**. You can find the ID in the [Mancini metadata](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing) file, or in the title of the document. The ID follows these conventions:
+3. Using GitHub Desktop, [Pull](https://lib-static.github.io/howto/howtos/pushpullchanges.html) any recent changes made to the [mancini_source](https://github.com/thecdil/mancini_source) GitHub repository. 
+4. [Open the repository](https://lib-static.github.io/howto/howtos/openrepointexteditor.html) in Visual Studio Code.
+5. In the repository's **transcriptions** folder, create a new sub-folder, **titled with the ID of the letter you are working on**. You can find the ID in the [Mancini metadata](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing) file, or in the title of the document. The ID follows these conventions:
     - `yyyy_mm_dd_SenderInitials2ReceiverInitials`
     - Ex. `1672_10_29_mm2lc`
-5. Inside your new sub-folder, create a new file. This should be a markdown file and should follow these naming conventions:
+6. Inside your new sub-folder, create a new file. This should be a markdown file and should follow these naming conventions:
     - filenames are labeled `id_filetype.md`, where `id` is the ID described above, and `filetype` = `raw`, `edit`, or `translation`
     - Ex. `1672_10_29_mm2lc_raw.md`
     - Be sure that the file extension is `.md` (stands for markdown)
-6. Carefully copy and paste the material from the google doc into the markdown file in Visual Studio Code. 
+7. Carefully copy and paste the material from the google doc into the markdown file in Visual Studio Code. 
     - Diacritics should all transfer with the copy/paste. Double check to be sure.
     
     - Specific changes you may have to make to **raw files** and **edited files**:
 		- Add line breaks: `\`
-		- Add superscripts: `<sup>`superscript content`</sup>`
-        - Add strikethrough: `<strike>`strikethrough content`</strike>`
+		- Add superscripts: `<sup></sup>`
+        - Add strikethrough: `<strike></strike>`
 
     - Specific changes you may have to make to **translation files**:
         - Add footnotes: 
             - In text: `footnote.[^1]`
             - End of document: `[^1]: example footnote definition.`
+8. Save your markdown file in Visual Studio Code, then use GitHub Desktop to [Push your changes](https://lib-static.github.io/howto/howtos/pushpullchanges.html) to the GitHub repository.
 
 
-## Markdown rules that you may need to implement 
+## Markdown rules that you may need to implement: 
 
 (For more complete examples, see these [markdown guidelines](https://evanwill.github.io/write-md/content/2-markdown.html)):
 
