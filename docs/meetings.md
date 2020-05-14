@@ -1,4 +1,4 @@
-# 2020-05-14; 12:30pm PST
+## 2020-05-14; 12:30pm PST
 
 ## Meeting agenda:
 1. Intro to GitHub
