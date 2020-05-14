@@ -27,6 +27,7 @@ If you are creating a new folder with a raw transcription that is *not* already 
     - Specific changes you may have to make to **raw files** and **edited files**:
 		- Add line breaks: `\`
 		- Add superscripts: `<sup></sup>`
+        - Escape a special character at the beginning of a line: `\`
 
     - Specific changes you may have to make to **translation files**:
         - Add footnotes: 
@@ -59,7 +60,7 @@ Nr d’ordine – 29
 | Markdown | HTML |
 | --- | --- |
 | `<sup>`superscript content`</sup>` | <sup>superscript content</sup>|
-| `<strike>`strikethrough content`</strike>` | <strike>superscript content</strike>|
+| `<strike>`strikethrough content`</strike>` | <strike>strikethrough content</strike>|
 | `*Emphasis*` or `_emphasis_` | *Emphasis* or _emphasis_ |
 | `**Strong**` or `__strong__` | **Strong** or __strong__ |
 | `\+` escape a special character | \+ |
