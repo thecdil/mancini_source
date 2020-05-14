@@ -5,7 +5,7 @@ If you are creating a new folder with a raw transcription that is *not* already 
 - Insert the letter's ID into the metadata spreadsheet, and fill in the data for the columns
     - Create a letter ID:
         - Naming convention: `yyyy_mm_dd_SenderInitials2ReceiverInitials`
-        - Ex. `1672_10_29_mm2lc`
+        - Example: `1672_10_29_mm2lc`
         - Find sender and receiver initials in Google Drive Folder **tags** > [**persName** spreadsheet](https://docs.google.com/spreadsheets/d/1LAvt-O72kRdg07OP7rPGmpFmYtjBstf51lrXT5hL3vU/edit?usp=sharing) > **filename-code** column
 
 
@@ -16,10 +16,10 @@ If you are creating a new folder with a raw transcription that is *not* already 
 4. [Open the repository](https://lib-static.github.io/howto/howtos/openrepointexteditor.html) in Visual Studio Code.
 5. In the repository's **transcriptions** folder, create a new sub-folder, **titled with the ID of the letter you are working on**. You can find the ID in the [Mancini metadata](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing) spreadsheet, or in the title of the document. The ID follows these conventions:
     - `yyyy_mm_dd_SenderInitials2ReceiverInitials`
-    - i.e. `1672_10_29_mm2lc`
+    - Example: `1672_10_29_mm2lc`
 6. Inside your new sub-folder, create a new file. This should be a markdown file and should follow these naming conventions:
     - filenames are labeled `id_filetype.md`, where `id` is the ID described above, and `filetype` = `raw`, `edit`, or `translation`
-    - i.e. `1672_10_29_mm2lc_raw.md`
+    - Example: `1672_10_29_mm2lc_raw.md`
     - Be sure that the file extension is `.md` (stands for markdown)
 7. Carefully copy and paste the material from the google doc into the markdown file in Visual Studio Code. 
     - Diacritics should all transfer with the copy/paste. Double check to be sure.
