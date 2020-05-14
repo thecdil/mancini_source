@@ -13,7 +13,7 @@
 	- [Open in VS Code](https://lib-static.github.io/howto/howtos/openrepointexteditor.html)
 	
 3. Add some files
-	- For instructions see: <https://github.com/thecdil/mancini_source/blob/master/docs/transcription.md>
+	- For instructions see: <https://github.com/thecdil/mancini_source/blob/master/docs/markdown.md>
 	- Intro to Markdown
 		- Markdown: <https://evanwill.github.io/write-md/content/2-markdown.html>
 	- [My questions:

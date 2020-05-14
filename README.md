@@ -9,7 +9,7 @@ Repository for *The Correspondence of Marie Mancini* Project, a digital edition 
 
 ## Project Workflow & Documentation:
 - [Meeting Notes](/docs/meetings.md)
-- [Markdown Instructions](/docs/transcription.md)
+- [Markdown Instructions](/docs/markdown.md)
 - [Encoding Instructions](/docs/encoding.md)
 
 ## Spreadsheet Documentation:
