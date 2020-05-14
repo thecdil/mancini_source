@@ -1,7 +1,7 @@
 ## Markdown Instructions
 
 ## Creating a New Transcription/Translation
-If you are creating a new raw transcription, be sure to update the [metadata spreadsheet](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing)!
+If you are creating a new folder with a raw transcription that is *not* already in the Google Drive, be sure to update the [metadata spreadsheet](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing)!
 - Insert the letter's ID into the metadata spreadsheet, and fill in the data for the columns
     - Create a letter ID:
         - Naming convention: `yyyy_mm_dd_SenderInitials2ReceiverInitials`

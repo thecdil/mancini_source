@@ -1,7 +1,6 @@
-2020-05-14
-Thursday 12:30pm PST
+# 2020-05-14; 12:30pm PST
 
-Meeting agenda:
+## Meeting agenda:
 1. Intro to GitHub
 	- What is a GitHub repository?
 	- Tour of mancini repo--where is the website coming from?
