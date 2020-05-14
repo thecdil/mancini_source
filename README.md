@@ -7,6 +7,11 @@ Repository for *The Correspondence of Marie Mancini* Project, a digital edition 
 - **Olivia Wikle**, Digital Initiatives Librarian, University of Idaho
 - **Alessandro Martina**, Teaching Assistant and Ph.D. Student, UW-Madison Department of French & Italian
 
+## 3 Stages of Text Processing:
+1. Transcribe to markdown: communicate the text and layout in a minimal, preservable format
+2. Encode text in xml: embed meaning and context in text; tag specific elements to be extracted, manipulated
+3. Transform xml to web-ready markdown, html: annotated, hyperlinked text is displayed on website
+
 ## Project Workflow & Documentation:
 - [Meeting Notes](/docs/meetings.md)
 - [Markdown Instructions](/docs/markdown.md)
