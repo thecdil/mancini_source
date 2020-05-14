@@ -1,12 +1,12 @@
 ## Markdown Transcription Instructions
 
-<div class="alert alert-primary" markdown="1">
-- If you are creating a new raw transcription, be sure to update the [metadata spreadsheet](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing)!
-    - Find sender and receiver initials in Google Drive Folder `tags` > [`persName` spreadsheet](https://docs.google.com/spreadsheets/d/1LAvt-O72kRdg07OP7rPGmpFmYtjBstf51lrXT5hL3vU/edit?usp=sharing) > column `filename-code`
-    - Insert this ID into the metadata spreadsheet, and fill in the data for the columns: <https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing>
-</div>
+## Creating a New Transcription
+If you are creating a new raw transcription, be sure to update the [metadata spreadsheet](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing)!
+- Find sender and receiver initials in Google Drive Folder `tags` > [`persName` spreadsheet](https://docs.google.com/spreadsheets/d/1LAvt-O72kRdg07OP7rPGmpFmYtjBstf51lrXT5hL3vU/edit?usp=sharing) > column `filename-code`
+- Insert this ID into the metadata spreadsheet, and fill in the data for the columns: <https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing>
 
-## Transfer a word doc transcription to markdown
+
+## Transfering an Existing Transcription to Markdown
 1. Open the `demo_material` folder in [Google Drive](https://drive.google.com/drive/folders/1a-OmhVezrV3SK1xYITv-tBVST8cqOeHv?usp=sharing)
 2. Navigate to the folder of the letter you want to transfer. Open the word doc as a google doc (or download it). 
 3. Open the `mancini_source` repository in Visual Studio Code.
@@ -43,7 +43,7 @@ Nr d’ordine – 29
 {:.table .table-bordered}
 | Markdown | HTML |
 | --- | --- |
-| `<sup>content</sup> | <sup>content</sup>|
+| `<sup>content</sup>` | <sup>content</sup>|
 | `*Emphasis*` or `_emphasis_` | *Emphasis* or _emphasis_ |
 | `**Strong**` or `__strong__` | **Strong** or __strong__ |
 | `inline [hyperlink](https://www.google.com)` | inline [hyperlink](https://www.google.com) |
