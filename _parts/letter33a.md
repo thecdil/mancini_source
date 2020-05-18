@@ -16,3 +16,4 @@ Maria Mancini Colonna
 solamente per non disgustarvi mi tratengo ancora qua dove <strike>sto</strike> mi vedo di mala voglia é con ragione. pero subito ch averete risposta del Re fatemelo sapere perche in quanto poi alla licensa del entrar in monasterio ogni archivescovo del loco <sup>me la</sup> pol dare. sollecitate ancho il denaro é in caso non si possano vender cosi presto potete farmeli prestare [[something crossed out]] accio sia rimesso qui prontamente per pagare quello devo et con
 
 {:.text-right}
+M. M. C.

@@ -14,3 +14,4 @@ Maria Mancini Colonna
 Solamente per non disgustarvi mi trattengo ancora qua dove mi vedo di mala voglia e con ragione. Però subito che avrete risposta dal Re, fatemelo sapere, affinché, in quanto poi alla licenza dell’entrare in monastero, ogni arcivescovo del loco me la possa dare. Sollecitate anche il denaro e in caso non si possano vendere così presto, potete farmelo prestare affinché sia rimesso qui prontamente per pagare quello che devo. E con questo mi confermo sempre vostra.
 
 {:.text-right}
+M. M. C.

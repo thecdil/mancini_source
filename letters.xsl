@@ -96,21 +96,20 @@
         <xsl:apply-templates />
     </xsl:template>
     
-    <!-- hyperlink first occurences of persNames -->
+    <!-- hyperlink first occurences of persNames, except for marie mancini -->
     <xsl:template match="tei:persName">
         <xsl:for-each select=".">
             <xsl:choose>
-                <!-- don't include marie mancini -->
-                <xsl:when test="@key='mancini-marie'">
-                    <xsl:apply-templates />
-                </xsl:when>
-                <xsl:when test="@key">
+                <xsl:when test="@key != 'mancini-marie'">
                     <xsl:text>[</xsl:text>
                     <xsl:apply-templates />
                     <xsl:text>](/people#</xsl:text>
                     <xsl:value-of select="@key"/>
                     <xsl:text>])</xsl:text>
                 </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates />
+                </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
     </xsl:template>
