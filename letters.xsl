@@ -37,7 +37,7 @@
     <!-- opener -->
     <xsl:template match="tei:opener">
         <xsl:text>&#x0A;&#x0A;</xsl:text>
-        <xsl:apply-templates select="tei:dateline/tei:placeName" />
+        <xsl:apply-templates select="tei:dateline/tei:placeName"/>
         <xsl:text>, </xsl:text>
         <xsl:apply-templates select="tei:dateline/tei:date"/>
         <xsl:text>&#x0A;</xsl:text>
@@ -51,13 +51,14 @@
     </xsl:template>
     
     <!-- annotation tooltips -->
-    <xsl:template match="tei:placeName">
+    <xsl:template match="*">
+        <!-- for each current node -->
         <xsl:for-each select=".">
             <xsl:choose>
             <xsl:when test="contains(@type, 'annotate')">
                 <xsl:apply-templates />
-                <xsl:text> &#x7b;&#x25; include annotate.md id="</xsl:text>
-                <xsl:value-of select="@key"/>
+                <xsl:text>&#x7b;&#x25; include annotate.md id="</xsl:text>
+                <xsl:value-of select="@xml:id"/>
                 <xsl:text>" no="</xsl:text>
                 <xsl:value-of select="@n"/>
                 <xsl:text>" &#x25;&#x7D;</xsl:text>
@@ -90,24 +91,37 @@
         </xsl:for-each>
     </xsl:template>
     
+    <!-- don't hyperlink second occurences of persNames -->
+    <xsl:template match="tei:persName[preceding::tei:persName[@key = current()/@key]]">
+        <xsl:apply-templates />
+    </xsl:template>
+    
+    <!-- hyperlink first occurences of persNames -->
+    <xsl:template match="tei:persName">
+        <xsl:for-each select=".">
+            <xsl:choose>
+                <!-- don't include marie mancini -->
+                <xsl:when test="@key='mancini-marie'">
+                    <xsl:apply-templates />
+                </xsl:when>
+                <xsl:when test="@key">
+                    <xsl:text>[</xsl:text>
+                    <xsl:apply-templates />
+                    <xsl:text>](/people#</xsl:text>
+                    <xsl:value-of select="@key"/>
+                    <xsl:text>])</xsl:text>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:for-each>
+    </xsl:template>
+    
     <!-- closer -->
     <xsl:template match="tei:closer">
         <xsl:text>&#x0A;{:.text-right}&#x0A;</xsl:text>
         <xsl:apply-templates select="tei:signed/tei:persName" />
     </xsl:template>
-
-
-    <!-- create annotation tooltips (old) -->
-    <!--<xsl:template match="tei:placeName">
-        <xsl:apply-templates />
-        <xsl:text> &#x7b;&#x25; include annotate.md id="</xsl:text>
-        <xsl:value-of select="@ref"/>
-        <xsl:text>" no="</xsl:text>
-        <xsl:value-of select="@n"/>
-        <xsl:text>" &#x25;&#x7D;</xsl:text>
-    </xsl:template>-->
  
-
-  
+    <!-- don't output 'note' elements -->
+    <xsl:template match="tei:note"/>
     
 </xsl:stylesheet>
