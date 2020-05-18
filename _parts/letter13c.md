@@ -1,13 +1,13 @@
 ---
 letter: 13
-section: edit
+section: translation
 ---
 
-D’Avenay, il 29 ottobre 1672
+Avenay{% include annotate.md id="a1672_10_29_mm2lc" no="1" %}, 29 October 1672
 
-Dalle tante istanze che fate per riavermi conosco abbastanza che mi sono ingannata circa i sospetti che ho avuto del vostro poco affetto e stima verso di me. Vi prego di credere che la poca salute ch’avevo in Roma mi aveva nutrito un’avversione per quella città, la quale accresciuta dall’impossibilità di uscirne, mi fece prendere una così gran risoluzione di allontanarmene con mio tanto rischio; e dopo non ho operato in modo di avere rimproveri da nessuno, né meritavo di essere trattata in questa forma. Quando partii da Grenoble, non ebbi altra mira che di andare a Parigi per parlare al Re, vedere tutti i miei parenti et dopo mettermi
+From the many appeals you’ve been making to get me back, I see quite clearly that I was mistaken in the suspicions I had of your lack of affection and esteem for me. I beg you to believe that the poor health I had in Rome had fed in me an aversion for that city which, increased by my inability to leave it, made me resolve to take such a grave course of action as to move away, at such great risk to me. And since then, I have not behaved in a way that would merit reproach from anyone, nor have I deserved to be treated in such a way. When I left Grenoble{% include annotate.md id="b1672_10_29_mm2lc" no="2" %}, I had no other aim than to go to Paris to speak to the [King](/people#louis-xiv]), to see all my relatives, and then to enter
 
-in un convento in quella città o poco lontano. Dove non avevo pensiero di vedere altri che loro, conforme ho fatto sino a ora, né vi deve parere stravagante che io scegliessi una città come Parigi per stare, mentre vi sono tutti i miei parenti e dove trovavo ogni sorta di appoggio e di comodità. Il Re, per il contrario, volendo avere ogni sorta di compiacenza per voi, mi ha mandata in un monasterio deserto a trenta leghe di Parigi, dove mi trovo con pochissima salute. Se mi darete campo di aderire un poco agli miei desideri, mi trovarete altresì sempre pronta a risarcire col proprio sangue il danno che credete vi abbia potuto fare.
+a convent in that city or not far from there. As I had no thought of seeing anyone but them, I have acted in keeping with that plan until now, and it should not seem odd to you that I would choose to stay in a city like Paris, since all my relatives are there and since I used to find there all manner of support, comfort, and convenience. The King, on the contrary, wanted to show you all possible courtesy, and so he has sent me to a desolate monastery thirty leagues from Paris, where I am in very poor health. If you will allow me a little freedom to follow my wishes, you will also find me ever ready to repay with my very blood the harm that you believe I may have caused.
 
 {:.text-right}
 Maria Mancini Colonna
