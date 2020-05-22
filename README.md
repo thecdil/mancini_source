@@ -6,6 +6,7 @@ Repository for *The Correspondence of Marie Mancini* Project, a digital edition 
 - **Sarah Nelson**, Associate Professor of French, University of Idaho
 - **Olivia Wikle**, Digital Initiatives Librarian, University of Idaho
 - **Alessandro Martina**, Teaching Assistant and Ph.D. Student, UW-Madison Department of French & Italian
+- **Liam Marchant**, Undergraduate Student, University of Idaho
 
 ## Stages of Text Processing:
 1. Encode text in xml: embed meaning and context in text; tag specific elements to be extracted, manipulated
