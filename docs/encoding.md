@@ -75,7 +75,7 @@
                     - `origDate` value = date created
                     - `origPlace` > `placeName` value = location created (include value `key` attribute, refer to "placenames" spreadsheet to find it)
     - `encodingDesc` > `editorialDecl` > `interpretation` > `p`
-        - If this is a letter that the archive labeled with an incorrect date, you should note that here. Follow this structure: `The archive incorrectly labels this letter with date 1673-08-01. The correct date is 1673-08-04.`
+        - If this is a letter that the archive labeled with an incorrect date, you should note that here. Follow this structure: `The archive incorrectly labeled this letter with date 1673-08-01. The correct date is 1673-08-04.`
     - `revistionDesc` > `change`
         - Include the attributes `when` and `who`. Value of `when` should be the date you begin editing. Value of `who` should be your editor code with a pound (`#`) sign in front of it.
         - If you are just creating the file, the value of this element should be: `Initial creation of XML from non-XML electronic files`. If you finish the file, notice at a future point and come back to fix it, you should add another `change` element according to these rules, explaining what change you made.
