@@ -5,8 +5,9 @@ grave,i,&#236;,ì,
 grave,o,&#242;,ò,
 grave,u,&#249;,ù,
 accute,e,&#233;,é,
-percent,%,&#x25;,,&#37;
-left curly bracket,{,&#x7b;,,&#123;
-right curly bracket,},&#x7D;,,&#125;
+percent,%,&#x25;,,
+left curly bracket,{,&#x7b;,,
+right curly bracket,},&#x7D;,,
 left angle bracket,<,&lt;
 right angle bracket,>,&gt;
+degree sign,°,&#xb0;,°
