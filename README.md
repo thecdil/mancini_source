@@ -31,3 +31,9 @@ Repository for *The Correspondence of Marie Mancini* Project, a digital edition 
     - [annotation_tags](https://docs.google.com/spreadsheets/d/1aOrT2d-n5jl50cxi7on7YjdD0Ca-lfpL1k_SFzl54ho/edit?usp=sharing):
         - `id`: `xml:id` attribute given to notation, in following format: `uniqueletter`filnameid
         - `text`: annotation text
+
+## Filenaming Conventions
+- Create a letter ID:
+    - Naming convention: `yyyy_mm_dd_SenderInitials2ReceiverInitials`
+    - Example: `1672_10_29_mm2lc`
+    - Find sender and receiver initials in Google Drive Folder **tags** > [**persName** spreadsheet](https://docs.google.com/spreadsheets/d/1LAvt-O72kRdg07OP7rPGmpFmYtjBstf51lrXT5hL3vU/edit?usp=sharing) > **filename-code** column
