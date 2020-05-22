@@ -7,10 +7,9 @@ Repository for *The Correspondence of Marie Mancini* Project, a digital edition 
 - **Olivia Wikle**, Digital Initiatives Librarian, University of Idaho
 - **Alessandro Martina**, Teaching Assistant and Ph.D. Student, UW-Madison Department of French & Italian
 
-## 3 Stages of Text Processing:
-1. Transcribe to markdown: communicate the text and layout in a minimal, preservable format
-2. Encode text in xml: embed meaning and context in text; tag specific elements to be extracted, manipulated
-3. Transform xml to web-ready markdown, html: annotated, hyperlinked text is displayed on website
+## Stages of Text Processing:
+1. Encode text in xml: embed meaning and context in text; tag specific elements to be extracted, manipulated
+2. Transform xml to web-ready markdown, html: annotated, hyperlinked text is displayed on website
 
 ## Project Workflow & Documentation:
 - [Meeting Notes](/docs/meetings.md)
@@ -30,3 +29,5 @@ Repository for *The Correspondence of Marie Mancini* Project, a digital edition 
         - `key`: unique identifier for a single location; used in xml encoding; only one key may exist per location, but a single key may be attached to multiple values in the `name` column
     - [editor_tags](https://docs.google.com/spreadsheets/d/1eKKw5Y33Yk4MzeiUJoUkh8yhO-J4BHNmGoucA-Y9YK8/edit?usp=sharing): a two- or three-initial code for each person on project (first, middle, last initials), to be recorded in xml encoding and in metadata spreadsheet
     - [annotation_tags](https://docs.google.com/spreadsheets/d/1aOrT2d-n5jl50cxi7on7YjdD0Ca-lfpL1k_SFzl54ho/edit?usp=sharing):
+        - `id`: `xml:id` attribute given to notation, in following format: `uniqueletter`filnameid
+        - `text`: annotation text
