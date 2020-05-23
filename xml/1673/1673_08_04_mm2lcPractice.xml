@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 33 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and tanslated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="lorenzo">Lorenzo</persName>
+                    <date when="1673-08-04">August 04 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="library">
+                            Library
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mm" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-08-04">August 04 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        The archive incorrectly labels this letter with date 1673-08-01. The correct date is 1673-08-04.
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-05-17" who="#omw">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter33a" facs="DSCF8532">
+                <head type="raw" n="33" xml:lang="it" />
+                <note resp="#smn">
+                    Collocazione II-C.P.1. lettera 33
+                    Lettere di Maria Mancini – 1673
+                    Numero d’ordine – 16
+
+                    D. Maria Colonna-Mancini –
+
+                    =   
+
+                    Lettera al Contestabile Colonna
+                    in data	1&#xb0; [[it looks like a “4” on the manuscript]] Agosto 1673 da Torino
+                    Sigillo mancante – tutta di pugno –
+
+                    oggetto:
+                </note>
+                <note resp="#smn">
+                    [[On the right half of the sheet:]]
+                </note>
+                <pb facs="DSCF8533"/>
+                <opener>
+                    <dateline>
+                        <placeName>di torino</placeName>
+                        <date when="1673-08-04">li 4 agosto 1673</date>
+                    </dateline>
+                </opener>
+                <p>Don mauritio mi a parlato con dirme la bonta che mostrate verso di me; pero continuo a scrivervi [[Marie appears to have changed "scrivervi" to "scrivervi" by crossing out the last down stroke of the word and dotting the downstroke before it, to make it an "i"]] &#233; a ringratiarvene come faro sempre mentre conoscero che le mie letre vi diano gusto. in quanto poi a quello volete sapere circa il monasterio che desidero, io averei volsuto portarmi de qua a drittura a pariggi in una abadia ma poi che voi no lo giudicate a proposito, per adesso mi trattero, nel convento del lys, se me lo vorranno permettere; se no a lione aux ursule <hi rend="superscript">a la rue de la vieille monoye</hi> [[something crossed out underneath—it looks like it might possibly have included “bellecour”?]]. &#232; fra tanto voi farete ogni sforso accio il Re in gratia vostra non mi neghi questa consolatione di star in un convento a pariggi tra i</p>
+                 <pb facs="DSCF8534"/>
+                <note resp="#smn">
+                    [[On the right half of the sheet:]]
+                </note>
+                <p>miei parenti. &#233; perche considero benissimo che per la spesa di questo viaggio vi vorra di denari assai particolarmente se me acompagna il marquese di borgomenero, come dice di voler fare, stimo per bene che non avendone voi bona somma di contanti &#233; pronti vi contentiate che si vendino trenta lochi de miei monti per questo effetto; et questi denari le potrete far rimettere quy a don mauritio il quale potra venir con me se vi contentate che mi serrva in nome vostro accio mi soministi poi in convento in francia quella assistensa che mi fate gratia adesso; et come credo che per vender i trenta luochi de miei monti cammerali costi vi sara necessario sensa dubbio il mio consentimento et autorita per farlo</p>
+                <note resp="#smn">
+                    [[On the left half of the sheet, turned 90°:]]
+                </note>
+                <p>tutto questo la do in virtu di questa mia letra a voi afinche con la <hi rend="strike">mia</hi> vostra autorita in Roma, et questa mia volonta ordiniate a marcatelli. o a chi vorrete le vendano</p>
+				<p>Maria Mancini Colonna</p>
+                <note resp="#smn">
+                    [[A blank space equal to about 4 or 5 lines’ worth, then more writing:]]
+                </note>
+                <p>solamente per non disgustarvi mi tratengo ancora qua dove <hi rend="strike">sto</hi> mi vedo di mala voglia é con ragione. pero subito ch averete risposta del Re fatemelo sapere perche in quanto poi alla licensa del entrar in monasterio ogni archivescovo del loco <hi rend="superscript">me la</hi> pol dare. sollecitate ancho il denaro é in caso non si possano vender cosi presto potete farmeli prestare [[something crossed out]] accio sia rimesso qui prontamente per pagare quello devo et con<p>
+                <closer>
+                <note resp="#smn">
+                    [[On the left half of the sheet, along the top edge, written upside down relative to the writing on the right half of the sheet:]]
+                </note>
+                    <signed><persName></persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter33b" facs="DSCF8532">
+                <head type="edit" n="33" xml:lang="it" />
+                <pb facs="DSCF8533"/>
+                <opener>
+                    <dateline>
+                        <placeName>Da Torino</placeName>
+                        <date when="1673-08-04">il 4 agosto 1673</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8534"/>
+                <p></p>
+                <closer>
+                    <signed><persName></persName>.</signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter33c" facs="DSCF8532">
+                <head type="translation" n="33" xml:lang="en" />
+                <pb facs="DSCF8533"/>
+                <opener>
+                    <dateline>
+                        <placeName type="annotate" key="turin" xml:id="a1673_08_04_mm2lc" n="1">Turin</placeName>
+                        <date when="1673-08-04">4 August 1673</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8534"/>
+                <p></p>
+                <closer>
+                    <signed><persName></persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
