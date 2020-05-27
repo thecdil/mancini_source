@@ -46,6 +46,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
+                    <title key="1672_08_04_mm2os">lett 4 Marie to Ortenisa Stella</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
                     <date when="1673-08-04">August 04 1673</date>
@@ -105,7 +106,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter33a" facs="DSCF8532">
+            <div type="letter" xml:id="raw_1672_08_04_mm2os" facs="DSCF8532">
                 <head type="raw" n="33" xml:lang="it" />
                 <note resp="#smn">
                     Collocazione II-C.P.1. lett. 33
@@ -149,7 +150,7 @@
                     <signed><persName>M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33b" facs="DSCF8532">
+            <div type="letter" xml:id="edit_1672_08_04_mm2os" facs="DSCF8532">
                 <head type="edit" n="33" xml:lang="it" />
                 <pb facs="DSCF8533"/>
                 <opener>
@@ -167,7 +168,7 @@
                     <signed><persName>M. M. C.</persName>.</signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33c" facs="DSCF8532">
+            <div type="letter" xml:id="translation_1672_08_04_mm2os" facs="DSCF8532">
                 <head type="translation" n="33" xml:lang="en" />
                 <pb facs="DSCF8533"/>
                 <opener>
