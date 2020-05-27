@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 01 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and tanslated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1672_mm2lc">lett 1 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="lorenzo">Lorenzo</persName>
+                    <date when="1673-08-04">August 04 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="library">
+                            Library
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mm" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1672">1672</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        The archive incorrectly labels this letter with date 1673-08-01. The correct date is 1673-08-04.
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-05-27" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="raw_1672mm2lc" facs="DSCF8481">
+                <head type="raw" n="01" xml:lang="it" />
+                <note resp="#smn">
+                </note>
+                <pb facs="DSCF8533"/>
+                <opener>
+                    <dateline>
+                        <placeName>di torino</placeName>
+                        <date when="1673-08-04">li 4 agosto 1673</date>
+                    </dateline>
+                </opener>
+                <note resp="#smn">
+                </note>
+                <p></p>
+                <pb facs="DSCF8534"/>
+                <note resp="#smn"></note>
+                <p></p>
+                <closer>
+                    <note resp="#smn"></note>
+                    <signed><persName></persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter33b" facs="DSCF8532">
+                <head type="edit" n="33" xml:lang="it" />
+                <pb facs="DSCF8533"/>
+                <opener>
+                    <dateline>
+                        <placeName>Da Torino</placeName>
+                        <date when="1673-08-04">il 4 agosto 1673</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8534"/>
+                <p></p>
+                <closer>
+                    <signed><persName></persName>.</signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter33c" facs="DSCF8532">
+                <head type="translation" n="33" xml:lang="en" />
+                <pb facs="DSCF8533"/>
+                <opener>
+                    <dateline>
+                        <placeName type="annotate" key="turin" xml:id="a1673_08_04_mm2lc" n="1">Turin</placeName>
+                        <date when="1673-08-04">4 August 1673</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8534"/>
+                <p></p>
+                <closer>
+                    <signed><persName></persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
