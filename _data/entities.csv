@@ -1,9 +1,18 @@
 type,letter,hexcode,example,
+grave,A,&#192;,À
+grave,a,&#224;,à
+grave,E,&#200;,È
 grave,e,&#232;,è
+grave,I,&#204;,Ì
 grave,i,&#236;,ì,
+grave,O,&#210;,Ò
 grave,o,&#242;,ò,
+grave,U,&#217;,Ù
 grave,u,&#249;,ù,
+accute,E,&#201;,É
 accute,e,&#233;,é,
+circ,E,&#202;,Ê
+circ,e,&#234;,ê
 percent,%,&#x25;,,
 left curly bracket,{,&#x7b;,,
 right curly bracket,},&#x7D;,,

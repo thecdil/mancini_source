@@ -86,15 +86,6 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <interpretation>
-                    <p>
-                        The archive incorrectly labels this letter with date 1673-08-01. The correct date is 1673-08-04.
-                    </p>
-                </interpretation>
-            </editorialDecl>
-        </encodingDesc>
         <revisionDesc>
             <change when="2020-05-27" who="#lrm">
                 Initial creation of XML from non-XML electronic files
@@ -105,25 +96,52 @@
         <body>
             <div type="letter" xml:id="raw_1672mm2lc" facs="DSCF8481">
                 <head type="raw" n="01" xml:lang="it" />
-                <note resp="#smn">
+                <note resp="#smn" xml:id="archival-transcription">
+                Collocazione – II.C.P.1 lettera 1
+                Lettere di Maria Mancini – 1672?
+                Numero d'ordine – 1
+
+                D. Maria Colonna-Mancini –
+
+                ==
+
+                Lettera al Contestabile Colonna
+                in data			1672 da
+                Sigillo – tutta di pugno –
+                oggetto:
                 </note>
-                <pb facs="DSCF8533"/>
-                <opener>
-                    <dateline>
-                        <placeName>di torino</placeName>
-                        <date when="1673-08-04">li 4 agosto 1673</date>
-                    </dateline>
-                </opener>
-                <note resp="#smn">
+                <note resp="#smn" xml:id="#archival-transcription">
+                Nota:	&#200; la prima lettera scritta al marito dopo la sua fuga.
+                Questa lettera termina cos&#236;: … abbraccio i ragassi
+                con tutto il core e assicurateli che non mi scordaro mai di
+                loro …
                 </note>
-                <p></p>
-                <pb facs="DSCF8534"/>
-                <note resp="#smn"></note>
-                <p></p>
-                <closer>
-                    <note resp="#smn"></note>
-                    <signed><persName></persName></signed>
-                </closer>
+                <note resp="#smn">
+                [[scanned image cuts off a number written in pencil at the bottom of the page, which might be: 16720016-18 ??]]
+                </note>
+                <pb facs="DSCF8482"/>
+                <note resp="#smn">
+                [[text is typed]]
+                </note>
+                <p>Sopra quanto mi &#200; stato riferito da vostra parte vi diro que non ricuso gli [[blank space]] che mi fate, al contrario avevo gusto di fare aparir al mondo che  voi sempre mi considerate; in quanto poi alla resolutione ch'o preso di ritirarmi in Francia non &#200; stata causata ch' per i sospetti ch(o auto della mia poca salute
+                <pb facs="DSCF8483"/>
+                <note resp="#smn">
+                [[On the left side of the image, the diagonally folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur le Conestable 
+                Colonna"
+                + 1 red wax seal]]
+                </note>
+                <note resp="#smn">
+                [[Along the edge of the left side, parallel with the edge, is written the word "Prima"—probably written by an archivist or a secretary? The ink looks similar to Marie’s ink.]]
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]
+                </note>
+                <p>Sopra quanto mi &#234; stato riferito da vostra parte vi diro que non ricuso gli ofri che mi fate, al contrario avero gusto di fare aparir al mondo ch' voi sempre mi considerate; in quanto poi alla resolutione ch' o preso di ritirarmi in Francia non &#234; stata causata ch' per i sospetti ch' o auto della mia poca salute unito anche a quel ch' mio fratello mi a detto piu volte a me e a altri cioe dei disegni ch' voi avevio contra di me potrei dir anche del altre cose ma le tacero tutte quando voi non vogliate ch' le faccia apparir al mondo &#234; pero accettero volontieri tutte le bont&#192; ch' volete aver per me, ne dovete dubitar mai ch' in qualunque loco ove io sia non vi renda bon conto della mia persona et vi faro conoscere ch' non &#234;</p>
+                <pb facs="DSCF8484"/>
+                <note resp="#smn">[[On the right half of the sheet:]]</note>
+                <p>stato un capriccio questa mia resolutione ma piu tosto [["una" crossed out]] o cerchato per questo verso di satisfarmi lanimo &#234; viver quieta il resto de miei giorni questo &#234; quanto posso dirvi assicurandovi ch' ritrovarete sempre in me quella cordialita &#234; affetto ch' vi o sempre portato abraccio i ragassi con tutto il core &#234; assicurateli che non mi scordaro <hi rend="superscript">mai</hi> di loro</p>
             </div>
             <div type="letter" xml:id="letter33b" facs="DSCF8532">
                 <head type="edit" n="33" xml:lang="it" />
