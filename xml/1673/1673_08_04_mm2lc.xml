@@ -46,14 +46,15 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
+                    <title key="1673_08_04_mm2lc" type="letter" n="33">lett 33 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
                     <date when="1673-08-04">August 04 1673</date>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="library">
-                            Library
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
                         </repository>
                         <collection>
                             Lettere di Maria Mancini
@@ -72,7 +73,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="mm" medium="black">
+                            <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
                             </handNote>
                         </handDesc>
@@ -105,9 +106,9 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter33a" facs="DSCF8532">
-                <head type="raw" n="33" xml:lang="it" />
-                <note resp="#smn">
+            <div type="letter" xml:id="letter_1673_08_04_mm2lc_raw" n="33" facs="DSCF8532">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
                     Collocazione II-C.P.1. lett. 33
                     Lett. di Maria Mancini – 1673
                     Nr d’ordine – 16
@@ -119,13 +120,12 @@
                     Lettera al Contestabile Colonna
                     in data	1° [[? it looks like a “4” to me on the letter]] Agosto 1673 da Torino
                     Sigillo mancante – tutta di pugno –
-                    
                     oggetto:
                 </note>
                 <pb facs="DSCF8533"/>
                 <opener>
                     <dateline>
-                        <placeName>di torino</placeName>
+                        <placeName key="turin">di torino</placeName>
                         <date when="1673-08-04">li 4 agosto 1673</date>
                     </dateline>
                 </opener>
@@ -146,15 +146,15 @@
                 <closer>
                     <note resp="#smn">[[On the left half of the sheet, along the top edge, written upside down relative to the writing on the right half of the sheet:]]</note>
                     <salute>questo mi confermo sempre vostra</salute>
-                    <signed><persName>M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33b" facs="DSCF8532">
-                <head type="edit" n="33" xml:lang="it" />
+            <div type="letter" xml:id="letter_1673_08_04_mm2lc_edit" n="33" facs="DSCF8532">
+                <head type="edit" xml:lang="it" />
                 <pb facs="DSCF8533"/>
                 <opener>
                     <dateline>
-                        <placeName>Da Torino</placeName>
+                        <placeName key="turin">Da Torino</placeName>
                         <date when="1673-08-04">il 4 agosto 1673</date>
                     </dateline>
                 </opener>
@@ -162,26 +162,28 @@
                 <pb facs="DSCF8534"/>
                 <p>miei parenti. E perch&#233; considero benissimo che per la spesa di questo viaggio ci vorr&#224; parecchio denaro, particolarmente se mi accompagna il marchese di Borgomanero, come dice di voler fare, stimo per bene che non avendone voi buona somma di contanti e pronti, vi contentiate che si vendano trenta lochi dei miei monti per questo effetto. E questi denari, li potrete far rimettere qui a don Maurizio, il quale potr&#224; venire con me se vi contentate che mi serva in nome vostro, affinch&#233; mi somministri poi in convento in Francia quella assistenza che mi fate grazia adesso. E siccome credo che per vendere i trenta lochi dei miei monti camerali vi sar&#224; necessario senza dubbio il mio consenso e autorit&#224; per farlo, tutto questo lo do in virt&#249; di questa mia lettera a voi affinch&#233; con la vostra autorit&#224; in Roma, e questa mia volont&#224;, ordiniate a Marcatelli, o a chi vorrete, che li vendano.</p>
                 <p>Maria Mancini Colonna</p>
-                <p>Solamente per non disgustarvi mi trattengo ancora qua dove mi vedo di mala voglia e con ragione. Per&#242; subito che avrete risposta dal Re, fatemelo sapere, affinch&#233;, in quanto poi alla licenza dell’entrare in monastero, ogni arcivescovo del loco me la possa dare. Sollecitate anche il denaro e in caso non si possano vendere cos&#236; presto, potete farmelo prestare affinch&#233; sia rimesso qui prontamente per pagare quello che devo. E con questo mi confermo sempre vostra.</p>
+                <p>Solamente per non disgustarvi mi trattengo ancora qua dove mi vedo di mala voglia e con ragione. Per&#242; subito che avrete risposta dal Re, fatemelo sapere, affinch&#233;, in quanto poi alla licenza dell’entrare in monastero, ogni arcivescovo del loco me la possa dare. Sollecitate anche il denaro e in caso non si possano vendere cos&#236; presto, potete farmelo prestare affinch&#233; sia rimesso qui prontamente per pagare quello che devo.</p>
                 <closer>
-                    <signed><persName>M. M. C.</persName>.</signed>
+                    <salute>E con questo mi confermo sempre vostra.</salute>
+                    <signed>M. M. C..</signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33c" facs="DSCF8532">
-                <head type="translation" n="33" xml:lang="en" />
+            <div type="letter" xml:id="letter_1673_08_04_mm2lc_translation" n="33" facs="DSCF8532">
+                <head type="translation" xml:lang="en" />
                 <pb facs="DSCF8533"/>
                 <opener>
                     <dateline>
-                        <placeName type="annotate" key="turin" xml:id="a1673_08_04_mm2lc" n="1">Turin</placeName>
+                        <placeName key="turin" type="annotate" xml:id="a1673_08_04_mm2lc" n="1">Turin</placeName>
                         <date when="1673-08-04">4 August 1673</date>
                     </dateline>
                 </opener>
-                <p><persName type="annotate" key="bologna-maurizio" xml:id="b1673_08_04_mm2lc" n="2">Don Maurizio</persName> has spoken to me and told me of the kindness you are showing toward me; but I keep on writing to you and thanking you for it, as I will always do so long as I know that my letters bring you pleasure. As for what you wish to know about the monastery I want, I would have liked to go directly from here to <placeName key="paris">Paris</placeName>, to an abbey. But since that does not meet with your approval, for now I will stay in the <placeName type="annotate" key="du-lys" xml:id="c1673_08_04_mm2lc" n="3">convent Du Lys</placeName>, if they are willing to let me stay there; otherwise, in <placeName key="lyon">Lyon</placeName> with the Ursulines in the <placeName key="monnaie">rue Vieille-Monnaie</placeName>. And in the meantime, you will make every effort to see that the <persName key="louis-xiv">King</persName>, as a favor to you, does not deny me this consolation of staying in a convent in <placeName key="paris">Paris</placeName> near</p>
+                <p><persName key="bologna-maurizio" type="annotate" xml:id="b1673_08_04_mm2lc" n="2">Don Maurizio</persName> has spoken to me and told me of the kindness you are showing toward me; but I keep on writing to you and thanking you for it, as I will always do so long as I know that my letters bring you pleasure. As for what you wish to know about the monastery I want, I would have liked to go directly from here to <placeName key="paris">Paris</placeName>, to an abbey. But since that does not meet with your approval, for now I will stay in the <placeName key="du-lys" type="annotate" xml:id="c1673_08_04_mm2lc" n="3">convent Du Lys</placeName>, if they are willing to let me stay there; otherwise, in <placeName key="lyon">Lyon</placeName> with the Ursulines in the <placeName key="monnaie">rue Vieille-Monnaie</placeName>. And in the meantime, you will make every effort to see that the <persName key="louis-xiv">King</persName>, as a favor to you, does not deny me this consolation of staying in a convent in <placeName key="paris">Paris</placeName> near</p>
                 <pb facs="DSCF8534"/>
-                <p>my family. And since I can well imagine that it will take quite a lot of money to cover the expense of this journey, particularly if the <persName type="annotate" key="borgomanero" xml:id="d1673_08_04_mm2lc" n="4">Marquis de Borgomanero</persName> accompanies me as he says he would like to do, I think it well that, as you do not have a great deal of ready cash, you should see fit that thirty plots of land of my mountains be sold for this purpose. And you can have those funds transferred here to <persName key="bologna-maurizio">Don Maurizio</persName>, who will be able to come with me, if it pleases you that he serve me on your behalf, in order to administer to me in the convent in <placeName key="france">France</placeName> the assistance that you are graciously providing now. And as I believe that to sell the thirty plots of land of my mountains, you will no doubt need my consent and authority, I give those to you by virtue of the present letter, so that using your authority in <placeName key="rome">Rome</placeName>, and according to my wishes here stated, you may order <persName type="annotate" key="marcatelli" xml:id="e1673_08_04_mm2lc" n="5">Marcatelli</persName> or whomever you wish, to sell them.</p>
+                <p>my family. And since I can well imagine that it will take quite a lot of money to cover the expense of this journey, particularly if the <persName key="borgomanero" type="annotate" xml:id="d1673_08_04_mm2lc" n="4">Marquis de Borgomanero</persName> accompanies me as he says he would like to do, I think it well that, as you do not have a great deal of ready cash, you should see fit that thirty plots of land of my mountains be sold for this purpose. And you can have those funds transferred here to <persName key="bologna-maurizio">Don Maurizio</persName>, who will be able to come with me, if it pleases you that he serve me on your behalf, in order to administer to me in the convent in <placeName key="france">France</placeName> the assistance that you are graciously providing now. And as I believe that to sell the thirty plots of land of my mountains, you will no doubt need my consent and authority, I give those to you by virtue of the present letter, so that using your authority in <placeName key="rome">Rome</placeName>, and according to my wishes here stated, you may order <persName key="marcatelli" type="annotate" xml:id="e1673_08_04_mm2lc" n="5">Marcatelli</persName> or whomever you wish, to sell them.</p>
                 <p><persName key="mancini-marie">Maria Mancini Colonna</persName></p>
-                <p>It is only to avoid displeasing you that I remain here, where I am reluctant to stay and with good reason. But as soon as you have a reply from the <persName key="louis-xiv">King<persName>, let me know so that the archbishop of whatever place will be able to give me permission to enter a monastery. Press for the money, too, and if the land cannot be sold that quickly, you can have it lent to me so that it can be transferred here right away to pay what I owe. And with that, I assure you that I am ever your</p>
+                <p>It is only to avoid displeasing you that I remain here, where I am reluctant to stay and with good reason. But as soon as you have a reply from the <persName key="louis-xiv">King</persName>, let me know so that the archbishop of whatever place will be able to give me permission to enter a monastery. Press for the money, too, and if the land cannot be sold that quickly, you can have it lent to me so that it can be transferred here right away to pay what I owe.</p>
                 <closer>
+                    <salute>And with that, I assure you that I am ever your</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName>.</signed>
                 </closer>
             </div>
