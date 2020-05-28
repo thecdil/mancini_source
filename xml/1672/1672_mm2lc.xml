@@ -46,7 +46,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1672_mm2lc">lett 1 Marie to Lorenzo</title>
+                    <title key="1672_mm2lc" type="letter" n="04">lett 1 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
                     <date when="1673-08-04">August 04 1673</date>
@@ -73,7 +73,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="mm" medium="black">
+                            <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
                             </handNote>
                         </handDesc>
@@ -94,9 +94,9 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="raw_1672mm2lc" facs="DSCF8481">
-                <head type="raw" n="01" xml:lang="it" />
-                <note resp="#smn" xml:id="archival-transcription">
+            <div type="letter" xml:id="raw_1672mm2lc" n="01" facs="DSCF8481">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
                 Collocazione – II.C.P.1 lettera 1
                 Lettere di Maria Mancini – 1672?
                 Numero d'ordine – 1
@@ -109,8 +109,6 @@
                 in data			1672 da
                 Sigillo – tutta di pugno –
                 oggetto:
-                </note>
-                <note resp="#smn" xml:id="#archival-transcription">
                 Nota:	&#200; la prima lettera scritta al marito dopo la sua fuga.
                 Questa lettera termina cos&#236;: … abbraccio i ragassi
                 con tutto il core e assicurateli che non mi scordaro mai di

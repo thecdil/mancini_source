@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>lett 05 Marie to Lorenzo</title>
+                <title>lett 10 Marie to Lorenzo</title>
                 <author key="mancini-marie">Marie Mancini</author>
                 <respStmt>
                     <resp>Transcribed and tanslated by</resp>
@@ -46,15 +46,15 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title>lett 05 
+                    <title key="1672_09_23_mm2lc" type="letter" n="10">lett 4 Marie to Ortenisa Stella</title>
                     <author key="mancini-marie">Marie Mancini</author>
-                    <persName type="addressee" key="lorenzo">Lorenzo</persName>
-                    <date when="1673-08-04">August 04 1673</date>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1672-09-23">September 23 1672</date>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="library">
-                            Library
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
                         </repository>
                         <collection>
                             Lettere di Maria Mancini
@@ -73,110 +73,111 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="mamcini-marie" medium="black">
+                            <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1673-08-04">August 04 1673</origDate>
-                            <origPlace>
-                                <placeName key="turin">Turin</placeName>
-                            </origPlace>
+                            <origDate when="1672-09-23">September 23 1672</origDate>
                         </origin>
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2020-05-27" who="#lrm">
+            <change when="2020-05-26" who="#lrm">
                 Initial creation of XML from non-XML electronic files
             </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="raw_1672_08_01" facs="DSCF8469">
-                <head type="raw" n="05" xml:lang="it" />
-                <note resp="#smn" xml:id="archival-transcription">
-                Collocazione – II-C.P.1 lettera 5
+            <div type="letter" xml:id="letter_1672_09_23_mm2lc_raw" n="10" facs="DSCF8475">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione -II-C.P.1. lettera 10
                 Lettere di Maria Mancini – 1672
-                Numero d’ordine – 5
+                Numero d'ordine – 10
 
                 D. Maria Colonna-Mancini –
 
-                ==
+                =
 
                 Lettera al Contestabile Colonna
-                in data	1o Agosto 1672 da Grenoble
-                Sigilli – tutta di pugno –
+                in data	23 Settembre 1672 da Lys
+                Sigillo – tutta di pugno –
 
                 oggetto:
                 </note>
-                <pb facs="DSCF8470"/>
+                <pb facs="DSCF8476"/>
                 <note resp="#smn">
-                [[On the left side of the image, the horizontally folded paper with address written on outside: 
+                [[On the left side of the image, the diagonally folded paper with address written on outside: 
                 "A Monsieur
-                Monsieur le 
-                Conestable Colonna
-                Roma"
-                + 2 red wax seals]]
+                Monsieur le Conestable 
+                Colonna
+                A Roma"
+                + 1 red wax seal]]
                 </note>
                 <note resp="#smn">
-                [[Along the center crease of the paper, parallel with the crease and slightly to the left of it, is written "i Agosto 72"—probably written by an archivist or a secretary? The ink looks similar to Marie's ink.]]
+                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, appears to be written the date—probably written by an archivist or a secretary? The ink looks similar to Marie’s ink.]] 
                 </note>
                 <note resp="#smn">
-                [[On the right half of the sheet:]]
+                [[On the right half of the sheet:]]  
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">De Grenoble</placeName> 
-                        <date when="1672-08-01">ce premier aout 1672</date>
+                        <!--possible place name, waiting for confirmation-->
+                        <placeName key="lis">del lis</placeName>
+                        <date when="1672-09-23">li 23 sep[[tembre]] 1672</date>
                     </dateline>
                 </opener>
-                <p>Potevio far di meno scrivermi una simil letra come quella ch' mio fratello ma resa; mavete sempre reso poca iustitia et pero volete ancora adesso rendermi colpevole di quello il mondo dice contra di voi; io so que nessuno potra dir con verita ch' io mi sia lamentata di voi sopra i sospetti che dite et quando l'havessi [[avuti]] non sarrei stata cosi imprudente di palesarli et non avendoli non averrei questa malignita d'inventarli; saint simon et un grand bugiardo se dice ch' io mi sia lamentata d’altro di voi ch' della pocca stima et affetto ch o riconociuto ch avevio per me; et anco questo mi sfors&#243; a dirlo; del resto poi io non pretendo haver pregiudicato cola la mia partensa ne a voi ne alli figli ne alla casa ansi cercaro di repare quello que voi mavete detto piu volte ch' vi o portato doppo essere entrata in casa vostra;</p>
-                <pb facs="DSCF8471"/>
+                <p>Sono arivate le donne con le Robbe le quali manno recata molta consolatione; di veder che in questa occasion habiate ricontrato con gusto la mia sodisfatione; non mancaro d'averne cura et particolarmente di Maria Madalena la quale sta in loco da poter deventar santa se vole; questo monasterio essendo un esempio di vertu; dove credo non vi potrete lamentar della mia condotta; essendo tale che li miei nemici stessi saranno obligati di lodarla; spero che ne sarete contento &#233; que sempre piu averete campo di dimostrarmi la stima che sino hora mavete negata assicurandovi ch'eternamente ne conservero [[something crossed out]] verso di voi; vi pacco</p>
+                <pb facs="DSCF8477"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]
                 </note>
-                <p>attendero che il tempo vi faccia perder il cattivo concetto ch avete di me et mi dia campo di dispormi a prender qualque altra resolutione che prego dio che minspiri se sara per lo meglio.</p>
+                <p>mando y ragazzi abraciateli per amor mio; rimandero andrea per servirli essendo piu aproposito per loro che per me nel monasterio; la povera contessa vi prego d'averne cura et delle altre que sono restate del rimanente restaro sempre pregando dio per voi et per tutta la casa</p>
                 <closer>
-                    <signed rend="ti-9">
-                        <persName key="mancini-marie">M.M.C.</persName>
+                    <signed rend="ti-3">M. M. C.
                     </signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33b" facs="DSCF8532">
-                <head type="edit" n="33" xml:lang="it" />
-                <pb facs="DSCF8533"/>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
                 <opener>
                     <dateline>
-                        <placeName>Da Torino</placeName>
-                        <date when="1673-08-04">il 4 agosto 1673</date>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>
-                <pb facs="DSCF8534"/>
+                <pb facs="DSCF8223"/>
                 <p></p>
                 <closer>
-                    <signed><persName></persName>.</signed>
+                    <salute></salute>
+                    <signed></signed>.
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33c" facs="DSCF8532">
-                <head type="translation" n="33" xml:lang="en" />
-                <pb facs="DSCF8533"/>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
                 <opener>
                     <dateline>
-                        <placeName type="annotate" key="turin" xml:id="a1673_08_04_mm2lc" n="1">Turin</placeName>
-                        <date when="1673-08-04">4 August 1673</date>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
                     </dateline>
                 </opener>
                 <p></p>
-                <pb facs="DSCF8534"/>
+                <pb facs="DSCF8223"/>
                 <p></p>
                 <closer>
-                    <signed><persName></persName>.</signed>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
                 </closer>
             </div>
         </body>
