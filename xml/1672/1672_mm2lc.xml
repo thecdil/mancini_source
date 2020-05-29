@@ -90,11 +90,14 @@
             <change when="2020-05-27" who="#lrm">
                 Initial creation of XML from non-XML electronic files
             </change>
+            <change when="2020-05-29" who="#lrm">
+                 Corrections and updated tag information
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="raw_1672mm2lc" n="01" facs="DSCF8481">
+            <div type="letter" xml:id="letter_1672mm2lc_raw" n="01" facs="DSCF8481">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
                 Collocazione – II.C.P.1 lettera 1

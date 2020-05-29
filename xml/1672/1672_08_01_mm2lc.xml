@@ -46,7 +46,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title>lett 05 
+                    <title>lett 05 Marie to Lorenzo</title> 
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
                     <date when="1673-08-04">August 04 1673</date>
@@ -82,7 +82,7 @@
                         <origin>
                             <origDate when="1673-08-04">August 04 1673</origDate>
                             <origPlace>
-                                <placeName key="turin">Turin</placeName>
+                                <placeName key="grenoble">Grenoble</placeName>
                             </origPlace>
                         </origin>
                     </history>
@@ -93,16 +93,19 @@
             <change when="2020-05-27" who="#lrm">
                 Initial creation of XML from non-XML electronic files
             </change>
+            <change when="2020-05-29" who="#lrm">
+                Corrections and updated tag information
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="raw_1672_08_01" facs="DSCF8469">
-                <head type="raw" n="05" xml:lang="it" />
-                <note resp="#smn" xml:id="archival-transcription">
+            <div type="letter" xml:id="letter_1672_08_01_raw" n="05" facs="DSCF8469">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
                 Collocazione – II-C.P.1 lettera 5
                 Lettere di Maria Mancini – 1672
-                Numero d’ordine – 5
+                Numero d'ordine – 5
 
                 D. Maria Colonna-Mancini –
 
@@ -135,7 +138,7 @@
                         <date when="1672-08-01">ce premier aout 1672</date>
                     </dateline>
                 </opener>
-                <p>Potevio far di meno scrivermi una simil letra come quella ch' mio fratello ma resa; mavete sempre reso poca iustitia et pero volete ancora adesso rendermi colpevole di quello il mondo dice contra di voi; io so que nessuno potra dir con verita ch' io mi sia lamentata di voi sopra i sospetti che dite et quando l'havessi [[avuti]] non sarrei stata cosi imprudente di palesarli et non avendoli non averrei questa malignita d'inventarli; saint simon et un grand bugiardo se dice ch' io mi sia lamentata d’altro di voi ch' della pocca stima et affetto ch o riconociuto ch avevio per me; et anco questo mi sfors&#243; a dirlo; del resto poi io non pretendo haver pregiudicato cola la mia partensa ne a voi ne alli figli ne alla casa ansi cercaro di repare quello que voi mavete detto piu volte ch' vi o portato doppo essere entrata in casa vostra;</p>
+                <p>Potevio far di meno scrivermi una simil letra come quella ch' mio fratello ma resa; mavete sempre reso poca iustitia et pero volete ancora adesso rendermi colpevole di quello il mondo dice contra di voi; io so que nessuno potra dir con verita ch' io mi sia lamentata di voi sopra i sospetti che dite et quando l'havessi [[avuti]] non sarrei stata cosi imprudente di palesarli et non avendoli non averrei questa malignita d'inventarli; saint simon et un grand bugiardo se dice ch' io mi sia lamentata d'altro di voi ch' della pocca stima et affetto ch o riconociuto ch avevio per me; et anco questo mi sfors&#243; a dirlo; del resto poi io non pretendo haver pregiudicato cola la mia partensa ne a voi ne alli figli ne alla casa ansi cercaro di repare quello que voi mavete detto piu volte ch' vi o portato doppo essere entrata in casa vostra;</p>
                 <pb facs="DSCF8471"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]
