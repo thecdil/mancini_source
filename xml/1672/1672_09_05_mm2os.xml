@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 534 Marie to Ortenisa Stella</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and tanslated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1672_09_05_mm2os" type="letter" n="534">lett 534 Marie to Ortenisa Stella</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="ortensia-stella">Ortensia Stella</persName>
+                    <date when="1672-09-05">September 5 1672</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1672-09-05">September 5 1672</origDate>
+                            <origPlace>
+                                <placeName key="milan">Milan</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-06-01" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1672_09_05_mm2os_raw" n="534" facs="DSCF8200">
+                <head type="raw" xml:lang="fr" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lett. 534
+                Lett. di Maria Mancini – 1672
+                Nr d'ordine 
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera alla Contessa Stella
+                in data	5 Settembre 1672 da Milano
+                Sigillo mancante – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8201"/>
+                <note resp="#smn">
+                [[This letter is written by a hand other than Marie's.]] 
+                </note>
+                <note resp="#smn">
+                [[This letter seems to be incomplete, since it stops in mid-sentence at the end of page 4, and it includes no closing or signature.]]    
+                </note>
+                <note resp="#smn">
+                [[Image is a full sheet folded in the middle. On the right side is page 1 of the letter; on the left side is page 4.]]   
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="milan">de milan</placeName>
+                        <date when="1672-09-05">ce 5 septambre 1672</date>
+                    </dateline>
+                </opener>
+                <p>il ni &#225; jamais eu de tristesse pareille &#225; la miene ma Cher Madame me trouvant ass&#223;s malheureuse [["q" crossed out]] destre tant esloignie de vous toute la Consolation que ie trouve en cette dure apsance s'est lesperance que jay de vous revoir bien tost et sy ie croyois efectivement navoir plus ce bonheur ie croit que ie me [["deses" crossed out]] desespererois ie vous prie de me faire la grace de maim&#223; tousiours et de me tenir tousiours bien dans lesprit de Monsieur</p>
+                <pb facs="DSCF8202"/>
+                <note resp="#smn">
+                [[Image is a full sheet folded in the middle—the reverse side of image DSCF8201. On the right side is page 2 of the letter; on the left side is page 3.]]    
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]
+                </note>
+                <p>le Connestable &#225; qui ie ne suis pas moins oblig&#223;e qua vous encor que ie sois bien loing Cela nampeschera pas que ie ne m'en souviene toute ma vie ie nespere pas recevoir de vos nouvelles que nous ne soyons hariv&#223;e &#225; grenoble se sera encor un temps bien long pour moy qui ay fort envie d'en recevoir nous somme hariv&#223;e ce matin &#225; disn&#223; a milan et nous esperons de parti demain au matin de fort bon heur sy plaist adieu </p>
+                <note resp="#smn">
+                [[On the left side, with the writing turned 90&#xb0;:]]    
+                </note>
+                <p>nous navons pas manqui&#223; de pri&#223;s dieu pour vous &#225; lorete nous y avons est&#223; receu admirablement bien du gouverneur qui est Monseigneur [["bou" crossed out]] buzi mais toute &#225; la Consideration de Monsieur le Connestable tout aussy tost qui, sc&#223;u que nous estions hariv&#223;e il nous envoya un gentillomme deux ou trois fois nous pri&#223;s dal&#223;s [["do" crossed out]] Couch&#223; a la maison et lapr&#223;s disn&#223; il nous fit voir tout ce que lon p&#223;u voir a lorete enfin lon ne p&#223;u pas estre plus civile quil &#225; est&#223; mais il nous fit tousiours bien antandre que sestoit beaucoup plus pour lamour de Monsieur le Connestable que pour nous ici nous avons est&#223;e aussy [["fort" crossed out]]</p>
+                <pb facs="DSCF8201"/>
+                <note resp="#smn">
+                (again)
+                </note>
+                <note resp="#smn">
+                [[On the left side, with the writing turned 90&#xb0;:]]
+                </note>
+                <p>fort bien rec&#223;u nous avons est&#223; voir apr&#223;s disn&#223; [["voir" crossed out]] toute ce que lon p&#223;u voir a milan nous avons rancontr&#223;e une dame Marquise donc [[jai? / jaj?]] oubli&#223;s le nom qui nous a pri&#223;s dal&#223;s chez elle et nous &#225; demand&#223; des nouvelles de Monsieur le Connestable de Madame des petits prince de vous et de Mademoiselle darnolfini s'est la dame la plus civile du mon mais ie n'en [[scai? / scaj?]] pas le [[nom?]] ie croit que vous la Conoistr&#223;s sest une belle dame nous visme aussy la marquise paleoti a boulogn[[edge of sheet cuts off the end of the word?]] qui est sy laide que ie ne la reconnoissois pas pour du [[??]] rouge elle en avoit pour le moins [[fra?]] Carte sur le visage et sur les levre jamais ie nen [[nay?]] tant veu elle ne tesmoigne pas avoir beaucoup</p>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>.
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
