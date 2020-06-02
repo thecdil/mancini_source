@@ -53,8 +53,8 @@
                 </bibl>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="library">
-                            Library
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
                         </repository>
                         <collection>
                             Lettere di Maria Mancini
@@ -81,6 +81,9 @@
                     <history>
                         <origin>
                             <origDate when="1672">1672</origDate>
+                            <origPlace>
+                                <placeName></placeName>
+                            </origPlace>
                         </origin>
                     </history>
                 </msDesc>
@@ -124,7 +127,9 @@
                 <note resp="#smn">
                 [[text is typed]]
                 </note>
-                <p>Sopra quanto mi &#200; stato riferito da vostra parte vi diro que non ricuso gli [[blank space]] che mi fate, al contrario avevo gusto di fare aparir al mondo che  voi sempre mi considerate; in quanto poi alla resolutione ch'o preso di ritirarmi in Francia non &#200; stata causata ch' per i sospetti ch(o auto della mia poca salute
+                <note type="#archive-note">
+                <p>Sopra quanto mi &#200; stato riferito da vostra parte vi diro que non ricuso gli [[blank space]] che mi fate, al contrario avevo gusto di fare aparir al mondo che  voi sempre mi considerate; in quanto poi alla resolutione ch'o preso di ritirarmi in Francia non &#200; stata causata ch' per i sospetti ch(o auto della mia poca salute</p>
+                </note>
                 <pb facs="DSCF8483"/>
                 <note resp="#smn">
                 [[On the left side of the image, the diagonally folded paper with address written on outside: 
