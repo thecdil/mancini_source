@@ -149,14 +149,15 @@
                 [[On the left half of the sheet, written at a 90-degree angle to the writing on the right half:]]    
                 </note>
                 <p>sara in salvo et io avero la consolatione di non sentir piu parlar di me; in quanto poi al torto ch' dite ch' io o fatto colla fuga alla vostra casa; io non pretendo esser fugita altrimente sono andata in compagnia di mia sorella é un servitore non so se si pol andar; piu honoratamente potevo andar con piu decoro per la mia qualita ma non per la mia riputatione rendetemi almancho questa giustitia &#233; credetemi sempre vostra</p>
-                <!--P.S. formatting? <p> elements after <closer>?-->
                 <closer>
                     <signed><persName key="#mancini-marie">Maria Mancini Colonna</persName></signed>
                 </closer>
-                <note resp="#smn">
-                [[Added in other ink – thinner lines]]
-                </note>
-                <p>rimandero andrea con molte galanterie per y miei ragazzi pero vi prego di farlo stare apresso di loro la [[bussiera?]] non essendo bastante per averne cura di tre</p>
+                <postscript>
+                    <note resp="#smn">
+                        [[Added in other ink – thinner lines]]
+                    </note>
+                    <p>rimandero andrea con molte galanterie per y miei ragazzi pero vi prego di farlo stare apresso di loro la [[bussiera?]] non essendo bastante per averne cura di tre</p>
+                </postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
                 <head type="edit" xml:lang="fr" />

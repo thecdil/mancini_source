@@ -80,9 +80,10 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <originPlace>
-                                <placeName key="lys">Lys</placeName>
                             <origDate when="1672-09-23">September 23 1672</origDate>
+                            <origPlace>
+                                <placeName key="lys">Lys</placeName>
+                            </origPlace>
                         </origin>
                     </history>
                 </msDesc>
@@ -141,8 +142,7 @@
                 </note>
                 <p>mando y ragazzi abraciateli per amor mio; rimandero andrea per servirli essendo piu aproposito per loro che per me nel monasterio; la povera contessa vi prego d'averne cura et delle altre que sono restate del rimanente restaro sempre pregando dio per voi et per tutta la casa</p>
                 <closer>
-                    <signed rend="ti-3">M. M. C.
-                    </signed>
+                    <signed rend="ti-3">M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
