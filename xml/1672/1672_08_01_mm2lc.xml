@@ -46,10 +46,10 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1672_08_01_mm2lc">lett 05 Marie to Lorenzo</title> 
+                    <title key="1672_08_01_mm2lc" type="letter" n="05">lett 05 Marie to Lorenzo</title> 
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
-                    <date when="1673-08-04">August 04 1673</date>
+                    <date when="1672-08-01">August 01 1672</date>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -80,7 +80,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1673-08-04">August 04 1673</origDate>
+                            <origDate when="1672-08-01">August 01 1672</origDate>
                             <origPlace>
                                 <placeName key="grenoble">Grenoble</placeName>
                             </origPlace>

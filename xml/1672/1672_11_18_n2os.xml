@@ -127,7 +127,7 @@
                         <date when="1672-11-18">ce 18<hi rend="superscript">me</hi>novambre 1672</date>
                     </dateline>
                 </opener>
-                <salute key="#ortensia-stella">Madame</salute>
+                <salute>Madame</salute>
                 <p>en faisant le paquet de Madame pour vous ie naj pas voulut manqui&#233; a vous asseur&#233; de mes tres humbles service nous somme tousiours dans nostre abeis davenaj ou ie ne croit pas que nous soyoms encor fort longtemps lon parle de nous faire encor Chang&#233; de lieu ie croit que se sera</p>
                 <pb facs="DSCF8217"/>
                 <note resp="#smn">
@@ -143,7 +143,7 @@
                 </note>
                 <closer>
                     <salute>Vostre tres humble et tres obeissantte servante que</salute>
-                    <signed key="nanette">Nanette</signed>
+                    <signed><persName key="nanette">Nanette</persName></signed>
                 </closer>
                 <postscript>
                 <p>ie ne manqueraj pas de vous anvoy&#233;s les Coeffe que ie vous aj promis quand madame vous enverra ce quel vous promets adieu</p>
