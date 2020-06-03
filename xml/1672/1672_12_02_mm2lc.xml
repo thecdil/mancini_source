@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>lett 4 Marie to Ortenisa Stella</title>
+                <title>lett 14 Marie to Ortenisa Stella</title>
                 <author key="mancini-marie">Marie Mancini</author>
                 <respStmt>
                     <resp>Transcribed and tanslated by</resp>
@@ -89,6 +89,13 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p></p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
         <revisionDesc>
             <change when="2020-05-29" who="#lrm">
                 Initial creation of XML from non-XML electronic files

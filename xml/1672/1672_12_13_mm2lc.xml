@@ -89,6 +89,13 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p></p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
         <revisionDesc>
             <change when="2020-05-26" who="#lrm">
                 Initial creation of XML from non-XML electronic files

@@ -92,9 +92,7 @@
         <encodingDesc>
             <editorialDecl>
                 <interpretation>
-                    <p>
-                        The archive incorrectly labels this letter with date 1672-07-01. The correct date is 1672-07-14.
-                    </p>
+                    <p></p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -144,14 +142,14 @@
                         <date when="1672-12-30">ce 30<hi rend="superscript">me</hi>decem[bre] 1672</date>
                     </dateline>
                 </opener>
-                <p>Ricevo la vostra a nivers delli 26 novembre &#233; vedo con mia molta sodisfactione l'espresioni affetuose che mi fate, circa li miei desideri vi assicuro che non sallontanaranno da [["l" crossed out]] i vostri, quando voi <hi rend="superscript">mi</hi> continuarete [[something crossed out]] i buoni sentimenti che mi dimostrate; mi ritrovo quy con mio fratello ch&#233; vi potra testimoniare in che forma io vivo et in che dispotitione mi ritrovo; sento dalla publica voce la votra partensa di Roma &#233; non sapendo il motivo; resto sospesa fin que lo sapia da voi</p>
+                <p>Ricevo la vostra a nivers delli 26 novembre &#233; vedo con mia molta sodisfactione l'espresioni affetuose che mi fate, circa li miei desideri vi assicuro che non sallontanaranno da <hi rend="strikethrough">l</hi> i vostri, quando voi <hi rend="superscript">mi</hi> continuarete [[something crossed out]] i buoni sentimenti che mi dimostrate; mi ritrovo quy con mio fratello ch&#233; vi potra testimoniare in che forma io vivo et in che dispotitione mi ritrovo; sento dalla publica voce la votra partensa di Roma &#233; non sapendo il motivo; resto sospesa fin que lo sapia da voi</p>
                 <pb facs="DSCF8498"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
                 </note>
                 <p>avendo a core ogni vostro dispiacere come mio proprio. non mi dilonguero davantaggio non sapendo dove vi trovera questa letra resto intanto tutta vost[[ra — the end of the word has been ripped away on the edge of the paper]] [[something crossed out]]</p> 
                 <closer>
-                    <signed><persName key="mancini-maria">Maria Mancini Colonna</persName></signed>
+                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">

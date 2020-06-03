@@ -125,7 +125,7 @@
                 <opener>
                     <dateline>
                         <placeName key="lys">du lis</placeName>
-                        <date when="1672-07-14">ce 9[[<hi rend="superscript">me</hi> septembre]] 1672</date>
+                        <date key="1672-07-14">ce 9[[<hi rend="superscript">me</hi> septembre]] 1672</date>
                         <note resp="#smn">
                         [[The corner of the paper is ripped, but the name of the month looks like it begins with "s."]]
                         </note>

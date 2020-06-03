@@ -46,7 +46,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title>lett 05 Marie to Lorenzo</title> 
+                    <title key="1672_08_01_mm2lc">lett 05 Marie to Lorenzo</title> 
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
                     <date when="1673-08-04">August 04 1673</date>
@@ -89,6 +89,13 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p></p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
         <revisionDesc>
             <change when="2020-05-27" who="#lrm">
                 Initial creation of XML from non-XML electronic files

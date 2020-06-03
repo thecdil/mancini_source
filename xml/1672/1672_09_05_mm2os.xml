@@ -46,7 +46,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1672_09_05_mm2os" type="letter" n="534">lett 534 Marie to Ortenisa Stella</title>
+                    <title key="1672_09_05_a_mm2os" type="letter" n="534">lett 534 Marie to Ortenisa Stella</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="ortensia-stella">Ortensia Stella</persName>
                     <date when="1672-09-05">September 5 1672</date>
@@ -73,6 +73,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
+                            <!--not marie's handwriting-->
                             <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
                             </handNote>
@@ -89,6 +90,13 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p></p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
         <revisionDesc>
             <change when="2020-06-01" who="#lrm">
                 Initial creation of XML from non-XML electronic files
