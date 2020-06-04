@@ -74,8 +74,8 @@
                         </objectDesc>
                         <handDesc hands="1">
                             <!--not marie's handwriting-->
-                            <handNote xml:id="mancini-marie" medium="black">
-                                Marie Mancini handwritten
+                            <handNote xml:id="" medium="black">
+                                Not Marie's handwriting
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -141,7 +141,7 @@
                         <date when="1672-09-05">ce 5 septambre 1672</date>
                     </dateline>
                 </opener>
-                <p>il ni &#225; jamais eu de tristesse pareille &#225; la miene ma Cher Madame me trouvant ass&#223;s malheureuse [["q" crossed out]] destre tant esloignie de vous toute la Consolation que ie trouve en cette dure apsance s'est lesperance que jay de vous revoir bien tost et sy ie croyois efectivement navoir plus ce bonheur ie croit que ie me [["deses" crossed out]] desespererois ie vous prie de me faire la grace de maim&#223; tousiours et de me tenir tousiours bien dans lesprit de Monsieur</p>
+                <p>il ni &#225; jamais eu de tristesse pareille &#225; la miene ma Cher Madame me trouvant ass&#223;s malheureuse [[<hi rend="strike">q</hi>]] destre tant esloignie de vous toute la Consolation que ie trouve en cette dure apsance s'est lesperance que jay de vous revoir bien tost et sy ie croyois efectivement navoir plus ce bonheur ie croit que ie me [[<hi rend="strike">deses</hi>]] desespererois ie vous prie de me faire la grace de maim&#223; tousiours et de me tenir tousiours bien dans lesprit de Monsieur</p>
                 <pb facs="DSCF8202"/>
                 <note resp="#smn">
                 [[Image is a full sheet folded in the middle—the reverse side of image DSCF8201. On the right side is page 2 of the letter; on the left side is page 3.]]    
@@ -153,7 +153,7 @@
                 <note resp="#smn">
                 [[On the left side, with the writing turned 90&#xb0;:]]    
                 </note>
-                <p>nous navons pas manqui&#223; de pri&#223;s dieu pour vous &#225; lorete nous y avons est&#223; receu admirablement bien du gouverneur qui est Monseigneur [["bou" crossed out]] buzi mais toute &#225; la Consideration de Monsieur le Connestable tout aussy tost qui, sc&#223;u que nous estions hariv&#223;e il nous envoya un gentillomme deux ou trois fois nous pri&#223;s dal&#223;s [["do" crossed out]] Couch&#223; a la maison et lapr&#223;s disn&#223; il nous fit voir tout ce que lon p&#223;u voir a lorete enfin lon ne p&#223;u pas estre plus civile quil &#225; est&#223; mais il nous fit tousiours bien antandre que sestoit beaucoup plus pour lamour de Monsieur le Connestable que pour nous ici nous avons est&#223;e aussy [["fort" crossed out]]</p>
+                <p>nous navons pas manqui&#223; de pri&#223;s dieu pour vous &#225; lorete nous y avons est&#223; receu admirablement bien du gouverneur qui est Monseigneur [[<hi rend="strike">bou</hi>]] buzi mais toute &#225; la Consideration de Monsieur le Connestable tout aussy tost qui, sc&#223;u que nous estions hariv&#223;e il nous envoya un gentillomme deux ou trois fois nous pri&#223;s dal&#223;s [[<hi rend="strike">do</hi>]] Couch&#223; a la maison et lapr&#223;s disn&#223; il nous fit voir tout ce que lon p&#223;u voir a lorete enfin lon ne p&#223;u pas estre plus civile quil &#225; est&#223; mais il nous fit tousiours bien antandre que sestoit beaucoup plus pour lamour de Monsieur le Connestable que pour nous ici nous avons est&#223;e aussy [[<hi rend="strike">fort</hi>]]</p>
                 <pb facs="DSCF8201"/>
                 <note resp="#smn">
                 (again)
