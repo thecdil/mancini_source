@@ -152,39 +152,37 @@
                     <signed><persName key="mancini-marie">M.M.C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+            <div type="letter" xml:id="letter_1672_12_02_mm2lc_edit" n="14" facs="DSCF8488">
                 <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+                <pb facs="DSCF8489"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <placeName key="gavenay">D'Avenay</placeName>
+                        <date when="1672-12-02">ce 2 décembre 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>La vostra lettera del primo di novembre mi ha apportata molta consolazione per scorgere in essa sempre pi&#249; il vostro affetto al quale io corrisponder&#242; conforme all'obbligo mio ed al merito vostro. Aspetto di giorno in giorno mio fratello, il quale mi scriveva di aver ottenuto di condurmi seco a Lione. Non credo per&#242; di eseguire la sua intenzione, non trovandomi in stato di intraprendere un tal viaggio in questa stagione. Sono tuttavia nella bad&#236;a di Avenay, molto solitaria, non avendo altra soddisfazione che di studiare con monsieur Boniel, mio cappellano, il quale possiede bene la lingua francese, latina, italiana e spagnola. Il mio principale</p>
+                <pb facs="DSCF8490"/>
+                <p>studio per&#242; sar&#224; di non fare cosa alcuna su cui voi n&#233; il mondo possa trovare da ridire, n&#233; fare torto a miei figli, i quali amo teneramente. E spero colla grazia di Dio farvi conoscere che sono veramente, e come bramate, vostra.</p>
                 <closer>
-                    <salute></salute>
-                    <signed></signed>.
+                    <signed rend="ti-1"><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+            <div type="letter" xml:id="letter_1672_12_02_mm2lc_translation" n="14" facs="DSCF8488">
                 <head type="translation" xml:lang="en" />
-                <pb facs="DSCF8222"/>
+                <pb facs="DSCF8489"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">Grenoble</placeName>
-                        <date when="1672-07-14">14 July</date>
+                        <placeName key="avenay" type="annotate" xml:id="a1672_12_02_mm2lc" n="1">Avenay</placeName>,
+                        <date when="1672-12-02">2 December 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Your letter of the first of November was a great consolation to me, as I was ever more able to discern in it your affection, which I will return, in keeping with my obligation and your merit. I am expecting my brother from one day to the next; he wrote me that he had obtained permission to take me with him to <placeName key="lyon">Lyon</placeName>. I don’t think, though, that I will go along with his plan, as I don’t feel in condition to undertake such a journey in this season. And yet, I am very lonely in the <placeName key="avenay">Avenay</placeName> abbey, having no other satisfaction than to study with <persName key="boniel">Monsieur Boniel</persName>, my chaplain, who has a good command of French, Latin, Italian, and <ref type="annotate" xml:id="b1672_12_02_mm2lc" n="2">Spanish</ref>. My chief</p>
+                <pb facs="DSCF8490"/>
+                <p>concern, however, will be to do nothing with which either you or society could find fault, and to cause no harm to my sons, whom I love tenderly. And I hope, with the grace of God, to show you that I am truly, as you yearn for me to be, yours.</p>
                 <closer>
-                    <salute></salute>
-                    <signed>
-                        <persName key="marie-mancini"></persName>.
+                    <signed rend="ti-1">
+                        <persName key="marie-mancini">M. M. C.</persName>
                     </signed>
                 </closer>
             </div>
