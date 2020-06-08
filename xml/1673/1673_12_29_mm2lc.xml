@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 47 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and tanslated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_12_29_mm2lc" type="letter" n="47">lett 47 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-12-29">December 29 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-12-29">December 29 1673</origDate>
+                            <origPlace>
+                                <placeName key="antwerp">Antwerp</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-08" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_12_29_mm2lc_raw" n="47" facs="DSCF8573">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lett. 47
+                Lett. di Maria Mancini – 1673
+                Nr d'ordine – 29
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	29 Dicembre 1673 da Anversa
+                Sigillo mancante – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8574"/>
+                <note resp="#smn">
+                [[Image is a sheet 15 cm wide; this first page of the letter and the second and third pages are a single sheet, folded booklet-style in the middle]]  
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">danvers</placeName>
+                        <date when="1673-12-29">ce 29<hi rend="superscript">me</hi>decem[[bre]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>Doppo aver inviato la letra che mi scriveste al marquese di Borgomenero [[<hi rend="strike">per</hi>]] accio potesse servir d'autentica al conte de monterey ch'[[<hi rend="strike">ion</hi>]] io sono in questi paesi con vostra aprovatione, luy mi rispose che non era a proposito quella letra da far veddere al conte ne tanpoco era tempo allora di [[parler? / parlar?]] a [[sus?]] e di alcun negotio ma se troveria occasione che non mancheria de servirme, mi a fatto un tiro il marquese che nol averia mai creso perche de malines io venni ancor qua su la sua parola credendo andar nella citta d'anversa in casa del governatore &#232; desser libera comforme mi promese &#232; non star rinchiusa nel castello con guardie sensa esser [[something crossed out—maybe “libera”]] <hi rend="superscript">poter</hi> [[<hi rend="strike">d</hi>]]'uscir de la cammera credetemi che non &#232; [[it looks here like she wrote "&#232;" over "o"]] riputatione vostra ne de i nostri figli ch'io stia rinchiusa</p>
+                <pb facs="DSCF8575"/>
+                <note resp="#smn">
+                [[This is the left side of what would be the image of the opened-up sheet, with writing turned 90&#xb0;. It is the third and final page of the letter—see transcription below.]]    
+                </note>
+                <pb facs="DSCF8576"/>
+                <note resp="#smn">
+                [[The image is the right side of what would be the opened-up sheet.]]
+                </note>
+                <note resp="#smn">
+                [[You can see writing on the reverse side of this sheet. If the image of the first page of the letter had been the full opened-up sheet as with most of the letters, this writing would have been along the left edge of the sheet, parallel with the edge. It appears to be the place and date, probably written by an archivist or secretary.]]
+                </note>
+                <p>per forsa in una cittadella pero scrivete al conte come voi vi contentate ch io stia in brusselles in un convento comforme avete deia scritto a me non potendo desiderar davantaggio ne vi fate rimovere perche vi assicuro che vi &#232; molta malignita [something crossed out] contra di me ne posso dirvi ogni cosa perche temo che le letre siano tutte viste ma siate certo qu'averete sempre magior campo di [[lodorvi? / lodarvi?]] di me quando vi contentarete di compiacermi nelle cose ragionevoli come sono queste che desidero adesso da voi per farmi preiuditio <hi rend="superscript">li maligni</hi> sono andati dicendo ch'io ricevo pensione del Re di francia, &#232; che sono qua d'ordine suo vedete se <hi rend="superscript">se</hi> puole inventare niente di peggio io o risposto ch'&#232; vero ch'[[<hi rend="strike">iol</hi>]] il Re ma assistito ma ch'essendo in fiandra questo non sara &#232; ch'allora averan sugetto di dolersi <hi rend="superscript">di me</hi> se ricevessi pensione da luy ma <hi rend="superscript">che</hi> avanti io non rendevo conto a loro delle mie actioni. oliva &#232; ancora</p>
+                <pb facs="DSCF8575"/>
+                <note resp="#smn">
+                [[This is the left side of the opened-up sheet, with the writing turned 90&#xb0;:]]
+                </note>
+                <p>a brusselles vi prego se viene a Roma di non farli molta acogliensa che vi protesto che no lo merita &#232; sono certa che non si <hi rend="superscript">puol</hi> corispondere verso di me con magior ingratitudine don mauritio &#232; testimonio quello ch'io o speso per luy a turino &#232; martino per il viaggio, si ponno veder i conti, &#232; con tutto cio non era mai contento, &#232; si vergognava di dir ch'era servitor mio adesso. &#232; tutto del marquese, lor dui soli ognun lo sa, manno fatto questo bel gioco di farmi entrar qui dentro avendomi tradito tutti dui per vendicarsi di [[here she appears to have written "di" over "de"]] qualche contrasto ch'o auto per strada con loro [[a series of 4 or 5 words crossed out]] non averia mai creso <hi rend="superscript">il marquese</hi> cosi vindicativo, ricordatevi che sono moglie vostra &#232; che non &#232; di riputatione della vostra casa ch io stia altrove che in un monasterio adio scriveteme spesso &#232; assicurateve che non o magior consolatione</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>.
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
