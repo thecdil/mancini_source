@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
-    version="2.0">
+    version="1.1">
     
     <xsl:output encoding="UTF-8" method="text"></xsl:output>
     
@@ -17,9 +17,7 @@
     <xsl:template match="tei:body/tei:div">
         <!-- Name the file-->
         <xsl:variable name="sect_id" select="@xml:id"/>
-        <xsl:result-document method="text" encoding="utf-8"
-            href="../../_parts/{$sect_id}.md" omit-xml-declaration="yes">
-            
+        
             <!-- yaml header -->
             <xsl:text>---&#x0A;letter: </xsl:text>
             <xsl:value-of select="tei:head/@n"/>
@@ -31,7 +29,6 @@
           
             <xsl:apply-templates/>
             
-        </xsl:result-document>
     </xsl:template>
     
     <!-- opener -->
