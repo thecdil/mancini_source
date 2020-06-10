@@ -106,8 +106,7 @@
     </teiHeader>
     <text>
         <body>
-            <!--no descriptor card fasc, one provided is for the letter itself-->
-            <div type="letter" xml:id="letter_1672_09_05_b_mm2os_raw" n="535" facs="DSCF8209">
+            <div type="letter" xml:id="letter_1672_09_05_b_mm2os_raw" n="535" facs="">
                 <head type="raw" xml:lang="fr" />
                 <note resp="#smn" xml:id="archive-note">
                 [[no descriptor card]]
@@ -119,6 +118,7 @@
                 A Roma"
                 + 1 red wax seal]]
                 </note>
+                <pb facs="DSCF8209"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]
                 </note>
