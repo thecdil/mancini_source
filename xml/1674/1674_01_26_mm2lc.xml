@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 50 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1674_01_26_mm2lc" type="letter" n="50">lett 50 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1674-01-26">January 26 1674</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1674-01-26">January 26 1674</origDate>
+                            <origPlace>
+                                <placeName key="antwerp">Antwerp</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-11" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1674_01_26_mm2lc_raw" n="50" facs="DSCF8584">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 50
+                Lettere di Maria Mancini – 1674
+                Numero d'ordine – 3
+                
+                D. Maria Colonna-Mancini –
+                
+                =
+                
+                Lettera al Contestabile Colonna
+                in data 26 Gennaio 1674 da Anversa
+                Sigillo mancante – tutta di pugno –
+                
+                oggetto:
+                </note>
+                <pb facs="DSCF8585"/>
+                <note resp="#smn">
+                [[On the left side of the image is a half-page of writing, which is actually the fourth and final page of the letter—see below.]]   
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]     
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">del castel danversa</placeName>
+                        <date when="1674-01-26">li 26 gen[[naio]] 1674</date>
+                    </dateline>
+                </opener>
+                <p>ogni ordinario vi scrivo ne posso aver la consolatione di saper ne anche se avete riceuta nessuna letra mia sono sei settimane che sono qua &#233; levate la prima letra ch hebbi per via di quel mercante mai piu o inteso parlar di voi il marquese si trattiene sempre a brusselles ne o possuto ancor parlar al conte di monterey &#233; cosa da far desperar di vedermi qua rinchiusa per le calunnie qu a inventato il marquese contra di me. avertite di non pagar niente a oliva ne anche a i soldati che Bourgomenero tiene qua a sue spese per guardarmi perche avendomi come vi o scritto fatto metter qua per suo capriccio</p>
+                <pb facs="DSCF8586"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <p>non sete obligato di sodisfarlo tanto piu che dareste a veder al mondo che voi erivo daccordo con luy di farmi questo tradimento ne anche a Oliva non pagate la sua [[divitra?]] a Brusselles perche ly o dato [[something crossed out]] cinquanta doble per tornarsene sensa poi tutti i denari che li o dato in tutte l'occorrense che l'o trattato come se me fosse <hi rend="superscript">stato mio</hi> fratello ma il marquese l'o fa trattenere per farsi forte imsieme con luy contra di me perche governa l'internuntio [[<hi rend="strike">ch</hi>]] il quale &#233; puro daccordo con loro, io o scritto un pesso fa a Don mauritio che non pagasse piu la casa a Oliva ne le [[Marie seems to hesitate over the gender of the article--she writes "le" with a dot over the "e"]] cinque doble il mese in caso che le letre fossero state prese come dubito diteglielo voi perche non pretendo mai piu darli un quatrino ne a luy ne a la sua famiglia so bene quello si meriteria ma quello si ritarda non si perde</p>
+                <note resp="#smn">
+                [[On the left half of the sheet, turned 90&#xb0;:]]    
+                </note>
+                <p>[[<hi rend="strike">ritarda non si perde</hi>]] dice il proverbio francese adio scrivete per amor di dio quanto prima et di bono inchiostro al conte [[<hi rend="strike">perche</hi> and something else crossed out]] <hi rend="superscript">il quale essendosi</hi> impegnato di mettermi qua per compiacere al marquese non mi fara mai escire sensa un vostro ordine espresso volendo sostenere quello qu'a fatto che non a auto nessuna ragione di fare &#233; che tutto il mondo biasima mentre non si &#233; mai intesso che una dama par mia che si viene a mettere nelle mani di spagnoli &#233; loro la mettino in un castello &#233; che cosa potevano far di peggio se mavessero preso in paese nemicho. vengo di ricever la vostra <hi rend="superscript">letra</hi> con quella di don mauritio que mi a dato tanto gusto que non posso manco parlare quanto vi sono obligato conoscerete col tempo che non sono ingrata ne mai faro niente che vi possa dispiacere staro in monasterio quieta ne averete che desiderar circa la mia condotta. Et come vi o promesso</p>
+                <note resp="#smn">
+                [[On the left half of the sheet and half of the right half, along the top edge, written upside down relative to the writing on the right half of the sheet:]]
+                </note>
+                <p>vi manterro ne mai eciro di fiandra ne del convento sensa consenso vostro o per tornar con voi vi mando un linale che darete alla duchessa di bassanello &#233; a voi vi fo fare delle belle camicie</p>
+                <note resp="#smn">
+                [[In the top right corner of the sheet, along the top edge, written upside down relative to the rest of the writing on the right half of the sheet:]]
+                </note>
+                <p>faro sapere al conte quanto mi scrivete non so ancor quello fara non mi curo piu desser prigione adesso che voi</p>
+                <pb facs="DSCF8585"/>
+                <note resp="#smn">
+                [[On the left side of the image is a half-page of writing, which is actually the fourth and final page of the letter:]]
+                </note>
+                <p>non l'aprovate poiche tutta la mia paura era che voi compiaceste al marquese adio abraccio i figlioli &#233; vi assicuro che nessuno vi &#233; piu obligata ne vi vol meglio di me che sono,</p>
+                <closer>
+                    <salute> &#233; saro fin che vivo tutta vostra</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>.
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
