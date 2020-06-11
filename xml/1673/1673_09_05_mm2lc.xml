@@ -142,18 +142,20 @@
                     <salute>et con questo vi salute di tutto core &#232; resto per sempre tutta vostra</salute>
                     <signed rend="ti-3"><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
-                <pb facs="DSCF8544"/>
-                <note resp="#smn">
-                [The back side of page 2 of the letter, which was the outside of the folded-up letter. Rectangularly folded, with something written that I can’t quite decipher, but it seems to indicate that this was sent as part of the French ambassador’s diplomatic mail. ?]
-                </note>
-                <postscript>
-                Auta davn loche del'
-                [signore??] Anbasiator di francia
-                [+ 2(?) black wax seals]
+                <postscript>    
+                    <pb facs="DSCF8544"/>
+                    <note resp="#smn">
+                    [The back side of page 2 of the letter, which was the outside of the folded-up letter. Rectangularly folded, with something written that I can’t quite decipher, but it seems to indicate that this was sent as part of the French ambassador’s diplomatic mail. ?]
+                    </note>
+                    <p>
+                    Auta davn loche del'
+                    [signore??] Anbasiator di francia
+                    [+ 2(?) black wax seals]
+                    </p>
+                    <note resp="#smn">
+                    [Lower down on the image, just to the left of the center fold of the booklet, parallel with the fold, appears to be written the date, except that it appears to say "15" rather than "5"—probably written by an archivist?? or secretary?? The ink looks darker than Marie's ink.]
+                    </note>
                 </postscript>
-                <note resp="#smn">
-                [Lower down on the image, just to the left of the center fold of the booklet, parallel with the fold, appears to be written the date, except that it appears to say "15" rather than "5"—probably written by an archivist?? or secretary?? The ink looks darker than Marie's ink.]
-                </note>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
                 <head type="edit" xml:lang="fr" />
