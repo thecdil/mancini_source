@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>lett 20 Marie to Lorenzo</title>
+                <title>lett 22 Marie to Lorenzo</title>
                 <author key="mancini-marie">Marie Mancini</author>
                 <respStmt>
                     <resp>Transcribed and translated by</resp>
@@ -46,10 +46,10 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1673_01_26_mm2lc" type="letter" n="20">lett 20 Marie to Lorenzo</title>
+                    <title key="1673_02_08_mm2lc" type="letter" n="22">lett 22 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
-                    <date when="1673-01-26">January 26 1673</date>
+                    <date when="1673-02-08">February 8 1673</date>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -80,7 +80,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1673-01-26">January 26 1673</origDate>
+                            <origDate when="1673-02-08">February 8 1673</origDate>
                             <origPlace>
                                 <placeName key="turin">Turin</placeName>
                             </origPlace>
@@ -105,49 +105,41 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1673_01_26_mm2lc_raw" n="20" facs="DSCF8505">
+            <div type="letter" xml:id="letter_1673_02_08_mm2lc_raw" n="22" facs="DSCF8509">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
-                Collocazione II-C.P.1. lett. 20
+                Collocazione II-C.P.1. lett. 22
                 Lett. di Maria Mancini – 1673
-                Nr d'ordine – 3 
+                Nr d'ordine – 5 
 
                 D. Maria Colonna-Mancini –
 
                 =
 
                 Lettera al Contestabile Colonna
-                in data	26 Gennaio 1673 da Torino
-                Sigilli – tutta di pugno –
+                in data	8 Febbraio 1673 da Torino
+                Sigillo mancante – tutta di pugno –
 
                 oggetto:
                 </note>
-                <pb facs="DSCF8506"/>
+                <pb facs="DSCF8510"/>
                 <note resp="#smn">
-                [[On left side of the image, the rectangularly folded paper with address written on outside: 
-                "A Monsieur
-                Monsieur le Conestable 
-                Colonna
-                A Rome"
-                + 2 red wax seals]]
-                </note>
-                <note resp="#smn">
-                [[Along the left edge of the left side of the paper, parallel with the edge, appear to be written the place and date—probably written by an archivist?? or secretary?? The ink looks similar to Marie's ink.]]   
-                </note>
-                <note resp="#smn">
-                [[On the right half of the sheet:]]   
+                [[a sheet 15 cm wide]]   
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">De thurin</placeName>
-                        <date when="1673-01-14==26">ce 26<hi rend="superscript">me</hi>ian[[vier]] 1673</date>
+                        <placeName key="turin">De thurino</placeName>
+                        <date when="1673-02-08">ce 8<hi rend="superscript">me</hi> fev[[rier]] 1673</date>
                     </dateline>
                 </opener>
-                <p>Pietro marquese retornandosene a Roma potra raguagliarvi [[something crossed out, maybe "del"]] <hi rend="superscript">il mio arrivo in questa citt&#224; dove mi ritrovo in un convento [[something crossed out]] <hi rend="superscript">&#233;</hi> me <hi rend="superscript">ce</hi> tratterro fin ch' dio minspiri altramente; sarei stata a nevers con mio fratello et sua moglie se mi fusse stato concesso; ma gia che avete mostrato tanta ansieta che susse for di francia son venuta in italia per darvi questa sodisfactione; et per farvi conoscer la mia indiferensa; [[something crossed out]] assicurandovi ch'in ogni [[loguo?]]</p>
+                <p>Conforme mi scrivete in una vostra o fatto l'ordine in faccia alla contessa per riscoter i logui de monti; sto aspettando don mauritio; et sento da mio fratello que giunse hier sera; ch'il marquese de bourgomen&#233; ly a detto che l'aspettava a milano di giorno in giorno; sento impatientia grande quegli giunga per poter dar [[something crossed out]] testimoniansa della mia; bona condotta la quale sara sempre tale che potete desiderare essendo lontana da voi;</p>
                 <closer>
-                    <salute>saro sempre l'istessa per voi</salute>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <salute>ne manquaro mai a nessuna conveniesce que vi devo restando <hi rend="superscript">per</hi> sempre vostra</salute>
+                    <signed rend="ti-4"><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
+                <postscript>
+                    <p>ho riceuto la letra del generale per quel frate et ve ne sono molto obligata</p>
+                </postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
                 <head type="edit" xml:lang="fr" />
