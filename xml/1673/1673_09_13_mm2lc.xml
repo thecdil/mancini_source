@@ -46,7 +46,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1673_09_13_mm2os" type="letter" n="38">lett 38 Marie to Lorenzo</title>
+                    <title key="1673_09_13_mm2lc" type="letter" n="38">lett 38 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
                     <date when="1673-09-13">September 13 1673</date>
@@ -106,7 +106,7 @@
     <text>
         <body>
             <div type="letter" xml:id="letter_1673_09_13_mm2lc_raw" n="38" facs="DSCF8545">
-                <head type="raw" xml:lang="fr" />
+                <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
                 Collocazione II-C.P.1. lett. 38
                 Lett. di Maria Mancini – 1673
@@ -143,12 +143,12 @@
                         <date when="1673-09-13">li 13 sep[[tembre]] 1673</date>
                     </dateline>
                 </opener>
-                <p>ho inteso quello scrivete a don mauritio, per il negotio di francia, maravigliandomi ch'il Re metta in consulta ricevermi in un monasterio. staro pero attendendo l'ultime risposte come ho detto. per la fine di questo. et vi sono obligata delli mille scudi ch <hi rend="superscript">m</hi>avete rimesso, [[something crossed out] avendo dato ordine, che di essi si [pagiu? / pagiv? – did she mean to write "paghi," but she inverted the "h" and the "i"? that seems the most likely]] tutto quello che devo. circa al resto lo rimetterete dove avete pensato. pero credo, che maverete <hi rend="superscript">gia</hi> inviato qualque altra <hi rend="superscript">[[something crossed out]]</hi> somma che forse ci sara encor di bisogno; vi raccommando andrea</p>
+                <p>ho inteso quello scrivete a don mauritio, per il negotio di francia, maravigliandomi ch'il Re metta in consulta ricevermi in un monasterio. staro pero attendendo l'ultime risposte come ho detto. per la fine di questo. et vi sono obligata delli mille scudi ch <hi rend="superscript">m</hi>avete rimesso, [[something crossed out]] avendo dato ordine, che di essi si [[pagiu? / pagiv? – did she mean to write "paghi," but she inverted the "h" and the "i"? that seems the most likely]] tutto quello che devo. circa al resto lo rimetterete dove avete pensato. pero credo, che maverete <hi rend="superscript">gia</hi> inviato qualque altra <hi rend="superscript">[[something crossed out]]</hi> somma che forse ci sara encor di bisogno; vi raccommando andrea</p>
                 <pb facs="DSCF8547"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
                 </note>
-                <p>che non puol vivere con sei scudi <hi rend="superscript">il mese.</hi> [[something crossed out]] et ricordateve che sono sep<hi rend="superscript">m</hi>re piu tenuta alla vostra bonta. della quale non mi rendero mai inmeritevole. mentre saro comforme vi o piu volte detto tutta vostra   </p>
+                <p>che non puol vivere con sei scudi <hi rend="superscript">il mese.</hi> [[something crossed out]] et ricordateve che sono sep<hi rend="superscript">m</hi>re piu tenuta alla vostra bonta. della quale non mi rendero mai inmeritevole. mentre saro comforme vi o piu volte detto tutta vostra</p>   
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>

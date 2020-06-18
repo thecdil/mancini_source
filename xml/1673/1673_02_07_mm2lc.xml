@@ -93,7 +93,7 @@
             <editorialDecl>
                 <interpretation>
                     <p>
-                    [[?? The letter is written in French, and Marie addresses her correspondent as "Monsieur,"" so it is definitely not addressed to Lorenzo; but there is no clear indication of who the intended recipient is.]]   
+                    [[?? The letter is written in French, and Marie addresses her correspondent as "Monsieur," so it is definitely not addressed to Lorenzo; but there is no clear indication of who the intended recipient is.]]   
                     </p>
                 </interpretation>
             </editorialDecl>
@@ -130,11 +130,15 @@
                 <opener>
                     <dateline>
                         <placeName key="turin">de thurin</placeName>
-                        <date when="1673-02-07">ce 7<hi rend="superscript">me</hi>fev[rier] 1673</date>
+                        <date when="1673-02-07">ce 7<hi rend="superscript">me</hi>fev[[rier]] 1673</date>
                     </dateline>
                 </opener>
                 <p>Mon frere est arriv&#233; quy ma rendu vostre letre ie vous suis fort oblig&#233; Monsieur du parti avantageux que vous moffres il met d'autant plus sensible comme ie suis persuade; que vous naves dautre veue que celle de mon bien et de ma satisfaction iy fairey des Refecsions serieuses en attandant ie vous suplie Monsieur de [[something crossed out]] conserver tousiours [[<hi rend="strike">vos</hi>]] les mesmes santimans de bonte et de confiance a celle quy espere les reconoitre par les temoignages de son estime la Conestable Colonna</p>
                 <p>si don [[there’s a squiggle that almost looks like an additional letter, but what other letter could it be? it’s definitely "don" and not "dona" because the direct object pronoun referring to him is "le"]] mauricce est arriv&#233;. ie vous prie de le fair rendre icy au plus tost</p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>
+                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
                 <head type="edit" xml:lang="fr" />

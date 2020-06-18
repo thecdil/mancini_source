@@ -80,9 +80,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1672-07-14">July 14 1672</origDate>
+                            <origDate when="1673-02-22">February 22 1673</origDate>
                             <origPlace>
-                                <placeName key="grenoble">Grenoble</placeName>
+                                <placeName key="turin">Turin</placeName>
                             </origPlace>
                         </origin>
                     </history>
@@ -105,7 +105,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1673_02_22_mm2lc_raw" n="22" facs="DSCF8511">
+            <div type="letter" xml:id="letter_1673_02_22_mm2lc_raw" n="24" facs="DSCF8511">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
                 Collocazione II-C.P.1. lett. 24
