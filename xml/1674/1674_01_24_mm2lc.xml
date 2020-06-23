@@ -128,7 +128,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="antwerp">del castel danversa <date key="1674-01-24">ce 24<hi rend="superscript">me</hi> ian[[vier]] 1674</date>
+                        <placeName key="antwerp">del castel danversa</placeName> <date when="1674-01-24">ce 24<hi rend="superscript">me</hi> ian[[vier]] 1674</date>
                     </dateline>
                 </opener>
                 <p>Vi scrivo questa per la via de lione vorrei saper se tutte le mie letre vi sono capitate perche vi o scritto ogni settimana, et vi o dato parte di quanto mi &#233; successo, &#233; del tradimento ch il marquese ma fatto per sodisfarsi [[<hi rend="strike">delle dispute</hi> plus 3-4 more letters, crossed out]] <hi rend="superscript">della rabbia ch'aveva con me per i</hi> contrasti ch'avemo auto nel tempo ch'erimo al armata doppo che luy &#233; di ritorno assieme col conte non a ancora auto faccia di venirmi a vedere, si aspettano letre vostre sensa le quali il conte non risolvera niente ne anche mi &#233; venuto a vedere vi prego di prestar fede a quanto vi o scritto, et credete ch il farmi star qua non &#233; vantaggio ne reputation vostra</p>
@@ -141,19 +141,17 @@
                     <salute> adio mi confermo al solito tutta vostra</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
-                <postscript>
-                    <note res="#smn">
-                    [[The image shows the back side of page 2 of the letter, which was the outside of the folded-up letter. Diagonally folded paper with address written on outside: 
-                    "A Monsieur
-                    Monsieur le Conestable 
-                    Colonna
-                    A Roma"
-                    + 1 red wax seal]]
-                    </note>
-                    <note resp="#smn">
-                    [[Along the center crease of the paper, parallel with the crease and slightly to the left of it, is written the date by an archivist or a secretary. The ink looks different from Marie's ink.]]
-                    </note>
-                </postscript>
+                <note resp="#smn">
+                [[The image shows the back side of page 2 of the letter, which was the outside of the folded-up letter. Diagonally folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur le Conestable 
+                Colonna
+                A Roma"
+                + 1 red wax seal]]
+                </note>
+                <note resp="#smn">
+                [[Along the center crease of the paper, parallel with the crease and slightly to the left of it, is written the date by an archivist or a secretary. The ink looks different from Marie's ink.]]
+                </note>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
                 <head type="edit" xml:lang="fr" />

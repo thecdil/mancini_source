@@ -74,11 +74,8 @@
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote xml:id="mancini-marie" medium="black">
-                                Marie Mancini handwritten
+                                Marie Mancini handwritten, but the ink looks different from Marie's ink.
                             </handNote>
-                            <note resp="#smn">
-                                The ink looks different from Marie's ink.
-                            </note>
                         </handDesc>
                     </physDesc>
                     <history>

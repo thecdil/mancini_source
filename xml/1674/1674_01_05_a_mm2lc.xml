@@ -46,7 +46,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1674_01_05_mm2lc" type="letter" n="19">lett 19 Marie to Lorenzo</title>
+                    <title key="1674_01_05_a_mm2lc" type="letter" n="19">lett 19 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
                     <date when="1674-01-05">January 5 1674</date>
@@ -106,7 +106,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1674_01_05_mm2lc_raw" n="19" facs="DSCF8502">
+            <div type="letter" xml:id="letter_1674_01_05_a_mm2lc_raw" n="19" facs="DSCF8502">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
                 Collocazione II-C.P.1. lett. 19

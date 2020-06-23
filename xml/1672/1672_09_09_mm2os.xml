@@ -106,7 +106,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1672_09_09_mm2os_raw" n="09" facs="">
+            <div type="letter" xml:id="letter_1672_09_09_mm2os_raw" n="09">
                 <head type="raw" xml:lang="fr" />
                 <note resp="#smn" xml:id="archive-note">
                 [[No description card]]
@@ -125,7 +125,7 @@
                 <opener>
                     <dateline>
                         <placeName key="lys">du lis</placeName>
-                        <date key="1672-07-14">ce 9[[<hi rend="superscript">me</hi> septembre]] 1672</date>
+                        <date when="1672-07-14">ce 9[[<hi rend="superscript">me</hi> septembre]] 1672</date>
                         <note resp="#smn">
                         [[The corner of the paper is ripped, but the name of the month looks like it begins with "s."]]
                         </note>

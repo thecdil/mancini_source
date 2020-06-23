@@ -104,7 +104,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1672_11_18_n2os_raw" n="" facs="">
+            <div type="letter" xml:id="letter_1672_11_18_n2os_raw" n="">
                 <head type="raw" xml:lang="fr" />
                 <note resp="#smn" xml:id="archive-note">
                 [[No descriptive card]]
@@ -121,6 +121,7 @@
                 + 1 red wax seal]]
 
                 [[On the right half of the sheet:]]
+                </note>
                 <opener>
                     <dateline>
                         <placeName key="avenay">dAvenaj</placeName>

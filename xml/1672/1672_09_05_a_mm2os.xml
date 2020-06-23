@@ -74,7 +74,7 @@
                         </objectDesc>
                         <handDesc hands="1">
                             <!--not marie's handwriting-->
-                            <handNote xml:id="" medium="black">
+                            <handNote xml:id="ukn" medium="black">
                                 Not Marie's handwriting
                             </handNote>
                         </handDesc>
