@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 58 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1674_02_25_mm2lc" type="letter" n="58">lett 58 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1674-02-23">February 23 1674</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1674-02-23">February 23 1674</origDate>
+                            <origPlace>
+                                <placeName key="antwerp">Antwerp</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        The archive incorrectly labels this letter with date 1674-02-25. The correct date is 1674-02-23.
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-22" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1674_02_23_mm2lc_raw" n="58" facs="DSCF8610">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 58
+                Lettere di Maria Mancini – 1674
+                Numero d'ordine – 11
+                
+                D. Maria Colonna-Mancini –
+                
+                =
+                
+                Lettera al Contestabile Colonna
+                in data 25 [[actually 23]] Febbraio 1674 dal Castello di Anversa
+                Sigillo – tutta di pugno –
+                
+                oggetto:
+                </note>
+                <pb facs="DSCF8611"/>
+                <note resp="#smn">
+                [[Along the left edge of the sheet, parallel with the edge, is written the date by an archivist or a secretary. The ink looks different from Marie's ink.]]   
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">du [[Marie first wrote "de" and then wrote a "u" over the "e"]] chatteau danvers</placeName>
+                        <date when="1674-02-23">ce 23 fev[[rier]] 1674</date>
+                    </dateline>
+                </opener>
+                <note resp="#smn">
+                [[2 red wax seals]]
+                </note>
+                <p>domani terminaranno i quindici giorni que S. E. mi a promesso di farmi uscir di qua so che a fatto accomodare un quarto nel convento delle inglese ma io averia piu gusto di entrar in quel de barlemont gli lo dissi a S. E. é mi promesse di farmeli veder tutti due et che poi io potrei scegliere quello vorrei o riceuto una vostra letra questo hordinario dove mi assicurate assistermi in tutto di che non o mai dubitato mi dispiace che il iesuita non possa venire vorrei sapere in caso che monterey me permettesse di farlo venire se il padre oliva gli dara licensa <hi rend="superscript">la potreste</hi> [[<hi rend="strike">potete</hi>]] ottener [[<hi rend="strike">la licensa</hi>]] con questa conditione</p>
+                <pb facs="DSCF8612"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <p>o fatto scriver a Don [[invanni?]] quel [[<hi rend="strike">q</hi>]] cavaliere [[Marie appears to have first written "cavaliero" and then written an "e" over the "o"]] del [[tosone?]], <hi rend="superscript">é</hi> non o possuto ancora aver nova di lui ma se vo a brusselles siate certo che mi serviro di lui conforme desiderate pur che il' conte si contenti come non dubito. il marquese sta puro a brusselles [[<hi rend="strike">credo</hi>]] sento dir che a fatto far porte ferratte, et tutto quello che puole di peggio per farmi passar apresso al mondo per una donna sprepositata, é che non stia ne anche sicura in un convento. la causa poi perche lui mi a fatto tanto male é solo perche io l'o trattato male a lui per viaggio lo potete creder certo, e se li fosse riuscito non a tentato altro che tenermi qui fin tanto che mi avesse messo</p>
+                <note resp="#smn">
+                [[On the left half of the sheet, turned 90&#xb0;:]]    
+                </note>
+                <p>in desperatione. non mancaro di secondare in tutto il genio del conte di monterey é certo non gli daro mai campo di lamentarsi di me [[a letter crossed out]] vi mando una torchina che comprai a strabourg so <hi rend="superscript">che</hi> vi piaceno pero la potrete portar per amor mio, adio abracciate i figlioli é crediateme sempre vostra</p>
+                <closer>
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>.
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
