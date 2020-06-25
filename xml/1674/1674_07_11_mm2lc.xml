@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 75 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1672_07_14_mm2os" type="letter" n="04">lett 4 Marie to Ortenisa Stella</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="ortensia-stella">Ortensia Stella</persName>
+                    <date when="1672-07-14">July 14 1672</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1674-07-11">July 11 1674</origDate>
+                            <origPlace>
+                                <placeName key="madrid">Madrid</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-25" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1674_07_11_mm2lc_raw" n="75" facs="DSCF8665">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione -II-C.P.1. lettera 75
+                Lettere di Maria Mancini – 1674
+                Numero d'ordine – 28
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	11 Luglio 1674 da Madrid
+                Sigillo mancante – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8666"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="madrid">de madrid</placeName>
+                        <date when="1674-07-11">li 11 luglio 1674</date>
+                    </dateline>
+                </opener>
+                <p>hieri hebbi la fortuna di bagiar le mani alla Regina, et al Re fui accompagnata la dalla duchessa dalbuqueque, et la figlia questa [[Marie appears to have written "queste" first and then written an "a" over the "e"]], et la marquese alcanisse sorella del contestabile et madre della [[something crossed out]] moglie del figlio del amirante et la marquese sonta croce sono quelle di qui ricevo magior cortesie spero che presto entraro nel convento delli angeli havendolila Regina ordinato che mi ricevino ma come non anno habitatione ci conviene pigliar una casa vicimo la quale servira l'ameta per me che sara clausura, et l'altra per don ferdinando, &#233; la servitu mi tratengo tutta via qui in casa del amirante</p>
+                <pb facs="DSCF8667"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]     
+                </note>
+                <p>il qual mi fa trattar, &#233; servire come si fosse sua moglie, &#233; come si diletta molto di quadri saria bene gli inviaste qualque cosa degno di voi, &#233; di lui se poteste trovar qualque original de rapfaello [[the "p" may be crossed out in "rapfaello"]] so che lui non a, &#233; che lo desidera molto ma avertite cio que inviarete che sia originale perche qui se ne intendono molto bene on non bisogna mandar niente cosa perfetta vi o suplicato per un padre il quale l'amirante ama, &#233; stima molto vi mando anche la nota di cio che si desidera pero cerchate di servirllo perche anche lui si &#233; offerto di servirvi nel negotio della [[<hi rend="strike">cal</hi>]] cavalcata il quale dice li tasta l'animo di spuntar secondo il vostro desiderio se si mette il negotio in sue mani ma voi sapete che in questo mondo non</p>
+                <note resp="#smn">
+                [[On the left half of the sheet, turned 90&#xb0;:]]    
+                </note>
+                <p>si fa niente per niente. se voi sapeste guadagnare con civilta, &#233; presenti quelli veramente che manegiano la torta sareste meglio servito &#233;, spuntareste <hi rend="superscript">piu</hi> facilmente le cose io cercaro di non esservi inutile [[something crossed out--maybe "qua cercaro di"]] [[several words crossed out]], &#233; se viene occasione [[something crossed out--maybe "impieghero"]] <hi rend="superscript">parlero a</hi> tutti [[<hi rend="strike">et</hi>]] <hi rend="superscript">per</hi> [[something crossed out]] <hi rend="superscript">voi</hi> inviateme una scatola d'ogli &#233; guanti de fiori fatti alla spagnola per poter donar, la contessa me diceva avermeli mandati in fiandra &#233; nol ho mai visti recordateve d'abraciar i figlioli come anche di credermi sempre vostra</p>
+                <closer>
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <pb facs="DSCF8668"/>
+                <note resp="#smn">
+                [[The image is the top 11-13 cm of another sheet 15 cm wide. It is unevenly ripped along the bottom. At the end of the writing on this sheet, there is the descending squiggly line that Marie sometimes puts at the end of a note, but to the right of that, there is the top half--ripped through the middle--of a large unfamiliar signature.]]
+                </note>
+                <postscript>    
+                    <p>la duchessa dalburqueque &#233; figlia donna anna de la queva desiderano una licensa per entrar nelli conventi come anche il medesimo desidera la marquese alcanissas et donna teresa erinques sua figlia moglie del figliolo del amirante cerchate daverlo in ampla forma per esser signori che lo meritano per la lor qualita, &#233; per ricever da loro continuati favori darete anche molto gusto al Sig<hi rend="superscript">r</hi> amirante per esser tutti suoi parenti stretti [[descending squiggly line and ripped signature]]</p>
+                </postscript>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>.
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
