@@ -152,29 +152,30 @@
                     <signed rend="ti-3"><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1672_09_23_mm2lc_edit" n="10" facs="DSCF8475">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8476"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <placeName key="lys">Del Lys</placeName>, 
+                        <date when="1672-09-23">il 23 settembre 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Sono arrivate le donne con le robe, le quali mi hanno recata molta consolazione; di veder che in questa occasione abbiate rincontrato con gusto la mia soddisfazione; non mancher&#242; d'averne cura e particolarmente di Maria Maddalena, la quale sta in loco di poter diventar santa se vuole; questo monastero essendo un esempio di virt&#249; dove credo non vi potrete lamentar della mia condotta, essendo tale che i miei nemici stessi saranno obbligati a lodarla. Spero che ne sarete contento; e che sempre pi&#249; avrete campo di dimostrarmi la stima che sino ad ora mi avete negata, assicurandovi che eternamente ne conserver&#242; verso di voi. Vi raccomando</p>
+                <pb facs="DSCF8477"/>
+                <p>i ragazzi, abbracciateli per amor mio; rimander&#242; Andrea per servirli essendo pi&#249; a proposito per loro che per me nel monastero; la povera contessa, vi prego d'averne cura, e pure delle altre che sono restate. Per il rimanente, rester&#242; sempre pregando Dio per voi e per tutta la casa.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+            <!--Not completed 6-26-20-->
+            <div type="letter" xml:id="letter_1672_09_23_mm2lc_translation" n="10" facs="DSCF8475">
                 <head type="translation" xml:lang="en" />
-                <pb facs="DSCF8222"/>
+                <pb facs="DSCF8476"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">Grenoble</placeName>
+                        <placeName key="lys">Grenoble</placeName>
                         <date when="1672-07-14">14 July</date>
                     </dateline>
                 </opener>
