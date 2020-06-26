@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 86 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1674_11_29_mm2lc" type="letter" n="86">lett 86 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1674-11-29">November 29 1674</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1674-11-29">November 29 1674</origDate>
+                            <origPlace>
+                                <placeName key="madrid">Madrid</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-26" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1674_11_29_mm2lc_raw" n="86" facs="DSCF703">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. Lettera 80
+                Lettere di Maria Mancini – 1674
+                Numero d'ordine – 38
+                
+                D. Maria Colonna-Mancini –
+                
+                =
+                
+                Lettera al Contestabile Colonna
+                in data 29 Novembre 1674 da Madrid
+                Sigillo – tutta di pugno –
+                
+                oggetto:
+                </note>
+                <pb facs="DSCF8704"/>
+                <note resp="#smn">
+                [[This is a five-page letter in all.]]   
+                </note>
+                <note resp="#smn">
+                [[On the left side of the image is a page of writing, which is actually the fourth page of the letter—see below.]]    
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="madrid">di madrid</placeName>
+                        <date when="1674-11-29">li 29 nove[[mbre]] 1674</date>
+                    </dateline>
+                </opener>
+                <p>sento per questo ordinario come avevate inviato una scatola ala volta di genova con quanti polvere mantegie et i retratti de figlioli que sto ansiosa di vedere; il mio, et stato fatto qua dal piu famoso pittore que sia &#233; certo che sta naturale, &#233; pittoresco non so se il suo modo sara aprovato da i pittor di Roma ma a me mi par buono fuor che, &#233; molto [[<hi rend="strike">lungo</hi>]] <hi rend="superscript">tardo</hi> ditemene il vostro parere linviero per marinello. [[<hi rend="strike">&#233;</hi>]] inquanto al marquese spinola non si parla ora di mutarlo perche</p>
+                <pb facs="DSCF8705"/>
+                <note resp="#smn">
+                [[On the left half of the sheet:]]    
+                </note>
+                <p>si trovano molto ben serviti pero non si puol assicurar niente perche le cose mutano dun giorno al altro adesso si parla di far governator di fiandra il principe carlo di lorena altri dicono si tratiendra ancor monterey per qualque mese. si &#233; dichiarato alla fine i tre posti principali che facevano stare i grandi sospesi come i cardinali vechi in Roma chasqueduno pretendendo un de i posti; che stimano piu que desser papa. tutti tre son</p>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <p>parenti come sapete, &#233; mi prometteno tutti di far miracoli per voi se l'occasione si presenta lo vederemo. questa matina doppo avervi scritto si, &#233; dichiarato 5 del consiglio de stato cioe il presidente di castilla (del quale la moglie &#233; tutta mia) &#233;, stigliano il duca d'alva don pedro daragona, &#233; il duca d'ossona &#233; si dice sia anche ma secreto [[<hi rend="strike">ancora</hi>]] il marquese spinola certo che se si muta faremo ogni sforso per mettervi in suo loco state allegramente, &#233; dite a i figlioli che li inviero la mancia per marinello, &#233; a voi puro per me non desidero</p>
+                <pb facs="DSCF8704"/>
+                <note resp="#smn">
+                [[On the left side of the image is a page of writing, which is actually the fourth page of the letter:]]    
+                </note>
+                <p>che denari per comprar chocolat che non si puol resister ala quantita che bisogna darne a tutti. quello volete inviarme per la regina avertite che sia qua per quaresima che allora deve entrar qui dentro adio ricodateve sempre de [[<hi rend="strike">q</hi>]] chi &#233; tutta vostra</p>
+                <closer>
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <note resp="#smn">
+                [[A blank space equal to about 3 lines' worth, then more writing:]]
+                </note>
+                <postscript>
+                    <p>Se potessi parlare alla Regina &#233; a questi del consiglio le cose andariano meglio ma questo &#233; imposibile da lei non posso andar &#233; loro non mi vengano che raramente a veder lalmirante &#233;, piu de due mesi quasi che non l'o</p>
+                </postscript>
+                <pb facs="DSCF8706"/>
+                <note resp="#smn">
+                [[The image is a sheet 15 cm wide.]]
+                </note>
+                <postscript>
+                    <p>visto, &#233; mi par che vi sia da far poco fondamento in luy lindo ablador, &#233; mal obrador no val nada por [[something crossed out]] el ni tampoco por los otros.</p>
+                </postscript>
+                <note resp="#smn">
+                [[A blank space equal to one line's worth, then more writing:]]
+                </note>
+                <postscript>
+                    <p>doppo avervi <hi rend="superscript">scritto</hi> a inviato l'almirante darmi la enorabuena del marquese spinola que en echo conseillero destato</p>
+                </postscript>
+                <pb facs="DSCF8707"/>
+                <note resp="#smn">
+                [[The image is a sheet 15 cm wide with the diagonally folded paper and the address written on the outside:
+                "A Monsieur
+                Conestable Colonna
+                Roma"
+                + 1 red wax seal]]
+                </note>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>.
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
