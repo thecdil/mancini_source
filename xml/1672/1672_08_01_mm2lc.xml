@@ -157,20 +157,20 @@
                     </signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33b" facs="DSCF8532">
-                <head type="edit" n="33" xml:lang="it" />
-                <pb facs="DSCF8533"/>
+            <div type="letter" xml:id="lletter_1672_08_01_edit" facs="DSCF8469">
+                <head type="edit" n="05" xml:lang="it"/>
+                <pb facs="DSCF8470"/>
                 <opener>
                     <dateline>
-                        <placeName>Da Torino</placeName>
-                        <date when="1673-08-04">il 4 agosto 1673</date>
+                        <placeName key="grenoble">De Grenoble</placeName> 
+                        <date when="1672-08-01">ce premier ao&#251;t 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8534"/>
-                <p></p>
+                <p>Potevi fare a meno di scrivermi una simile lettera, come quella che mio fratello mi ha consegnato; mi avete sempre reso poca giustizia e per&#242; volete ancora adesso rendermi colpevole di quello che il mondo dice contro di voi; io so che nessuno potr&#224; dir con verit&#224; che io mi sia lamentata di voi sopra i sospetti che dite. E quando pure li avessi avuti, non sarei stata così imprudente da palesarli e, non avendoli, non avrei avuto la malignit&#224; di inventarli. Saint Simon &#232; un gran bugiardo se dice che io mi sia lamentata d'altro di voi che della poca stima e affetto che ho capito avevi per me; e pure questo mi sforz&#242; a dirlo. Del resto poi io non pretendo di aver pregiudicato, con la mia partenza, n&#233; a voi n&#233; ai figli n&#233; alla casa; e anzi, cercher&#242; di riparare al danno che voi mi avete detto pi&#249; volte che vi ho fatto entrando in casa vostra.</p>
+                <pb facs="DSCF8471"/>
+                <p>Attender&#242; che il tempo vi faccia perdere il cattivo concetto che avete di me e mi dia campo di dispormi a prender qualche altra risoluzione che prego Dio che mi ispiri se sar&#224; per il meglio.</p>
                 <closer>
-                    <signed><persName></persName>.</signed>
+                    <signed><persName key="mancini-marie">M.M.C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter33c" facs="DSCF8532">
