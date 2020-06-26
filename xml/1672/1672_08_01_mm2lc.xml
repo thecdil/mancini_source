@@ -157,7 +157,7 @@
                     </signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="lletter_1672_08_01_edit" facs="DSCF8469">
+            <div type="letter" xml:id="letter_1672_08_01_edit" facs="DSCF8469">
                 <head type="edit" n="05" xml:lang="it"/>
                 <pb facs="DSCF8470"/>
                 <opener>
@@ -173,20 +173,20 @@
                     <signed><persName key="mancini-marie">M.M.C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter33c" facs="DSCF8532">
-                <head type="translation" n="33" xml:lang="en" />
-                <pb facs="DSCF8533"/>
+            <div type="letter" xml:id="letter_1672_08_01_translation" facs="DSCF8469">
+                <head type="translation" n="05" xml:lang="en" />
+                <pb facs="DSCF8470"/>
                 <opener>
                     <dateline>
-                        <placeName type="annotate" key="turin" xml:id="a1673_08_04_mm2lc" n="1">Turin</placeName>
-                        <date when="1673-08-04">4 August 1673</date>
+                        <placeName key="grenoble">Grenoble</placeName>, 
+                        <date when="1672-08-01">1 August 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8534"/>
-                <p></p>
+                <p>The least you could do is to not send me such a letter as the one my brother delivered to me. You have always been unjust to me, and now you are still trying to blame me for what people are saying about you; I know that no one can truthfully say that I have ever complained about you, regarding the suspicions you mention. Even if I had had them, I would not have been imprudent enough to divulge them, and if I didn't have them, I would not have had the malice to invent them. Saint Simon is a big liar if he says that I complained of anything else about you than the lack of respect and affection that I saw you had for me; and it was he who made me say even that. Apart from that, I do not believe that my departure has compromised you or my sons or the family; on the contrary, I will seek to repair the damage that you have often told me I did when I came into your house.</p>
+                <pb facs="DSCF8471"/>
+                <p>I will wait for time to make you lose the poor opinion you have of me, and to give me the chance to decide on some other plan, which I pray God to inspire in me if it is for the best.</p>
                 <closer>
-                    <signed><persName></persName>.</signed>
+                    <signed><persName key="mancini-marie">M.M.C.</persName>.</signed>
                 </closer>
             </div>
         </body>
