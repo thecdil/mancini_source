@@ -101,6 +101,9 @@
             <change when="2020-06-01" who="#lrm">
                 Initial creation of XML from non-XML electronic files
             </change>
+            <change when="2020-06-29" who="#lrm">
+                Creation of "edit" XML
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -149,21 +152,19 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_03_01_mm2lc_edit" n="25" facs="DSCF8513">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8514"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <placeName key="turin">De thurin</placeName> 
+                        <date when="1673-03-01">ce i mars 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Io non ho dato ordine a Pietro marchese di tornar qua mentre mio fratello se ne dichiara mal soddisfatto n&#233; lo vol piu al suo servizio e io ancor meno ne ho bisogno; circa a quello mi dite poi, ch'io sono partita dalla Francia per godere di maggior libert&#224;, mi meraviglio di questo vostro pensiero mentre mi sono volontariamente rinchiusa in un monastero; se io avessi potuto restar nel Lys non sarei uscita dalla Francia; ma la poca compiacenza del Re ma fatto pigliar questa risoluzione; n&#233; so perch&#233; supponete che io avessi libert&#224; a Nevers mentre nella casa di mio fratello stavo appunto come in un convento; frattanto godo di sentire del miglioramento di Carlino e dando a tutti tre la mia benedizione resto vostra</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
