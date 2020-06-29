@@ -152,21 +152,21 @@
                     <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1672_12_30_mm2lc_edit" n="17" facs="DSCF8496">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8497"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <placeName key="nevers">De Nevers</placeName> 
+                        <date when="1672-12-30">ce 30 d&#233;cembre 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Ricevo a Nevers la vostra del 26 novembre e vedo con mia molta soddisfazione le espressioni affettuose che mi fate; circa i miei desideri vi assicuro che non si allontaneranno dai vostri, quando voi mi continuerete i buoni sentimenti che mi dimostrate; mi ritrovo qui con mio fratello che vi potr&#224; testimoniare in che forma io vivo e in che disposizione mi ritrovo; sento dalla pubblica voce della vostra partenza da Roma e non sapendone il motivo resto sospesa finch&#233; non lo sappia da voi</p>
+                <pb facs="DSCF8498"/>
+                <p>avendo a cuore ogni vostro dispiacere come mio proprio. Non mi dilungher&#242; avanti, non sapendo dove vi trover&#224; questa lettera; resto intanto tutta vostra.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
