@@ -141,22 +141,23 @@
                     <p>ho riceuto la letra del generale per quel frate et ve ne sono molto obligata</p>
                 </postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_02_08_mm2lc_edit" n="22" facs="DSCF8509">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8510"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <placeName key="turin">De thurino</placeName> 
+                        <date when="1673-02-08">ce 8<hi rend="superscript">me</hi>  fev[[rier]] 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
-                <closer>
+                <p>Conforme mi scrivete in una vostra, ho fatto l'ordine in faccia alla contessa per riscuotere il dovuto dei luoghi dei monti; sto aspettando Don Maurizio; e sento da mio fratello, che giunse ieri sera, che il marchese de Bourgomen&#233; gli ha detto che l'aspettava a Milano di giorno in giorno; sento impazienza  grande che quegli giunga per poter dar testimonianza della mia buona condotta, la quale sar&#224; sempre tale che potete desiderare essendo lontana da voi; né mancher&#242; mai a nessuna convenienza che vi devo restando per sempre vostra.</p>
+                <closer rend="ti-4">
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
+                <postscript>
+                    <p>Ho ricevuto la lettera del generale per quel frate e ve ne sono molto obbligata.</p>
+                </postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
