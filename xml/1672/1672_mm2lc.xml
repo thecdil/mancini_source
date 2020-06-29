@@ -107,7 +107,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1672mm2lc_raw" n="01" facs="DSCF8481">
+            <div type="letter" xml:id="letter_1672_mm2lc_raw" n="01" facs="DSCF8481">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
                 Collocazione – II.C.P.1 lettera 1
@@ -156,20 +156,21 @@
                 <note resp="#smn">[[On the right half of the sheet:]]</note>
                 <p>stato un capriccio questa mia resolutione ma piu tosto [[<hi rend="strike">una</hi>]] o cerchato per questo verso di satisfarmi lanimo &#234; viver quieta il resto de miei giorni questo &#234; quanto posso dirvi assicurandovi ch' ritrovarete sempre in me quella cordialita &#234; affetto ch' vi o sempre portato abraccio i ragassi con tutto il core &#234; assicurateli che non mi scordaro <hi rend="superscript">mai</hi> di loro</p>
             </div>
-            <div type="letter" xml:id="letter33b" facs="DSCF8532">
-                <head type="edit" n="33" xml:lang="it" />
-                <pb facs="DSCF8533"/>
+            <div type="letter" xml:id="letter_1672_mm2lc_edit" facs="DSCF8481">
+                <head type="edit" n="01" xml:lang="it" />
+                <pb facs="DSCF8482"/>
+                <pb facs="DSCF8483"/>
                 <opener>
                     <dateline>
-                        <placeName>Da Torino</placeName>
-                        <date when="1673-08-04">il 4 agosto 1673</date>
+                        <placeName></placeName>
+                        <date></date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8534"/>
-                <p></p>
+                <p>Sopra quanto mi &#232; stato riferito da vostra parte vi dir&#242; che non ricuso le offerte che mi fate, al contrario avr&#242; gusto nel far apparir al mondo che voi sempre mi considerate; in quanto poi alla risoluzione che ho preso di ritirarmi in Francia, non &#232; stata causata che dai sospetti che ho avuto della mia poca salute, unito anche a quel che mio fratello ha detto pi&#249; volte a me e ad altri, cio&#232; dei disegni che voi avevate contro di me. Potrei dire anche delle altre cose ma le tacer&#242; tutte quando voi non vogliate che le faccia apparir al mondo; e per&#242; accetter&#242; volontieri tutte le bont&#224; che volete avere per me, n&#233; dovete dubitare mai che, in qualunque loco ove io sia, non vi renda buon conto della mia persona. Vi far&#242; conoscere che non &#232;</p>
+                <pb facs="DSCF8484"/>
+                <p>stato un capriccio questa mia risoluzione ma piuttosto ho cercato, per questo verso, di soddisfarmi l'animo e vivere quieta il resto dei miei giorni. Questo &#232; quanto posso dirvi, assicurandovi che ritroverete sempre in me quella cordialit&#224; e affetto che vi ho sempre portato. Abbraccio i ragazzi con tutto il cuore, rassicurateli che non mi scorder&#242; mai di loro.</p>
                 <closer>
-                    <signed><persName></persName>.</signed>
+                    <signed><persName></persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter33c" facs="DSCF8532">
