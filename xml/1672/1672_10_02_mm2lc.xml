@@ -152,21 +152,21 @@
                     <signed rend="ti-3"><persName key="mancini-marie">M. M. Colonna</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1672_10_02_mm2lc_edit" n="08" facs="DSCF8472">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8473"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <placeName key="lys">Del Lys</placeName>, 
+                        <date when="1672-10-02">il 2 ottobre 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Andrea ritornando a Roma, non ho voluto mancar di scrivervi e pregarvi di volerlo rimetter al servizio di Marcantonio, conforme era avanti partisse; mando certe robe ai ragazzi come anche un abito grigio per la duchessa di Bassanello che le potrete presentar in mio nome; io mi trattengo tuttavia nel monasterio di Lys;  n&#233; so se &#232; vostra intenzione che io vada anche pi&#249; lontano di Parigi; mentre non vedo nessuno qua come se fossi a cento leghe dalla corte; ritrovo ben maggior</p>
+                <pb facs="DSCF8474"/>
+                <p>comodit&#224; di esser distante solo tredici leghe, perch&#232; posso aver piu prontamente tutto quello che desidero per vestirmi e per altro che mi fa di bisogno; del resto non pretendo altro da Parigi; fatemi saper se &#232; vostra intenzione e credetemi sempre vostra.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed rend="ti-2"><persName key="mancini-marie">M. M. Colonna</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
