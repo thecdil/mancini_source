@@ -103,6 +103,9 @@
             <change when="2020-05-29" who="#lrm">
                 Corrections and updated tag information
             </change>
+            <change when="2020-06-29" who="#lrm">
+                Creation of "edit" and "translation" files
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>

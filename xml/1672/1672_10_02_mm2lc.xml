@@ -100,6 +100,9 @@
             <change when="2020-05-28" who="#lrm">
                 Initial creation of XML from non-XML electronic files
             </change>
+            <change when="2020-06-29" who="#lrm">
+                Creation of "edit" file
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
