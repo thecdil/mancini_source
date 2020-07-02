@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 465 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1675_04_17_mm2lc" type="letter" n="465">lett 465 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1675-04-17">April 17 1675</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1675-04-17">April 17 1675</origDate>
+                            <origPlace>
+                                <placeName key="madrid">Madrid</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        The archive incorrectly labels this letter with date 1675-04-15. The correct date is 1675-04-17.
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-07-02" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1675_04_17_mm2lc_raw" n="465" facs="DSCF8741">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 465
+                Lettere di Maria Mancini – 1675
+                Numero d'ordine – 
+                
+                D. Maria Colonna-Mancini –
+                
+                =
+                
+                Lettera al Contestabile Colonna
+                in data 15 [[actually 17]] Aprile 1675 da Madrid
+                Sigilli – tutta di pugno –
+                
+                oggetto:
+                </note>
+                <note resp="#smn">
+                [[In the bottom right corner of the card is written in pencil: "16750024 – 26".]]   
+                </note>
+                <pb facs="DSCF8742"/>
+                <note resp="#smn">
+                [[The image is a page of writing 15 cm wide; this first page of the letter and the second page are a single sheet, folded booklet-style in the middle.]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="madrid">de madrid</placeName> 
+                        <date when="1675-04-17">ce 17<hi rend="superscript">me</hi> avril 1675</date>
+                    </dateline>
+                </opener>
+                <p>Savete trovato le mie letre ultime differenti dalle prime non [[Marie first wrote something else--maybe "cre"--and then wrote "non" over it]] vi dovete turbar non piu che maravigliar mentre gli accidenti per lo piu fanno mutar di sentimenti la pocha salute che godevo, la mutatione d'altro governatore in fiandra, il posto ch'avevo ottenuto per il figliolo, l'istate che savicina, tutte queste ragione mi avevano spinto a farve tal proposta ma gia che vi, &#233; parsa ridicola no ne parlamo piu; quanto posso dirvi, &#233; ch'io certo questa istate non posso durar qui dentro, &#233; gia ch'io pensavo stare in convento la, mi pareva piu conveniente per voi che di stare in casa di qualque parente qua. in quanto poi che il figliolo non possi pigliare il possesso</p>
+                <pb facs="DSCF8743"/>
+                <note resp="#smn">
+                [[The image is a page of writing 15 cm wide; the first page of the letter and this second page are a single sheet, folded booklet-style in the middle.]]    
+                </note>
+                <p>prima di [[<hi rend="strike">de</hi>]] sedeci anni io non rispondo a questo; solo posso dirvi ch'[[something crossed out--maybe "imca"]] in cambio di guadagnare perderemo mentre il soldo no lo tochara che non siano le compagnie in piedi. la corte parte domani per Aranjuez [[Marie first wrote "aranjuez" and then changed the lower-case "a" to a capital]] dove stara vinti giorni non si cessano tutta [[Marie first wrote "tutte" and then changed the "e" to "a"]] via le diligense per la cavalcata, e imbacciata d'alemania. godo [[Marie first wrote "io" and then wrote "godo" over it]] di sentir che pippo sia cosi tenero per me, &#233; che di piu abia cosi buone parte, abraciatelo in mio nome come farete anche l'altri due &#233; dandoli a tutti tre la mia beneditione mi sottoscrivo al solito vostra</p>
+                <closer>
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <note resp="#smn">
+                [[A blank space equal to one line's worth, and then more writing:]]
+                </note>
+                <postscript>
+                    <p>mando dui ventagli per il corriero traordinario ne potrete dare <hi rend="superscript">uno</hi> alla duchessa di bassanello, &#233; laltro alla principissa de sonnino sono dindia stimatisimi, &#233; li piu belli che si siano mai visti adio</p>
+                </postscript>
+                <pb facs="DSCF8744"/>
+                <note resp="#smn">
+                [[The image shows the address with two red wax seals. If the paper were opened flat, it would have the first page of the letter on the right side and the rectangularly folded paper on the left side, with address written:
+                A monsieur
+                Conestable Colonna
+                Roma
+                the 2 red wax seals to the left and the right of the address]]
+                </note>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+                <head type="edit" xml:lang="fr" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed></signed>.
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8222"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-07-14">14 July</date>
+                    </dateline>
+                </opener>
+                <p></p>
+                <pb facs="DSCF8223"/>
+                <p></p>
+                <closer>
+                    <salute></salute>
+                    <signed>
+                        <persName key="marie-mancini"></persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
