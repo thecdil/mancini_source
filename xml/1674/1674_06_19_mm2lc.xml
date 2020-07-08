@@ -147,7 +147,7 @@
                 <note resp="#smn">
                 [[On the left half of the sheet, turned 90&#xb0;:]]    
                 </note>
-                <p>perche doppo il mal termine che a usato con me procurara anche ch' tutti seguitino [[one letter crossed out]] l'esempio suo sino adesso ognuno fa il contrario, perche in effetto non esempio da seguitar. spero che ritrovaro vostre letre in madrid pero abraciate i figlioli, &#233; siate <hi rend="superscript">sempre</hi> certo del mio affetto</p>
+                <p>perche doppo il mal termine che a usato con me procurara anche ch' tutti seguitino [[one letter crossed out]] l'esempio suo sino adesso ognuno fa il contrario, perche in effetto non esempio da seguitar. spero che ritrovaro vostre letre in madrid pero abraciate i figlioli, &#233; siate <hi rend="sup">sempre</hi> certo del mio affetto</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -165,7 +165,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

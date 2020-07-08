@@ -147,7 +147,7 @@
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
                 </note>
-                <p>monti overo pare<hi rend="superscript">n</hi>dovi piu espediente pigliarli questi mille doble di quel denaro ch'o in regno per sodisfare a quanto a don mauritio o detto in voce de mio gusto et di vostra sodisfactione et qui resto vostra sempre</p>
+                <p>monti overo pare<hi rend="sup">n</hi>dovi piu espediente pigliarli questi mille doble di quel denaro ch'o in regno per sodisfare a quanto a don mauritio o detto in voce de mio gusto et di vostra sodisfactione et qui resto vostra sempre</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -165,7 +165,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

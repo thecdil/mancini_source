@@ -133,7 +133,7 @@
                 <opener>
                     <dateline>
                         <placeName key="madrid">de madrid</placeName> 
-                        <date when="1675-04-17">ce 17<hi rend="superscript">me</hi> avril 1675</date>
+                        <date when="1675-04-17">ce 17<hi rend="sup">me</hi> avril 1675</date>
                     </dateline>
                 </opener>
                 <p>Savete trovato le mie letre ultime differenti dalle prime non [[Marie first wrote something else--maybe "cre"--and then wrote "non" over it]] vi dovete turbar non piu che maravigliar mentre gli accidenti per lo piu fanno mutar di sentimenti la pocha salute che godevo, la mutatione d'altro governatore in fiandra, il posto ch'avevo ottenuto per il figliolo, l'istate che savicina, tutte queste ragione mi avevano spinto a farve tal proposta ma gia che vi, &#233; parsa ridicola no ne parlamo piu; quanto posso dirvi, &#233; ch'io certo questa istate non posso durar qui dentro, &#233; gia ch'io pensavo stare in convento la, mi pareva piu conveniente per voi che di stare in casa di qualque parente qua. in quanto poi che il figliolo non possi pigliare il possesso</p>
@@ -150,7 +150,7 @@
                 [[A blank space equal to one line's worth, and then more writing:]]
                 </note>
                 <postscript>
-                    <p>mando dui ventagli per il corriero traordinario ne potrete dare <hi rend="superscript">uno</hi> alla duchessa di bassanello, &#233; laltro alla principissa de sonnino sono dindia stimatisimi, &#233; li piu belli che si siano mai visti adio</p>
+                    <p>mando dui ventagli per il corriero traordinario ne potrete dare <hi rend="sup">uno</hi> alla duchessa di bassanello, &#233; laltro alla principissa de sonnino sono dindia stimatisimi, &#233; li piu belli che si siano mai visti adio</p>
                 </postscript>
                 <pb facs="DSCF8744"/>
                 <note resp="#smn">
@@ -167,7 +167,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

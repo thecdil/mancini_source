@@ -137,7 +137,7 @@
                 <note resp="#smn">
                 [[The image is a page of writing 15 cm wide; the first page of the letter and this second page are a single sheet, folded booklet-style in the middle.]]    
                 </note>
-                <p>decensa che si deve; &#233; crediate che piu tosto mi sacrificaro a star rinchiusa tutto il tempo di <hi rend="superscript">vita</hi> mia, che far niente che sia contro il decoro, &#233; la conveniensa: no o ancora riceuto vostre letre per l'hordinario ma avendone riceute per lo staordinario mi consolo con la certesa che o de la vostra salute, &#233; de i figlioli quali abracio teneramente, &#233; mi confermo qual sempre sono vostra</p>
+                <p>decensa che si deve; &#233; crediate che piu tosto mi sacrificaro a star rinchiusa tutto il tempo di <hi rend="sup">vita</hi> mia, che far niente che sia contro il decoro, &#233; la conveniensa: no o ancora riceuto vostre letre per l'hordinario ma avendone riceute per lo staordinario mi consolo con la certesa che o de la vostra salute, &#233; de i figlioli quali abracio teneramente, &#233; mi confermo qual sempre sono vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -155,7 +155,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

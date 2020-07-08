@@ -140,10 +140,10 @@
                 <opener>
                     <dateline>
                         <placeName key="turin">De thurin</placeName>
-                        <date when="1673-01-26">ce 26<hi rend="superscript">me</hi>ian[[vier]] 1673</date>
+                        <date when="1673-01-26">ce 26<hi rend="sup">me</hi>ian[[vier]] 1673</date>
                     </dateline>
                 </opener>
-                <p>Pietro marquese retornandosene a Roma potra raguagliarvi [[something crossed out, maybe "del"]] <hi rend="superscript">il mio arrivo in questa citt&#224; dove mi ritrovo in un convento [[something crossed out]] <hi rend="superscript">&#233;</hi> me <hi rend="superscript">ce</hi> tratterro fin ch' dio minspiri altramente; sarei stata a nevers con mio fratello et sua moglie se mi fusse stato concesso; ma gia che avete mostrato tanta ansieta che susse for di francia son venuta in italia per darvi questa sodisfactione; et per farvi conoscer la mia indiferensa; [[something crossed out]] assicurandovi ch'in ogni [[loguo?]] saro sempre l'istessa per voi</p>
+                <p>Pietro marquese retornandosene a Roma potra raguagliarvi [[something crossed out, maybe "del"]] <hi rend="sup">il mio arrivo in questa citt&#224; dove mi ritrovo in un convento [[something crossed out]] <hi rend="sup">&#233;</hi> me <hi rend="sup">ce</hi> tratterro fin ch' dio minspiri altramente; sarei stata a nevers con mio fratello et sua moglie se mi fusse stato concesso; ma gia che avete mostrato tanta ansieta che susse for di francia son venuta in italia per darvi questa sodisfactione; et per farvi conoscer la mia indiferensa; [[something crossed out]] assicurandovi ch'in ogni [[loguo?]] saro sempre l'istessa per voi</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -155,7 +155,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

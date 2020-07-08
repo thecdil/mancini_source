@@ -130,7 +130,7 @@
                 <opener>
                     <dateline>
                         <placeName key="turin">de thurin</placeName>
-                        <date when="1673-02-07">ce 7<hi rend="superscript">me</hi>fev[[rier]] 1673</date>
+                        <date when="1673-02-07">ce 7<hi rend="sup">me</hi>fev[[rier]] 1673</date>
                     </dateline>
                 </opener>
                 <p>Mon frere est arriv&#233; quy ma rendu vostre letre ie vous suis fort oblig&#233; Monsieur du parti avantageux que vous moffres il met d'autant plus sensible comme ie suis persuade; que vous naves dautre veue que celle de mon bien et de ma satisfaction iy fairey des Refecsions serieuses en attandant ie vous suplie Monsieur de [[something crossed out]] conserver tousiours [[<hi rend="strike">vos</hi>]] les mesmes santimans de bonte et de confiance a celle quy espere les reconoitre par les temoignages de son estime la Conestable Colonna</p>
@@ -146,7 +146,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

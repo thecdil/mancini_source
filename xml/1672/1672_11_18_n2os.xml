@@ -125,7 +125,7 @@
                 <opener>
                     <dateline>
                         <placeName key="avenay">dAvenaj</placeName>
-                        <date when="1672-11-18">ce 18<hi rend="superscript">me</hi>novambre 1672</date>
+                        <date when="1672-11-18">ce 18<hi rend="sup">me</hi>novambre 1672</date>
                     </dateline>
                 </opener>
                 <salute>Madame</salute>
@@ -156,7 +156,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

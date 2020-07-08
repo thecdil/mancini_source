@@ -132,10 +132,10 @@
                 <opener>
                     <dateline>
                         <placeName key="antwerp">d'anvers</placeName> 
-                        <date when="1673-12-15">ce 15<hi rend="superscript">me</hi> dece[[mbre]] 1673</date>
+                        <date when="1673-12-15">ce 15<hi rend="sup">me</hi> dece[[mbre]] 1673</date>
                     </dateline>
                 </opener>
-                <p>Oliva non avendo visto letre vostre, et <hi rend="superscript">percio</hi> temendo che non habiate aprovato la mia venuta s&#232; licentiato subitto ne io l'o possuto impedir di partir pero se lo potete far ritornar io naverei gusto, non avendo nessuno apresso di me, tra tanto io me <hi rend="superscript">ne</hi> sto quy nella cittadella d'anvers con ordine del governatore ch'io non esca ne anche o possuto veder la citta per amor de dio, et per il bene che mi</p>
+                <p>Oliva non avendo visto letre vostre, et <hi rend="sup">percio</hi> temendo che non habiate aprovato la mia venuta s&#232; licentiato subitto ne io l'o possuto impedir di partir pero se lo potete far ritornar io naverei gusto, non avendo nessuno apresso di me, tra tanto io me <hi rend="sup">ne</hi> sto quy nella cittadella d'anvers con ordine del governatore ch'io non esca ne anche o possuto veder la citta per amor de dio, et per il bene che mi</p>
                 <pb facs="DSCF8567"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
@@ -144,7 +144,7 @@
                 <note resp="#smn">
                 [[On the left half of the sheet, turned 90&#xb0;:]]    
                 </note>
-                <p>per amor de miei figli li quali abraccio teneramente, et li mando un stuccio per uno, et uno altro per voi <hi rend="superscript">et</hi> resto piu que mai vostra   </p>
+                <p>per amor de miei figli li quali abraccio teneramente, et li mando un stuccio per uno, et uno altro per voi <hi rend="sup">et</hi> resto piu que mai vostra   </p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -157,7 +157,7 @@
                     <note resp="#smn">
                     [[On the left half of the sheet, along the top edge, written upside down relative to the writing on the right half of the sheet:]]
                     </note>
-                    <p>nuta sensa saper dove dar la testa; il governatore regolandosi dal primo <hi rend="superscript">ordine</hi> ch' [[something crossed out]] hebbe dalla regina</p>
+                    <p>nuta sensa saper dove dar la testa; il governatore regolandosi dal primo <hi rend="sup">ordine</hi> ch' [[something crossed out]] hebbe dalla regina</p>
                 </postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
@@ -166,7 +166,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

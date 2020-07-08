@@ -124,7 +124,7 @@
                 <opener>
                     <dateline>
                         <placeName key="avenay">D avenay</placeName>
-                        <date when="1672-10-29">ce 29<hi rend="superscript">me</hi>octo[[bre]] 1672</date>
+                        <date when="1672-10-29">ce 29<hi rend="sup">me</hi>octo[[bre]] 1672</date>
                     </dateline>
                 </opener>
                 <p>Je vous ey deia mand&#233; que ie party de grenoble en intantion de voir le Roy, pour luy parler une fois et apres ie me ser&#233; mise dans un couvent a paris ou a chelles quy et a quatre lieux afin de pouvoir voir mes parants et avoir plus facilement tout ce que iaures eu affaire; cestoit la mon dessein le croy quy voudra; mais le Roy ayant prevenu ma volonte mobligea a entrer dans le lys et ne volut point me permetre de le voir ny d'aler a paris; et du depuis; il ma fait quitter le lys pour aler a avenay quy et plus loing de 25 lieux de paris que le lys; ou ie suis asse indisposse l'air estant fort mechant et le lieu si desert quon ne peut avoir rien de tout ce que lon sohaitte; et</p>
@@ -148,7 +148,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

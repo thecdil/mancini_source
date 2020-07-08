@@ -136,10 +136,10 @@
                 <opener>
                     <dateline>
                         <placeName key="madrid">madrid</placeName>
-                        <date when="1674-06-09">ce 9<hi rend="superscript">me</hi> iuin 167[[4]]</date>
+                        <date when="1674-06-09">ce 9<hi rend="sup">me</hi> iuin 167[[4]]</date>
                     </dateline>
                 </opener>
-                <p>Je ney point receu des vos letres il y a lontans ny rien de tout ce que vous maves envoye ie voudrois une petite boitte d'huille de fleur d'orange, et de iasmin, et un [[<hi rend="strike">petit</hi>]] portrait [[<hi rend="strike">de</hi>]] en petit de moy que vous faires coiffer, et habiller al espagnole, et me l'envoyres dans une letre comme vous aves fait des autres, ie ney plus de nature de [[bolene?]] M<hi rend="superscript">r</hi> Conestable dit me l'avoir [[the first two letters of “avoir” seem to have been "en" first, and then "av" was written over them]] envoye mais ie nel ey point veue, repares sa [["la" seems to have been turned into "sa"]] faute en m'en [[something crossed out]] faisant tenir d'autre prontement. adieu croyes moy tousiours fort a vous la conestable</p> 
+                <p>Je ney point receu des vos letres il y a lontans ny rien de tout ce que vous maves envoye ie voudrois une petite boitte d'huille de fleur d'orange, et de iasmin, et un [[<hi rend="strike">petit</hi>]] portrait [[<hi rend="strike">de</hi>]] en petit de moy que vous faires coiffer, et habiller al espagnole, et me l'envoyres dans une letre comme vous aves fait des autres, ie ney plus de nature de [[bolene?]] M<hi rend="sup">r</hi> Conestable dit me l'avoir [[the first two letters of “avoir” seem to have been "en" first, and then "av" was written over them]] envoye mais ie nel ey point veue, repares sa [["la" seems to have been turned into "sa"]] faute en m'en [[something crossed out]] faisant tenir d'autre prontement. adieu croyes moy tousiours fort a vous la conestable</p> 
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">Colonna</persName></signed>
@@ -151,7 +151,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

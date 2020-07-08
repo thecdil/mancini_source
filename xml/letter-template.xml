@@ -124,7 +124,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">a grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi>[[iullect?]]</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi>[[iullect?]]</date>
                     </dateline>
                 </opener>
                 <p></p>
@@ -148,7 +148,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

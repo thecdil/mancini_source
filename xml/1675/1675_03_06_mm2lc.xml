@@ -141,7 +141,7 @@
                 <opener>
                     <dateline>
                         <placeName key="madrid">de madrid</placeName>
-                        <date when="1675-03-06">li [[Marie first wrote "le" and then changed the "e" to "i"]] 6<hi rend="superscript">me</hi> marzo 1675</date>
+                        <date when="1675-03-06">li [[Marie first wrote "le" and then changed the "e" to "i"]] 6<hi rend="sup">me</hi> marzo 1675</date>
                     </dateline>
                 </opener>
                 <p>non potei scrivervi per lo strahordinario perche stavo molto male del dolor del braccio che mi tiene ancora a letto, mi an cacciato gia quatro volte sangue del [[<hi rend="strike">braccio</hi>]] piede presto mi purgaro ne so se potro guarir con tuste queste diligense essendo un dolor molto ostinato, mi pesa solo que la Regina deve entrar qua presto, &#233; temo non esser in stato di poterla vedere faro pero ogni sforso</p>
@@ -149,11 +149,11 @@
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
                 </note>
-                <p>afin di servirvi nella maniera che vi o promesso pero voi ancora cercate dincontrare il mio <hi rend="superscript">gusto</hi> che non ci perderete niente al contrario ne tirarete sempre maggior vantaggio piu vi fo instansa adesso perche o un pretesto onorevole del figliolo, &#233; di piu la poca salute che godo ora in madrid mi fa [[<hi rend="strike">desiderare</hi> plus another word crossed out]] magiormente <hi rend="superscript">desiderare</hi> il partirne, qui aclusa riceverete una che la priora di questo con</p>
+                <p>afin di servirvi nella maniera che vi o promesso pero voi ancora cercate dincontrare il mio <hi rend="sup">gusto</hi> che non ci perderete niente al contrario ne tirarete sempre maggior vantaggio piu vi fo instansa adesso perche o un pretesto onorevole del figliolo, &#233; di piu la poca salute che godo ora in madrid mi fa [[<hi rend="strike">desiderare</hi> plus another word crossed out]] magiormente <hi rend="sup">desiderare</hi> il partirne, qui aclusa riceverete una che la priora di questo con</p>
                 <note resp="#smn">
                 [[On the left half of the sheet, turned 90&#xb0;:]]    
                 </note>
-                <p>vento scrive al generale la quale li darete in <hi rend="superscript">man</hi> propria, &#233; di piu doppo avervela fatta legere <hi rend="superscript">li</hi> farete instansa caldamente sopro quello desidera la priora il quale, &#233; molto ragionevole, ed'io sono testimonio delli strapazi che tutto il giorno riceve da questi frati &#233; con questo mi sottoscrivo al solito abraciando i figlioli per sempre vostra</p>
+                <p>vento scrive al generale la quale li darete in <hi rend="sup">man</hi> propria, &#233; di piu doppo avervela fatta legere <hi rend="sup">li</hi> farete instansa caldamente sopro quello desidera la priora il quale, &#233; molto ragionevole, ed'io sono testimonio delli strapazi che tutto il giorno riceve da questi frati &#233; con questo mi sottoscrivo al solito abraciando i figlioli per sempre vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -165,7 +165,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>

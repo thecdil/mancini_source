@@ -138,7 +138,7 @@
                 <note resp="#smn">
                 [[The image is a page of writing 15 cm wide; the first page of the letter and this second page are a single sheet, folded booklet-style in the middle.]]    
                 </note>
-                <p>sapete che con il cardinal colonna che era l'homo el mas sofrido non pote durare, o considerate con me che sono dun temperamento piu ardente. [[<hi rend="strike">se non</hi>]] qui poi non si sa dove dar la testa io non posso escire per dirle mie ragione ne sono cose da poter dire a la Regina ne ministri pero scriveteme fixamente la vostra ultima resolutione circa milano accio possa partire prontamente, &#233; se avete dificolta in questa citta tanto mi risolvero venire a Rologna per uscir di qua, e star piu vicino a <hi rend="superscript">voi</hi> e, non dipender da <hi rend="superscript">altri</hi>, che certo se vedeste lo stato che sto, &#233; la poca consolatione che ricevo dal Almirante e altri parenti vi farei pieta abiatela in consolarmi quanto prima e crediate, che sara meglio per tutti adio son vostra</p>
+                <p>sapete che con il cardinal colonna che era l'homo el mas sofrido non pote durare, o considerate con me che sono dun temperamento piu ardente. [[<hi rend="strike">se non</hi>]] qui poi non si sa dove dar la testa io non posso escire per dirle mie ragione ne sono cose da poter dire a la Regina ne ministri pero scriveteme fixamente la vostra ultima resolutione circa milano accio possa partire prontamente, &#233; se avete dificolta in questa citta tanto mi risolvero venire a Rologna per uscir di qua, e star piu vicino a <hi rend="sup">voi</hi> e, non dipender da <hi rend="sup">altri</hi>, che certo se vedeste lo stato che sto, &#233; la poca consolatione che ricevo dal Almirante e altri parenti vi farei pieta abiatela in consolarmi quanto prima e crediate, che sara meglio per tutti adio son vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -150,7 +150,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="superscript">me</hi> juillet</date>
+                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
                 <p></p>
