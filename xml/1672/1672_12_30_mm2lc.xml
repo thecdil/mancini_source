@@ -72,9 +72,12 @@
                                 </extent>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="1">
+                        <handDesc hands="2">
                             <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
+                            </handNote>
+                            <handNote xm:id="unk">
+                                Secretary or archivist
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -134,7 +137,7 @@
                 + 2 red wax seals]]
                 </note>
                 <note resp="#smn">
-                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, appears to be written the date—probably written by an archivist or a secretary? The ink looks similar to Marie’s ink.]]    
+                [[Along the bottom edge of the left side of the paper, is written the date by an archivist or secretary. The ink looks similar to Marie’s ink.]]    
                 </note>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]   
@@ -145,7 +148,7 @@
                         <date when="1672-12-30">ce 30<hi rend="sup">me</hi>decem[bre] 1672</date>
                     </dateline>
                 </opener>
-                <p>Ricevo la vostra a nivers delli 26 novembre &#233; vedo con mia molta sodisfactione l'espresioni affetuose che mi fate, circa li miei desideri vi assicuro che non sallontanaranno da [[<hi rend="strike">l</hi>]] i vostri, quando voi <hi rend="sup">mi</hi> continuarete [[something crossed out]] i buoni sentimenti che mi dimostrate; mi ritrovo quy con mio fratello ch&#233; vi potra testimoniare in che forma io vivo et in che dispotitione mi ritrovo; sento dalla publica voce la votra partensa di Roma &#233; non sapendo il motivo; resto sospesa fin que lo sapia da voi</p>
+                <p>Ricevo la vostra a nivers delli 26 novembre &#233; vedo con mia molta sodisfactione l'espresioni affetuose che mi fate, circa li miei desideri vi assicuro che non sallontanaranno da [[<hi rend="strike">l</hi>]] i vostri, quando voi <hi rend="sup">mi</hi> continuarete [[something crossed out]] i buoni sentimenti che mi dimostrate; mi ritrovo quy con mio fratello che vi potra testimoniare in che forma io vivo et in che dispotitione mi ritrovo; sento dalla publica voce la votra partensa di Roma &#233; non sapendo il motivo; resto sospesa fin que lo sapia da voi</p>
                 <pb facs="DSCF8498"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    

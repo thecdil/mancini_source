@@ -72,9 +72,12 @@
                                 </extent>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="1">
+                        <handDesc hands="2">
                             <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
+                            </handNote>
+                            <handNote xml:id="unk">
+                                Secretary or archivist, not Marie's hand.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -119,7 +122,7 @@
                 =
 
                 Lettera al Contestabile Colonna
-                in data	23 Settembre 1672 da Lys
+                in data	23 Settembre 1672 dal Lys
                 Sigillo – tutta di pugno –
 
                 oggetto:
@@ -134,7 +137,7 @@
                 + 1 red wax seal]]
                 </note>
                 <note resp="#smn">
-                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, appears to be written the date—probably written by an archivist or a secretary? The ink looks similar to Marie's ink.]] 
+                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or a secretary. The ink looks similar to Marie's ink.]] 
                 </note>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]  
@@ -145,7 +148,7 @@
                         <date when="1672-09-23">li 23 sep[[tembre]] 1672</date>
                     </dateline>
                 </opener>
-                <p>Sono arivate le donne con le Robbe le quali manno recata molta consolatione; di veder che in questa occasion habiate ricontrato con gusto la mia sodisfatione; non mancaro d'averne cura et particolarmente di Maria Madalena la quale sta in loco da poter deventar santa se vole; questo monasterio essendo un esempio di vertu; dove credo non vi potrete lamentar della mia condotta; essendo tale che li miei nemici stessi saranno obligati di lodarla; spero che ne sarete contento &#233; que sempre piu averete campo di dimostrarmi la stima che sino hora mavete negata assicurandovi ch'eternamente ne conservero [[something crossed out]] verso di voi; vi pacco</p>
+                <p>Sono arivate le donne con le Robbe le quali manno recata molta consolatione; di veder che in questa occasion habiate ricontrato con gusto la mia sodisfatione; non mancaro d'averne cura et particolarmente di maria madalena la quale sta in loco da poter deventar santa se vole; questo monasterio essendo un esempio di vertu; dove credo non vi potrete lamentar della mia condotta; essendo tale che li miei nemici stessi saranno obligati di lodarla; spero che ne sarete contento &#233; que sempre piu averete campo di dimostrarmi la stima che sino hora mavete negata assicurandovi ch'eternamente ne conservero [[something crossed out]] verso di voi; vi racco</p>
                 <pb facs="DSCF8477"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]
