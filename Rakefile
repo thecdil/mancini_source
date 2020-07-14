@@ -13,10 +13,26 @@ task :letters do
         output_name = lettername + ".html"
 
         # read the xml with Nokogiri
-
         doc = Nokogiri::XML(File.read(xmlname))
 
-        # do annotations first
+        # open new file
+        newdoc = File.new(output_name, 'w')
+
+        # frontmatter
+        def frontmatter(letter, number, auth, pers, date)
+            "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\ndate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n"
+        end
+
+        key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
+        n = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n")
+        author = doc.css('teiHeader fileDesc sourceDesc bibl author').text
+        persname = doc.css('teiHeader fileDesc sourceDesc bibl persName').text
+        date = doc.css('teiHeader fileDesc sourceDesc bibl date').attr("when")
+
+        # add frontmatter to newdoc first
+        newdoc << frontmatter(key, n, author, persname, date)
+
+        # do annotations
         doc.css('p').children.each do |node|
             if node['type']
             node.name = 'a'
@@ -50,34 +66,16 @@ task :letters do
         end
 
          # text emphasis
- 
         doc.css('hi').each do |node|
             rend = node['rend']
             node.name = rend
             node.delete('rend')
         end
 
-        # open new file
-        newdoc = File.new(output_name, 'w')
-
-        # add content
-        # frontmatter
-        def frontmatter(letter, number, auth, pers, date)
-            "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\ndate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n"
-        end
-
-        key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
-        n = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n")
-        author = doc.css('teiHeader fileDesc sourceDesc bibl author').text
-        persname = doc.css('teiHeader fileDesc sourceDesc bibl persName').text
-        date = doc.css('teiHeader fileDesc sourceDesc bibl date').attr("when")
-
-        # add frontmatter first
-        newdoc << frontmatter(key, n, author, persname, date)
-
         # remove unused nodes
         doc.css('TEI teiHeader').remove
         doc.css('note').remove
+        
         # add container
         doc.css('TEI text').each do |node|
             new_node = doc.create_element 'div'
@@ -85,6 +83,12 @@ task :letters do
             node.replace new_node
             new_node['class'] = 'container py-4'
         end
+
+        doc.css('div body').each do |node|
+            node.wrap("<div class='row my-4'>\n</div>")
+            node.wrap("<div class='col-md-8'></div>")
+        end
+
         # add tab section div
         doc.css('div body').each do |node|
             new_node = doc.create_element 'div'
@@ -94,8 +98,12 @@ task :letters do
             new_node['id'] = 'myTabContent'
             # add letter-top include
             letter_include = '{% include letter_top.html %}'
-            new_node.before letter_include + "\n"
+            new_node.before "\n" + letter_include + "\n"
         end
+
+        # remove xml namespace
+        doc.remove_namespaces!
+
         # add tab div
         doc.css('div').each do |node|
             if node['type']
@@ -109,16 +117,31 @@ task :letters do
             node.delete('facs')
             end
         end
+
         # add heading
         doc.css('head').each do |node|
             new_node = doc.create_element 'h4'
-            new_node.inner_html = node['type']
+            type = node['type'].to_s.capitalize
+            language = node['lang'].to_s
+            case language
+            when "en"
+                full_lang = "English"
+            when "it"
+                full_lang = "Italian"
+            when  "fr"
+                full_lang = "French"
+            when "sp"
+                full_lang = "Spanish"
+            end
+            new_node.inner_html = type + " (" + full_lang + ")"
             node.replace new_node
             new_node['class'] = 'mb-3'
         end
+
         # remove pb (temporary?)
         doc.css('pb').remove
-        # dateline element to paragraph, define paragraph method
+
+        # define paragraph method
         def paragraph(doc, element)
             element.each do |node|
                 new_node = doc.create_element 'p'
@@ -126,31 +149,37 @@ task :letters do
                 node.replace new_node
             end
         end
+
+        # define node removal method
+        def node_removal(node_removed)
+            node_removed.each do |node|
+                node_content = node.inner_html
+                node.before node_content
+                node.remove
+            end
+        end
+
+        # dateline element to paragraph
         dateline = doc.css('dateline')
         paragraph(doc, dateline)
-        # date content to text
-        doc.css('opener date').each do |node|
-            unless node['type']
-                node_content = node.inner_html
-                node.before node_content
-                node.remove
-            end
-        end
-        # remove opener element, define node removal method
-        def node_removal(node_removed)
-                node_removed.each do |node|
-                node_content = node.inner_html
-                node.before node_content
-                node.remove
-            end
-        end
+
+        # date element to text
+        date_opener = doc.css('opener date')
+        node_removal(date_opener) unless date_opener.attr('type')
+
+        # remove opener element
         opener = doc.css('opener')
         node_removal(opener)
+
         # salute and signed elements to paragraph
         salute = doc.css('salute')
         signed = doc.css('signed')
         paragraph(doc, salute)
         paragraph(doc, signed)
+
+        doc.css('closer p').each do |node|
+            node['class'] = 'text-right'
+        end
         # remove closer element
         closer = doc.css('closer')
         node_removal(closer)
