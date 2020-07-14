@@ -4,7 +4,7 @@ desc "Use nokogiri to generate HTML pages from TEI xml"
 task :letters do 
 
     # iterate over all XML files in input dir
-    Dir.glob("xml/1600/*.xml").each do |xmlname|
+    Dir.glob("xml/*/*.xml").each do |xmlname|
         names = xmlname.split("/")
         filename = names[2]
         lettername = filename.split(".").first
