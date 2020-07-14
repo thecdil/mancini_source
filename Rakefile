@@ -4,7 +4,7 @@ desc "Use nokogiri to generate HTML pages from TEI xml"
 task :letters do 
 
     # iterate over all XML files in input dir
-    Dir.glob("testfolder/*.xml").each do |xmlname|
+    Dir.glob("xml/*/*.xml").each do |xmlname|
         names = xmlname.split("/")
         filename = names[1]
         lettername = filename.split(".").first
@@ -16,11 +16,11 @@ task :letters do
         doc = Nokogiri::XML(File.read(xmlname))
 
         # open new file
-        newdoc = File.new(output_name, 'w')
+        newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
         def frontmatter(letter, number, auth, pers, date)
-            "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\ndate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n"
+            "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\ndate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
         end
 
         key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
@@ -72,53 +72,65 @@ task :letters do
             node.delete('rend')
         end
 
-        # remove unused nodes
+        # remove unused nodes, teiHeader and note
         doc.css('TEI teiHeader').remove
         doc.css('note').remove
         
-        # add container
-        doc.css('TEI text').each do |node|
-            new_node = doc.create_element 'div'
-            new_node.inner_html = node.inner_html
-            node.replace new_node
-            new_node['class'] = 'container py-4'
-        end
-
-        doc.css('div body').each do |node|
-            node.wrap("<div class='row my-4'>\n</div>")
+        # wrap body with col-md-8 div
+        doc.css('TEI text body').each do |node|
             node.wrap("<div class='col-md-8'></div>")
         end
 
-        # add tab section div
+        # change body to tab-content div
         doc.css('div body').each do |node|
             new_node = doc.create_element 'div'
             new_node.inner_html = node.inner_html
             node.replace new_node
             new_node['class'] = 'tab-content my-3'
             new_node['id'] = 'myTabContent'
-            # add letter-top include
-            letter_include = '{% include letter_top.html %}'
+            # add letter-tabs include
+            letter_include = '{% include letter_tabs.html %}'
             new_node.before "\n" + letter_include + "\n"
         end
 
         # remove xml namespace
         doc.remove_namespaces!
 
-        # add tab div
-        doc.css('div').each do |node|
-            if node['type']
-            node['class'] = 'tab-pane fade show active'
-            node['id'] = 'trans'
-            node['role'] = 'tabpanel'
-            node['aria-labelledby'] = 'trans-tab'
-            node.delete('type')
-            node.delete('n')
-            # delete facs (temporary?)
-            node.delete('facs')
+        # change div type to tabpanel div
+
+        doc.css('TEI div div div').each do |node|
+            type = node.attr('id').to_s
+            if type.include? "trans"
+                node['class'] = 'tab-pane fade show active'
+                node['id'] = 'trans'
+                node['role'] = 'tabpanel'
+                node['aria-labelledby'] = 'trans-tab'
+                node.delete('type')
+                node.delete('n')
+                # delete facs (temporary?)
+                node.delete('facs')
+            elsif type.include? "edit"
+                node['class'] = 'tab-pane fade'
+                node['id'] = 'edit'
+                node['role'] = 'tabpanel'
+                node['aria-labelledby'] = 'edit-tab'
+                node.delete('type')
+                node.delete('n')
+                # delete facs (temporary?)
+                node.delete('facs')
+            else type.include? "raw"
+                node['class'] = 'tab-pane fade'
+                node['id'] = 'raw'
+                node['role'] = 'tabpanel'
+                node['aria-labelledby'] = 'raw-tab'
+                node.delete('type')
+                node.delete('n')
+                # delete facs (temporary?)
+                node.delete('facs')
             end
         end
 
-        # add heading
+        # change head to heading
         doc.css('head').each do |node|
             new_node = doc.create_element 'h4'
             type = node['type'].to_s.capitalize
@@ -187,7 +199,9 @@ task :letters do
         # add remaining content, remove extra blank lines
         # find a way to pretty print?
 
-        newdoc << doc.at('TEI div').to_s.gsub(/^\s*\n/, "")
+        newdoc << doc.at('TEI text div').to_s.gsub(/^\s*\n/, "")
+
+        newdoc << "\n\n{% include letter_bottom.html %}"
 
         # close file
         newdoc.close

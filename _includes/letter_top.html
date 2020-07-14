@@ -1,0 +1,5 @@
+{%- assign letter = site.data.mancini | where: 'id', page.letter -%}
+{%- for l in letter -%}
+{%- assign images = l.images | split: ";" -%}
+{% if l.date %}{%- capture year -%}{% if l.date contains "-" %}{{ l.date | split: "-" | first }}{% elsif l.date contains "/" %}{{ l.date | split: "/" | last }}{% else %}{{ l.date }}{% endif %}{%- endcapture -%}{% endif %}
+{%- endfor -%}
