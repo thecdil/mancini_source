@@ -78,7 +78,6 @@ date_opener = doc.css('opener date')
 
 
 
-        layout << '{% include letter.html %}'
 
 
 

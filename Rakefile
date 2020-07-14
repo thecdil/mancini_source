@@ -4,9 +4,9 @@ desc "Use nokogiri to generate HTML pages from TEI xml"
 task :letters do 
 
     # iterate over all XML files in input dir
-    Dir.glob("xml/*/*.xml").each do |xmlname|
+    Dir.glob("xml/1600/*.xml").each do |xmlname|
         names = xmlname.split("/")
-        filename = names[1]
+        filename = names[2]
         lettername = filename.split(".").first
 
         # Get output name
@@ -20,7 +20,11 @@ task :letters do
 
         # frontmatter
         def frontmatter(letter, number, auth, pers, date)
-            "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\ndate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
+            if number != nil
+                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
+            else
+                "---\nletter: " + letter + "\nnumber: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
+            end
         end
 
         key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
