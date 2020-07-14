@@ -63,7 +63,7 @@ task :letters do
         # add content
         # frontmatter
         def frontmatter(letter, number, auth, pers, date)
-            "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\ndate: " + date + "\n---\n"
+            "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\ndate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n"
         end
 
         key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
@@ -75,12 +75,90 @@ task :letters do
         # add frontmatter first
         newdoc << frontmatter(key, n, author, persname, date)
 
+        # remove unused nodes
         doc.css('TEI teiHeader').remove
         doc.css('note').remove
+        # add container
+        doc.css('TEI text').each do |node|
+            new_node = doc.create_element 'div'
+            new_node.inner_html = node.inner_html
+            node.replace new_node
+            new_node['class'] = 'container py-4'
+        end
+        # add tab section div
+        doc.css('div body').each do |node|
+            new_node = doc.create_element 'div'
+            new_node.inner_html = node.inner_html
+            node.replace new_node
+            new_node['class'] = 'tab-content my-3'
+            new_node['id'] = 'myTabContent'
+            # add letter-top include
+            letter_include = '{% include letter_top.html %}'
+            new_node.before letter_include + "\n"
+        end
+        # add tab div
+        doc.css('div').each do |node|
+            if node['type']
+            node['class'] = 'tab-pane fade show active'
+            node['id'] = 'trans'
+            node['role'] = 'tabpanel'
+            node['aria-labelledby'] = 'trans-tab'
+            node.delete('type')
+            node.delete('n')
+            # delete facs (temporary?)
+            node.delete('facs')
+            end
+        end
+        # add heading
+        doc.css('head').each do |node|
+            new_node = doc.create_element 'h4'
+            new_node.inner_html = node['type']
+            node.replace new_node
+            new_node['class'] = 'mb-3'
+        end
+        # remove pb (temporary?)
+        doc.css('pb').remove
+        # dateline element to paragraph, define paragraph method
+        def paragraph(doc, element)
+            element.each do |node|
+                new_node = doc.create_element 'p'
+                new_node.inner_html = node.inner_html
+                node.replace new_node
+            end
+        end
+        dateline = doc.css('dateline')
+        paragraph(doc, dateline)
+        # date content to text
+        doc.css('opener date').each do |node|
+            unless node['type']
+                node_content = node.inner_html
+                node.before node_content
+                node.remove
+            end
+        end
+        # remove opener element, define node removal method
+        def node_removal(node_removed)
+                node_removed.each do |node|
+                node_content = node.inner_html
+                node.before node_content
+                node.remove
+            end
+        end
+        opener = doc.css('opener')
+        node_removal(opener)
+        # salute and signed elements to paragraph
+        salute = doc.css('salute')
+        signed = doc.css('signed')
+        paragraph(doc, salute)
+        paragraph(doc, signed)
+        # remove closer element
+        closer = doc.css('closer')
+        node_removal(closer)
 
-        # add rest of content
+        # add remaining content, remove extra blank lines
+        # find a way to pretty print?
 
-        newdoc << doc
+        newdoc << doc.at('TEI div').to_s.gsub(/^\s*\n/, "")
 
         # close file
         newdoc.close
