@@ -76,7 +76,7 @@
                             <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
                             </handNote>
-                            <handNote xm:id="unk">
+                            <handNote xml:id="unk">
                                 Secretary or archivist
                             </handNote>
                         </handDesc>
