@@ -145,7 +145,7 @@
                 <opener>
                     <dateline>
                         <placeName key="avenay">D'Avenay</placeName> 
-                        <date when="1672-12-13">ce 13 d&#233;cembre 1672</date>
+                        <date when="1672-12-13" type="annotate" xml:id="a1672_12_13_mm2lc" n="1">ce 13 d&#233;cembre 1672</date>
                     </dateline>
                 </opener>
                 <p>Sono stata pregata da una di queste monache d'interceder presso il general de la Minerva (vedi lettera) per l'adottorarsi di un fratello del suo ordine; vi mando la minuta in modo che questo soggetto possa ottener per vostro mezzo questa grazia dal general che &#233; tanto amico vostro e perci&#242; vi sar&#224; facile d'impetrarla; sto sempre aspettando mio fratello per andar con lui a Nevers, e da lì forse a Lione; in un monastero da dove non mancher&#242; di scrivervi; e con questa abbracciando i miei ragazzi resto per sempre tutta vostra.</p>

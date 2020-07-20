@@ -109,9 +109,9 @@
                 <note resp="#smn" xml:id="archive-note">
                     Collocazione -II-C.P.1 lettera 13
                     Lettere di Maria Mancini – 1672
-                    Numero d’ordine – 13
+                    Numero d'ordine – 13
                     
-                    Donna Maria Colonna-Mancini –
+                    D. Maria Colonna-Mancini –
                     
                     =
                     
@@ -131,7 +131,7 @@
                     + 1 red wax seal]]
                 </note>
                 <note resp="#smn">
-                    [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, appears to be written the date—probably written by an archivist or secretary? The ink looks similar to Marie's ink.]]
+                    [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or secretary. The ink looks slightly different from Marie's ink.]]
                 </note>
                 <note resp="#smn">
                     [[On the right half of the sheet:]]
@@ -157,8 +157,8 @@
                 <pb facs="DSCF8486"/>
                 <opener>
                     <dateline>
-                        <placeName key="avenay">D’Avenay</placeName>
-                        <date when="1672-10-29">il 29 ottobre 1672</date>
+                        <placeName key="avenay">D'Avenay</placeName>
+                        <date when="1672-10-29" type="annotate" xml:id="a1672_10_29_mm2lc" n="1">ce 29 octobre 1672</date>
                     </dateline>
                 </opener>
                 <p>Dalle tante istanze che fate per riavermi conosco abbastanza che mi sono ingannata circa i sospetti che ho avuto del vostro poco affetto e stima verso di me. Vi prego di credere che la poca salute ch'avevo in Roma mi aveva nutrito un'avversione per quella citt&#224;, la quale accresciuta dall'impossibilit&#224; di uscirne, mi fece prendere una cos&#236; gran risoluzione di allontanarmene con mio tanto rischio; e dopo non ho operato in modo di avere rimproveri da nessuno, n&#233; meritavo di essere trattata in questa forma. Quando partii da Grenoble, non ebbi altra mira che di andare a Parigi per parlare al Re, vedere tutti i miei parenti et dopo mettermi</p>
