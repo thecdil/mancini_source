@@ -108,9 +108,9 @@
             <div type="letter" xml:id="letter_1673_04_13_mm2lc_raw" n="30" facs="DSCF8524">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
-                Collocazione II-C.P.1. lett. 30
-                Lett. di Maria Mancini – 1673
-                Nr d'ordine – 13
+                Collocazione II-C.P.1. lettera 30
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 13
 
                 D. Maria Colonna-Mancini –
 
@@ -124,7 +124,7 @@
                 </note>
                 <pb facs="DSCF8525"/>
                 <note resp="#smn">
-                [[On left side of the image, the diagonally folded paper with address written on outside: 
+                [[On the left side of the image, the diagonally folded paper with address written on outside: 
                 "A Monsieur
                 Monsieur le 
                 Conestable Colonna
@@ -132,7 +132,7 @@
                 + 2 red wax seals]]
                 </note>
                 <note resp="#smn">
-                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, appears to be written the date—probably written by an archivist?? or secretary?? The ink looks slightly different from Marie's ink.]]    
+                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or a secretary. The ink looks slightly different from Marie's ink.]]    
                 </note>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]  
@@ -140,15 +140,15 @@
                 <opener>
                     <dateline>
                         <placeName key="turin">de thurin</placeName> 
-                        <date when="1673-04-13">ce 13 avril 1673</date>
+                        <date when="1673-04-13">ce 13 [[Marie first wrote "23" and then wrote a "1" over the "2"]] avril 1673</date>
                     </dateline>
                 </opener>
-                <p>la mia subitta partensa vi avera sorpreso ma non potei impedirmi di andar a dire adio a M.<hi rend="sup">a</hi> mazarini laquale desiderava vedermi; ma la trovai partita et percio subitto me ne ritornai conforme avevo promesso a sua A. R; non mi est stato permesso rientrar nel convento et percio sono venuta in casa del sig[[nore]] principe di carignano iudicando non poter star in altro loco con piu decoro et conveniensa; mi a riceuto </p>
+                <p>la mia subitta partensa vi avera sorpreso ma non potei impedirmi di andar a dire adio a M.<hi rend="sup">a</hi> mazarini la quale desiderava vedermi; ma la trovai partita et percio subitto me ne ritornai conforme avevo promesso a sua A. R; non mi est stato permesso rientrar nel convento et percio sono venuta in casa del Sig<hi rend="sup">r</hi> principe di carignano iudicando non poter star in altro loco con piu decoro et conveniensa; mi a riceuto </p>
                 <pb facs="DSCF8526"/>
                 <note resp="#smn">
                 [[on the right half of the sheet:]]    
                 </note>
-                <p>et mi tratta benissimo i miei nepoti che sono quy mi tengono bona compagnia; et sono molto bene allevati; spero listesso de miei ragazi li qualia braccio di tutto core et mi confermo al solito vostra</p> 
+                <p>et mi tratta benissimo i miei nepoti che sono quy mi tengono bona compagnia; et sono molto bene allevati; spero listesso de miei ragazi li quali abraccio di tutto core et mi confermo al solito vostra</p> 
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
