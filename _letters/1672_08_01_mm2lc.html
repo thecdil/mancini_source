@@ -13,3 +13,41 @@ gallery: true
 <div class='container py-4'>
 <h1>{{ page.title }}</h1>
 <div class='row my-4'>
+<div class="col-md-8">
+{% include letter_tabs.html %}
+<div class="tab-content my-3" id="myTabContent">
+            <div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
+                <h4 class="mb-3">Raw (Italian)</h4>
+                    <p>
+                        <a href="/places#grenoble">De grenoble</a> 
+                        ce premier aout 1672
+                    </p>
+                <p>potevio far di meno scrivermi una simil letra come quella ch' mio fratello ma resa; mavete sempre reso poca iustitia et pero volete ancora adesso rendermi colpevole di quello il mondo dice contra di voi; io so que nessuno potra dir con verita ch' io mi sia lamentata di voi sopra i sospetti che dite et quando l'havessi [[avuti]] non sarrei stata cosi imprudente di palesarli et non avendoli non averrei questa malignita d'inventarli; saint simon et un grand bugiardo se dice ch' io mi sia lamentata d'altro di voi ch' della pocca stima et affetto ch o riconociuto ch avevio per me; et anco questo mi sforsó a dirlo; del resto poi io non pretendo haver pregiudicato cola la mia partensa ne a voi ne alli [[Marie first wrote "alla" and then changed the final "a" to "i"]] figli ne alla casa ansi cercaro di repare quello que voi mavete detto piu volte ch' vi o portato doppo essere entrata in casa vostra;</p>
+                <p>attendero che il tempo vi faccia perder il cattivo concetto ch avete di me et mi dia campo di dispormi a prender qualque altra resolutione che prego dio che minspiri se sara per lo meglio.</p>
+                    <p class="text-right">
+                        <a href="/people#mancini-marie">M.M.C.</a>
+                    </p>
+            </div>
+            <div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
+                <h4 class="mb-3">Edit (Italian)</h4>
+                    <p>
+                        <a href="/places#grenoble">De Grenoble</a> 
+                        ce premier <ref type="annotate" id="a1672_08_01_mm2lc" n="1">août</ref> 1672
+                    </p>
+                <p>Potevi fare a meno di scrivermi una simile lettera, come quella che mio fratello mi ha consegnato; mi avete sempre reso poca giustizia e però volete ancora adesso rendermi colpevole di quello che il mondo dice contro di voi; io so che nessuno potrà dir con verità che io mi sia lamentata di voi sopra i sospetti che dite. E quando pure li avessi avuti, non sarei stata così imprudente da palesarli e, non avendoli, non avrei avuto la malignità di inventarli. Saint Simon è un gran bugiardo se dice che io mi sia lamentata d'altro di voi che della poca stima e affetto che ho capito avevi per me; e pure questo mi sforzò a dirlo. Del resto poi io non pretendo di aver pregiudicato, con la mia partenza, né a voi né ai figli né alla casa; e anzi, cercherò di riparare al danno che voi mi avete detto più volte che vi ho fatto entrando in casa vostra.</p>
+                <p>Attenderò che il tempo vi faccia perdere il cattivo concetto che avete di me e mi dia campo di dispormi a prender qualche altra risoluzione che prego Dio che mi ispiri se sarà per il meglio.</p>
+                    <p class="text-right"><a href="/people#mancini-marie">M.M.C.</a></p>
+            </div>
+            <div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
+                <h4 class="mb-3">Translation (English)</h4>
+                    <p>
+                        <a href="/places#grenoble">Grenoble</a>, 
+                        1 August 1672
+                    </p>
+                <p>The least you could do is to not send me such a letter as the one my brother delivered to me. You have always been unjust to me, and now you are still trying to blame me for what people are saying about you; I know that no one can truthfully say that I have ever complained about you, regarding the suspicions you mention. Even if I had had them, I would not have been imprudent enough to divulge them, and if I didn't have them, I would not have had the malice to invent them. Saint Simon is a big liar if he says that I complained of anything else about you than the lack of respect and affection that I saw you had for me; and it was he who made me say even that. Apart from that, I do not believe that my departure has compromised you or my sons or the family; on the contrary, I will seek to repair the damage that you have often told me I did when I came into your house.</p>
+                <p>I will wait for time to make you lose the poor opinion you have of me, and to give me the chance to decide on some other plan, which I pray God to inspire in me if it is for the best.</p>
+                    <p class="text-right"><a href="/people#mancini-marie">M.M.C.</a>.</p>
+            </div>
+        </div></div>
+
+{% include letter_bottom.html %}
