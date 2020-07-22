@@ -5,10 +5,18 @@ a {
     }
 }
 
+/* timeline */
+#timeline .img-thumbnail { height: 110px; }
+
 /* item page */
 .gallery-img {
     cursor: pointer;
 }
-
-/* timeline */
-#timeline .img-thumbnail { height: 110px; }
+#item-nav {
+    a { 
+        position: absolute;
+        top:500px;
+    }
+    .previous{ left:10px; }
+    .next{ right:10px; }
+}

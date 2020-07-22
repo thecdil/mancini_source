@@ -1,0 +1,49 @@
+<script>
+    (function(){
+        /* add item data */
+        var items = { 
+        {%- for item in site.data.mancini -%}
+        {{ item.id | jsonify }} : { "date": {{ item.date-actual | jsonify }} }{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+        };
+
+        /* get query id from URL */
+        var letterid = window.location.pathname.split("/").pop().split(".")[0];
+
+        /* add prev/next nav */
+        var itemKeys = Object.keys(items);
+        var current = itemKeys.indexOf(letterid);
+        var last = itemKeys.length - 1;
+        var back, forward;
+        if (current === 0) {
+            back = itemKeys[last];
+        } else { 
+            back = itemKeys[current - 1];
+        }
+        if (current === last) {
+            forward = itemKeys[0];
+        } else {
+            forward = itemKeys[current + 1];
+        }
+        var backUrl = "{{ '/letters/' | relative_url }}" + back + ".html";
+        var forwardUrl = "{{ '/letters/' | relative_url }}" + forward + ".html";
+        /* add side buttons to page */
+        document.getElementById("back-button").href = backUrl;
+        document.getElementById("next-button").href = forwardUrl;
+        /* add bottom buttons to page */
+        document.getElementById("prev-button").href = backUrl;
+        document.getElementById("for-button").href = forwardUrl;
+
+        /* add back forward key press */
+        document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        switch (evt.keyCode) {
+            case 37:
+            location.href = backUrl;
+                break;
+            case 39:
+            location.href = forwardUrl;
+                break;
+        }};
+    })();
+</script>
