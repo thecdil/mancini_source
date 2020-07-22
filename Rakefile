@@ -23,7 +23,7 @@ task :letters do
             if number != nil
                 "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
             else
-                "---\nletter: " + letter + "\nnumber: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
+                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
             end
         end
 
