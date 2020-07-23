@@ -2,8 +2,6 @@
 
 warning: deprecated Object#=~ is called on Proc; it always returns nil
 
-fragment.document.create_element
-
 nodes.wrap("<div class='container'></div>")
 
         # define paragraph method
