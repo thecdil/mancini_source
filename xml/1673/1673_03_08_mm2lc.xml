@@ -148,21 +148,19 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_03_08_mm2lc_edit" n="26" facs="DSCF8515">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8516"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">De Turin</placeName> 
+                        <date when="1673-03-08">ce 8<hi rend="sup">me</hi> mars <ref type="annotate" xml:id="a1673_03_08" n="1">1673</ref></date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Dalla ultima vostra ho gusto di veder che non disapprovate la mia dimora a Torino; vi mando l'ordine di mia mano acci&#242; che la Contessa possa riscuotere il corrispettibo dei luoghi dei monti; ne ho per&#242; inviato un altro a Marcatelli, secondo quello che m'aveva scritto, dubitando che la Contessa non li potesse riscuotere; don Maurizio non manca di assistermi in tutto quello che mi &#232; necessario; vi prego di abbracciare i miei ragazzi e credermi sempre la stessa</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
