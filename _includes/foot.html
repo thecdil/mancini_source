@@ -9,4 +9,4 @@
 {%- if layout.lazyload == true or page.lazyload == true -%}<script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>{%- endif -%}
 {%- if layout.gallery == true -%}{% include js/gallery-js.html %}{%- endif -%}
 {%- if page.layout == "timeline" -%}{% include js/tooltip-js.html %}{%- endif -%}
-{%- if page.layout == "default" -%}{% include js/tooltip-js.html %}{% include js/item-js.html %}{%- endif -%}
+{%- if page.layout == "letter" -%}{% include js/tooltip-js.html %}{% include js/item-js.html %}{%- endif -%}

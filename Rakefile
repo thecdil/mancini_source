@@ -21,9 +21,9 @@ task :letters do
         # frontmatter
         def frontmatter(letter, number, auth, pers, date)
             if number != nil
-                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
+                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\n---\n\n"
             else
-                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: default" + "\ngallery: true" + "\n---\n\n{% include letter_top.html %}\n\n<div class='container py-4'>\n<h1>{{ page.title }}</h1>\n<div class='row my-4'>\n"
+                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\n---\n\n"
             end
         end
 
@@ -80,29 +80,12 @@ task :letters do
         doc.css('TEI teiHeader').remove
         doc.css('note').remove
         
-        # wrap body with col-md-8 div
-        doc.css('TEI text body').each do |node|
-            node.wrap("<div class='col-md-8'></div>")
-        end
-
-        # change body to tab-content div
-        doc.css('div body').each do |node|
-            new_node = doc.create_element 'div'
-            new_node.inner_html = node.inner_html
-            node.replace new_node
-            new_node['class'] = 'tab-content my-3'
-            new_node['id'] = 'myTabContent'
-            # add letter-tabs include
-            letter_include = '{% include letter_tabs.html %}'
-            new_node.before "\n" + letter_include + "\n"
-        end
-
         # remove xml namespace
         doc.remove_namespaces!
 
         # change div type to tabpanel div
 
-        doc.css('TEI div div div').each do |node|
+        doc.css('TEI text body div').each do |node|
             type = node.attr('id').to_s
             if type.include? "trans"
                 node['class'] = 'tab-pane fade show active'
@@ -203,9 +186,9 @@ task :letters do
         # add remaining content, remove extra blank lines
         # find a way to pretty print?
 
-        newdoc << doc.at('TEI text div').to_s.gsub(/^\s*\n/, "")
-
-        newdoc << "\n\n{% include letter_bottom.html %}"
+        doc.css('TEI text div').each do |x|
+            newdoc << x.to_s.gsub(/^\s*\n/, "") + "\n"
+        end
 
         # close file
         newdoc.close
