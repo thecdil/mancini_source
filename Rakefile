@@ -1,10 +1,13 @@
 require 'nokogiri'
 
 desc "Use nokogiri to generate HTML pages from TEI xml"
-task :letters do 
+task :letters, [:arg1] do |t, args|
+    args.with_defaults(
+        :arg1 => "*/*"
+      )
 
     # iterate over all XML files in input dir
-    Dir.glob("xml/*/*.xml").each do |xmlname|
+    Dir.glob("xml/#{args.arg1}.xml").each do |xmlname|
         names = xmlname.split("/")
         filename = names[2]
         lettername = filename.split(".").first
@@ -36,23 +39,6 @@ task :letters do
         # add frontmatter to newdoc first
         newdoc << frontmatter(key, n, author, persname, date)
 
-        # do annotations
-        doc.css('p').children.each do |node|
-            if node['type']
-            node.name = 'a'
-            id = node['xml:id']
-            node['href'] = '#' + id
-            node['data-toggle'] = 'tooltip'
-            node['title'] =  'x'
-            span_node = node.content
-            node.before span_node + ' '
-            node.content = '[' + node['n'] + ']'
-            node.delete('n')
-            node.delete('key')
-            node.delete('type')
-            end
-        end
-
         # hyperlink persNames
         doc.css('persName').each do |node|
             node.name = 'a'
@@ -67,6 +53,23 @@ task :letters do
             key = node['key']
             node['href'] = '/places#' + key
             node.delete('key')
+        end
+
+        # do annotations
+        doc.css('p').children.each do |node|
+            if node['type']
+            node.name = 'a'
+            id = node['xml:id']
+            node['href'] = '#' + id
+            node['data-toggle'] = 'tooltip'
+            node['title'] =  'x'
+            original_node = node.content
+            node.before original_node + ' '
+            node.content = '[' + node['n'] + ']'
+            node.delete('n')
+            node.delete('key')
+            node.delete('type')
+            end
         end
 
          # text emphasis
