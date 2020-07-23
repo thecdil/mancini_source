@@ -4,19 +4,10 @@ number: 13
 author: Marie Mancini
 addressee: Lorenzo
 letterdate: 1672-10-29
-layout: default
-gallery: true
+layout: letter
 ---
 
-{% include letter_top.html %}
-
-<div class='container py-4'>
-<h1>{{ page.title }}</h1>
-<div class='row my-4'>
-<div class="col-md-8">
-{% include letter_tabs.html %}
-<div class="tab-content my-3" id="myTabContent">
-            <div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
+<div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
                 <h4 class="mb-3">Raw (Italian)</h4>
                     <p>
                         <a href="/places#avenay">D'avenay</a>
@@ -26,7 +17,7 @@ gallery: true
                 <p>in un convento in quella citta o poco lontano; dove non avevo pensier di veder altri che loro conforme o fatto sino hora ne vi deve parer stravagante che io [[<strike>scel</strike>]] scegliessi una citta comme pariggi per star; mentre vi sono tutti y miei parenti et dove trovavo ogni sorte dapoggio et di commodita il Re per il contrario volendo aver ogni sorte di compiacensa per voi mi a mandato in un <sup>monasterio</sup> deserto a trenta legue di pariggi dove mi trovo con pochissima salute, se mi darete campo d’aderere un poco alli miei desideri mi trovarete altresi sempre pronta a risarcir col proprio sangue il danno che credete vi abbia [[<strike>fatto</strike>]] potuto fare.</p>
                     <p class="text-right"><a href="/people#mancini-marie">Maria Mancini Colonna.</a></p>
             </div>
-            <div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
+<div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
                 <h4 class="mb-3">Edit (Italian)</h4>
                     <p>
                         <a href="/places#avenay">D'Avenay</a>
@@ -36,7 +27,7 @@ gallery: true
                 <p>in un convento in quella città o poco lontano. Dove non avevo pensiero di vedere altri che loro, conforme ho fatto sino a ora, né vi deve parere stravagante che io scegliessi una città come Parigi per stare, mentre vi sono tutti i miei parenti e dove trovavo ogni sorta di appoggio e di comodità. Il Re, per il contrario, volendo avere ogni sorta di compiacenza per voi, mi ha mandata in un monasterio deserto a trenta leghe di Parigi, dove mi trovo con pochissima salute. Se mi darete campo di aderire un poco agli miei desideri, mi trovarete altresì sempre pronta a risarcire col proprio sangue il danno che credete vi abbia potuto fare.</p>
                     <p class="text-right">Maria Mancini Colonna.</p>
             </div>
-            <div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
+<div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
                 <h4 class="mb-3">Translation (English)</h4>
                     <p>
                         <a type="annotate" id="a1672_10_29_mm2lc" n="1" href="/places#avenay">Avenay</a>
@@ -46,6 +37,3 @@ gallery: true
                 <p>a convent in that city or not far from there. As I had no thought of seeing anyone but them, I have acted in keeping with that plan until now, and it should not seem odd to you that I would choose to stay in a city like <a href="/places#paris">Paris</a>, since all my relatives are there and since I used to find there all manner of support, comfort, and convenience. The <a href="/people#louis-xiv">King</a>, on the contrary, wanted to show you all possible courtesy, and so he has sent me to a desolate monastery thirty leagues from <a href="/places#paris">Paris</a>, where I am in very poor health. If you will allow me a little freedom to follow my wishes, you will also find me ever ready to repay with my very blood the harm that you believe I may have caused.</p>
                     <p class="text-right"><a href="/people#mancini-marie">Maria Mancini Colonna</a>.</p>
             </div>
-        </div></div>
-
-{% include letter_bottom.html %}

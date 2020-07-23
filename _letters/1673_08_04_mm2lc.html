@@ -4,19 +4,10 @@ number: 33
 author: Marie Mancini
 addressee: Lorenzo
 letterdate: 1673-08-04
-layout: default
-gallery: true
+layout: letter
 ---
 
-{% include letter_top.html %}
-
-<div class='container py-4'>
-<h1>{{ page.title }}</h1>
-<div class='row my-4'>
-<div class="col-md-8">
-{% include letter_tabs.html %}
-<div class="tab-content my-3" id="myTabContent">
-            <div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
+<div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
                 <h4 class="mb-3">Raw (Italian)</h4>
                     <p>
                         <a href="/places#turin">di torino</a>
@@ -30,7 +21,7 @@ gallery: true
                     <p class="text-right">questo mi confermo sempre vostra</p>
                     <p class="text-right">M. M. C.</p>
             </div>
-            <div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
+<div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
                 <h4 class="mb-3">Edit (Italian)</h4>
                     <p>
                         <a href="/places#turin">Da Torino</a>
@@ -43,7 +34,7 @@ gallery: true
                     <p class="text-right">E con questo mi confermo sempre vostra.</p>
                     <p class="text-right">M. M. C..</p>
             </div>
-            <div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
+<div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
                 <h4 class="mb-3">Translation (English)</h4>
                     <p>
                         <a type="annotate" id="a1673_08_04_mm2lc" n="1" href="/places#turin">Turin</a>
@@ -56,6 +47,3 @@ gallery: true
                     <p class="text-right">And with that, I assure you that I am ever your</p>
                     <p class="text-right"><a href="/people#mancini-marie">M. M. C.</a>.</p>
             </div>
-        </div></div>
-
-{% include letter_bottom.html %}

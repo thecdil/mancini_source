@@ -4,19 +4,10 @@ number: 102
 author: Marie Mancini
 addressee: Lorenzo Colonna
 letterdate: 1675-05-15
-layout: default
-gallery: true
+layout: letter
 ---
 
-{% include letter_top.html %}
-
-<div class='container py-4'>
-<h1>{{ page.title }}</h1>
-<div class='row my-4'>
-<div class="col-md-8">
-{% include letter_tabs.html %}
-<div class="tab-content my-3" id="myTabContent">
-            <div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
+<div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
                 <h4 class="mb-3">Raw (Italian)</h4>
                     <p>
                         <a href="/places#madrid">de madrid</a> 
@@ -33,7 +24,7 @@ gallery: true
                     <p>é gia con questo hordinario vi mandano hordine de portar la chinea con letre fulminante al cardinal nitardo che per l'avenire vi tratti differentemente da gli altri, é que guardi la vostra persona con ochio differente del passato, é cosi penso che potrete questo anno far la funtione, é li parenti tutti sono per voi ed io faro sempre qua le vostre parte, é procuraro de levarvi da ogni briga rimetandomi al di piu vi scrivera don ferdinando [[descending squiggly line]]</p>
                 </postscript>
             </div>
-            <div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
+<div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
                 <h4 class="mb-3">Edit (French)</h4>
                     <p>
                         <a href="/places#grenoble">À Grenoble</a>
@@ -44,7 +35,7 @@ gallery: true
                     <p class="text-right"/>
                     <p class="text-right"/>.
             </div>
-            <div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
+<div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
                 <h4 class="mb-3">Translation (English)</h4>
                     <p>
                         <a href="/places#grenoble">Grenoble</a>
@@ -57,6 +48,3 @@ gallery: true
                         <a href="/people#marie-mancini"/>.
                     </p>
             </div>
-        </div></div>
-
-{% include letter_bottom.html %}

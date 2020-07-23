@@ -4,19 +4,10 @@ number: 80
 author: Marie Mancini
 addressee: Lorenzo Colonna
 letterdate: 1674-09-05
-layout: default
-gallery: true
+layout: letter
 ---
 
-{% include letter_top.html %}
-
-<div class='container py-4'>
-<h1>{{ page.title }}</h1>
-<div class='row my-4'>
-<div class="col-md-8">
-{% include letter_tabs.html %}
-<div class="tab-content my-3" id="myTabContent">
-            <div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
+<div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
                 <h4 class="mb-3">Raw (Italian)</h4>
                     <p>
                         <a href="/places#madrid">de madrid</a>
@@ -35,7 +26,7 @@ gallery: true
                     <p>conionture, é que dal modo che sono stata trattata da queste maesta potra conoscere Roma quanto stima si fa della vostra casa é personna o anche ottenuto che scriva al marquese de licia, é sua figlia colla quale non passa corispondensa ma per favorirmi mi a promesso di scriverli accio venendo costi vi tratti in tutto quello potra differentemente de gli altri state dunque quieto che qui non si perdra tempo per servirvi é con questa mi recordo sempre vostra [[descending squiggly line]]</p>
                 </postscript>
             </div>
-            <div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
+<div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
                 <h4 class="mb-3">Edit (French)</h4>
                     <p>
                         <a href="/places#grenoble">À Grenoble</a>
@@ -46,7 +37,7 @@ gallery: true
                     <p class="text-right"/>
                     <p class="text-right"/>.
             </div>
-            <div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
+<div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
                 <h4 class="mb-3">Translation (English)</h4>
                     <p>
                         <a href="/places#grenoble">Grenoble</a>
@@ -59,6 +50,3 @@ gallery: true
                         <a href="/people#marie-mancini"/>.
                     </p>
             </div>
-        </div></div>
-
-{% include letter_bottom.html %}

@@ -4,19 +4,10 @@ number: 47
 author: Marie Mancini
 addressee: Lorenzo Colonna
 letterdate: 1673-12-29
-layout: default
-gallery: true
+layout: letter
 ---
 
-{% include letter_top.html %}
-
-<div class='container py-4'>
-<h1>{{ page.title }}</h1>
-<div class='row my-4'>
-<div class="col-md-8">
-{% include letter_tabs.html %}
-<div class="tab-content my-3" id="myTabContent">
-            <div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
+<div id="raw" class="tab-pane fade" role="tabpanel" aria-labelledby="raw-tab">
                 <h4 class="mb-3">Raw (Italian)</h4>
                     <p>
                         <a href="/places#antwerp">danvers</a>
@@ -27,7 +18,7 @@ gallery: true
                 <p>a brusselles vi prego se viene a Roma di non farli molta acogliensa che vi protesto che no lo merita è sono certa che non si <sup>puol</sup> corispondere verso di me con magior ingratitudine don mauritio è testimonio quello ch'io o speso per luy a turino è martino per il viaggio, si ponno veder i conti, è con tutto cio non era mai contento, è si vergognava di dir ch'era servitor mio adesso. è tutto del marquese, lor dui soli ognun lo sa, manno fatto questo bel gioco di farmi entrar qui dentro avendomi tradito tutti dui per vendicarsi di [[here she appears to have written "di" over "de"]] qualche contrasto ch'o auto per strada con loro [[a series of 4 or 5 words crossed out]] non averia mai creso <sup>il marquese</sup> cosi vindicativo, ricordatevi che sono moglie vostra è che non è di riputatione della vostra casa ch io stia altrove che in un monasterio adio scriveteme spesso è assicurateve che non o magior consolatione</p>
                     <p class="text-right"><a href="/people#mancini-marie">M. M. C.</a></p>
             </div>
-            <div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
+<div id="edit" class="tab-pane fade" role="tabpanel" aria-labelledby="edit-tab">
                 <h4 class="mb-3">Edit (French)</h4>
                     <p>
                         <a href="/places#grenoble">À Grenoble</a>
@@ -38,7 +29,7 @@ gallery: true
                     <p class="text-right"/>
                     <p class="text-right"/>.
             </div>
-            <div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
+<div id="trans" class="tab-pane fade show active" role="tabpanel" aria-labelledby="trans-tab">
                 <h4 class="mb-3">Translation (English)</h4>
                     <p>
                         <a href="/places#grenoble">Grenoble</a>
@@ -51,6 +42,3 @@ gallery: true
                         <a href="/people#marie-mancini"/>.
                     </p>
             </div>
-        </div></div>
-
-{% include letter_bottom.html %}
