@@ -149,21 +149,19 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_03_15_mm2lc_edit" n="27" facs="DSCF8517">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8518"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">Da Torino</placeName> 
+                        <date when="1673-03-15">il 15 marzo 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Ho inteso con dispiacere che siate stato obbligato a partire da Roma; per non esser spettatore di un matrimonio cos&#236; svantaggioso alla casa; bisognava impedire la venuta di don Federico e non fidarsi delle parole dei preti che non hanno n&#233; fede n&#233; legge d'onore; vi dico questo in passando e son certa che se fossi stata io il principe di Sonnino non mi sarebbe successo un tal smacco; so che avreste forse bisogno di don Maurizio il quale verr&#224; a trovarvi se lo giudicate a proposito, non essendomi qui molto necessario; in tutti i casi potrete inviare Marcatelli in suo loco; e con questo resto pregando Dio che vi consoli di tante afflizioni che vi manda e sono sempre la stessa vostra</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
