@@ -161,21 +161,21 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1672_12_10_mm2lc_edit" n="15" facs="DSCF8491">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8492"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="avenay">Da Avenay</placeName>, 
+                        <date when="1672-12-10">il 10 dicembre 1672</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Godo a sentire dalla vostra lettera che la duchessa di Bassanello abbia gradito quel piccolo segno che le ho dato della memoria che conservo di lei; la lettera di ringraziamento fatta per mano di Baldini era benissimo fatta; la risposta non sar&#224; tale perch&#233; il mio segretario parla male e scrive peggio; e con tutto ci&#242;, intende la lingua italiana alla perfezione e perci&#242;, e per molte altre buone qualit&#224; che ha, ho avuto gusto d'averlo presso di me, non avendo altri qua che lui e Giovanni. Mio fratello mi invi&#242;</p>
+                <pb facs="DSCF8493"/>
+                <p>ieri un suo cameriere per sapere se volevo andar con lui a Nevers, ho risposto di s&#236; perch&#232; non mi piace questo monastero (con tutto che la stagione non sia di viaggiare) essendo molto differente dal Lys; di cattiva aria, le monache, doppie; quelle del Lys son tanti angeli, non ho mai visto monastero pi&#249; osservante n&#233; che mi abbia pi&#249; edificata di quello. So che non &#232; stata la vostra intenzione a farmi uscir di l&#224;, ma la malignit&#224; della gente di farmi entrar in un altro dove non posso fiatar che non si risappia a Parigi tutto quello che dico, bench&#233; siano cose di poco rilievo; con tutto ci&#242;, a un umore come il mio &#232; un grande incomodo di aver sempre da badare a come si parla, n&#233; aver nessuno di cui potersi fidar. Potete esser certo che la mia intenzione ritirandomi in Francia &#232; stata sempre di viver in un convento; &#232; vero che pensavo che fosse in Parigi, ma dopo le difficolt&#224; che vi ho incontrato ne son tanto stufa che non volterei una mano per andare a Nevers. Potr&#243; facilmente andar a Lione se mio fratello se ne va l&#236;, dove entrer&#242; in un altro monastero assicurandovi che lontana da voi non passer&#242; la vita altrove; sto assai bene di salute dopo che sono in Francia e star&#242; sempre meglio quando sar&#242; assicurata che vi ricordate di chi &#232; tutta vostra.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>.
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
