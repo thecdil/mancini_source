@@ -149,21 +149,19 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_01_26_mm2lc_edit" n="20" facs="DSCF8505">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8506"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">De Turin</placeName> 
+                        <date when="1673-01-26">ce 26<hi rend="sup">me</hi> janvier <ref type="annotate" xml:id="a1673_01_26_mm2lc" n="1">1673</ref></date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Pietro Marchese ritornandosene a Roma potr&#224; ragguagliarvi del mio arrivo in questa citt&#224; dove mi ritrovo in un convento e mi ci tratterr&#242; finch&#233; Dio mi ispiri altrimenti; sarei stata a Nevers con mio fratello e sua moglie se mi fosse stato concesso; ma gi&#224; che avete mostrato tanta ansiet&#224; che fossi fuor di Francia, son venuta in Italia per darvi questa soddisfazione; e per farvi conoscere la mia indifferenza; assicurandovi che in ogni luogo sar&#242; sempre la stessa per voi.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
