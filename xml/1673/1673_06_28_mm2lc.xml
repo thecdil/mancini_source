@@ -108,9 +108,9 @@
             <div type="letter" xml:id="letter_1673_06_28_mm2lc_raw" n="32" facs="DSCF8529">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
-                Collocazione II-C.P.1. lett. 32
-                Lett. di Maria Mancini – 1673
-                Nr d'ordine – 15
+                Collocazione II-C.P.1. lettera 32
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 15
 
                 D. Maria Colonna-Mancini –
 
@@ -122,9 +122,12 @@
 
                 oggetto:
                 </note>
+                <note resp="#smn">
+                [[Scanned image cuts off a number written in pencil at the bottom of the card]]    
+                </note>
                 <pb facs="DSCF8530"/>
                 <note resp="#smn">
-                [[On left side of the image, the diagonally folded paper with address written on outside: 
+                [[On the left side of the image, the diagonally folded paper with address written on outside: 
                 "A Monsieur
                 Monsieur le Conestable 
                 Colonna
@@ -132,7 +135,7 @@
                 + 1 black wax seal]]
                 </note>
                 <note resp="#smn">
-                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, appears to be written the date—probably written by an archivist?? or secretary?? The ink looks similar to Marie's ink, but the lines are thicker, more absorbed into the paper.]]    
+                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or a secretary. The ink looks similar to Marie's ink, but the lines are thicker, more absorbed into the paper.]]    
                 </note>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]   
@@ -143,12 +146,12 @@
                         <date when="1673-06-28">li 28 iugno 1673</date>
                     </dateline>
                 </opener>
-                <p>benche non <hi rend="sup">mi</hi> [[stimate]] degna di risposta non lasso pero encora di pregarvi a scordarvi il passato; &#232; non negarmi quelle sodisfationi que possono contribuire magiormente al vostro reposo et al mio; quy non [[something crossed out]] mi conviene piu di trattenermi [[something crossed out]] et compie a me &#232; a voi ch io esca da questo stato &#232; dominio del duca di savoia per piu rispetti; vi prego dunque a consolarmi con darmi licensa che possa ritornare in francia in un</p>
+                <p>benche non <hi rend="sup">mi</hi> stimate [[Marie first wrote "sia" but then wrote "ti" over the "ia" and completed the word "stimate"]] degna di risposta non lasso pero encora di pregarvi a scordarvi il passato; &#232; non negarmi quelle sodisfationi que possono contribuire magiormente al vostro reposo et al mio; quy non [[something crossed out- maybe "posso"]] mi conviene piu di trattenermi [[something crossed out- maybe "ne anc"]] et compie a me &#232; a voi ch io esca da questo stato &#232; dominio del duca di savoia per piu rispetti; vi prego dunque a consolarmi con darmi licensa che possa ritornare in francia in un</p>
                 <pb facs="DSCF8531"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
                 </note>
-                <p>monasterio a pariggi dove daro la parola al Re di trattenermi tutto quel tempo che staro lontana da voi; fra tanto vi prego dabracciar y figlioli et recordarvi che son [[something crossed out]] sempre vostra</p>
+                <p>monasterio a pariggi dove daro la parola al Re di trattenermi tutto quel tempo che staro lontana da voi; fra tanto vi prego dabracciar y figlioli et recordarvi che son [[something crossed out- maybe "tutta"]] sempre vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
