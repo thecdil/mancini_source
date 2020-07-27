@@ -108,9 +108,9 @@
             <div type="letter" xml:id="letter_1673_06_08_mm2lc_raw" n="31" facs="DSCF8527">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
-                Collocazione II-C.P.1. lett. 31
-                Lett. di Maria Mancini – 1673
-                Nr d'ordine – 14
+                Collocazione II-C.P.1. lettera 31
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 14
 
                 D. Maria Colonna-Mancini –
 
@@ -122,6 +122,9 @@
 
                 oggetto:
                 </note>
+                <note resp="#smn">
+                [[Scanned image cuts off a number written in pencil at the bottom of the card]]  
+                </note>
                 <pb facs="DSCF8528"/>
                 <note resp="#smn">
                 [[a sheet 15 cm wide]]   
@@ -132,7 +135,7 @@
                         <date when="1673-06-08">li 8 iugno 1673</date>
                     </dateline>
                 </opener>
-                <p>Havendo intesi i vostri sensi dal Sig[[nore]] Marquese di Bourgomenero, subito mi sono ricondotta nel convento della visitatione, per starvi fin tanto che il [[carldo??]] me lo permetta; sperando che voi mi concederete di potermi [[crossed out letter]] trasmettere in un altro di tal commodita che non habbia piu a pensar ad altro che a star[[?? the end of the word isn't clear—maybe "starci"?]] fin che piacera a dio d'inspirarmi altrimente; habiate qualque compiancensa per me, se volete obligarmi a essere eternamente vostra</p>
+                <p>havendo intesi i vostri sensi dal Sig<hi rend="sup">r</hi> marquese di Bourgomenero, subito mi sono ricondotta nel convento della visitatione, per starvi fin tanto che il caldo [[Marie first wrote "car" but then wrote an "l" over the "r" and completed the word "caldo"]] me lo permetta; sperando che voi mi concederete di potermi [[crossed out letter]] trasmettere in un altro di tal commodita che non habbia piu a pensar ad altro che a star[[the end of the word isn’t clear—maybe "starci"]] fin che piacera a dio d'inspirarmi altrimente; habiate qualque compiancensa per me, se volete obligarmi a essere eternamente vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
