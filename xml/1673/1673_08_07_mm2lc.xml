@@ -46,10 +46,10 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1673_08_04_mm2lc" type="letter" n="33">lett 33 Marie to Lorenzo</title>
+                    <title key="1673_08_07_mm2lc" type="letter" n="33">lett 33 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="lorenzo">Lorenzo</persName>
-                    <date when="1673-08-04">August 04 1673</date>
+                    <date when="1673-08-07">August 7 1673</date>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -76,11 +76,14 @@
                             <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
                             </handNote>
+                            <handNote xml:id="unk" medium="black">
+                                Secretary or archivist
+                            </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1673-08-04">August 04 1673</origDate>
+                            <origDate when="1673-08-07">August 7 1673</origDate>
                             <origPlace>
                                 <placeName key="turin">Turin</placeName>
                             </origPlace>
@@ -93,7 +96,7 @@
             <editorialDecl>
                 <interpretation>
                     <p>
-                        The archive incorrectly labeled this letter with date 1673-08-01. The correct date is 1673-08-04.
+                        The archive incorrectly labeled this letter with date 1673-08-01. The correct date is 1673-08-07.
                     </p>
                 </interpretation>
             </editorialDecl>
@@ -102,11 +105,14 @@
             <change when="2020-05-17" who="#omw">
                 Initial creation of XML from non-XML electronic files
             </change>
+            <change when="2020-07-27" who="#omw">
+                Raw and edit div changes
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1673_08_04_mm2lc_raw" n="33" facs="DSCF8532">
+            <div type="letter" xml:id="letter_1673_08_07_mm2lc_raw" n="33" facs="DSCF8532">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
                     Collocazione II-C.P.1. lett. 33
@@ -118,7 +124,7 @@
                     =
                     
                     Lettera al Contestabile Colonna
-                    in data	1° [[? it looks like a “4” to me on the letter]] Agosto 1673 da Torino
+                    in data	1&#xb0; [[actually 7]] Agosto 1673 da Torino
                     Sigillo mancante – tutta di pugno –
                     oggetto:
                 </note>
@@ -130,11 +136,12 @@
                     </dateline>
                 </opener>
                 <note resp="#smn">
-                    [[On the left side of the image, just to the left of the center fold, parallel with the fold, appears to be written the date, and it clearly says “4 Agosto 73”—probably written by an archivist?? or secretary?? The ink looks similar to Marie’s ink, but the lines are thicker, more absorbed into the paper.]]
-                    
+                    [[On the left side of the image, just to the left of the center fold, parallel with the fold, is written the date by an archivist or a secretary, and it appears to say "7 Agosto 73." The ink looks similar to Marie's ink, but the lines are thicker, more absorbed into the paper.]]
+                </note>
+                <note resp="#smn">
                     [[On the right half of the sheet:]]
                 </note>
-                <p>Don mauritio mi a parlato con dirme la bonta che mostrate verso di me; pero continuo a scrivervi [[Marie appears to have changed “scrivermi” to “scrivervi” by crossing out the last down stroke of the word and dotting the downstroke before it, to make it an “i”]] &#233; a ringratiarvene come faro sempre mentre conoscero che le mie letre vi diano gusto. in quanto poi a quello volete sapere circa il monasterio che desidero, io averei volsuto portarmi de qua a drittura a pariggi in una abadia ma poi che voi no lo giudicate a proposito, per adesso mi trattero, nel convento del lys, se me lo vorranno permettere; se no a lione aux ursule <hi rend="sup">a la rue de la vieille monoye</hi> [[something crossed out underneath—it looks like it might possibly have included “bellecour”?]]. &#233; fra tanto voi farete ogni sforso accio il Re in gratia vostra non mi neghi questa consolatione di star in un convento a pariggi tra i</p>
+                <p>Don mauritio mi a parlato con dirme la bonta che mostrate verso di me; pero continuo a scrivervi [[Marie appears to have changed "scrivermi" to “scrivervi" by crossing out the last down stroke of the word and dotting the downstroke before it, to make it an "i"]] &#233; a ringratiarvene come faro sempre mentre conoscero che le mie letre vi diano gusto. in quanto poi a quello volete sapere circa il monasterio che desidero, io averei volsuto portarmi de qua a drittura a pariggi in una abadia ma poi che voi no lo giudicate a proposito, per adesso mi trattero, nel convento del lys, se me lo vorranno permettere; se no a lione aux ursule <hi rend="sup">a la rue de la vieille monoye</hi> [[something crossed out underneath—it looks like it might possibly have included “bellecour”]]. &#233; fra tanto voi farete ogni sforso accio il Re in gratia vostra non mi neghi questa consolatione di star in un convento a pariggi tra i</p>
                 <pb facs="DSCF8534"/>
                 <note resp="#smn">[[On the right half of the sheet:]]</note>
                 <p>miei parenti. &#233; perche considero benissimo che per la spesa di questo viaggio vi vorra di denari assai particolarmente se me acompagna il marquese di borgomenero, come dice di voler fare, stimo per bene che non avendone voi bona somma di contanti &#233; pronti vi contentiate che si vendino trenta lochi de miei monti per questo effetto; et questi denari le potrete far rimettere quy a don mauritio il quale potra venir con me se vi contentate che mi serrva in nome vostro accio mi soministi poi in convento in francia quella assistensa che mi fate gratia adesso; et come credo che per vender i trenta luochi de miei monti cammerali costi vi sara necessario sensa dubbio il mio consentimento et autorita per farlo</p>
@@ -142,7 +149,7 @@
                 <p>tutto questo la do in virtu di questa mia letra a voi afinche con la <hi rend="strike">mia</hi> vostra autorita in Roma, et questa mia volonta ordiniate a marcatelli. o a chi vorrete le vendano</p>
                 <p>Maria Mancini Colonna</p>
                 <note resp="#smn">[[A blank space equal to about 4 or 5 lines’ worth, then more writing:]]</note>
-                <p>solamente per non disgustarvi mi tratengo ancora qua dove <hi rend="strike">sto</hi> mi vedo di mala voglia &#233; con ragione. pero subito ch averete risposta del Re fatemelo sapere perche in quanto poi alla licensa del entrar in monasterio ogni archivescovo del loco <hi rend="sup">me la</hi> pol dare. sollecitate ancho il denaro &#233; in caso non si possano vender cosi presto potete farmeli prestare [[something crossed out]] accio sia rimesso qui prontamente per pagare quello devo et con</p>
+                <p>solamente per non disgustarvi mi tratengo ancora qua dove <hi rend="strike">sto</hi> mi vedo di mala voglia &#233; con ragione. pero subito ch averete risposta del Re fatemelo sapere perche in quanto poi alla licensa del entrar in monasterio ogni archivescovo del loco <hi rend="sup">me la</hi> pol dare. sollecitate ancho il denaro &#233; in caso non si possano vender cosi presto potete farveli prestare [[something crossed out]] accio sia rimesso qui prontamente per pagare quello devo et con</p>
                 <note resp="#smn">[[On the left half of the sheet, along the top edge, written upside down relative to the writing on the right half of the sheet:]]</note>
                 <closer>
                     <salute>questo mi confermo sempre vostra</salute>
