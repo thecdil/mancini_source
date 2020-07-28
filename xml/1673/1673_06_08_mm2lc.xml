@@ -141,21 +141,19 @@
                     <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_06_08_mm2lc_edit" n="31" facs="DSCF8527">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8528"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-06-08">il 8 giugno 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Avendo intesi i vostri sensi dal signor marchese di Borgomanero, subito mi sono ricondotta nel convento della Visitazione, per starvi fin tanto che il caldo me lo permetta; sperando che voi mi concederete di potermi trasmettere in un altro di tal comodit&#224; che non abbia pi&#249; a pensar ad altro che a starci finch&#233; piacer&#224; a Dio di ispirarmi altrimenti; abbiate qualche compiacenza per me, se volete obbligarmi a essere eternamente vostra</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
