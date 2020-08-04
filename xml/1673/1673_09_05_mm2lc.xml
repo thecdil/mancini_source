@@ -162,22 +162,24 @@
                     </note>
                 </postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_09_05_mm2lc_edit" n="37" facs="DSCF8541">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8542"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-09-05">il 5 settembre 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>&#200; arrivato alla fine Oliva con la sedia <ref type="annotate" xml:id="a1673_09_05_mm2lc" n="1">rullante</ref> che &#232; di molto buon gusto e mi &#232; piaciuta in estremo. Fra quattro o sei giorni sara accomodata; qui &#232; passato monsieur Dangeau per andar a Modena a persuader la duchessa di Modena, da parte del Re, acci&#242; si risolva, di dar la figliola al duca di York; siccome non &#232; che otto giorni che manca dalla corte, gli ho domandato se aveva inteso dir niente circa la mia venuta, e delle istanze che avete fatto appresso al Re. Mi ha risposto di non averne nessuna notizia,</p>
+                <pb facs="DSCF8543"/>
+                <p>perci&#242; io temo che le lettere che avete scritto, se non le avete duplicate con il corriere ordinario seguente, che possano essersi perse; anche perch&#233;, ognuno crede che il Re in grazia vostra non mi negherebbe la licenza di ritornare in Francia. Perci&#242; sappiate un poco se sono state rese. Il cardinal d'Estr&#233;es ve ne potr&#224; dare qualche avviso. E con questo vi saluto di tutto cuore e resto per sempre tutta vostra</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
+                <pb facs="DSCF8544"/>
+                <postscript>Avuta dal lacch&#232; del signor Ambasciator di Francia</postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
