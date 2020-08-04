@@ -155,21 +155,22 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_08_30_mm2lc_edit" n="35" facs="DSCF8535">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8536"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-08-30">il 30 agosto 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Dalla lettera che scrivete a don Maurizio, sento della vostra indisposizione, che mi dispiace sommamente. Spero in Dio per&#242; che a quest'ora non sar&#224; niente. Ho ricevuto la cassetta con le corone e medaglie che sono state di molto gusto mio e ve ne ringrazio. Sto attendendo i denari della vendita dei miei luoghi dei monti, come vi scrissi, e assieme le risposte di Francia, che credo che mai arriveranno, cosa di cui voi stesso vi meravigliate; e cos&#236; tardando queste e </p>
+                <pb facs="DSCF8537"/>
+                <p>terminando i quattro mesi il 15 <ref type="annotate" xml:id="a1673_08_30_mm2lc" n="1">dell'entrante</ref>, non abbiate a male che passato questo tempo mi possa portare a Chambery, da dove mi sar&#224; pi&#249; facile di poter negoziare la mia entrata in quel regno, in un monasterio conforme voi avete scritto. Desidererei che alla risposta di <ref type="annotate" xml:id="b1673_08_30_mm2lc" n="2">questa</ref> voi mi inviaste un consenso di vostro pugno che dica che vi contentate che vada in Francia in un convento e che sperate che il Re me lo permetta.</p>
+                <p>Questo &#232; quanto desidero che fate ora per me; che poi io operer&#242; in modo che avrete sempre pi&#249; soddisfazione di me; abbraccio i figlioli e mi confermo al solito tutta vostra.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
