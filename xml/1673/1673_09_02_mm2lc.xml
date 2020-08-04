@@ -161,22 +161,23 @@
                     <p>circa il monasterio ne valensa ne vienna non sono a proposito per l' la strettessa &#232; vienna &#232; sul passo come lione      adio</p>
                 </postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_09_02_mm2lc_edit" n="36" facs="DSCF8538">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8539"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-09-02">il 2 settembre 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Ricevo la vostra lettera da don Maurizio e vedo, inoltre, quanto desiderate, da quello che scrivete a lui; al quale mi conformo in tutto al vostro gusto. Sto attendendo le <ref type="annotate" xml:id="a1673_09_02_mm2lc" n="1">risposte</ref> e intanto ho pregato il marchese di Borgomanero che si porti qui subito come mi ha promesso e come spero che far&#224;; lo stesso mi avvisa, che &#232; arrivata a Milano Oliva; a lui feci scrivere in nome vostro da don Maurizio, a Firenze, acci&#242;</p>
+                <pb facs="DSCF8540"/>
+                <p>fosse lui il conduttore della sedia <ref type="annotate" xml:id="b1673_09_02_mm2lc" n="2">rullante</ref>, la quale non dubito che non sia di buon gusto mentre &#232; opera del vostro ingegno. Vi prego di fare in modo che Oliva venga appresso di me, perci&#242; obbligatevi a me di scrivergli mostrando di averlo a gusto. Rallegrandomi che vi siate riavuto, vi prego di aver cura di voi, dispiacendomi di sentire che vi sia qualche impedimento circa a don Maurizio e che potendolo superare me ne darete gusto; ma per&#242; che non sia in pregiudizio vostro. La procura gi&#224; l'ho passata e aspetto i denari con desiderio perch&#233; ne necessito. E con questo resto vostra abbracciando i figlioli di tutto cuore.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
+                <postscript>Circa il monastero, n&#233; Valensa n&#233; <ref type="annotate" xml:id="c1673_09_02_mm2lc" n="3">Vienna</ref> sono a proposito per la strettezza, e Vienna &#232; sul passo come Lione. Addio.</postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
