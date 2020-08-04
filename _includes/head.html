@@ -4,7 +4,9 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
 {%- if site.bootstrap == true -%}<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">{%- endif -%}
 {%- if site.fontawesome == true -%}<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">{%- endif -%}
+<script defer src="{{ '/assets/lib/fontawesome-free/js/all.min.js' | absolute_url }}"></script>
 {% if layout.gallery == true %}<link rel="stylesheet" href="{{ '/lightgallery/css/lightgallery.min.css' | prepend: site.digital-assets }}" type="text/css">{% endif %}
 {% if page.layout == "home" %}<link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">{% endif %}
+{% if page.layout == 'page' %}<link rel="stylesheet" type="text/css" href="{{ '/assets/lib/datatables/datatables.min.css' | absolute_url }}">{%- endif -%}
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">
