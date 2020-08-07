@@ -162,22 +162,21 @@
                     </p>
                 </postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_10_04_mm2lc_edit" n="40" facs="DSCF8550">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8551"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-10-04">il 4 ottobre 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Ogni giorno pu&#242; esser quello dell'arrivo del marchese di Borgomanero; gi&#224; che mi ha scritto di dover partire il giorno di San Michele. N&#233; lo pu&#242; ritener pi&#249; niente mentre il duca d'Osuna gli ha dato licenza conforme mi dice. Non temete che io parta senza di lui n&#233; che sia per fermarmi a Chamb&#233;ry. Tenter&#242; di entrare in Francia e di restarci, se me lo vogliono concedere; quando no, vedremo col Marchese di scegliere in un luogo un monastero di vostra soddisfazione e mia. Qui si fanno grandi preparativi per ricevere la duchessa di Modena che va ad accompagnare la figlia a Londra, sposa del duca di York; il qual matrimonio si &#232; terminato senza aspettare il consenso del Papa. Mentre il Duca non poteva pi&#249; rimetterlo dovendo farlo approvare al parlamento che entra alla fine di questo. Cercher&#242; di soddisfare Oliva al meglio che mi sar&#224; possibile acci&#242; non abbia a desiderare di ritornare a Firenze. Trattanto vi rinnovo la stima e l'affetto col quale mi sono professata sempre vostra.</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
+                <postscript>Abbraccio i miei ragazzi con tutto il cuore.</postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
