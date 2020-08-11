@@ -46,10 +46,10 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1674_02_17_mm2lc" type="letter" n="57">lett 57 Marie to Lorenzo</title>
+                    <title key="1674_02_19_mm2lc" type="letter" n="57">lett 57 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
-                    <date when="1674-02-17">February 17 1674</date>
+                    <date when="1674-02-19">February 19 1674</date>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -80,7 +80,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1674-02-17">February 17 1674</origDate>
+                            <origDate when="1674-02-19">February 19 1674</origDate>
                             <origPlace>
                                 <placeName key="antwerp">Antwerp</placeName>
                             </origPlace>
@@ -105,7 +105,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1674_02_17_mm2lc_raw" n="57" facs="DSCF8607">
+            <div type="letter" xml:id="letter_1674_02_19_mm2lc_raw" n="57" facs="DSCF8607">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
                 Collocazione II-C.P.1. Lettera 57
@@ -117,7 +117,7 @@
                 =
 
                 Lettera al Contestabile Colonna
-                in data	17 Febbraio 1674 dal Castello di Anversa
+                in data	17 [[actually 19]] Febbraio 1674 dal Castello di Anversa
                 Sigillo mancante – tutta di pugno –
 
                 oggetto:
@@ -131,15 +131,15 @@
                 </note>
                 <opener>
                     <dateline>
-                        <date when="1672-02-17">17 fev[[rier]] 74</date>
+                        <date when="1672-02-19">17 fev[[rier]] 74 [[The date is written by a secretary rather than by Marie. The ink looks different from Marie's.]]</date>
                     </dateline>
                 </opener>
-                <p>Doppo lultima che vi[[<hi rend="strike">s</hi>]] scrissi sono otto giorni, mi est stato a visitar [[<hi rend="strike">il</hi>]] l'<hi rend="sup">inter</hi>nuntio il quale &#233; venuto imbeuto di tutte le ragioni che li a sugerito oliva ne mi a predicato altro che la patientia [[<hi rend="strike">dicen</hi>]] scusandosi di non aver modo di potermi servire mentre il conte di monterey attende letre vostre et non fa que quello vole Bourgomenero il quale non a ancora hauto faccia di venirmi a veder &#233; impedisce anche ch'il conte de monterey non venga per timor ch'io scopra il suo tradimento ch'&#233; tanto chiaro che son certa che lo conoscerete &#233; per provarvi questa verita se il marquese aveva pensiero di farmi arestar per far servitio a voi lo poteva far far nello stato di milano o in [[<hi rend="strike">frisb</hi>]] frisbourg citta imperiale dove capellieri aveva ordine di farlo seguendo i primi <hi rend="sup">ordini</hi> che limperatore dette a tutti i suoi ministri ma [[<hi rend="strike">luy</hi>]] il marquese non era</p>
+                <p>Doppo lultima che vi[[<hi rend="strike">s</hi>]] scrissi sono otto giorni, mi est stato a visitar[[<hi rend="strike">e il</hi>]] l'<hi rend="sup">inter</hi>nuntio il quale &#233; venuto imbeuto di tutte le ragioni che li a sugerito oliva ne mi a predicato altro che la patientia [[<hi rend="strike">dicen</hi>]] scusandosi di non aver modo di potermi servire mentre il conte di monterey attende letre vostre et non fa que quello vole Bourgomenero il quale non a ancora hauto faccia di venirmi a veder &#233; impedisce anche ch'il conte de monterey non venga per timor ch'io scopra il suo tradimento ch'&#233; tanto chiaro che son certa che lo conoscerete &#233; per provarvi questa verita se il marquese aveva pensiero di farmi arestar per far servitio a voi lo poteva far far nello stato di milano o in [[<hi rend="strike">frisb</hi>]] frisbourg citta imperiale dove capellieri aveva ordine di farlo seguendo i primi <hi rend="sup">ordini</hi> che l'imperatore dette a tutti i suoi ministri ma [[<hi rend="strike">luy</hi>]] il marquese non era</p>
                 <pb facs="DSCF8609"/>
                 <note resp="#smn">
-                [[On the right half of the sheet:]]     
+                [[This sheet is the verso of the previous sheet, image DSCF8608. On the right half of the sheet:]]     
                 </note>
-                <p>in collera con me allora &#233; percio l'impedi; ma doppo poi le risse che sono passate si &#233; volsuto sodisfare &#233; a colorito la sua vendetta col zelo di servirvi. queste sono verita ne io mi serviro mai d'inventione come luy qu’a inventato una man di bugie per farmi far l'afronto que man fatto &#233; que mi fanno giornalmente essendo guardata con un rigore come s'havessi tradito la corona. io non o amici ne parenti &#233; pero gli est stato facile di far ala peggio ch’a potuto, et di disponer gli animi come a volsuto contra di me ch'essendo innocente non sospestavo alcuna cosa. o per inteso dal nuntio che luy possa avervi seritto che mi aveva fatto arrestare temendo ch'io andassi altrove ma questo non a nessun fondamento poiche savessi auto questo pensiero non avevo [[something crossed out]] per esseguirlo ch'a fermarmi in una citta libera come colonia franfort &#233; altre, et non impegnarmi nel armata</p>
+                <p>in collera con me allora &#233; percio l'impedi; ma doppo poi le risse che sono passate si &#233; volsuto sodisfare, &#233; a colorito la sua vendetta col zelo di servirvi. queste sono verita ne io mi serviro mai d'inventione come luy qu’a inventato una man di bugie per farmi far l'afronto que man fatto &#233; que mi fanno giornalmente essendo guardata con un rigore come s'havessi tradito la corona. io non o amici ne parenti &#233; pero gli est stato facile di far ala peggio ch’a potuto, et di disponer gli animi come a volsuto contra di me ch'essendo innocente non sospestavo alcuna cosa. o per inteso dal nuntio che luy possa avervi scritto che mi aveva fatto arrestare temendo ch'io andassi altrove ma questo non a nessun fondamento poiche savessi auto questo pensiero non avevo [[something crossed out]] per esseguirlo ch'a fermarmi in una citta libera come colonia franfort &#233; altre, et non impegnarmi nel armata</p>
                 <note resp="#smn">
                 [[On the left half of the sheet, turned 90&#xb0;:]]    
                 </note>
@@ -148,7 +148,7 @@
                 <note resp="#smn">
                 [[On the left side of the image is a page of writing, which is actually the fourth and final page of the letter:]]
                 </note>
-                <p>che fu mi fece radoppiar tutte le guardie, et pigliar tutte le letre accio non <hi rend="sup">mi</hi> sfogassi a dire a nessuno il suo <hi rend="sup">inganno</hi> [[something crossed out]] ricordatevi che questo modo di procedere se voi l'aprovate ognuno vi biasmera ne mi dara mai piu core di poter ritornar con voi; vedendomi tradita in questa forma quando non avevo altra mira che di vivere in un convento nelli stati del [[<hi rend="strike">re</hi>]] Re di spagna per meglio incontrare il gusto vostro, et il vantaggio [[Marie actually writes "vanta" at the end of one line and "taggio" at the beginning of the next]] della mia casa, et il marquese vi puol supponere una falsita simile, che temeva ch io andassi altrove son cose queste che meritariano una vendetta degna del offesa, &#233; vi protesto ch'o mi vendicaro o luy mi fara ragione. aspesto solamente di veder come voi [[something crossed out]] risponderete alle prime letre del conte, et alle sue perche dalle vostre risposte macertaro del modo che luy vi avera scritto. adio non sono in stato di poter dir davantagio son vostra</p>
+                <p>che fu mi fece radoppiar tutte le guardie, et pigliar tutte le letre accio non <hi rend="sup">mi</hi> sfogassi a dire a nessuno il suo <hi rend="sup">inganno</hi> [[something crossed out]] ricordatevi che questo modo di procedere se voi l'aprovate ognuno vi biasmera ne mi dara mai piu core di poter ritornar con voi; vedendomi tradita in questa forma quando non avevo altra mira che di vivere in un convento nelli stati del [[<hi rend="strike">re</hi>]] Re di spagna per meglio incontrare il gusto vostro, et il vantaggio [[Marie actually writes "vanta" at the end of one line and "taggio" at the beginning of the next]] della mia casa, et il marquese vi puol supponere una falsita simile, che temeva ch io andassi altrove son cose queste che meritariano una vendetta degna del offesa, &#233; vi protesto ch'o mi vendicaro o luy mi fara ragione. aspesto solamente di veder come voi [[something crossed out– maybe "pigliare"]] risponderete alle prime letre del conte, et alle sue perche dalle vostre risposte macertaro del modo che luy vi avera scritto. adio non sono in stato di poter dir davantagio son vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
