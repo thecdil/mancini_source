@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'csv'
 
 desc "Use nokogiri to generate HTML pages from TEI xml"
 task :letters, [:arg1] do |t, args|
@@ -17,6 +18,9 @@ task :letters, [:arg1] do |t, args|
 
         # read the xml with Nokogiri
         doc = Nokogiri::XML(File.read(xmlname))
+
+        # read the annotations csv
+        $annotate = CSV.read("_data/annotation_tags.csv", headers: true)
 
         # open new file
         newdoc = File.new("_letters/" + output_name, 'w')
@@ -54,15 +58,45 @@ task :letters, [:arg1] do |t, args|
             node['href'] = '/places#' + key
             node.delete('key')
         end
+        #$id = 'a1672_07_14_mm2os'
+        #bar = $annotate.find {|row| row['id'] == $id}
+        #puts bar
+
+        #CSV.foreach("_data/annotation_tags.csv", headers: true) do |row|
+          #  puts row.inspect
+        #end
+        # CSV::Converters[:string] = ->(value) { value.to_i rescue value }
+
+        data_file = '_data/annotation_tags.csv'
+        data = []
+        CSV.foreach(data_file, headers: true) do |row|
+            data << row.to_hash
+            data.select do |hash|
+                if hash[:id] == 'a1672_07_14_mm2os'
+                    puts hash[:text]
+                end
+            end
+        end
 
         # do annotations
         doc.css('p').children.each do |node|
             if node['type']
+            @id = node['xml:id']
             node.name = 'a'
-            id = node['xml:id']
-            node['href'] = '#' + id
+            node['href'] = '#' + @id
             node['data-toggle'] = 'tooltip'
-            node['title'] =  'x'
+            #if @id == 'b1672-07-14'
+             #   puts @id
+              #  @bar = $annotate.find {|row| row['id'] == @id}
+            #end
+            #puts @bar
+            #if @id == 'a1672_07_14_mm2os'
+            #@bar = $annotate.find {|row| row['id'] == @id}
+            #end
+            #puts @bar
+            #foo = bar['text']
+            #node['title'] = foo
+        # node['title'] =  'x'
             original_node = node.content
             node.before original_node + ' '
             node.content = '[' + node['n'] + ']'
@@ -72,7 +106,7 @@ task :letters, [:arg1] do |t, args|
             end
         end
 
-         # text emphasis
+        # text emphasis
         doc.css('hi').each do |node|
             rend = node['rend']
             node.name = rend
