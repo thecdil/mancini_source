@@ -146,21 +146,19 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
-                <pb facs="DSCF8222"/>
+            <div type="letter" xml:id="letter_1673_09_20_mm2lc_edit" n="39" facs="DSCF8548">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8549"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
-                        <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-09-20">il 20 settembre 1673</date>
                     </dateline>
                 </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
+                <p>Bench&#233; non abbia ricevuto le vostre lettere sento che state attendendo sempre le risposte dalla Francia come far&#242; anche io sino a tanto che sia qua il marchese di Borgomanero; il quale ho pregato di nuovo di venirmi a trovare prontamente. Insieme poi risolveremo quello che mi parr&#224; meglio. Io ho poi licenziato monsieur Boniel per darvi questa soddisfazione, sapendo che lo desideravate, perch&#233; per altro mi era molto necessario. E con questo resto al solito vostra</p>
                 <closer>
                     <salute></salute>
-                    <signed></signed>.
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
