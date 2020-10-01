@@ -8,5 +8,8 @@
 {% if layout.gallery == true %}<link rel="stylesheet" href="{{ '/lightgallery/css/lightgallery.min.css' | prepend: site.digital-assets }}" type="text/css">{% endif %}
 {% if page.layout == "home" %}<link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">{% endif %}
 {% if page.layout == 'page' %}<link rel="stylesheet" type="text/css" href="{{ '/assets/lib/datatables/datatables.min.css' | absolute_url }}">{%- endif -%}
-
+{% if page.layout == 'map' %}<link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.fusesearch.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/lib/leaflet/MarkerCluster.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/lib/leaflet/MarkerCluster.Default.css' | absolute_url }}">{%- endif -%}
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">

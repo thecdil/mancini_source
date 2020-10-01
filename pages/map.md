@@ -1,6 +1,6 @@
 ---
 title: Map
-layout: page
+layout: map
 permalink: map.html
 ---
 

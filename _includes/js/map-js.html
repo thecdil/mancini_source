@@ -1,11 +1,11 @@
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
+{%- assign items = site.data.mancini | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
 {%- assign fields = site.data.config-map -%}
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | absolute_url }}"></script>
-{% if site.data.theme.map-search == true %}<script src="{{ '/assets/lib/leaflet/fuse.min.js' | absolute_url }}"></script>
-<script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | absolute_url }}"></script>{% endif %}
-{% if site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | absolute_url }}"></script>{% endif %}
-{% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | absolute_url }}"></script>{% endif %}
+<script src="{{ '/assets/lib/leaflet/fuse.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | absolute_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | absolute_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | absolute_url }}"></script>
 
 <script>
 (function(){
@@ -14,7 +14,7 @@
     {% for item in items %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
     { "title": {{ item.title | escape | jsonify }}, 
-    {% for f in fields %}{{ f.field | escape | jsonify }}: {{ item[f.field] | escape | jsonify }},{% endfor %}{% if item.youtubeid %} "youtube": {{ item.youtubeid | jsonify }},{% endif %} "id": {{ item.objectid | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    {% for f in fields %}{{ f.field | escape | jsonify }}: {{ item[f.field] | escape | jsonify }},{% endfor %} "images":{{ item.images | strip | escape | jsonify }}, "id": {{ item.id | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
     /* init map and set zoom */
@@ -25,7 +25,7 @@
         var longitudeHash = hashfilter.split(',')[1]
         var map = L.map('map').setView([latitudeHash,longitudeHash],16);
     } else {
-        var map = L.map('map').setView([{{ site.data.theme.latitude | default: 46.727485 }},{{ site.data.theme.longitude | default: -117.014185 }}],{{ site.data.theme.zoom-level | default: 5 }});
+        var map = L.map('map').setView([43.753608,3.905236],5);
     }
 
     /* add map layer options */
@@ -47,7 +47,7 @@
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
-    {{ site.data.theme.map-base | default: 'Esri_WorldStreetMap' }}.addTo(map);
+    Esri_NatGeoWorldMap.addTo(map);
 
     {% if site.data.theme.map-search == true %}
     /* add search, https://github.com/naomap/leaflet-fusesearch */
@@ -69,11 +69,13 @@
         {% if site.data.theme.map-search == true %}/* bind feature for search */
         feature.layer = layer;{% endif %}
         /* create pop up */
-        var itemHref = '{{ site.baseurl }}/items/' + feature.properties.id + '.html';
+        var itemHref = '{{ site.baseurl }}/letters/' + feature.properties.id + '.html';
         if (feature.properties.youtube) {
             var thumbSrc = 'https://img.youtube.com/vi/' + feature.properties.youtube + '/default.jpg';
         } else {
-            var thumbSrc = '{{ site.objects | relative_url }}/thumbs/' + feature.properties.id + '_th.jpg';
+            var photos = feature.properties.images;
+            var photoArray = photos.split(';');
+            var thumbSrc = '{{ site.digital-objects | relative_url }}/thumb/' + photoArray[1] + '_th.jpg';
         }
         var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
             feature.properties.title + '</a></h4><div class="text-center"><a class="btn btn-light" href="' + itemHref + 

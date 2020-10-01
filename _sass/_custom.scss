@@ -24,3 +24,12 @@ a {
 .glossary-def {
     font-size:26px;
 }
+
+/* map */
+#map { height: 750px; z-index: 98; }
+.mapthumb {
+    height: 100px;
+}
+.leaflet-fusesearch-panel .header {
+    padding-bottom: 1.5em;
+}
