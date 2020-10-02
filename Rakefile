@@ -58,11 +58,12 @@ task :letters, [:arg1] do |t, args|
         # do annotations
         doc.css('p').children.each do |node|
             if node['type']
+            text = node['style']
             node.name = 'a'
             id = node['xml:id']
             node['href'] = '#' + id
             node['data-toggle'] = 'tooltip'
-            node['title'] =  'x'
+            node['title'] = text
             original_node = node.content
             node.before original_node + ' '
             node.content = '[' + node['n'] + ']'

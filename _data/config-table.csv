@@ -2,4 +2,4 @@ field,display_name
 id,Letter ID
 creator,Author
 recipient,Addressee
-date-actual,Date
+date_actual,Date
