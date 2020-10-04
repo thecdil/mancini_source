@@ -162,21 +162,8 @@
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
                 <pb facs="DSCF8222"/>
-                <opener>
-                    <dateline>
-                        <placeName key="grenoble">Grenoble</placeName>
-                        <date when="1672-07-14">14 July</date>
-                    </dateline>
-                </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
-                <closer>
-                    <salute></salute>
-                    <signed>
-                        <persName key="marie-mancini"></persName>.
-                    </signed>
-                </closer>
+
+
             </div>
         </body>
     </text>
