@@ -155,10 +155,10 @@
                 <opener>
                     <dateline>
                         <placeName key="turin">De Turin</placeName> 
-                        <date when="1673-03-29">ce 29<hi rend="sup">me</hi> mars <ref type="annotate" xml:id="a1673_03_29_mm2lc" n="1">1673</ref></date>
+                        <date when="1673-03-29">ce 29<hi rend="sup">me</hi> mars <ref type="annotate" xml:id="a1673_03_29_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
                     </dateline>
                 </opener>
-                <p>Son debitrice di due <ref type="annotate" xml:id="b1673_03_29_mm2lc" n="2">vostre</ref> ma come sono stata un poco indisposta non potei puntualmente rispondere; ricevo la polizza di cambio di centonovanta doppie; e vi ringrazio di quanto avete operato per facilitarmi il modo di riscuoterli. In quanto a Pietro Marchese, non lo impiegher&#242; pi&#249; a niente, e lo conosco meglio di voi; credo che se ne andr&#224; presto a trovar mio fratello, non essendomi qui necessario. Godo che i miei ragazzi stiano tutti bene, abbracciateli per me e dategli la benedizione in mio nome ed al solito mi sottoscrivo vostra</p>
+                <p>Son debitrice di due <ref type="annotate" xml:id="b1673_03_29_mm2lc" n="2" style="The meaning is 'due vostre lettere.'">vostre</ref> ma come sono stata un poco indisposta non potei puntualmente rispondere; ricevo la polizza di cambio di centonovanta doppie; e vi ringrazio di quanto avete operato per facilitarmi il modo di riscuoterli. In quanto a Pietro Marchese, non lo impiegher&#242; pi&#249; a niente, e lo conosco meglio di voi; credo che se ne andr&#224; presto a trovar mio fratello, non essendomi qui necessario. Godo che i miei ragazzi stiano tutti bene, abbracciateli per me e dategli la benedizione in mio nome ed al solito mi sottoscrivo vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>

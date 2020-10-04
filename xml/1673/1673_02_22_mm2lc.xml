@@ -144,10 +144,10 @@
                 <opener>
                     <dateline>
                         <placeName key="turin">De Turin</placeName> 
-                        <date when="1673-02-22">ce 22 f&#233;v[rier] <ref type="annotate" xml:id="a1673_02_22_mm2lc" n="1">1673</ref></date>
+                        <date when="1673-02-22">ce 22 f&#233;v[rier] <ref type="annotate" xml:id="a1673_02_22_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
                     </dateline>
                 </opener>
-                <p>Dalla vostra lettera dell'otto del <ref type="annotate" xml:id="b1673_02_22_mm2lc" n="2">corrente</ref> mese mi par di vedere che non approvate molto la mia fermata in questo luogo; e di questo mi meraviglio poich&#233;  sapevi che sono partita da Lione con questa intenzione; e qui, come ho fatto altrove, non avrete che desiderare circa la mia condotta; aspetter&#242; qui il ritorno di mio fratello che sar&#224; qui subito dopo che la moglie ha partorito; in questo intervallo di tempo pregher&#242; Dio che mi voglia disponer a conformarmi ai vostri desideri poich&#233; senza esser cosi disposta n&#233; voi potreste goder del mio ritorno n&#233; io starei soddisfatta; sto impaziente di sentir miglior nuove di Carlino essendo molto inquieta della sua malattia; ed abbracciandolo come gli altri due mi confermo per sempre la stessa vostra</p>
+                <p>Dalla vostra lettera dell'otto del <ref type="annotate" xml:id="b1673_02_22_mm2lc" n="2" style="The meaning is 'del corrente mese.'">corrente</ref> mese mi par di vedere che non approvate molto la mia fermata in questo luogo; e di questo mi meraviglio poich&#233;  sapevi che sono partita da Lione con questa intenzione; e qui, come ho fatto altrove, non avrete che desiderare circa la mia condotta; aspetter&#242; qui il ritorno di mio fratello che sar&#224; qui subito dopo che la moglie ha partorito; in questo intervallo di tempo pregher&#242; Dio che mi voglia disponer a conformarmi ai vostri desideri poich&#233; senza esser cosi disposta n&#233; voi potreste goder del mio ritorno n&#233; io starei soddisfatta; sto impaziente di sentir miglior nuove di Carlino essendo molto inquieta della sua malattia; ed abbracciandolo come gli altri due mi confermo per sempre la stessa vostra</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>

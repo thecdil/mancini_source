@@ -68,6 +68,7 @@ task :letters, [:arg1] do |t, args|
             node.before original_node + ' '
             node.content = '[' + node['n'] + ']'
             node.delete('n')
+            node.delete('style')
             node.delete('key')
             node.delete('type')
             end
