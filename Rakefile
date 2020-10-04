@@ -43,15 +43,14 @@ task :letters, [:arg1] do |t, args|
         doc.css('persName').each do |node|
             node.name = 'a'
             key = node['key']
-            node['href'] = '/people#' + key
-            node.delete('key')
+            node['href'] = '/mancini_source/people.html#' + key
         end
 
         # hyperlink placeNames
         doc.css('placeName').each do |node|
             node.name = 'a'
             key = node['key']
-            node['href'] = '/places#' + key
+            node['href'] = '/mancini_source/places.html#' + key
             node.delete('key')
         end
 
@@ -65,7 +64,10 @@ task :letters, [:arg1] do |t, args|
             node['data-toggle'] = 'tooltip'
             node['title'] = text
             original_node = node.content
-            node.before original_node + ' '
+                if node['key']
+                    key = node['key']
+                    node.before '<a href="/mancini_source/people.html#' + key + '">' + node.content + '</a> '
+                end
             node.content = '[' + node['n'] + ']'
             node.delete('n')
             node.delete('style')
