@@ -184,8 +184,11 @@ task :letters, [:arg1] do |t, args|
         paragraph(doc, signed)
 
         doc.css('closer p').each do |node|
-            node['class'] = 'text-right'
+            if node['class']
+                node['class'] = 'text-right'
+            end
         end
+        
         # remove closer element
         closer = doc.css('closer')
         node_removal(closer)

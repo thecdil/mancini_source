@@ -10,9 +10,9 @@ gallery: true
 {%- endfor -%}
 
 <div class="container py-4">
-    <h1>{{ page.title }}</h1>
-    <div class="row my-4">
-        <div class="col-md-8">
+    <h1>{{ page.author }} to {{ page.addressee }}, {{ page.letterdate }}</h1>
+    <div class="row my-4 mx-auto">
+        <div class="col-md-8 pr-5">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="trans-tab" data-toggle="tab" href="#trans" role="tab" aria-controls="trans" aria-selected="true">Translation</a>
@@ -33,10 +33,11 @@ gallery: true
                 
             </div>
         </div>
-        <div class="col-md-4 text-center" id="lightgallery">
+        <div class="col-md-4" id="lightgallery">
+            <p class="text-center">Click images to view full screen</p>
             {%- for i in images -%}
             <div class="gallery-img" data-src="{{ site.digital-objects }}/{{ i | append: '.jpg' }}">
-                <img src="{{ site.digital-objects }}/thumb/{{ i | append: '_th.jpg' }}" class="m-2 rounded" alt="letter thumbnail" class="img-fluid">
+                <p><img src="{{ site.digital-objects }}/thumb/{{ i | append: '_th.jpg' }}" alt="letter thumbnail" class="img-fluid p-1 rounded"></p>
             </div>
             {%- endfor -%}
         </div>

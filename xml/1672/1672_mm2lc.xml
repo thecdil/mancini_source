@@ -152,7 +152,6 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="unk"></placeName>
                         <date when="1672">1672</date>
                     </dateline>
                 </opener>
@@ -162,17 +161,12 @@
                 [[On the right half of the sheet:]]    
                 </note>
                 <p>stato un capriccio questa mia resolutione ma piu tosto [[<hi rend="strike">una</hi>]] o cerchato per questo verso di satisfarmi lanimo &#233; viver quieta il resto de miei giorni questo &#233; quanto posso dirvi assicurandovi ch' ritrovarete sempre in me quella cordialita &#233; affetto ch' vi o sempre portato abraccio i ragassi con tutto il core &#233; assicurateli che non mi scordaro <hi rend="sup">mai</hi> di loro    [[descending squiggly line which stands in sometimes for Marie's signature or initials]]</p>
-                <closer>
-                    <salute></salute>
-                    <signed></signed>
-                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_mm2lc_edit" n="01" facs="DSCF8481">
                 <head type="edit" xml:lang="it" />
                 <pb facs="DSCF8222"/>
                 <opener>
                     <dateline>
-                        <placeName key="unk"></placeName>
                         <date when="1672">1672</date>
                     </dateline>
                 </opener>
@@ -181,10 +175,6 @@
                 <p>Sopra quanto mi &#232; stato riferito da vostra parte vi dir&#242; che non ricuso le offerte che mi fate, al contrario avr&#242; gusto nel far apparir al mondo che voi sempre mi considerate; in quanto poi alla risoluzione che ho preso di ritirarmi in Francia, non &#232; stata causata che dai sospetti che ho avuto della mia poca salute, unito anche a quel che mio fratello ha detto più volte a me e ad altri, cio&#232; dei disegni che voi avevate contro di me. Potrei dire anche delle altre cose ma le tacer&#242; tutte quando voi non vogliate che le faccia apparir al mondo; e perci&#242; accetter&#242; volontieri tutte le bontà che volete avere per me, n&#233; dovete dubitare mai che, in qualunque loco ove io sia, non vi renda buon conto della mia persona. Vi far&#242; conoscere che non &#232;</p>
                 <pb facs="DSCF8484"/>
                 <p>stato un capriccio questa mia risoluzione ma piuttosto ho cercato, per questo verso, di soddisfarmi l'animo e vivere quieta il resto dei miei giorni. Questo &#232; quanto posso dirvi, assicurandovi che ritroverete sempre in me quella cordialità e affetto che vi ho sempre portato. Abbraccio i ragazzi con tutto il cuore, rassicurateli che non mi scorder&#242; mai di loro.</p>
-                <closer>
-                    <salute></salute>
-                    <signed></signed>.
-                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_mm2lc_translation" n="01" facs="DSCF8481">
                 <head type="translation" xml:lang="en" />
@@ -192,19 +182,12 @@
                 <pb facs="DSCF8483"/>
                 <opener>
                     <dateline>
-                        <placeName key="unk"></placeName>
                         <date when="1672">1672</date>
                     </dateline>
                 </opener>
                 <p>Regarding what was relayed to me on your behalf, I will say that I do not reject the offers you are making me; on the contrary, I will be pleased to let the world see that you still have regard for me. Furthermore, as for the resolution I took to retreat to France, it was caused only by the suspicions I had about my poor health, together with what my brother said many times to me and to others, about the designs you had against me. I could also say other things, but I'll keep silent about them all, since you would not want me to let them be known publicly. And yet, I will gladly accept all the kindness you are disposed to show me, and you should never doubt that wherever I may be, I will not fail to be accountable to you. I will make you understand that</p>
                 <pb facs="DSCF8484"/>
                 <p>this decision of mine was not a whim, but rather that I have sought in this way to put my mind at ease and to live in peace for the rest of my days. This is all I can tell you, and I assure you that you will always find in me the same cordiality and affection that I have always felt toward you. I send my love to the boys with all my heart; reassure them that I will never forget them.</p>
-                <closer>
-                    <salute></salute>
-                    <signed>
-                        <persName key="marie-mancini"></persName>
-                    </signed>
-                </closer>
             </div>
         </body>
     </text>
