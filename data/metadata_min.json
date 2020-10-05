@@ -4,5 +4,6 @@
 {%- assign items = site.data.mancini -%}
 {%- assign fields = site.data.config-table | map: 'field' -%}
 { "objects": [
-{%- for item in items -%}[ {% for f in fields %}{% if f == 'data' %}"test"{% elsif item[f] %}{{ item[f] | jsonify }}{% else %}""{% endif %},{% endfor %}{{ "/letters/" | append: item.id | append: ".html" | relative_url | jsonify }} ]{% unless forloop.last %},{% endunless %}{% endfor %}
+{%- for item in items -%}[ {% for f in fields %}{% if f == 'language' %}"{% assign languages = item.language | split: ';'  %}{% for l in languages %}<a class='m-1 btn btn-outline-secondary btn-sm' href='{{ 'browse.html' | relative_url }}#{{ l | strip }}'>{{ l }}</a>{% endfor %}"{% elsif item[f] %}{{ item[f] | jsonify }}{% else %}""{% endif %},{% endfor %} {{ "/letters/" | append: item.id | append: ".html" | relative_url | jsonify }} ]{% unless forloop.last %},{% endunless %}
+{% endfor %}
 ] }
