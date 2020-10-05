@@ -26,8 +26,8 @@ permalink: people.html
 {% for item in glossary %}
 {%- assign x = item.name | slice: 0 | capitalize -%}
 {%- if x == letter -%}
-    <dt class="glossary-def">{% if item.annotation %}<a href="{{ '/glossary/' | append: item.slug | append: '.html' | relative_url }}">
-    {{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</dt> 
+    <dt class="glossary-def">{% if item.annotation %}<div id="{{ item.key }}"><a href="{{ '/browse.html#' | append: item.key | relative_url }}">
+    {{ item.name }}</a></div>{% else %}{{ item.name }}{% endif %}</dt> 
     <dd>- {{ item.annotation }}</dd>
 {%- endif -%}
 {%- endfor -%}

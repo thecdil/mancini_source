@@ -1,5 +1,6 @@
-field,display_name,btn,hidden
-date_actual,Date,
+field,display_name,btn,hidden,sort_name
+date_actual,Date,,,Date
 creator,Creator,
 recipient,Recipient,
-status,,true
+language,,true
+people,,,true
