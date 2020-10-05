@@ -3,35 +3,71 @@ layout: default
 ---
 
 <style>
-body {
-  background-image: linear-gradient(rgba(255,255,255,0.0), rgba(255,255,255,0.0)), url("assets/images/cardboard.jpg");
-  background-size: cover;
+.jarallax {
+    position: relative;
+    z-index: 0;
+    height: 500px
 }
-
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.gap {
+    padding: 50px;
+    overflow: hidden;
+}
 .title {
-  color: white;
-  font-family: 'Merienda One', cursive;
-  margin-top: 50%;
+    color: #f8f9fa;
+    font-family: 'Merienda One', cursive;
+    margin-top: 30%;
+}
+p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
 }
 </style>
 
-<div class="container">
-  <div class="row">
-      <div class="col-md-6">
-        <div class="title">
-            <h1 class="display-4">The Letters of</h1>
-            <h1 class="display-3">Marie Mancini</h1>
-            <div class="mt-4">
-                <a href="letters.html" role="button" class="btn btn-lg btn-outline-light mx-2">Letters</a>
-                <a href="about.html" role="button" class="btn btn-lg btn-outline-light mx-2">About</a>
+<!-- Background Image Parallax -->
+<div data-jarallax data-speed="0.2" class="jarallax">
+    <img class="jarallax-img" src="assets/images/mancini-letter.jpg" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="title">
+                  <h1 class="display-4">The Letters of</h1>
+                  <h1 class="display-3">Marie Mancini</h1>
+              </div>
             </div>
         </div>
       </div>
-      <div class="col-md-6">
-
-      </div>
-  </div>
 </div>
 
+<div class="row mt-4">
+    <div class="col-md-12">
+        <p>The historical study of women’s lives often requires the piecing together of disparate and partial evidence mined from archives.</p>
+        <p>Marie Mancini (1639-1715) was famous as the first love of Louis XIV of France, and later she and her sister Hortense became scandalous celebrities by running away from their husbands and traveling unaccompanied through much of Western Europe. Marie’s unpublished letters to her estranged husband and others reside in an Italian archive. This project will publish them online.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet magna nec ex consectetur egestas. Aenean mattis at nisi eu ultricies. Etiam elementum dignissim magna in porttitor. In ultrices at ex pellentesque mattis. Aliquam sit amet quam ac enim porttitor pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer fermentum, arcu ut vulputate fringilla, dui felis auctor augue, et commodo quam dolor a justo. Nunc egestas, felis in ullamcorper molestie, turpis nibh sollicitudin dolor, eget lobortis risus ligula consectetur tellus. Fusce diam sem, pharetra eu venenatis eget, fermentum id odio. Nulla posuere ex velit, ut vehicula lectus efficitur eget. Aenean ut dui non ligula faucibus euismod at sed tellus. Nam sollicitudin consequat erat, a rutrum nunc ultricies non. Duis elementum massa et orci ullamcorper sollicitudin.</p>
+        <p>Sed tempus volutpat felis, non ultrices quam gravida quis. Nam rhoncus dolor augue, ut congue lorem sagittis in. Pellentesque at velit vitae tellus consequat placerat id aliquet nisi. Nullam rhoncus nisl sed lacus pulvinar imperdiet maximus venenatis odio. Sed vitae consequat ligula, non pretium lacus. Duis ac velit at nulla iaculis mattis. Vivamus sit amet magna sit amet ex gravida laoreet. Donec auctor congue tortor cursus tempus.</p>
+    </div>
+</div>
 
+<!-- Jarallax -->
+<script src="https://unpkg.com/jarallax@1/dist/jarallax.min.js"></script>
 
+<!-- Include it if you want to use Video parallax -->
+<script src="https://unpkg.com/jarallax@1/dist/jarallax-video.min.js"></script>
+
+<script>
+jarallax(document.querySelectorAll('.jarallax'), {
+    disableParallax: /iPad|iPhone|iPod|Android/,
+    disableVideo: /iPad|iPhone|iPod|Android/
+});
+</script>
