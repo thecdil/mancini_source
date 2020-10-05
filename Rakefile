@@ -204,3 +204,10 @@ task :letters, [:arg1] do |t, args|
         newdoc.close
     end
 end
+
+# Deploy site
+desc "Build site with production env"
+task :deploy do
+  ENV["JEKYLL_ENV"] = "production"
+  sh "jekyll build"
+end
