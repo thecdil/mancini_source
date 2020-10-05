@@ -1,0 +1,6 @@
+field,display_name,btn,hidden,sort_name
+date_actual,Date,,,Date
+creator,Creator,
+recipient,Recipient,
+language,,true
+people,,,true

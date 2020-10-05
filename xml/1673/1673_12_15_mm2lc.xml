@@ -166,7 +166,7 @@
                 <opener>
                     <dateline>
                         <placeName key="grenoble">D'Anvers</placeName>, 
-                        <date when="1673-12-15">ce 15<hi rend="sup">me</hi> d&#233;cembre <ref type="annotate" xml:id="a1673_12_15_mm2lc" n="1">1673</ref></date>
+                        <date when="1673-12-15">ce 15<hi rend="sup">me</hi> d&#233;cembre <ref type="annotate" xml:id="a1673_12_15_mm2lc" n="1" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
                     </dateline>
                 </opener>
                 <p>Oliva, non avendo visto lettere vostre, e perci&#242; temendo che non abbiate approvato la mia venuta, si &#232; licenziato subito, n&#233; io gli ho potuto impedire di partire; perci&#242;, se lo potete far ritornar io ne avrei gusto, non avendo nessuno appresso di me. Frattanto, io me ne sto qui nella cittadella di Anversa, con ordine del governatore che io non esca, neanche ho potuto veder la citt&#224;; per amor di Dio, e per il bene che mi</p>
@@ -176,26 +176,13 @@
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
-                <postscript>Il marchese di Borgomanero, non vedendo vostre lettre n&#233; di don Maurizio, mi ha lasciato il piede nel fango qui, vi ha da pensare a me, ci pensi... dopo essere venuta qua sulla sua parola mi trovo ritenuta senza saper dove dar la testa; il governatore regolandosi dal primo ordine che ebbe dalla Regina.</postscript>
+                <postscript><p>Il marchese di Borgomanero, non vedendo vostre lettre n&#233; di don Maurizio, mi ha lasciato il piede nel fango qui, vi ha da pensare a me, ci pensi... dopo essere venuta qua sulla sua parola mi trovo ritenuta senza saper dove dar la testa; il governatore regolandosi dal primo ordine che ebbe dalla Regina.</p></postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
                 <pb facs="DSCF8222"/>
-                <opener>
-                    <dateline>
-                        <placeName key="grenoble">Grenoble</placeName>
-                        <date when="1672-07-14">14 July</date>
-                    </dateline>
-                </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
-                <closer>
-                    <salute></salute>
-                    <signed>
-                        <persName key="marie-mancini"></persName>.
-                    </signed>
-                </closer>
+
+
             </div>
         </body>
     </text>

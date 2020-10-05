@@ -166,7 +166,7 @@
                 </opener>
                 <p>Mi ritrovo a Malines, a quattro leghe da Bruxelles, dopo 55 giorni di marcia; da dove, subito il conte di Monterey, secondo i primi ordini, mi ha fatto intendere che mi trasporter&#224; ad Anversa, a quattro leghe da qua, non volendo che io entri a Bruxelles senza che voi gli scriviate che ve ne contentate; temendo che da l&#224; io non vada altrove. Perci&#242; fatemi tanto il piacere di scrivergli subito che gi&#224; che sono negli stati del Re di Spagna mi permetta di andar a</p>
                 <pb facs="DSCF8564"/>
-                <p>Bruxelles, nel convento delle Dame di Berlaymont; il quale &#232; il pi&#249; bello ed il pi&#249; nobile, senza contraddittorio, di quanti ve ne sono. Io, poi, prometter&#242;, <ref type="annotate" xml:id="a1673_12_11_mm2lc" n="1">all'incontro</ref>, di non uscirne e dar&#242; parola al Conte di quello che voi vorrete circa la mia sicurezza in quella citt&#224;; che finch&#233; non mi contrariano nelle cose ragionevoli, io sto pi&#249; volontieri negli stati del Re che dappertutto altrove. Abbiate ancora questa bont&#224; per me di non farmi avere questo smacco conforme ho avuto in Francia, che pare che io abbia da essere esclusa de tutte le citt&#224; capitali delle province. Il marchese di Borgomanero, in cambio di pigliarsi arbitrio sopra di questo non ha voluto sapere niente, essendo stato meravigliato di non trovare nessuna lettera vostra. Ed io sono venuta sulla sua parola, non credendo che il Conte mi fermasse conforme ha fatto; adesso mi ordina di andare ad Anversa in casa del governatore ed io vi star&#242; finch&#233; voi non scriviate quello che</p>
+                <p>Bruxelles, nel convento delle Dame di Berlaymont; il quale &#232; il pi&#249; bello ed il pi&#249; nobile, senza contraddittorio, di quanti ve ne sono. Io, poi, prometter&#242;, <ref type="annotate" xml:id="a1673_12_11_mm2lc" n="1" style=" The meaning is 'in cambio.'">all'incontro</ref>, di non uscirne e dar&#242; parola al Conte di quello che voi vorrete circa la mia sicurezza in quella citt&#224;; che finch&#233; non mi contrariano nelle cose ragionevoli, io sto pi&#249; volontieri negli stati del Re che dappertutto altrove. Abbiate ancora questa bont&#224; per me di non farmi avere questo smacco conforme ho avuto in Francia, che pare che io abbia da essere esclusa de tutte le citt&#224; capitali delle province. Il marchese di Borgomanero, in cambio di pigliarsi arbitrio sopra di questo non ha voluto sapere niente, essendo stato meravigliato di non trovare nessuna lettera vostra. Ed io sono venuta sulla sua parola, non credendo che il Conte mi fermasse conforme ha fatto; adesso mi ordina di andare ad Anversa in casa del governatore ed io vi star&#242; finch&#233; voi non scriviate quello che</p>
                 <pb facs="DSCF8563"/>
                 <p>desidero, non potendomi persuadere che vogliate piuttosto che stia ad Anversa, fuori dal monastero, che in un convento a Bruxelles. Ho scritto alla Regina di Spagna che mi favorisse della sua protezione; vi prego ancor voi di favorirmi presso di lei, acci&#242; possa viver quieta in queste parti con reputazione vostra, e soddisfazione mia, fintanto che sia di ritorno con voi. Abbiate la bont&#224; di scrivere quanto prima al Conte di Monterey, acci&#242; non mi contrari di pi&#249; e crediate che questo &#232; il modo di farmi ridurre a quanto potete desiderare. Da qui e tutta vostra </p>
                 <closer>
@@ -177,21 +177,8 @@
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
                 <pb facs="DSCF8222"/>
-                <opener>
-                    <dateline>
-                        <placeName key="grenoble">Grenoble</placeName>
-                        <date when="1672-07-14">14 July</date>
-                    </dateline>
-                </opener>
-                <p></p>
-                <pb facs="DSCF8223"/>
-                <p></p>
-                <closer>
-                    <salute></salute>
-                    <signed>
-                        <persName key="marie-mancini"></persName>.
-                    </signed>
-                </closer>
+
+
             </div>
         </body>
     </text>

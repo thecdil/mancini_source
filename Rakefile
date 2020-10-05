@@ -43,30 +43,34 @@ task :letters, [:arg1] do |t, args|
         doc.css('persName').each do |node|
             node.name = 'a'
             key = node['key']
-            node['href'] = '/people#' + key
-            node.delete('key')
+            node['href'] = '/mancini_source/people.html#' + key
         end
 
         # hyperlink placeNames
         doc.css('placeName').each do |node|
             node.name = 'a'
             key = node['key']
-            node['href'] = '/places#' + key
+            node['href'] = '/mancini_source/places.html#' + key
             node.delete('key')
         end
 
         # do annotations
         doc.css('p').children.each do |node|
             if node['type']
+            text = node['style']
             node.name = 'a'
             id = node['xml:id']
             node['href'] = '#' + id
             node['data-toggle'] = 'tooltip'
-            node['title'] =  'x'
+            node['title'] = text
             original_node = node.content
-            node.before original_node + ' '
+                if node['key']
+                    key = node['key']
+                    node.before '<a href="/mancini_source/people.html#' + key + '">' + node.content + '</a> '
+                end
             node.content = '[' + node['n'] + ']'
             node.delete('n')
+            node.delete('style')
             node.delete('key')
             node.delete('type')
             end
@@ -180,8 +184,11 @@ task :letters, [:arg1] do |t, args|
         paragraph(doc, signed)
 
         doc.css('closer p').each do |node|
-            node['class'] = 'text-right'
+            if node['class']
+                node['class'] = 'text-right'
+            end
         end
+        
         # remove closer element
         closer = doc.css('closer')
         node_removal(closer)
