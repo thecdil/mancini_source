@@ -5,7 +5,7 @@ title: The Letters of Marie Mancini
 # url is your gh-pages base, following the pattern: username.github.io
 url: https://thecdil.github.io
 # baseurl is your github repository's name prefixed with a /
-baseurl: /mancini_source/
+baseurl: /mancini_source
 
 # Collections
 collections:
