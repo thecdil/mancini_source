@@ -1,16 +1,16 @@
 ---
-title: People
+title: Places
 layout: page
-permalink: people.html
+permalink: places.html
 ---
 
-# People
+# Places
 
-Learn more about the people in Marie's letters. Click on a name to browse related letters.
+Learn more about the places in Marie's letters. Click on a place to browse related letters.
 
-{% capture letters %}{% for item in site.data.persname_tags %}{{ item.name | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
+{% capture letters %}{% for item in site.data.placename_tags %}{{ item.city | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
 {%- assign uniqueLetters = letters | split: ';' | uniq -%}
-{%- assign glossary = site.data.persname_tags | sort: "name" -%}
+{%- assign glossary = site.data.placename_tags | sort: "city" -%}
 
 <ul class="list-inline">
 {% for letter in uniqueLetters %}
@@ -26,10 +26,10 @@ Learn more about the people in Marie's letters. Click on a name to browse relate
 
 <dl id="glossary-list">
 {% for item in glossary %}
-{%- assign x = item.name | slice: 0 | capitalize -%}
+{%- assign x = item.city | slice: 0 | capitalize -%}
 {%- if x == letter -%}
     <dt class="glossary-def"><div id="{{ item.key }}"><a href="{{ '/browse.html#' | append: item.key | relative_url }}">
-    {{ item.name }}</a></div></dt> 
+    {{ item.city }}, {{ item.country }}</a></div></dt> 
     <dd>- {{ item.annotation }}</dd>
 {%- endif -%}
 {%- endfor -%}

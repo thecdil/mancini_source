@@ -2,5 +2,5 @@ field,display_name,search
 date_actual,Date,true
 creator,Creator,true
 recipient,Recipient,true
-place_key,Location,true
+location,Location,true
 language,Language,true

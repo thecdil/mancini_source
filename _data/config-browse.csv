@@ -4,3 +4,4 @@ creator,Creator,
 recipient,Recipient,
 language,,true
 people,,,true
+place_key,,,true
