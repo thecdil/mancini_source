@@ -3,3 +3,4 @@ date_actual,Date,true
 creator,Creator,true
 recipient,Recipient,true
 place_key,Location,true
+language,Language,true
