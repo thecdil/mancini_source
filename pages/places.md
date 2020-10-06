@@ -25,13 +25,14 @@ Learn more about the places in Marie's letters. Click on a place to browse relat
 <h2 class="pt-4" id="{{ letter }}">{{ letter }}</h2>
 
 <dl id="glossary-list">
-{% for item in glossary %}
+{% for item in glossary %}{% if item.annotation %}
 {%- assign x = item.city | slice: 0 | capitalize -%}
 {%- if x == letter -%}
     <dt class="glossary-def"><div id="{{ item.key }}"><a href="{{ '/browse.html#' | append: item.key | relative_url }}">
     {{ item.city }}, {{ item.country }}</a></div></dt> 
     <dd>- {{ item.annotation }}</dd>
 {%- endif -%}
+{% endif %}
 {%- endfor -%}
 </dl>
 
