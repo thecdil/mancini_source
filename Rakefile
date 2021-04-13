@@ -22,11 +22,11 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, pers, date, image, title, anotherimage, moreimages)
+        def frontmatter(letter, number, auth, pers, date, image, title, anotherimage, moreimages, names)
             if number != nil
-                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimage: " + image + "\ntitle: " + title + "\nanotherimage: " + anotherimage + "\nmoreimages: " + moreimages + "\n---\n\n"
+                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimage: " + image + "\ntitle: " + title + "\nanotherimage: " + anotherimage + "\nmoreimages: " + moreimages + "\nnames: " + names + "\n---\n\n"
             else
-                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimage: " + image + "\ntitle: " + title + "\nanotherimage: " + anotherimage + "\nmoreimages: " + moreimages + "\n---\n\n"
+                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimage: " + image + "\ntitle: " + title + "\nanotherimage: " + anotherimage + "\nmoreimages: " + moreimages + "\nnames: " + names + "\n---\n\n"
             end
         end
 
@@ -38,10 +38,25 @@ task :letters, [:arg1] do |t, args|
         image = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
         title = author + " to " + persname + ", " + date
         anotherimage = doc.css('text body div[1]').attr("facs")
-        moreimages = doc.css('text body div[1] pb').attr("facs")
+
+        doc.css('text body div[3] persName').each do |node|
+            key = node.attr('key').to_s
+            all = key + "; "
+            puts all
+        end
+
+        imageset = doc.css('text body div[1] pb')
+        moreimages = imageset.map {|element| element["facs"]}.to_s  # => ["name key 1", "name key 2"]
+
+
+        nodeset = doc.css('text body div[3] persName')          # Get all persNames via css
+        names = nodeset.map {|element| element["key"]}.to_s  # => ["name key 1", "name key 2"]
+
+
+
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, author, persname, date, image, title, anotherimage, moreimages)
+        newdoc << frontmatter(key, n, author, persname, date, image, title, anotherimage, moreimages, names)
 
         # hyperlink persNames
         doc.css('persName').each do |node|
