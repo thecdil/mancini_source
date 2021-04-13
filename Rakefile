@@ -22,11 +22,11 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, pers, date)
+        def frontmatter(letter, number, auth, pers, date, image, title, anotherimage, moreimages)
             if number != nil
-                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\n---\n\n"
+                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimage: " + image + "\ntitle: " + title + "\nanotherimage: " + anotherimage + "\nmoreimages: " + moreimages + "\n---\n\n"
             else
-                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\n---\n\n"
+                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimage: " + image + "\ntitle: " + title + "\nanotherimage: " + anotherimage + "\nmoreimages: " + moreimages + "\n---\n\n"
             end
         end
 
@@ -35,9 +35,13 @@ task :letters, [:arg1] do |t, args|
         author = doc.css('teiHeader fileDesc sourceDesc bibl author').text
         persname = doc.css('teiHeader fileDesc sourceDesc bibl persName').text
         date = doc.css('teiHeader fileDesc sourceDesc bibl date').attr("when")
+        image = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
+        title = author + " to " + persname + ", " + date
+        anotherimage = doc.css('text body div[1]').attr("facs")
+        moreimages = doc.css('text body div[1] pb').attr("facs")
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, author, persname, date)
+        newdoc << frontmatter(key, n, author, persname, date, image, title, anotherimage, moreimages)
 
         # hyperlink persNames
         doc.css('persName').each do |node|
