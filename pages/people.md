@@ -25,13 +25,12 @@ Learn more about the people in Marie's letters. Click on a name to browse relate
 <h2 class="pt-4" id="{{ letter }}">{{ letter }}</h2>
 
 <dl id="glossary-list">
-{% for item in glossary %}{% if item.annotation %}
+{% for item in glossary %}
 {%- assign x = item.name | slice: 0 | capitalize -%}
 {%- if x == letter -%}
     <dt class="glossary-def"><div id="{{ item.key }}"><a href="{{ '/browse.html#' | append: item.key | relative_url }}">
     {{ item.name }}</a></div></dt> 
-    <dd>- {{ item.annotation }}</dd>
-{%- endif -%}
+    {% if item.annotation %}<dd>- {{ item.annotation }}</dd>{%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </dl>
