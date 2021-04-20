@@ -39,7 +39,7 @@ lazyload: true
             <div class="row">
                 {%- assign inYear = items | where_exp: 'item', 'item.letter contains year' -%}
                 {% for item in inYear %}
-                {%- assign images = item.image | split: ";" -%}
+                {%- assign images = item.images | split: ", " -%}
                 <div class="col-md-3">
                     <a class="d-inline-block m-1" href="{{ item.letter | prepend: '/letters/' | relative_url | append: '.html' }}" data-toggle="tooltip" data-placement="bottom" title="{{ item.title | escape }} | {{ item.letterdate | escape }}">
                         <img class="lazyload img-thumbnail" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ site.digital-objects }}/thumb/{{ images[1] | append: '_th.jpg' }}" alt="{{ item.title | escape }}" >
