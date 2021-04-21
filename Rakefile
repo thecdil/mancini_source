@@ -25,9 +25,9 @@ task :letters, [:arg1] do |t, args|
         def frontmatter(letter, number, auth, pers, date, title, firstimage, otherimage)
             if firstimage != nil
                 if number != nil
-                    "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + firstimage + ", " + otherimage + "\ntitle: " + title + "\n---\n\n"
+                    "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + firstimage + ";" + otherimage + "\ntitle: " + title + "\n---\n\n"
                 else
-                    "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + firstimage + ", " + otherimage + "\ntitle: " + title + "\n---\n\n"
+                    "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + firstimage + ";" + otherimage + "\ntitle: " + title + "\n---\n\n"
                 end
             end
         end
@@ -47,7 +47,7 @@ task :letters, [:arg1] do |t, args|
         end
 
         imageset = doc.css('text body div[1] pb')
-        otherimage = imageset.map {|element| element["facs"]}.join(', ') # => ["name key 1", "name key 2"] => name key 1, name key 2
+        otherimage = imageset.map {|element| element["facs"]}.join(';') # => ["name key 1", "name key 2"] => name key 1, name key 2
 
 
         # nodeset = doc.css('text body div[3] persName')          # Get all persNames via css
