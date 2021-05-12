@@ -40,11 +40,11 @@ task :letters, [:arg1] do |t, args|
         title = author + " to " + persname + ", " + date
         firstimage = doc.css('text body div[1]').attr("facs")
 
-        doc.css('text body div[3] persName').each do |node|
-            key = node.attr('key').to_s
-            all = key + "; "
-            puts all
-        end
+        # doc.css('text body div[3] persName').each do |node|
+            # key = node.attr('key').to_s
+            # all = key + "; "
+            # puts all
+        # end
 
         imageset = doc.css('text body div[1] pb')
         otherimage = imageset.map {|element| element["facs"]}.join(';') # => ["name key 1", "name key 2"] => name key 1, name key 2
@@ -53,7 +53,7 @@ task :letters, [:arg1] do |t, args|
         # nodeset = doc.css('text body div[3] persName')          # Get all persNames via css
         # names = nodeset.map {|element| element["key"]}.join(', ')  # => ["name key 1", "name key 2"]
 
-
+        # doc.xpath('//div[@facs=""]').remove
 
 
         # add frontmatter to newdoc first
