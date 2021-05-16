@@ -22,13 +22,11 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, pers, date, title, firstimage, otherimage)
-            if firstimage != nil
-                if number != nil
-                    "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + firstimage + ";" + otherimage + "\ntitle: " + title + "\n---\n\n"
-                else
-                    "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + firstimage + ";" + otherimage + "\ntitle: " + title + "\n---\n\n"
-                end
+        def frontmatter(letter, number, auth, pers, date, title, images)
+            if number != nil
+                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\n---\n\n"
+            else
+                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\n---\n\n"
             end
         end
 
@@ -39,6 +37,7 @@ task :letters, [:arg1] do |t, args|
         date = doc.css('teiHeader fileDesc sourceDesc bibl date').attr("when")
         title = author + " to " + persname + ", " + date
         firstimage = doc.css('text body div[1]').attr("facs")
+        images = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
 
         # doc.css('text body div[3] persName').each do |node|
             # key = node.attr('key').to_s
@@ -46,18 +45,14 @@ task :letters, [:arg1] do |t, args|
             # puts all
         # end
 
-        imageset = doc.css('text body div[1] pb')
-        otherimage = imageset.map {|element| element["facs"]}.join(';') # => ["name key 1", "name key 2"] => name key 1, name key 2
-
-
-        # nodeset = doc.css('text body div[3] persName')          # Get all persNames via css
-        # names = nodeset.map {|element| element["key"]}.join(', ')  # => ["name key 1", "name key 2"]
+        imageset = doc.css('text body div[1] pb') # get all pb elements in div
+        otherimage = imageset.map {|element| element["facs"]}.join(';') # => output as array: ["name key 1"; "name key 2"] => name key 1; name key 2
 
         # doc.xpath('//div[@facs=""]').remove
 
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, author, persname, date, title, firstimage, otherimage)
+        newdoc << frontmatter(key, n, author, persname, date, title, images)
 
         # hyperlink persNames
         doc.css('persName').each do |node|
