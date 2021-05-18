@@ -13,5 +13,4 @@ Repository for *The Correspondence of Marie Mancini* Project, a digital edition 
 2. Transform xml to web-ready markdown, html: annotated, hyperlinked text is displayed on website
 
 ## Project Workflow & Documentation:
-- [Meeting Notes](/docs/meetings.md)
 - [Encoding Instructions](/docs/encoding.md)
