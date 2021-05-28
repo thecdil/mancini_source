@@ -33,14 +33,21 @@ gallery: true
                 
             </div>
         </div>
-        <div class="col-md-4" id="lightgallery">
+        <div class="col-md-4">
+            <h3 alt="{{ page.title | escape }}">{{ page.title }}</h3>
+              <div class='item-view'>
+                {% include osd_iiif_image_viewer.html manifest=page.manifest %}
+              </div>
+        </div>
+        
+        <!--<div class="col-md-4" id="lightgallery">
             <p class="text-center">Click images to view full screen</p>
             {%- for i in images -%}
             <div class="gallery-img" data-src="{{ site.digital-objects }}/{{ i | append: '.jpg' }}">
                 <p><img src="{{ site.digital-objects }}/thumb/{{ i | append: '_th.jpg' }}" alt="letter thumbnail" class="img-fluid p-1 rounded"></p>
             </div>
             {%- endfor -%}
-        </div>
+        </div>-->
     </div>
     <div class="text-center">
         <a id="prev-button" class="btn btn-secondary">&laquo; Previous</a>

@@ -3,6 +3,7 @@
 <script src="{{ '/assets/lib/bootstrap.bundle.min.js' | absolute_url }}"></script>
 <!-- load other js -->
 <script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>
+<script type='text/javascript' async defer src='{{ "/assets/popper.min.js" | absolute_url }}'></script>
 
 {%- if layout.lazyload == true or page.lazyload == true -%}<script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>{%- endif -%}
 {%- if layout.gallery == true -%}{% include js/gallery-js.html %}{%- endif -%}

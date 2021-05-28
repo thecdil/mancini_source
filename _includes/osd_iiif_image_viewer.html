@@ -1,0 +1,22 @@
+<div id="osd" class="image-viewer"></div>
+<script defer src="{{ '/assets/openseadragon/openseadragon.min.js' | relative_url }}"></script>
+
+<script>
+  $(document).ready(function () {
+    var manifestUrl = "{{ include.manifest | relative_url }}";
+    $.getJSON(manifestUrl, function(data) {
+      var tileSources = [];
+      $.each(data.sequences[0].canvases, function(k, val) {
+        tileSources.push(val.images[0].resource.service['@id'] + '/info.json');
+      });
+      OpenSeadragon({
+        id: "osd",
+        sequenceMode: true,
+        prefixUrl: "{{ '/assets/openseadragon/images/' | relative_url }}",
+        tileSources: tileSources,
+        homeFillsViewer: false,
+        showReferenceStrip: true
+      });
+    });
+  });
+</script>

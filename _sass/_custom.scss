@@ -37,6 +37,39 @@ a {
     font-size:26px;
 }
 
+.item-view {
+    width:           110%;
+    display:         inline-flex;
+    flex-wrap:       nowrap;
+    justify-content: space-between;
+    align-items:     center;
+    margin-left:     -5%;
+
+    .image-viewer {
+        position: relative;
+        text-align: center;
+        height:   500px;
+        max-height: 80vh;
+        background-color: #eae7de;
+        width:    100%;
+        border:   1px solid #eae7de;
+        margin:   2.0rem 0 2.0rem 0;
+
+        a {
+        color: inherit !important;
+        }
+
+        li {
+        font-size: 1em !important;
+        }
+
+        .item-full-image {
+        max-width: 800px;
+        height: 550px;
+        }
+    }
+}
+
 /* map */
 #map { height: 750px; z-index: 98; }
 .mapthumb {
