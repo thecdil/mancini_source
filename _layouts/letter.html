@@ -1,18 +1,18 @@
 ---
 layout: default
-gallery: true
 ---
 
-{%- assign letter = site.data.mancini | where: 'id', page.letter -%}
-{%- for l in letter -%}
-{%- assign images = l.images | split: ";" -%}
-{% if l.date_actual %}{%- capture year -%}{% if l.date_actual contains "-" %}{{ l.date_actual | split: "-" | first }}{% elsif l.date_actual contains "/" %}{{ l.date | split: "/" | last }}{% else %}{{ l.date_actual }}{% endif %}{%- endcapture -%}{% endif %}
-{%- endfor -%}
+{% assign year = page.letterdate | split: "-" | first %}
 
 <div class="container py-4">
     <h1 class="pb-3">{{ page.author }} to {{ page.addressee }}, {{ page.letterdate }}</h1>
     <div class="row my-4 mx-auto">
-        <div class="col-md-8 pr-5">
+        <div class="col-md-7">
+            <div class='item-view'>
+            {% include osd_iiif_image_viewer.html manifest=page.manifest %}
+            </div>
+        </div>
+        <div class="col-md-5 pl-5">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="trans-tab" data-toggle="tab" href="#trans" role="tab" aria-controls="trans" aria-selected="true">Translation</a>
@@ -33,21 +33,6 @@ gallery: true
                 
             </div>
         </div>
-        <div class="col-md-4">
-            <h3 alt="{{ page.title | escape }}">{{ page.title }}</h3>
-              <div class='item-view'>
-                {% include osd_iiif_image_viewer.html manifest=page.manifest %}
-              </div>
-        </div>
-        
-        <!--<div class="col-md-4" id="lightgallery">
-            <p class="text-center">Click images to view full screen</p>
-            {%- for i in images -%}
-            <div class="gallery-img" data-src="{{ site.digital-objects }}/{{ i | append: '.jpg' }}">
-                <p><img src="{{ site.digital-objects }}/thumb/{{ i | append: '_th.jpg' }}" alt="letter thumbnail" class="img-fluid p-1 rounded"></p>
-            </div>
-            {%- endfor -%}
-        </div>-->
     </div>
     <div class="text-center">
         <a id="prev-button" class="btn btn-secondary">&laquo; Previous</a>
