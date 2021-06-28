@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 05 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1672_08_01_mm2lc" type="letter" n="05">lett 05 Marie to Lorenzo</title> 
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1672-08-01">August 01 1672</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8469;DSCF8470;DSCF8471">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mamcini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1672-08-01">August 01 1672</origDate>
+                            <origPlace>
+                                <placeName key="grenoble">Grenoble</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-05-27" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+            <change when="2020-05-29" who="#lrm">
+                Corrections and updated tag information
+            </change>
+            <change when="2020-06-29" who="#lrm">
+                Creation of "edit" and "translation" files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1672_08_01_mm2lc_raw" n="05" facs="DSCF8469">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione – II-C.P.1 lettera 5
+                Lettere di Maria Mancini – 1672
+                Numero d'ordine – 5
+
+                D. Maria Colonna-Mancini –
+
+                ==
+
+                Lettera al Contestabile Colonna
+                in data	1o Agosto 1672 da Grenoble
+                Sigilli – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8470"/>
+                <note resp="#smn">
+                [[On the left side of the image, the horizontally folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur le 
+                Conestable Colonna
+                Roma"
+                + 2 red wax seals, one (to the left of the address) over frayed bits of blue string, and the other (to the right of the address) with a break in the middle.]]
+                </note>
+                <note resp="#smn">
+                [[Along the center crease of the paper, parallel with the crease and slightly to the left of it, is written the date by an archivist or a secretary. The ink looks similar to Marie's ink.]]
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">De grenoble</placeName> 
+                        <date when="1672-08-01">ce premier aout 1672</date>
+                    </dateline>
+                </opener>
+                <p>potevio far di meno scrivermi una simil letra come quella ch' mio fratello ma resa; mavete sempre reso poca iustitia et pero volete ancora adesso rendermi colpevole di quello il mondo dice contra di voi; io so que nessuno potra dir con verita ch' io mi sia lamentata di voi sopra i sospetti che dite et quando l'havessi [[avuti]] non sarrei stata cosi imprudente di palesarli et non avendoli non averrei questa malignita d'inventarli; saint simon et un grand bugiardo se dice ch' io mi sia lamentata d'altro di voi ch' della pocca stima et affetto ch o riconociuto ch avevio per me; et anco questo mi sfors&#243; a dirlo; del resto poi io non pretendo haver pregiudicato cola la mia partensa ne a voi ne alli [[Marie first wrote "alla" and then changed the final "a" to "i"]] figli ne alla casa ansi cercaro di repare quello que voi mavete detto piu volte ch' vi o portato doppo essere entrata in casa vostra;</p>
+                <pb facs="DSCF8471"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]
+                </note>
+                <p>attendero che il tempo vi faccia perder il cattivo concetto ch avete di me et mi dia campo di dispormi a prender qualque altra resolutione che prego dio che minspiri se sara per lo meglio.</p>
+                <closer>
+                    <signed rend="ti-9">
+                        <persName key="mancini-marie">M.M.C.</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_08_01_edit" facs="DSCF8469">
+                <head type="edit" n="05" xml:lang="it"/>
+                <pb facs="DSCF8470"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">De Grenoble</placeName> 
+                        <date when="1672-08-01">ce premier <ref type="annotate" xml:id="a1672_08_01_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ao&#251;t</ref> 1672</date>
+                    </dateline>
+                </opener>
+                <p>Potevate fare a meno di scrivermi una simile lettera, come quella che mio fratello mi ha consegnato; mi avete sempre reso poca giustizia e perci&#242; volete ancora adesso rendermi colpevole di quello che il mondo dice contro di voi; io so che nessuno potr&#224; dir con verit&#224; che io mi sia lamentata di voi sopra i sospetti che dite. E quando pure li avessi avuti, non sarei stata così imprudente da palesarli e, non avendoli, non avrei avuto la malignit&#224; di inventarli. Saint Simon &#232; un gran bugiardo se dice che io mi sia lamentata d'altro di voi che della poca stima e affetto che ho capito avevate per me; e pure questo mi sforz&#242; a dirlo. Del resto poi io non pretendo di aver pregiudicato, con la mia partenza, n&#233; a voi n&#233; ai figli n&#233; alla casa; e anzi, cercher&#242; di riparare al danno che voi mi avete detto pi&#249; volte che vi ho fatto entrando in casa vostra.</p>
+                <pb facs="DSCF8471"/>
+                <p>Attender&#242; che il tempo vi faccia perdere il cattivo concetto che avete di me e mi dia campo di dispormi a prender qualche altra risoluzione che prego Dio che mi ispiri se sar&#224; per il meglio.</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M.M.C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_08_01_translation" facs="DSCF8469">
+                <head type="translation" n="05" xml:lang="en" />
+                <pb facs="DSCF8470"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>, 
+                        <date when="1672-08-01">1 August 1672</date>
+                    </dateline>
+                </opener>
+                <p>You could have done without writing me such a letter as the one my brother delivered to me. You have always been unjust to me, and so you are still now trying to blame me for what people are saying about you; I know that no one can truthfully say that I have ever complained about you, regarding the suspicions you mention. Even if I had had them, I would not have been imprudent enough to divulge them, and not having them, I would not have had the malice to invent them. Saint Simon is a big liar if he says that I ever complained of anything about you except the lack of respect and affection that I saw you had for me; and it was he who made me say even that. Apart from that, I do not believe that my departure has compromised you or my sons or the family; on the contrary, I will seek to repair the damage that you have often told me I did when I came into your house.</p>
+                <pb facs="DSCF8471"/>
+                <p>I will wait for time to make you lose the poor opinion you have of me, and to give me the chance to decide on some other plan, which I pray God will inspire in me if it is for the best.</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M.M.C.</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

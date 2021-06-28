@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "/mancini_source/img/derivatives/iiif/1673_08_07_mm2lc/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "1673_08_07_mm2lc",
+  "thumbnail": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8532/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "/mancini_source/img/derivatives/iiif/sequence/1673_08_07_mm2lc_DSCF8532.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "/mancini_source/img/derivatives/iiif/canvas/1673_08_07_mm2lc_DSCF8532.json",
+          "label": "Page 1",
+          "width": 4256,
+          "height": 2848,
+          "thumbnail": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8532/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "/mancini_source/img/derivatives/iiif/annotation/1673_08_07_mm2lc_DSCF8532.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8532/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8532",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4256,
+                "height": 2848
+              },
+              "on": "/mancini_source/img/derivatives/iiif/canvas/1673_08_07_mm2lc_DSCF8532.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "/mancini_source/img/derivatives/iiif/canvas/1673_08_07_mm2lc_DSCF8533.json",
+          "label": "Page 2",
+          "width": 4256,
+          "height": 2848,
+          "thumbnail": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8533/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "/mancini_source/img/derivatives/iiif/annotation/1673_08_07_mm2lc_DSCF8533.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8533/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8533",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4256,
+                "height": 2848
+              },
+              "on": "/mancini_source/img/derivatives/iiif/canvas/1673_08_07_mm2lc_DSCF8533.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "/mancini_source/img/derivatives/iiif/canvas/1673_08_07_mm2lc_DSCF8534.json",
+          "label": "Page 3",
+          "width": 4256,
+          "height": 2848,
+          "thumbnail": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8534/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "/mancini_source/img/derivatives/iiif/annotation/1673_08_07_mm2lc_DSCF8534.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8534/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8534",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4256,
+                "height": 2848
+              },
+              "on": "/mancini_source/img/derivatives/iiif/canvas/1673_08_07_mm2lc_DSCF8534.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8532/full/full/0/default.jpg",
+  "fullwidth": "/mancini_source/img/derivatives/iiif/images/1673_08_07_mm2lc_DSCF8532/full/1140,/0/default.jpg"
+}

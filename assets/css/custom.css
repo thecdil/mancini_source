@@ -1,0 +1,40 @@
+a { color: #17a2b8; }
+
+a:hover { color: #17a2b8; }
+
+.about-page { margin-left: auto; margin-right: auto; max-width: 650px; }
+
+.page-narrow { margin-left: auto; margin-right: auto; max-width: 1000px; }
+
+/* timeline */
+#timeline .img-thumbnail { height: 110px; }
+
+/* item page */
+.gallery-img { cursor: pointer; }
+
+#item-nav a { position: absolute; top: 500px; }
+
+#item-nav .previous { left: 10px; }
+
+#item-nav .next { right: 10px; }
+
+.glossary-def { font-size: 26px; }
+
+.item-view { width: 110%; display: inline-flex; flex-wrap: nowrap; justify-content: space-between; align-items: center; margin-left: -5%; }
+
+.item-view .image-viewer { position: relative; text-align: center; height: 550px; max-height: 80vh; background-color: #eae7de; width: 100%; border: 1px solid #eae7de; margin: 2.0rem 0 2.0rem 0; }
+
+.item-view .image-viewer a { color: inherit !important; }
+
+.item-view .image-viewer li { font-size: 1em !important; }
+
+.item-view .image-viewer .item-full-image { max-width: 800px; height: 550px; }
+
+/* map */
+#map { height: 750px; z-index: 98; }
+
+.mapthumb { height: 100px; }
+
+.leaflet-fusesearch-panel .header { padding-bottom: 1.5em; }
+
+/*# sourceMappingURL=custom.css.map */
