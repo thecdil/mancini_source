@@ -3,10 +3,10 @@ name: build with jekyll and deploy on github pages
 on:
   push: 
     branches: 
-      - master
+      - main
   pull_request:
     branches: 
-      - master
+      - main
 
 jobs:
   jekyll:
