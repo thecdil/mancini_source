@@ -158,12 +158,20 @@
                     <signed></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1674_01_05_mm2lc_edit" n="19" facs="DSCF8502">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8503"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Dal Castello d'Anversa</placeName>, 
+                        <date when="1674-01-05">il 5 gennaro 1674</date>
+                    </dateline>
+                </opener>
+                <p>La vostra lettera e la licenza del Papa non son servite a niente, il marchese di Borgomanero vuol che io dipenda da lui, perci&#242; ha messo cento cose in testa al governatore per farmi restar qua; cos&#236; come non dubito lo abbia fatto con voi perch&#233; ha un tal rancore contro di me che non vi &#232; cosa che non inventi per rendermi colpevole e vendicarsi. E la causa di tutto questo non ve la posso confidare adesso perch&#233; tutte le lettere son <ref type="annotate" xml:id="a1674_01_05_a_mm2lc" n="1" style="The meaning is that her letters are intercepted, opened, and/or censored.">prese</ref> avendo lui dato questo ordine al governatore di questo castello, il quale &#232; molto amico suo. Infine tutto &#232; congiurato contro di me, n&#233; io posso parlare a nessuno per dir le mie ragioni. So che si far&#224; bello presso di voi con il dire che ha fatto questo contro di me per farmi risolvere in questa estremit&#224; di ritornar con voi ma questo</p>
+                <pb facs="DSCF8504">
+                <p>non &#232; il modo, n&#233; mi dovreste ripigliare in questa forma; quando ritorner&#242; sar&#224; di mia spontanea volont&#224;, n&#233; voglio che vi sentiate in obbligo con la mia sfortuna ma solo con me; frattanto io non pretendo che di vivere in un convento di clausura conforme voi desiderate; chi
+                ha mai visto arrestarmi come hanno fatto e farmi far le spese d'ogni cosa, insino i mobili del castello, e non potreste credere come ogni cosa &#232; cara. Se continuo a star qua ci vuole il doppio di quello che mi avete assegnato per stare in monastero perch&#233; ogni cosa &#232; cara, la met&#224; pi&#249; che a Bruxelles; l'aria poi &#232; pessima, nessun governatore alloggia nel castello per questo.  Io, e tutte le mie donne, stiamo con poca salute; se morissi non sarebbe niente, mi dispiace solo che piglier&#242; qualche malattia che mi duri poi un gran peso. Per&#242; abbiate compassione di me, ve ne prego, per amor di Dio. Se don Maurizio fosse stato qua non m'avrebbe fatto far questo torto e se potesse venir ne avrei gran consolazione, perch&#233; &#232; un buon servitore ed onorato. Oliva sta ancora a Bruxelles a spese del Marchese; credetemi che &#232; il pi&#249; indegno uomo, il pi&#249; ingrato che sia stato mai, &#232; sempre in casa dell'internunzio, il quale &#232; molto scortese, l'avevo pregato di venir qua per comunicargli qualche cosa che volevo dicesse in mio favore al conte di Monterey quando sar&#224; di ritorno dalla armata; e lui si &#232; scusato che non poteva; e questi sono i buoni uffici di Oliva che per compiacere al Marchese impedisce che nessuno possa dir le mie ragioni.  Io non ricevo pi&#249; lettere vostre n&#233; di nessuno di casa, fatemi sapere la vostra intenzione e non mi abbandonate ma compatite le mie disgrazie, e permettetemi di entrare in un convento dove pregher&#242; Dio per voi e per tutti i miei figli. 
+                Non mi lasciate senza vostre lettere perch&#233; non ho altra consolazione, n&#233; vi lasciate rivoltare contro dai miei nemici che operano per i loro fini e non per i nostri.</p>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
