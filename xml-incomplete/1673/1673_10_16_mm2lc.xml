@@ -147,7 +147,7 @@
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
                 </note>
-                <p>monti overo pare<hi rend="sup">n</hi>dovi piu espediente pigliarli queste [[Marie first wrote "questi" and then wrote an "e" over the "i"]] mille doble di quel denaro ch'o in regno per sodisfare a quanto a don mauritio o detto in voce de mio gusto et di vostra sodisfactione et qui resto vostra sempre</p>
+                <p>monti overo pare<hi rend="sup">n</hi>dovi piu espediente pigliarli queste [[Marie first wrote "questi" and then wrote an "e" over the "i"]] mille doble di quel denaro ch'o in regno per sodisfare a quanto a don <persName key="bologna-maurizio">mauritio<persName> o detto in voce de mio gusto et di vostra sodisfactione et qui resto vostra sempre</p>
                 <closer>
                     <salute></salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
@@ -159,12 +159,23 @@
                     <p>per la gratitudine ch'o a Anna ve la raccommando perche so che vo bene et serve al principe mio figlio o detto a don mauritio [[something crossed out]] li dia cento scudi di questi denari</p>
                 </postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1673_10_16_mm2os_edit" n="42" facs="DSCF8556">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8557"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-10-16">il 16 ottobre 1673</date>
+                    </dateline>
+                </opener>
+                <p>Dopo avervi scritto un'altra lettera tramite don Maurizio trovo che i miei debiti pagati qui son tanti che delle mille doppie non mi restano molte per il viaggio. E cos&#236;, acci&#242; che non mi manchino, portando Borgomanero, ho esortato don Maurizio che trovi qui altre duecento doppie; il quale me le ha portate, ed ora, acci&#242; lo paghi e mi possa rimettere il di pi&#249; della somma, gli ho fatto una procura acci&#242; possa vendere per mille doppie il corrispettivo dei luoghi dei</p>
+                <pb facs="DSCF8558"/>
+                <p>monti; oppure, parendovi pi&#249; espediente, posso pigliare queste mille doppie da quel denaro che ho in regno; per soddisfare, con mio gusto e vostra soddisfazione, a quanto a don <persName key="bologna-maurizio">Maurizio</persName> ho detto a voce. E qui resto vostra sempre</p>
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                <postscript>
+                    <p>Per la gratitudine che ho verso Anna ve la raccomando perch&#233; so che vuol bene e serve al principe mio figlio; ho detto a don Maurizio che gli dia cento scudi di questi denari.</p>
+                </postscript>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
