@@ -144,12 +144,22 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1674_01_05_b_mm2lc_edit" n="18" facs="DSCF8499">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8500"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Dal Castello d'Anversa</placeName>, 
+                        <date when="1674-01-05">il 5 gennaio 1674</date>
+                    </dateline>
+                </opener>    
+                    <p>Vi ho gi&#224; scritto una lunga lettera per via di quel mercante che mi ha consegnato il denaro ma per timor che sia stata <ref type="annotate" xml:id="a1674_01_05_b_mm2lc" n="1" style="The meaning is that she fears her earlier letter may have been intercepted.">presa</ref> ne scrivo una seconda per altra strada; vi mando anche una lettera del Marchese, in risposta ad una che gli scrissi son 15 giorni, dove lo supplicavo di mostrar la lettera che voi mi scriveste al <persName key="montery">conte di Monterey</persName>, in modo che vedesse che voi approvavate che io stessi in un convento; ma lui, per farmi dispetto, non gliel'ha ancora voluta mostrare e perci&#242; trova il pretesto che non &#232; una lettera da far veder a causa del Re che mi ha assistito finora; cosa che ognuno sa; n&#233; io ne ho fatto mai mistero perch&#233; sarebbe stato peggio; gli spagnoli non sono cos&#236; irragionevoli e quando bene il Re mi continuasse la medesima assistenza son certa che non se l'avrebbero a male mentre tutto quello che io ho lo devo a quella corona; ma il Marchese</p>
+                    <pb facs="DSCF8501"/>
+                    <p>per farmi star qua trova tutte queste invenzioni; pi&#249; maligno corpo, pi&#249; traditore non ho conosciuto mai, se voi foste stato testimone di tutto quello che ho passato direste anche peggio; e quindi voi scrivete a questo governatore che voi desiderate che io stia in un monastero piuttosto che in un castello pieno di soldati, con poco decoro vostro. Perch&#233; avendo le vostre lettere, il Marchese non potr&#224; pi&#249; rivolgersi contro di me. Abbiate questa ultima bont&#224; per me, n&#233; mi fate ricever per pi&#249; lungo tempo uno smacco simile ma fatemi conoscere che vi siete scordato il passato cos&#236; che io possa un giorno di spontanea volont&#224; ritornar con voi, e assicurarvi che bench&#233; lontana sono stata sempre vostra, e sar&#242; fin che vivo.</p>
+                <closer>
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
