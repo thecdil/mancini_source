@@ -150,12 +150,22 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1674_02_02_mm2lc_edit" n="52" facs="DSCF8590">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8591"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Dal Castello d'Anversa</placeName>, 
+                        <date when="1674-02-02">il 2 febbraio 1674</date>
+                    </dateline>
+                </opener>
+                <p>Dopo la lettera che mi avete scritto e della quale ho fatto sapere a Monterey, non ho avuto ancora nessuna nuova, solo mi han fatto sapere le donne che sono a Bruxelles che il Marchese gli ha detto che voi non avete scritto a Sua Eccellenza nel medesimo tenore che a me e che mi inganno se credo di uscir mai di qua se non per andare in Italia; vedete che uomo malvagio che &#232;. Prima vi vuol far passare per un traditore come lui (per salvar se stesso appresso al mondo di quel che ha fatto) e poi mi vuol mettere in disperazione per farmi fare qualche sproposito; ma io confido in voi e nella vostra lettera, non potendomi persuadere che abbiate due facce come lui. Tanto pi&#249; che vi deve importare poco, gi&#224; che son qua, che io stia in un monastero a Bruxelles o in Italia. Io non comprendo il <persName key="montery">conte di Monterey</persName>;</p>
+                <pb facs="DSCF8592"/>
+                <p>se fosse pi&#249; saldo non si sarebbe fatto sviare dal Marchese conforme ha fatto, senza saper le mie ragioni; poich&#233; aveva gi&#224; preparato ogni cosa per recarmi in un convento a Bruxelles, ma subito che il Marchese gli diede informazioni contro di me, lui mut&#242; e diede potere al Marchese di farmi fermare conforme ha fatto; n&#233; io potuto ancora avere risposta dal Conte, n&#233; ho potuto vederlo, poich&#233; il Marchese si trattiene tuttavia a Bruxelles per impedir la sua venuta e suggerirgli cose nuove contro di me. E siate certo che la sua vendetta si estender&#224; al par dell'odio che mi porta; gi&#224; vi ho scritto la causa che &#232; molto leggera, e <persName key="bologna-maurizio">don Maurizio</persName> ve ne potr&#224; dir le particolarit&#224;, ma quando si tratta di sdegnar persone di cos&#236; grande merito, non se ne deve sperar mai il perdono. Burlo, come potete credere, n&#233; il suo odio maggiore proviene da altro se non che io lo conosco meglio degli altri e so quanto vale, non ha altro che una bella superficie con la quale sorprende solo chi non l'ha mai praticato; ma, pi&#249; vile, pi&#249; avara, pi&#249; vendicativa persona non ho conosciuto mai. Io vi ho scritto con ogni corriere ordinario, se non ricevete puntualmente le mie lettere conoscete che non &#232; per mancamento mio ma che sono tradita dall'Internunzio, dal mercante che mi da le rimesse e dal mastro della posta che da tutte le lettere al Marchese. Mi raccomando ancora di nuovo alle vostre intercessioni; scrivete al Conte acci&#242; si contenti di credere a quanto mi scrivete ed essendo soddisfatto voi non debba badare a quello che gli dice <persName key="borgomanero">Borgomanero</persName>.</p>
+                closer>
+                    <salute>Sto attendendo lettere vostre, scrivetemi pi&#249; spesso che potete, e siate certo che corrisponder&#242; come devo alle mie obbligazioni mentre sono e sar&#242; eternamente vostra.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
