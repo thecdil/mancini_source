@@ -169,12 +169,22 @@
                 [[On the left side of the image, just to the left of the center fold, parallel with the fold, is written the date by an archivist or a secretary. The ink looks different from Marie's ink.]]
                 </note>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1674_01_26_mm2lc_edit" n="50" facs="DSCF8584">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8585"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Dal Castello d'Anversa</placeName>, 
+                        <date when="1674-01-26">il 26 gennaio 1674</date>
+                    </dateline>
+                </opener>
+                <p>Con ogni <ref type="annotate" xml:id="a1674_01_26_mm2lc" n="1" style=" The meaning is 'ogni corriere ordinario.'">ordinario</ref> vi scrivo, n&#233; posso aver neanche la consolazione di sapere se avete ricevuta nessuna lettera mia; sono sei settimane che sono qua, e levata la prima lettera che ebbi per via di quel mercante, mai pi&#249; ho inteso parlar di voi. Il Marchese si trattiene sempre a Bruxelles, n&#233; ho potuto ancora parlare al conte di <persName key="monterey">Monterey</persName>; &#232; una cosa da far disperare vedermi qua rinchiusa per le calunnie che ha inventato il Marchese contro di me. Avvertite di non pagar niente a <persName key="oliva-gian-paolo">Oliva</persName>, neanche ai soldati che Borgomanero tiene qua a sue spese per guardarmi; perch&#233;, avendomi, come vi ho scritto, fatto mettere qua per suo capriccio,</p>
+                <pb facs="DSCF8586"/>
+                <p>non siete obbligato di soddisfarlo, tanto pi&#249; che dareste a veder al mondo che voi eravate d'accordo con lui di farmi questo tradimento; neanche a <persName key="oliva-gian-paolo">Oliva</persName> pagate la sua dimora a Bruxelles perch&#233; gli ho dato cinquanta doppie per tornarsene senza poi contare tutti i denari che gli ho dato. In tutte le occorrenze l'ho trattato come se me fosse stato mio fratello ma il Marchese lo fa trattenere per farsi forte insieme con lui contro di me, perch&#233; governa l'Internunzio,  il quale &#232; pure d'accordo con loro. Io ho scritto un pezzo fa a don <persName key="bologna-maurizio">Maurizio</persName> che non pagasse pi&#249; la casa a <persName key="oliva-gian-paolo">Oliva</persName>, n&#233; le cinque doppie al mese. In caso che le lettere fossero state <ref type="annotate" xml:id="b1674_01_26_mm2lc" n="2" style="The meaning is that she fears her earlier letters may have been intercepted.">prese</ref> come credo, diteglielo voi, perch&#233; non intendo mai pi&#249; di dargli un quattrino n&#233; a lui n&#233; alla sua famiglia; so bene quello che si meriterebbe ma quello che si ritarda non si perde, dice il proverbio francese. Addio, scrivete per amor di Dio quanto prima e di buon inchiostro al Conte, il quale essendosi impegnato a mettermi qua per compiacere al Marchese, non mi far&#224; mai uscire senza un vostro ordine espresso, volendo sostenere quello che ha fatto (che non ha avuto nessuna ragione di fare e che tutto il mondo biasima) mentre non si &#233; mai inteso che una dama par mia, si viene a mettere nelle mani di spagnoli e loro la mettono in un castello. E che cosa potevano far di peggio se mi avessero preso in paese nemico! Vengo a ricevere la vostra lettera con quella di don <persName key="bologna-maurizio">Maurizio</persName> che mi ha dato tanto gusto che non posso manco parlare da quanto vi sono obbligata; conoscerete col tempo che non sono ingrata n&#233; mai far&#242; niente che vi possa dispiacere, star&#242; in monastero quieta, n&#233; avrete che desiderare circa la mia condotta. E come vi ho promesso vi manterr&#242;, n&#233; mai uscir&#242; di Fiandra n&#233; dal convento senza consenso vostro, se non per tornare con voi. Vi mando uno <ref type="annotate" xml:id="c1674_01_26_mm2lc" n="3" style=" The meaning is 'un grembiule.'">zinale</ref> che darete alla <persName key="lucrezia-colonna">duchessa di Bassanello</persName> e a voi vi faccio fare delle belle camicie. Far&#242; sapere al Conte quanto mi scrivete; non so ancora quello che far&#224;, non mi curo pi&#249; di essere in prigione adesso che voi non lo approvate, poich&#233; tutta la mia paura era che voi compiaceste al Marchese.</p>
+                <closer>
+                    <salute>Addio, abbraccio i figlioli e vi assicuro che nessuno vi &#232; pi&#249; obbligata, n&#233; vi vuol bene pi&#249; di me che sono, e sar&#242; finch&#233; vivo, tutta vostra</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
