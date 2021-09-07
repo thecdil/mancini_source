@@ -22,11 +22,11 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, pers, date, title, images)
+        def frontmatter(letter, number, auth, pers, date, title, images, thumbnail, full, manifest)
             if number != nil
-                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\n---\n\n"
+                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
             else
-                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\n---\n\n"
+                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
             end
         end
 
@@ -38,6 +38,9 @@ task :letters, [:arg1] do |t, args|
         title = author + " to " + persname + ", " + date
         firstimage = doc.css('text body div[1]').attr("facs")
         images = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
+        thumbnail = '"/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/250,/0/default.jpg"'
+        full = '"/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg"'
+        manifest = '"/img/derivatives/iiif/' + key + '/manifest.json"'
 
         # doc.css('text body div[3] persName').each do |node|
             # key = node.attr('key').to_s
@@ -52,7 +55,7 @@ task :letters, [:arg1] do |t, args|
 
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, author, persname, date, title, images)
+        newdoc << frontmatter(key, n, author, persname, date, title, images, thumbnail, full, manifest)
 
         # hyperlink persNames
         doc.css('persName').each do |node|
