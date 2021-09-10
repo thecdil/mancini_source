@@ -47,6 +47,12 @@ task :letters, [:arg1] do |t, args|
 
         imageset = doc.css('text body div[1] pb') # get all pb elements in div
         otherimage = imageset.map {|element| element["facs"]}.join(';') # => output as array: ["name key 1"; "name key 2"] => name key 1; name key 2
+        # get all elements with attribute "style"
+            # id_set = doc.xpath("//*[@style]")
+        # put ids in array:
+            # all_ids = id_set.map {|element| element["style"]}.join('; ')
+        # or
+            # the_ids = id_set.map {|element| element["xml:id"]}.to_a
 
         # doc.xpath('//div[@facs=""]').remove
 
