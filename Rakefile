@@ -22,11 +22,11 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, pers, date, title, images, thumbnail, full, manifest)
+        def frontmatter(letter, number, auth, pers, date, locations, title, images, thumbnail, full, manifest)
             if number != nil
-                "---\nletter: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
+                "---\nletter-id: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlocations: " + locations + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
             else
-                "---\nletter: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlayout: letter" + "\nimages: " + images + "\ntitle: " + title + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
+                "---\nletter-id: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlocations: " + locations + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
             end
         end
 
@@ -38,9 +38,15 @@ task :letters, [:arg1] do |t, args|
         title = author + " to " + persname + ", " + date
         firstimage = doc.css('text body div[1]').attr("facs")
         images = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
-        thumbnail = '"/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/250,/0/default.jpg"'
-        full = '"/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg"'
-        manifest = '"/img/derivatives/iiif/' + key + '/manifest.json"'
+        thumbnail = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/250,/0/default.jpg'
+        full = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg'
+        manifest = '/img/derivatives/iiif/' + key + '/manifest.json'
+
+        # get unique locations keys
+        letter_locations = doc.css('text body div[3] placeName')
+        locations_st = letter_locations.map {|element| element["key"]}.join(';')
+        locations_ar = locations_st.split(';').uniq
+        locations_uniq = locations_ar.join(';')
 
         # doc.css('text body div[3] persName').each do |node|
             # key = node.attr('key').to_s
@@ -50,12 +56,16 @@ task :letters, [:arg1] do |t, args|
 
         imageset = doc.css('text body div[1] pb') # get all pb elements in div
         otherimage = imageset.map {|element| element["facs"]}.join(';') # => output as array: ["name key 1"; "name key 2"] => name key 1; name key 2
+        
+        # get all elements with attribute "style"
+            # id_set = doc.xpath("//*[@style]")
+        # put ids in string, separated by ';':
+            # all_ids = id_set.map {|element| element["style"]}.join('; ')
 
         # doc.xpath('//div[@facs=""]').remove
 
-
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, author, persname, date, title, images, thumbnail, full, manifest)
+        newdoc << frontmatter(key, n, author, persname, date, locations_uniq, title, images, thumbnail, full, manifest)
 
         # hyperlink persNames
         doc.css('persName').each do |node|
