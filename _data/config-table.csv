@@ -1,7 +1,7 @@
 field,display_name
-id,Letter ID
-creator,Author
-recipient,Addressee
-date_actual,Date
+letter_id,Letter ID
+creator,Creator
+recipient,Recipient
+letter_date,Date
 language,Languages
 xml,Data
