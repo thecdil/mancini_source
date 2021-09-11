@@ -22,21 +22,21 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, auth, rec, date, locations, people, languages, title, images, thumbnail, full, manifest)
-                "---\nletter_id: " + letter + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\npeople: " + people + "\nlanguage: " + languages + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
+        def frontmatter(letter, number, auth, rec, date, locations, people, languages, title, images, thumbnail, full, manifest)
+                "---\nletter_id: " + letter + "\nnumber: " + number + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\npeople: " + people + "\nlanguage: " + languages + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
         end
 
         key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
+        doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n").nil? ? n = "" : n = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n")
         creator = doc.css('teiHeader fileDesc sourceDesc bibl author').text.strip
         recipient = doc.css('teiHeader fileDesc sourceDesc bibl persName').text.strip
         date = doc.css('teiHeader fileDesc sourceDesc bibl date').attr("when")
         title = creator + " to " + recipient + ", " + date
-        firstimage = doc.css('text body div[1]').attr("facs")
+        firstimage = doc.at_css('text body div[1]').attr("facs")
         images = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
         thumbnail = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/250,/0/default.jpg'
         full = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg'
         manifest = '/img/derivatives/iiif/' + key + '/manifest.json'
-        # n = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n")
 
         # get unique locations keys
         letter_locations = doc.css('text body div[3] placeName')
@@ -54,6 +54,17 @@ task :letters, [:arg1] do |t, args|
         letter_languages = doc.css('text body div head')
         languages_st = letter_languages.map {|element| element["xml:lang"]}.join(';')
         languages_ar = languages_st.split(';').uniq
+        languages_ar.map! do |node|
+            if node == 'en'
+                node = 'English'
+            elsif node == 'it'
+                node = 'Italian'
+            elsif node == 'fr'
+                node = 'French'
+            else node == 'sp'
+                node = 'Spanish'
+            end
+        end
         languages_uniq = languages_ar.join('; ')
 
         imageset = doc.css('text body div[1] pb') # get all pb elements in div
@@ -61,13 +72,14 @@ task :letters, [:arg1] do |t, args|
         
         # get all elements with attribute "style"
             # id_set = doc.xpath("//*[@style]")
-        # put ids in string, separated by ';':
+        # put ids in string, each separated by ';':
             # all_ids = id_set.map {|element| element["style"]}.join('; ')
 
+        # remove all facs divs
         # doc.xpath('//div[@facs=""]').remove
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, creator, recipient, date, locations_uniq, people_uniq, languages_uniq, title, images, thumbnail, full, manifest)
+        newdoc << frontmatter(key, n, creator, recipient, date, locations_uniq, people_uniq, languages_uniq, title, images, thumbnail, full, manifest)
 
         # hyperlink persNames
         doc.css('persName').each do |node|
