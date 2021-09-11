@@ -8,7 +8,7 @@ permalink: people.html
 
 Learn more about the people in Marie's letters. Click on a name to browse related letters.
 
-{% capture letters %}{% for item in site.data.persname_tags %}{{ item.name | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
+{% capture letters %}{% for item in site.data.persname_master %}{{ item.name | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
 {%- assign uniqueLetters = letters | split: ';' | uniq -%}
 {%- assign glossary = site.data.persname_tags | sort: "name" -%}
 

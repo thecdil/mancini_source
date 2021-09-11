@@ -8,7 +8,7 @@ permalink: places.html
 
 Learn more about the places in Marie's letters. Click on a place to browse related letters.
 
-{% capture letters %}{% for item in site.data.placename_tags %}{{ item.city | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
+{% capture letters %}{% for item in site.data.placename_master %}{{ item.city | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
 {%- assign uniqueLetters = letters | split: ';' | uniq -%}
 {%- assign glossary = site.data.placename_tags | sort: "city" -%}
 
