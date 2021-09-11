@@ -22,37 +22,39 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, pers, date, locations, title, images, thumbnail, full, manifest)
-            if number != nil
-                "---\nletter-id: " + letter + "\nnumber: " + number + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlocations: " + locations + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
-            else
-                "---\nletter-id: " + letter + "\nauthor: " + auth + "\naddressee: " + pers + "\nletterdate: " + date + "\nlocations: " + locations + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
-            end
+        def frontmatter(letter, auth, rec, date, locations, people, languages, title, images, thumbnail, full, manifest)
+                "---\nletter_id: " + letter + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\npeople: " + people + "\nlanguage: " + languages + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
         end
 
         key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
-        n = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n")
-        author = doc.css('teiHeader fileDesc sourceDesc bibl author').text
-        persname = doc.css('teiHeader fileDesc sourceDesc bibl persName').text
+        creator = doc.css('teiHeader fileDesc sourceDesc bibl author').text.strip
+        recipient = doc.css('teiHeader fileDesc sourceDesc bibl persName').text.strip
         date = doc.css('teiHeader fileDesc sourceDesc bibl date').attr("when")
-        title = author + " to " + persname + ", " + date
+        title = creator + " to " + recipient + ", " + date
         firstimage = doc.css('text body div[1]').attr("facs")
         images = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
         thumbnail = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/250,/0/default.jpg'
         full = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg'
         manifest = '/img/derivatives/iiif/' + key + '/manifest.json'
+        # n = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n")
 
         # get unique locations keys
         letter_locations = doc.css('text body div[3] placeName')
         locations_st = letter_locations.map {|element| element["key"]}.join(';')
         locations_ar = locations_st.split(';').uniq
-        locations_uniq = locations_ar.join(';')
+        locations_uniq = locations_ar.join('; ')
 
-        # doc.css('text body div[3] persName').each do |node|
-            # key = node.attr('key').to_s
-            # all = key + "; "
-            # puts all
-        # end
+        # get unique person keys
+        letter_people = doc.css('text body div[3] persName')
+        people_st = letter_people.map {|element| element["key"]}.join(';')
+        people_ar = people_st.split(';').uniq
+        people_uniq = people_ar.join('; ')
+
+        # get unique language keys
+        letter_languages = doc.css('text body div head')
+        languages_st = letter_languages.map {|element| element["xml:lang"]}.join(';')
+        languages_ar = languages_st.split(';').uniq
+        languages_uniq = languages_ar.join('; ')
 
         imageset = doc.css('text body div[1] pb') # get all pb elements in div
         otherimage = imageset.map {|element| element["facs"]}.join(';') # => output as array: ["name key 1"; "name key 2"] => name key 1; name key 2
@@ -65,7 +67,7 @@ task :letters, [:arg1] do |t, args|
         # doc.xpath('//div[@facs=""]').remove
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, author, persname, date, locations_uniq, title, images, thumbnail, full, manifest)
+        newdoc << frontmatter(key, creator, recipient, date, locations_uniq, people_uniq, languages_uniq, title, images, thumbnail, full, manifest)
 
         # hyperlink persNames
         doc.css('persName').each do |node|
