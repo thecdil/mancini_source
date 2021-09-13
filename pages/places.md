@@ -10,7 +10,7 @@ Learn more about the places in Marie's letters. Click on a place to browse relat
 
 {% capture letters %}{% for item in site.data.placename_master %}{{ item.city | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
 {%- assign uniqueLetters = letters | split: ';' | uniq -%}
-{%- assign glossary = site.data.placename_tags | sort: "city" -%}
+{%- assign glossary = site.data.placename_master | sort: "city" -%}
 
 <ul class="list-inline">
 {% for letter in uniqueLetters %}

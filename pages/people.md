@@ -10,7 +10,7 @@ Learn more about the people in Marie's letters. Click on a name to browse relate
 
 {% capture letters %}{% for item in site.data.persname_master %}{{ item.name | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
 {%- assign uniqueLetters = letters | split: ';' | uniq -%}
-{%- assign glossary = site.data.persname_tags | sort: "name" -%}
+{%- assign glossary = site.data.persname_master | sort: "name" -%}
 
 <ul class="list-inline">
 {% for letter in uniqueLetters %}
