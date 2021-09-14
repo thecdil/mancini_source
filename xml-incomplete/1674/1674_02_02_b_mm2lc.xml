@@ -150,12 +150,22 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1674_02_02_b_mm2lc_edit" n="53" facs="DSCF8593">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8594"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Dal Castello d'Anversa</placeName>,  
+                        <date when="1674-02-02">il 2 febbraio 1674</date>
+                    </dateline>
+                </opener>
+                <p>Vi ho gi&#224; scritto un'altra lettera con questo <ref type="annotate" xml:id="a1674_02_02_b_mm2lc" n="1" style="The meaning is 'questo corriere ordinario.'">ordinario,</ref> la quale ho indirizzata al cardinal Portocarrero acci&#242; andasse pi&#249; sicura, e questa la mando anche per altra via acci&#242; ve ne possa essere recapitata qualcheduna. Dopo la vostra lettera scrittami, ancora sto qua, senza saper nessuna nuova del conte Monterey. Solamente mi han scritto le donne che il Marchese ha riso della lettera che gli han detto che voi mi avete scritto e gli ha risposto che voi scrivete in altra forma al Conte e che non speri mai d'uscir di qui che per andar in un convento in Italia. So che siete uomo di parola e incapace di tradimento, ma per autenticare l'indegnit&#224; che ha fatto metter&#224; tutto in uso; crediatelo per certo; perci&#242; scrivete</p>
+                <pb facs="DSCF8595"/>
+                <p>ancora a Monterey chiaramente, perch&#233; si attaccheranno dove potranno. Io non ho nessun servitore di garbo da poter far parlare al Conte e fargli conoscere il modo in cui il Marchese lo inganna per i suoi fini e non gi&#224; per fare un servizio a voi, conforme gli da ad intendere. Se volete permettere a monsieur Boniel di venirmi a trovare, se no mandate qualcheduno di garbo, e di spirito, e di qualit&#224;; non volendo ripigliar mai monsieur Boniel che col consenso vostro. Ma se avessi avuto qualcheduno appresso di me, non mi sarebbe successa questa disgrazia, perch&#233; avrebbe presentato al Conte le cose come stanno; e perci&#242; quel furbo del Marchese, si guadagn&#242; prima Oliva con le minacce e con le preghiere come pot&#233;; perch&#233; nessuno potesse dir le mie ragioni. Se don Maurizio potesse venire ne avrei pi&#249; gusto che di nessuno altro, se non pensate a qualchedun altro che abbia l'abilit&#224; di servirmi in questa congiuntura; e siate certo che in peggior stato non si pu&#242; stare, non potendosi vedere una perfidia maggiore di quella del Marchese.</p>
+                <closer>
+                    <salute>Addio, sono perci&#242; sempre la stessa per voi e per i miei figli, i quali benedico e abbraccio con tutto il cuore</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
