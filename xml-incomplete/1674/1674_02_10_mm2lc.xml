@@ -144,18 +144,28 @@
                 <note resp="#smn">
                 [[On the left half of the sheet, turned 90&#xb0;:]]    
                 </note>
-                <p>di vederlo gia ly o fatto dir ch' in quante alle guardie attorno al convento era padrone ne a me era di nessun disturbo ma credeteme ch' a questo non tiene luy &#233; impegnato col marquese si trova corso di quanto a fatto contro di me. &#233; lo vol sostenere in qualque forma; mo la regina gli lordina mo voi, infine non sanno piu che ritrovare ne che si dire; &#233; io sto sempre qua, nessuno a faccia di venirmi a vedere perche tutta la [[something crossed out]] ragione [[something crossed out]] &#233; dal canto mio piacesse a dio ch il marquese comparisse lo vorrei convincere in maniera che non sapria che si dire lui sa quello mi a promesso, &#233; la parola che mi a dato. &#233; doppo ingannarmi cosi astutamente. [[something crossed out]] dubito <hi rend="sup">solo</hi> che <hi rend="sup">non</hi> ardira mai venirmi avanti perche &#233; altrettanto timido ch'io sono resoluta si siamo visti nei pericoli dove lui &#233; Oliva pareavano donne &#233; noi altre donne huomini. adio siate certo del mio affetto &#233; non vi stancate di favorir</p>
+                <p>di vederlo gia ly o fatto dir ch' in quante alle guardie attorno al convento era padrone ne a me era di nessun disturbo ma credeteme ch' a questo non tiene luy &#233; impegnato col marquese si trova corso di quanto a fatto contro di me. &#233; lo vol sostenere in qualque forma; mo la regina gli lordina mo voi, infine non sanno piu che ritrovare ne che si dire; &#233; io sto sempre qua, nessuno a faccia di venirmi a vedere perche tutta la [[something crossed out]] ragione [[something crossed out]] &#233; dal canto mio piacesse a dio ch il marquese comparisse lo vorrei convincere in maniera che non sapria che si dire lui sa quello mi a promesso, &#233; la parola che mi a dato. &#233; doppo ingannarmi cosi astutamente. [[something crossed out]] dubito <hi rend="sup">solo</hi> che <hi rend="sup">non</hi> ardira mai venirmi avanti perche &#233; altrettanto timido ch'io sono resoluta si siamo visti nei pericoli dove lui &#233; Oliva pareavano donne &#233; noi altre donne huomini.</p>
                 <closer>
-                    <salute></salute>
+                    <salute>adio siate certo del mio affetto &#233; non vi stancate di favorir</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1674_02_10_mm2lc_edit" n="54" facs="DSCF8596">
+                <head type="edit" xml:lang="it"/>
+                <pb facs="DSCF8597"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Dal Castello d'Anversa</placeName>, 
+                        <date when="1674-02-10">il 10 febbraio 1674</date>
+                    </dateline>
+                </opener>
+                <p>Vi scrissi due giorni or sono per la via di <placeName key="lyon">Lione</placeName> dove vi accusai ricevuta dell'ultima che mi avete favorito di scrivermi per via dei mercanti e vi pregavo ancor di pi&#249; di volermi inviare una lettera da poter rendere io stessa al <persName key="monterey">conte di Monterey</persName> acci&#242; non possa, il Marchese, inventar pi&#249; niente contro di me mentre ancora dice che voi scrivete a loro in altra forma che a me. Ha promesso qui, ai soldati e ad un alfiere che mi guardano d'ordine suo, un tanto al giorno, dicendo che questa era l'intenzione vostra, ma dopo il suo ritorno dalla armata, l'alfiere avendogli scritto per aver quello che gli aveva promesso, lui lo ha fatto sapere a questo governatore il quale lo fece subito mettere in prigione</p>
+                <pb facs="DSCF8598"/>
+                <p>al fine che non si provi un'altra volta a domandar di niente. Restate avvertito che il Marchese &#232; uomo da far pagare a voi questa spesa come anche la dimora d'Oliva a Bruxelles; perci&#242; state attento non vi ci faccia cascare che l'avrei a male assai poich&#233; fareste conoscere al mondo che siete stato d'accordo con lui del tradimento che mi ha fatto, come anche di proteggere e assistere un uomo come <persName key="oliva-gian-paolo">Oliva</persName>, che mi ha lasciato e ha fatto, per timor del Marchese, il peggio contro di me, pur con tutte le obbligazioni che avrebbe. Vi mando una cravatta, e tre altre per i miei figli, acci&#242; si ricordino di me; le sei camicie che vi ho fatto fare le ho consegnate al mercante che le mander&#224; per la condotta, non potendosi inviare per la posta. Non mancher&#242; di domandare del gentiluomo a Monterey se mai avr&#242; la fortuna di vederlo; gi&#224; gli ho fatto dire che in quanto alle guardie attorno al convento era padrone, n&#233; a me erano di nessun disturbo; ma credetemi che a questo non tiene, lui &#232; impegnato col Marchese, si trova conscio di quanto ha fatto contro di me. E lo vuol sostenere in qualche forma; adesso la Regina gli da ordini, adesso voi; infine non sanno pi&#249; che fare n&#233; che dire; e io sto sempre qua, nessuno ha la faccia di venirmi a vedere perch&#233; tutta la ragione &#232; dal canto mio; piacesse a Dio che il Marchese comparisse, lo vorrei convincere in maniera che non saprebbe che dire, lui sa quello che mi ha promesso, e la parola che mi ha dato. E dopo ingannarmi cos&#236; astutamente! Dubito solo che non ardir&#224; mai venirmi davanti perch&#233; &#232; tanto timido quanto io sono risoluta; lo si &#232; visto nei pericoli dove lui e <persName key="oliva-gian-paolo">Oliva</persName> parevano donne e noi altre donne uomini.</p>
+                <closer>
+                    <salute>Addio, siate certo del mio affetto e non vi stancate di favorirmi.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
