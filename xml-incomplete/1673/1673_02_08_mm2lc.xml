@@ -159,11 +159,21 @@
                     <p>Ho ricevuto la lettera del generale per quel frate e ve ne sono molto obbligata.</p>
                 </postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_02_08_mm2lc_translation" n="22" facs="DSCF8509">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8510"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>,  
+                        <date when="1673-02-08">8 February 1673</date>
+                    </dateline>
+                </opener>
+                <p>In accordance with what you write me in one of your letters, I have given the order in front of the <ref type="annotate" xml:id="a1673_02_08_mm2lc" n="1" style="It is not clear what Marie means when she says that she has given this order for payment 'in faccia alla contessa,' given that Countess Ortensia Stella was in Rome and not with Marie in Turin, so Marie could not be describing an in-person exchange. 'In faccia alla contessa' could conceivably be interpreted as 'despite the countess' —contrary to the countess’ wishes—but this seems unlikely, since Marie and Ortensia Stella were on good terms. Presumably, Marie is expressing the idea that the countess was aware of the order and perhaps had some hand in it.">countess</ref> for the payment from the mountain lands to be collected. I am waiting for <persName key="bologna-maurizio">Don Maurizio</persName>, and I hear from my brother, who arrived yesterday evening, that the Marquis of Borgomanero told him he was expecting him in Milan from one day to the next. I am very impatient for him to arrive so that he can bear witness to my good conduct, which will always be just as you could desire it to be when I am away from you; nor shall I ever fail in the obligations I owe you, remaining yours for always.</p>
+                <closer rend="ti-4">
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>I have received the letter from the Master General for that friar, and I am much obliged to you for <ref type="annotate" xml:id="b1673_02_08_mm2lc" n="2" style="This is a reference to a request Marie had made of Lorenzo in her letter of 13 December 1672">it.</ref></postscript>
             </div>
         </body>
     </text>
