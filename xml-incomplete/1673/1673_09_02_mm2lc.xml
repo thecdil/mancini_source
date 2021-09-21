@@ -179,11 +179,23 @@
                 </closer>
                 <postscript>Circa il monastero, n&#233; Valensa n&#233; <ref type="annotate" xml:id="c1673_09_02_mm2lc" n="3">Vienna</ref> sono a proposito per la strettezza, e Vienna &#232; sul passo come Lione. Addio.</postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_09_02_mm2lc_translation" n="36" facs="DSCF8538">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8539"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-09-02">2 September 1673</date>
+                    </dateline>
+                </opener>
+                <p>I am in receipt of your letter via <persName key="bologna-maurizio">Don Maurizio</persName>, and I see what you want, and also what you write to him, about which I will adhere on all points to your desires. I am waiting for the replies, and meanwhile I have asked the <persName key="borgomanero">Marquis of Borgomanero</persName> to come here at once, as he has promised me and as I hope he will do. He himself notified me that Oliva has arrived in Milan; I had <persName key="bologna-maurizio">Don Maurizio</persName> write in your name to <persName key="oliva-gian-paolo">Oliva</persName> in <placeName key="florence">Florence</placeName>, so that</p>
+                <pb facs="DSCF8540"/>
+                <p>he would be the one to drive the chaise roulante, which I do not doubt will be in good taste, coming as it does from you. I beg you to ensure that <persName key="oliva-gian-paolo">Oliva</persName> will come to be by my side; to that end, promise me to write to him to show that that is your pleasure. Happy that you are recovered, I beg you to take care of yourself. I am sorry to hear that there is some obstacle for you regarding Don Maurizio, which, if you can overcome it, you will bring me pleasure, so long as it is not to your detriment. I have already given the proxy order, and I am longing for the money to arrive because I need it.</p>
+                <closer>
+                    <salute>And with that, I remain yours, and I embrace my dear sons with all my heart.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>Regarding the convent, neither Valence nor Vienne is appropriate for lack of space, and Vienne is on the way, as Lyon is. Goodbye. </postscript>
             </div>
         </body>
     </text>
