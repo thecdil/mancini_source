@@ -164,11 +164,19 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_03_29_mm2lc_translation" n="28" facs="DSCF8519">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8520"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-03-29">29 March 1673</date>
+                    </dateline>
+                </opener>
+                <p>I am in your debt for two letters, but as I have been a bit indisposed, I was not able to reply punctually. I am in receipt of the bill of exchange for one hundred ninety doppie, and I thank you for what you have done to facilitate my cashing it in. Regarding Pietro Marchese, I will no longer employ him for anything, and I know him better than you; I believe he will soon go to join my brother, since he’s of no use to me here.</p>
+                <closer>
+                    <salute>I am glad that my boys are all well; hug them for me and give them my blessing, and as always, I sign off as your</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
             </div>
         </body>
     </text>
