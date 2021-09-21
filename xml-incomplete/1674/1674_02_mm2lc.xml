@@ -146,12 +146,21 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
-                <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+            <div type="letter" xml:id="letter_1674_02_mm2lc_edit" n="55" facs="DSCF8599">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8600"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Dal Castello d'Anversa</placeName>, ce        <date when="1674-02">febbraio <ref type="annotate" xml:id="a1674_02_mm2lc" n="1" style="Note that Marie's Italian is influenced by her French, and she often writes the places and dates of her Italian letters in French; here she goes from Italian to French to Italian, with a space left empty for the specific date in February. Judging by what she writes in this note, the date must have been sometime between 14 February (when she wrote her account of the visit from the Count of Monterey and the Marquis of Borgomanero) and 24 February (when she was to be transferred from Antwerp to Brussels, according to her letter dated 23 February)">1674</ref></date>
+                    </dateline>
+                </opener>
+                <p>Vi mando una cravatta per la posta, il nipote del Cardinale imperiale si incarica di farvela recapitare; vi ho reso conto di quanto &#232; capitato durante la visita del conte di Monterey e di Borgomanero per la via di Lione. Adesso sto attendendo che passino i quindici giorni dopo i quali Sua Eccellenza mi ha promesso di mettermi in monastero a Bruxelles. Tutta la obbligazione, se mai esco di qua, l'avr&#242; per voi solo perché del resto, Borgomanero, il Nunzio, e Oliva, han fatto il possibile</p>
+                <pb facs="DSCF8601"/>
+                <p>per impedire che io avessi questa soddisfazione. Domani partono le camicie e la tela con le cravatte per la condotta (che temo che tarder&#224; un pezzo per strada); almeno le poteste avere per Pasqua!</p>
+                <closer>
+                    <salute>Addio, abbraccio i figlioli e sono sempre vostra.</salute>
+                    <signed><persName key="mancini-maire">M. M. C.</persName></signed>
+                </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
