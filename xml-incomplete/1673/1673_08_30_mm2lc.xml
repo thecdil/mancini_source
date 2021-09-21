@@ -173,11 +173,22 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_08_30_mm2lc_translation" n="35" facs="DSCF8535">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8536"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-08-30">30 August 1673</date>
+                    </dateline>
+                </opener>
+                <p>From your letter to <persName key="bologna-maurizio">Don Maurizio</persName>, I hear of your indisposition, about which I am extremely sorry. I hope to God, though, that by now it will be nothing. I received the box with the rosaries and devotional medals, which were much to my taste, and I thank you for them. I am waiting for the money from the sale of my mountain lands, as I wrote to you, and with it, the replies from France, which I think will never arrive--you’re astounded by it yourself. And since they are taking so long and</p>
+                <pb facs="DSCF8537"/>
+                <p>the four months will be over on the fifteenth of next month, do not take offense that after that time, I may move to Chamb&#233;ry, from where it will be easier for me to negotiate my entry into that kingdom, into a convent in compliance with what you have written. I would wish that when you answer this letter, you send me an authorization written in your own hand that says that you are satisfied that I should go to France, to a convent, and that you hope the King will permit me to do so.</p>
+                <closer>
+                    <salute>This is what I want you to do for me now, and then I will act in such a way that you will be ever more satisfied with me. I embrace my dear sons and declare myself, as always, entirely yours.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
