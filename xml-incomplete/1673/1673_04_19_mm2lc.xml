@@ -173,11 +173,18 @@
                 <p>troppi violenti per un uomo moderato; io mi trattengo tuttavia qui in casa del signore principe di Carignano, dal quale ricevo ogni sorta di cortesia e con questo finisco abbracciando i figlioli e protestandomi sempre vostra.</p>
                 
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_07_19_mm2lc_translation" n="29" facs="DSCF8521">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8522"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-04-19">19 April 1673</date>
+                    </dateline>
+                </opener>
+                <p>I informed you by the last regular mail, via one of my brother's servants, of the trip I had made to Chamb&#233;ry to say good-bye to <persName key="mancini-hortense">Madame Mazarin</persName>; as I did not find her there, I returned without delay. I did not bring <persName key="bologna-maurizio">Don Maurizio</persName> with me because I was certain that he could not undertake such a sudden and taxing journey without risk to his health. I would like to obtain an authorization like that of Madame de Chalais, that is, to be able to go out from time to time as she has been allowed to do. <persName key="sonnino">The Prince of Sonnino</persName> does not know what I would have done in a similar situation; my answer is that my reaction would have been more practical than theoretical. I would certainly have prevented his coming to Rome from Vienna; he would have given up either that endeavor or his <ref type="annotate" xml:id="a1673_04_19_mm2lc" n="1" style="Marie appears to be referring to a situation she mentioned in a previous letter to Lorenzo, dated 15 March 1673. She is critical of Lorenzo’s younger brother, the Prince of Sonnino, for not having kept a certain Don Federico from coming to Rome, and she is convinced that she would have handled the situation better if she had been there.">life.</ref> However, this advice is</p>
+                <pb facs="DSCF8523"/>
+                <p>too violent for a mild-mannered man. Anyway, I am still here at the house of the Prince of Carignan, who is showing me all possible courtesy. I will end there, with hugs for my dear sons and an assurance for you that I am ever yours.</p>
             </div>
         </body>
     </text>
