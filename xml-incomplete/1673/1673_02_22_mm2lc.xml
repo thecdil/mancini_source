@@ -153,11 +153,18 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1673_02_22_mm2lc_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_02_22_mm2lc_translation" n="04" facs="DSCF8511">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8512"/>
+                <dateline>
+                        <placeName key="turin">Turin</placeName>,  
+                        <date when="1673-02-22">22 February 1673</date>
+                    </dateline>
+                <p>From your letter of the eighth of this month, it appears to me that you do not really approve of my stop in this place; and this amazes me, since you knew that I left Lyon with this intention, and here, as I have done elsewhere, my conduct will leave nothing to be desired by you. I will await here the return of my brother, which will happen as soon as his wife has given birth; in the meantime I will pray to God that He might dispose me to conform to your wishes, since unless I were so disposed, neither could you enjoy my return nor could I be content. I am impatient to hear better news of Carlino, as I am very worried about his illness; and with hugs for him and for the other two, I confirm myself to be forever your same</p>
+                <closer>
+                    <salute></salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
