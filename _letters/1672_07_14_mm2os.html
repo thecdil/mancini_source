@@ -51,36 +51,3 @@ manifest: /img/derivatives/iiif/1672_07_14_mm2os/manifest.json
                     </p>
             </div>
 
-
-<script>
-
-var peopledata = {
-    {%- for l in site.data.persname_master -%}
-    {{ l.key | jsonify }} : { "id": {{ l.key | jsonify }}, "person": {{ l.name | escape | jsonify }}, {% if l.annotation %}"annotation": {{ l.annotation | escape | jsonify }}{%- endif -%} }{% unless forloop.last %},{% endunless %}
-    {%- endfor -%}
-};
-
-console.log(peopledata)
-
-var allnames = "{{ page.people }}"
-var pagenames = allnames.split("; ")
-
-function makePopover(name){
-    var record = peopledata[name];
-    var popoveroptions = {
-        selector: '#' + name,
-        title: record.person,
-        content: record.annotation,
-        html: true
-    }
-
-    console.log(popoveroptions);
-
-    document.getElementById(name).addEventListener('click', function() {
-        $('body').popover(popoveroptions)
-    });
-}
-
-pagenames.forEach(makePopover);
-
-</script>
