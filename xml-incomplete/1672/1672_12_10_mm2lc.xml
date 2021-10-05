@@ -178,11 +178,22 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>.
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1672_12_10_mm2lc_translation" n="15" facs="DSCF8491">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8492"/>
+                <opener>
+                    <dateline>
+                        <placeName key="avenay">Avenay</placeName>, 
+                        <date when="1672-12-10">10 December 1672</date>
+                    </dateline>
+                    <p>I enjoy hearing from your letter that the <persName key="lucrezia-colonna">Duchess of Bassanello</persName> liked that small sign I gave her of the memory I have of her; the thank-you letter written by Baldini was very well done; the reply will not be such because my secretary speaks badly and writes even worse; and yet with all that, he understands Italian perfectly and for that reason, and for many other good qualities he has, I have been pleased to have him with me, having no one else here but him and Giovanni. My brother sent me</p>
+                    <pb facs="DSCF8493"/>
+                    <p>yesterday a servant of his to find out whether I wanted to go with him to <placeName key="nevers">Nevers</placeName>; I said yes because I do not like this monastery (even though it’s not travel season), since it is very different from the <placeName key="lys">Lys</placeName>; the air is bad, the nuns, duplicitous; those at the <placeName key="lys">Lys</placeName> are so many angels, I have never seen a more observant monastery, nor one that has edified me more than that one. I know that it was not your intention to make me leave it, but rather people's malice to make me enter another one, where I cannot breathe a word without people finding out in <placeName key="paris">Paris</placeName> everything I say, although they are things of little significance; with all of that, for a person of my temperament, it is a great nuisance to have always to mind the way one speaks and to have nobody one can trust. You can be certain that my intention in retreating to France was always to live in a convent; it is true that I thought it would be in <placeName key="paris">Paris</placeName>, but after the difficulties I have encountered with that, I would not lift a finger to go there from <placeName key="nevers">Nevers</placeName>. I will easily be able to go to <placeName key="lyon">Lyon</placeName> if my brother goes there, where I will enter another monastery, as I assure you that away from you, I will not spend my life anywhere else. I am in very good health since I’ve been in France, and I will always be better when I am assured that you remember the one who is all yours.</p>
+                    <closer>
+                        <salute></salute>
+                        <signed><persName key="mancini-marie">M. M. C.</persName></signed>.
+                    </closer>
+                </opener>
             </div>
         </body>
     </text>
