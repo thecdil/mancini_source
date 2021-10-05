@@ -154,11 +154,20 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1672_12_13_mm2lc_translation" n="16" facs="DSCF8494">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8495"/>
+                <opener>
+                    <dateline>
+                        <placeName key="avenay">Avenay</placeName>,  
+                        <date when="1672-12-13">13 December 1672</date>
+                    </dateline>
+                </opener>
+                <p>I have been asked by one of these nuns to intercede with the Master General of the <ref type="annotate" xml:id="a1672_12_13_mm2lc" n="1" style="When Marie refers to 'il generale della Minerva,' she means 'il maestro generale della basilica di Santa Maria sopra Minerva'–the Master General of the basilica of Santa Maria sopra Minerva, on the Piazza della Minerva in Rome. The basilica was the seat of the top hierarchy of the Dominican order, and the Master General was the head of the order.">Minerva</ref> (see letter) for a friar of his order to take his doctorate; I am sending you the draft so that through your assistance, this individual can obtain that favor from the Master General, who is such a good friend of yours, and so it will be easy for you to request it. I am still waiting for my brother in order to go with him to <placeName key="nevers">Nevers</placeName>, and from there perhaps to <placeName key="lyon">Lyon</placeName>, to a monastery from which I will not fail to write to you; and with that,</p>
+                <closer>
+                    <salute>sending kisses to my boys, I remain for always entirely yours.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
