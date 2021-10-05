@@ -175,19 +175,22 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <!--Not completed 6-26-20-->
             <div type="letter" xml:id="letter_1672_09_23_mm2lc_translation" n="10" facs="DSCF8475">
                 <head type="translation" xml:lang="en" />
                 <pb facs="DSCF8476"/>
                 <opener>
                     <dateline>
-                        <placeName key="lys">Grenoble</placeName>
-                        <date when="1672-07-14">14 July</date>
+                        <placeName key="lys">The Lys</placeName>, 
+                        <date when="1672-09-23">23 September 1672</date>
                     </dateline>
                 </opener>
-                
-                <pb facs="DSCF8223"/>
-
+                <p>The women have arrived with the things, and they have brought me great consolation, since I can see that on this occasion, it has pleased you to seek my satisfaction. I will not fail to take care of them, and particularly of <persName key="maddalena">Maria Maddalena</persName>, who is in the right place to be able to become a saint if she wishes; this monastery is an exemplar of virtue, where I don’t believe you will be able to complain of my conduct, since it is such that even my enemies will be obliged to praise it. I hope that you will be happy with it, and that you will have ever more occasion to show me the esteem you have denied me until now, as I assure you that I will eternally maintain my esteem for you. Take good care</p>
+                <pb facs="DSCF8477"/>
+                <p>of the boys, kiss them for me and give them my love. I will send back Andrea to serve them, since he is more appropriate for them than for me in the monastery; I beg you to take care of the poor <ref type="annotate" xml:id="a1672_09_23_mm2lc" n="1" style="Countess Hortense–or Ortensia–Stella was one of the French maids of honor who accompanied Marie to Rome at the time of her marriage to Lorenzo Onofrio Colonna. She belonged to the Colonna household and appears to have been married in Rome to a certain Count Stella. She became the close friend and confidante of Marie, to whom Marie wrote with great affection; however, it is likely that Countess Stella and Lorenzo were also lovers, and she may have borne him children. Dulong, Marie Mancini, 278-79, 367-68.">countess</ref>, and also the other women who remained with you. In the meantime, I will always keep praying to God for you and for the whole household.</p>
+                <closer>
+                    <salute></salute>
+                    <signed rend="ti-3"><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
