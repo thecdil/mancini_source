@@ -149,12 +149,20 @@
                     <signed><persName key="mancini-marie">C. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="">
+            <!--Footnotes needed-->
+            <div type="letter" xml:id="letter_1672_xx_01_mm2os_edit" n="04" facs="DSCF8224">
                 <head type="edit" xml:lang="fr" />
-                <pb facs=""/>
-                
-                
-                
+                <pb facs="DSCF8225"/>
+                <opener>
+                    <dateline>
+                        <placeName key="grenoble">Grenoble</placeName>
+                        <date when="1672-08-07">ce premier <ref type="annotate" xml:id="a1672_xx_01_mm2os" n="1" style="">ao&#252;t</ref> 1672</date>
+                    </dateline>
+                </opener>
+                <p>J'ai su par mon fr&#232;re qu'Andrea servait les enfants, ce pourquoi ne me l'envoyez point car je suis ravie qu'il soit &#224; eux. Mon fr&#232;re est ici depuis trois jours ; souvenez-vous de m'envoyer Tiche et Constance car je ne saurais plus durer avec une fille toute seule ; embrassez mes enfants pour moi et saluez Anna. Acquittez-vous des commissions que je vous donne, si vous voulez que je continue &#224; croire que vous aimez la<p>
+                <closer>
+                    <signed><persName key="mancini-marie">C. C.</persName></signed>
+                </closer> 
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
                 <head type="translation" xml:lang="en" />
