@@ -178,11 +178,23 @@
                 </closer>
                 <postscript>Abbraccio i miei ragazzi con tutto il cuore.</postscript>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_10_04_mm2lc_translation" n="40" facs="DSCF8550">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8551"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-10-04">4 October 1673</date>
+                    </dateline>
+                </opener>
+                <p>Each day could be the one when the <persName key="borgomanero">Marquis of Borgomanero</persName> arrives, since he wrote me that he was supposed to be leaving on Saint Michael's Day. Nor can anything more keep him since the <persName key="osuna">Duke of Osuna</persName> has given him leave, according to what he tells me. Have no fear that I will leave without him, nor that I am going to stop in Chamb&#233;ry. I will try to enter France and stay there, if they are willing to allow me to; if not, the Marquis and I will see to choosing a convent in some place that will meet with your</p>
+                <pb facs="DSCF8552"/>
+                <p>satisfaction and mine. Here there are great preparations underway to receive the <persName key="martinozzi-laura">Duchess of Modena</persName>, who is going to accompany her daughter to </placeName key="london">London</placeName>, who is the bride of the <persName key="james-ii">Duke of York</persName>. The marriage was finalized without waiting for the permission of the Pope, since the duke could not put it off any longer, needing as he did to have it approved by Parliament, which convenes at the end of this month. I will try to satisfy <persName key="oliva-gian-paolo">Oliva</persName> as best I can so that he will not have reason to want to return to <placeName key="florence">Florence</placeName>. In the meantime,</p>
+                <closer>
+                    <salute>I reconfirm to you the esteem and affection with which I have always declared myself yours.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>I embrace my boys with all my heart.</postscript>
             </div>
         </body>
     </text>
