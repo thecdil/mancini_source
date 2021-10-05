@@ -137,7 +137,7 @@
                 + 2 red wax seals]]
                 </note>
                 <note resp="#smn">
-                [[Along the bottom edge of the left side of the paper, is written the date by an archivist or secretary. The ink looks similar to Marie’s ink.]]    
+                [[Along the bottom edge of the left side of the paper, is written the date by an archivist or secretary. The ink looks similar to Marie's ink.]]    
                 </note>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]   
@@ -164,7 +164,7 @@
                 <opener>
                     <dateline>
                         <placeName key="nevers">De Nevers</placeName> 
-                        <date when="1672-12-30" type="annotate" xml:id="a1672_12_30_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ce 30 d&#233;cembre 1672</date>
+                        <date when="1672-12-30" type="annotate" xml:id="a1672_12_30_mm2lc" n="1" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ce 30 d&#233;cembre 1672</date>
                     </dateline>
                 </opener>
                 <p>Ricevo a Nevers la vostra del 26 novembre e vedo con mia molta soddisfazione le espressioni affettuose che mi fate; circa i miei desideri vi assicuro che non si allontaneranno dai vostri, quando voi mi continuerete i buoni sentimenti che mi dimostrate; mi ritrovo qui con mio fratello che vi potr&#224; testimoniare in che forma io vivo e in che disposizione mi ritrovo; sento dalla pubblica voce della vostra partenza da Roma e non sapendone il motivo resto sospesa finch&#233; non lo sappia da voi</p>
@@ -175,11 +175,22 @@
                     <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1672_12_30_mm2lc_translation" n="17" facs="DSCF8496">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8497"/>
+                <opener>
+                    <dateline>
+                        <placeName key="nevers">Nevers</placeName>, 
+                        <date when="1672-12-30">30 December 1672</date>
+                    </dateline>
+                </opener>
+                <p>I have received in Nevers your letter of 26 November, and I see with great satisfaction the expressions of affection that you send me; regarding my wishes, I assure you that they will not diverge from yours as long as you continue the good feelings you are showing me. I am here with my brother, who can attest to the way I am living and the disposition in which I find myself. I hear through public channels about your departure from Rome, and not knowing the reason for it, I'll remain in suspense until I learn it from you,</p>
+                <pb facs="DSCF8498"/>
+                <p>since I take to heart every one of your sorrows as if it were my own. I won't go on any longer, since I don't know where this letter will find you; in the meantime,</p>
+                <closer>
+                    <salute>I remain all yours.</salute>
+                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
