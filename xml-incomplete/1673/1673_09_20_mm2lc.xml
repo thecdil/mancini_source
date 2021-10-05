@@ -161,11 +161,20 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_09_20_mm2lc_translation" n="39" facs="DSCF8548">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8549"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-09-20">20 September 1673</date>
+                    </dateline>
+                </opener>
+                <p>Although I have not received your letters, I hear that you are still waiting for the replies from France, as I will do, too, until such time as the <persName key="borgomanero">Marquis of Borgomanero</persName> is here, whom I have begged once more to come and join me immediately. Then we will decide together what seems best for me. I have dismissed <persName key="boniel">Monsieur Boniel</persName> in the end, to give you that satisfaction, knowing that you wanted it, because otherwise he was quite indispensable to me. And with that,</p>
+                <closer>
+                    <salute>I remain as always yours.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
