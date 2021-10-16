@@ -81,6 +81,13 @@ task :letters, [:arg1] do |t, args|
         # add frontmatter to newdoc first
         newdoc << frontmatter(key, n, creator, recipient, date, locations_uniq, people_uniq, languages_uniq, title, images, thumbnail, full, manifest)
 
+        people_uniq.each do |node|
+            if node == doc.at_css('persName').attr('key')
+                node.name = 'a'
+                node['class'] = 'pop-annotation'
+                node['tabindex'] = '0'
+                node['id']
+
         # hyperlink persNames
         doc.css('persName').each do |node|
             node.name = 'a'
