@@ -163,7 +163,7 @@
                         <date when="1673-10-15">il 15 ottobre 1673</date>
                     </dateline>
                 </opener>
-                <p>Con la venuta di Borgomanero ho stabilito di partirmi da qui per la risoluzione che sentirete a voce da don Maurizio, al quale ho comunicato tutto quello che vi dir&#224;. Io non ho portato don Maurizio con me perch&#233; nell'ultima <ref type="annotate" xml:id="a1673_10_15_mm2lc" n="1" style="The meaning is 'nell'ultima vostra lettera.'">vostra</ref> mi dite che non lo faccia, ed anche perch&#233; lo vedo di poca salute. Io parto con l'approvazione del marchese di Borgomanero, il quale concorre in questo mio viaggio e spero non vi sar&#224; di disgusto; mentre forse sar&#224;, in ultimo, mezzo di</p>
+                <p>Con la venuta di <persName key="borgomanero">Borgomanero</persName> ho stabilito di partirmi da qui per la risoluzione che sentirete a voce da don Maurizio, al quale ho comunicato tutto quello che vi dir&#224;. Io non ho portato don Maurizio con me perch&#233; nell'ultima <ref type="annotate" xml:id="a1673_10_15_mm2lc" n="1" style="The meaning is 'nell'ultima vostra lettera.'">vostra</ref> mi dite che non lo faccia, ed anche perch&#233; lo vedo di poca salute. Io parto con l'approvazione del marchese di Borgomanero, il quale concorre in questo mio viaggio e spero non vi sar&#224; di disgusto; mentre forse sar&#224;, in ultimo, mezzo di</p>
                 <pb facs="DSCF8555"/>
                 <p>Dio per la nostra quiete. Dove vado vi prometto di stare in clausura e con il decoro che devo come moglie vostra. Del resto, continuo a pregarvi di volermi mandare l'assistenza per me e la mia famiglia nella maniera che ho detto a don Maurizio; ve preghi per me che sono, abbracciando i figlioli, tutta vostra</p>
                 <closer>
@@ -171,11 +171,20 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_10_15_mm2lc_translation" n="41" facs="DSCF8553">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8554"/>
+                <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-10-15">15 October 1673</date>
+                    </dateline>
+                <p>With the arrival of <persName key="borgomanero">Borgomanero</persName>, I have settled on leaving here through the decision you will hear in person from <persName key="bologna-maurizio">Don Maurizio</persName>, to whom I conveyed everything he will tell you. I did not bring <persName key="bologna-maurizio">Don Maurizio</persName> with me because in your last letter you tell me not to do so, and also because I see he’s in poor health. I am leaving with the consent of the <persName key="borgomanero">Marquis of Borgomanero</persName>, who is taking part in this trip of mine, and I hope he will not be distasteful to you, whereas perhaps he will be, eventually,</p>
+                <pb facs="DSCF8555"/>
+                <p>God’s means of bringing us peace. Where I am going I promise you to live in seclusion and with the respectability I should maintain as your wife. Furthermore, I continue to beg you to please send me the assistance for me and my family in the manner I told to Don Maurizio; may he beseech you for me who,</p>
+                <closer>
+                    <salute>with hugs for my dear sons, remain ever yours.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
