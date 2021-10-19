@@ -164,11 +164,19 @@
                 <p>Borgomanero se la passa bene nonostante i patimenti del viaggio e voi gli siete molto obbligato dell'incomodo che si &#232; preso, come anche io, che resto tutta vostra, abbracciando i figlioli ai quali invier&#242; da Bruxelles un astuccio per la tavola per uno; di questi d'Alemagna che sono galantissimi.</p>
                 
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_11_25_mm2lc_translation" n="43" facs="DSCF8559">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8560"/>
+                <opener>
+                    <dateline>
+                        <placeName key="cologne">Cologne</placeName>, 
+                        <date when="1673-11-25">25 November 1673</date>
+                    </dateline>
+                </opener>
+                <p>By the grace of God, I have arrived safely after a month and a half of travel; I saw many beautiful free cities of Germany, and of the Swiss. I’ve been held up here for three days to wait for a convoy that is to escort us. Here I have capitalized on the presence of the Spanish envoy, who is called Don Emanuel del <ref type="annotation" xml:id="c1673_11_25_mm2lc" n="1" style="In her memoir, Marie identifies this man as 'Don Emanuel de Lira.' Marie Mancini, La V&#233;rit&#233; dans son jour, ed. Patricia Francis Cholakian and Elizabeth C. Goldsmith (Delmar, NY: Scholars' Facsimiles and Reprints, 1998), 80.">Illa</ref> and who has supported me greatly, he and even more so, his wife. I will be able to be in <placeName key="brussels">Brussels</placeName> in five or six days, where I hope, through your good offices, to receive all manner of courtesy and assistance. The <persName key="borgomanero">Marquis of</p>
+                <pb facs="DSCF8561"/>
+                <!--How do I properly nest this persName tag?-->
+                <p>Borgomanero</persName> is doing well despite the hardships of travel, and you are much indebted to him for the inconvenience to which he has subjected himself, as have I, who remain entirely yours, embracing my dear sons, to whom I will send from <placeName key="brussels">Brussels</placeName> a tableware case for each--of the German kind which are extremely gallant.</p>
             </div>
         </body>
     </text>
