@@ -154,7 +154,7 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="47" facs="DSCF8573">
+            <div type="letter" xml:id="letter_1673_12_29_mm2lc_edit" n="47" facs="DSCF8573">
                 <head type="edit" xml:lang="it" />
                 <pb facs="DSCF8574"/>
                 <opener>
@@ -174,11 +174,25 @@
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+            <div type="letter" xml:id="letter_1673_12_29_mm2lc_translation" n="47" facs="DSCF8573">
                 <head type="translation" xml:lang="en" />
-                <pb facs=""/>
-
-
+                <pb facs="DSCF8574"/>
+            <opener>
+                    <dateline>
+                        <placeName key="antwerp">Antwerp</placeName>, 
+                        <date when="1673-12-29">29 December 1673</date>
+                    </dateline>
+            </opener>
+            <p>After having sent the letter that you wrote me to the Marquis of Borgomanero, so that it could serve to prove to the Count of Monterey that I am in this country with your approval, he replied to me that it was not appropriate to show that letter to the count, not was it the right time to speak to His Excellency about any negotiation, but if he found an opportune moment, he would not fail to serve me. The marquis played a trick on me that I would never have believed; because from Mechelen I came along to here on the strength of his word, believing I was going to the city of Antwerp, to the house of the governor, and that I was free as he had promised me, and not that I would be locked up in the castle with guards, unable to leave my room. Believe me that it is not good for your reputation nor that of our children for me to be locked up</p>
+            <pb facs="DSCF8575"/>
+            <pb facs="DSCF8576"/>
+            <p>by force in a citadel; so write to the count that you are satisfied that I be in Brussels in a convent, as you have already written to me, since you can desire no more, and do not let yourself be moved from that idea, because I assure you that there is a lot of malevolence towards me, and I cannot tell you everything because I fear that the letters are all seen; but you can be certain that you will have ever greater cause to be pleased with me when you agree to gratify me in reasonable things such as those I desire of you now. In order to do me ill, malicious people have gone about saying that I receive a pension from the King of France, and that I am here on his orders. Can you imagine inventing anything worse? I’ve replied that it is true the King has assisted me, but now that I am in Flanders that will not happen anymore, and that if I were to receive a pension from him in the future, then they would have reason to complain about me, but that before, I did not answer to them for my actions. Oliva is still</p>
+            <pb facs="DSCF8575"/>
+            <p>in Brussels; I beg you, if he comes to Rome, to not give him a warm reception, which I declare to you he does not deserve, and I am certain that it’s impossible to behave more ungratefully towards me. Don Maurizio can attest to what I spent for him in Turin, and Martino, to what I spent for him during the journey: you can see the accounts; and even so, he was never satisfied, and he was embarrassed to say that he was in my service now. He is all for the marquis—the two of them alone, everyone knows, played this fine prank on me of making me come into this place, having deceived me, both of them, to take revenge for some disagreement I had with them on the road. I would never have believed the marquis was so vindictive; remember that I am your wife and that it does not help the reputation of your house for me to be elsewhere than in a convent.</p>
+            <closer>
+                    <salute>Farewell, write to me often and rest assured that I have no greater consolation.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
             </div>
         </body>
     </text>
