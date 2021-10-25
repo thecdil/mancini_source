@@ -26,6 +26,7 @@ task :letters, [:arg1] do |t, args|
                 "---\nletter_id: " + letter + "\nnumber: " + number + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\npeople: " + people + "\nlanguage: " + languages + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
         end
 
+        # get frontmatter variables
         key = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("key")
         doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n").nil? ? n = "" : n = doc.css('teiHeader fileDesc sourceDesc bibl title').attr("n")
         creator = doc.css('teiHeader fileDesc sourceDesc bibl author').text.strip
@@ -39,15 +40,23 @@ task :letters, [:arg1] do |t, args|
         manifest = '/img/derivatives/iiif/' + key + '/manifest.json'
 
         # get unique locations keys
+        # get all location keys
         letter_locations = doc.css('text body div[3] placeName')
+        # put keys in a string
         locations_st = letter_locations.map {|element| element["key"]}.join(';')
+        # turn string into an array, grab unique keys
         locations_ar = locations_st.split(';').uniq
+        # turn the array back into a string, with ; as separator
         locations_uniq = locations_ar.join('; ')
 
         # get unique person keys
+        # get all person keys
         letter_people = doc.css('text body div[3] persName')
+        # put keys in a string
         people_st = letter_people.map {|element| element["key"]}.join(';')
+        # turn string into an array, grab unique keys
         people_ar = people_st.split(';').uniq
+        # turn the array back into a string, with ; as separator
         people_uniq = people_ar.join('; ')
 
         # get unique language keys
@@ -67,65 +76,85 @@ task :letters, [:arg1] do |t, args|
         end
         languages_uniq = languages_ar.join('; ')
 
-        imageset = doc.css('text body div[1] pb') # get all pb elements in div
-        otherimage = imageset.map {|element| element["facs"]}.join(';') # => output as array: ["name key 1"; "name key 2"] => name key 1; name key 2
-        
-        # get all elements with attribute "style"
-            # id_set = doc.xpath("//*[@style]")
-        # put ids in string, each separated by ';':
-            # all_ids = id_set.map {|element| element["style"]}.join('; ')
-
-        # remove all facs divs
-        # doc.xpath('//div[@facs=""]').remove
-
         # add frontmatter to newdoc first
         newdoc << frontmatter(key, n, creator, recipient, date, locations_uniq, people_uniq, languages_uniq, title, images, thumbnail, full, manifest)
 
-        people_uniq.each do |node|
-            if node == doc.at_css('persName').attr('key')
-                node.name = 'a'
-                node['class'] = 'pop-annotation'
-                node['tabindex'] = '0'
-                node['id']
-
-        # hyperlink persNames
-        doc.css('persName').each do |node|
-            node.name = 'a'
-            key = node['key']
-            node['href'] = '/mancini_source/people.html#' + key
-        end
-
-        # hyperlink placeNames
-        doc.css('placeName').each do |node|
-            node.name = 'a'
-            key = node['key']
-            node['href'] = '/mancini_source/places.html#' + key
-            node.delete('key')
-        end
-
-        # do annotations
-        doc.css('p').children.each do |node|
-            if node['type']
-            text = node['style']
-            node.name = 'a'
-            id = node['xml:id']
-            node['href'] = '#' + id
-            node['data-toggle'] = 'tooltip'
-            node['title'] = text
-            original_node = node.content
-                if node['key']
-                    key = node['key']
-                    node.before '<a href="/mancini_source/people.html#' + key + '">' + node.content + '</a> '
-                end
-            node.content = '[' + node['n'] + ']'
-            node.delete('n')
-            node.delete('style')
-            node.delete('key')
-            node.delete('type')
+        # define node removal method, to remove xml elements but keep their inner text
+        def node_removal(node_removed)
+            node_removed.each do |node|
+                node_content = node.inner_html
+                node.before node_content
+                node.remove
             end
         end
 
-         # text emphasis
+        # define paragraph method
+        def paragraph(doc, element)
+            element.each do |node|
+                new_node = doc.create_element 'p'
+                new_node.inner_html = node.inner_html
+                node.replace new_node
+            end
+        end
+
+        # dateline element to paragraph
+        dateline = doc.css('dateline')
+        paragraph(doc, dateline)
+
+        # add popover link to people the first time they appear
+        people_ar.each do |node|
+            if doc.xpath("//xmlns:div/xmlns:p/xmlns:persName[@key=\"#{node}\"]")[0]
+                doc.xpath("//xmlns:div/xmlns:p/xmlns:persName[@key=\"#{node}\"]")[0].nil? ? node = "" : node = doc.xpath("//xmlns:div/xmlns:p/xmlns:persName[@key=\"#{node}\"]")[0]
+                # delete original annotation id, so it doesn't conflict with new id
+                node.delete('id')
+                node.name = 'a'
+                key = node['key']
+                node['class'] = 'pop-annotation'
+                node['tabindex'] = '0'
+                node['id'] = key
+                node.delete('key')
+                node.delete('type')
+                node.delete('n')
+                node.delete('style')
+            end
+        end
+
+        # add popover link to places the first time they appear
+        locations_ar.each do |node|
+            if doc.xpath("//xmlns:div/xmlns:p/xmlns:placeName[@key=\"#{node}\"]")[0]
+                doc.xpath("//xmlns:div/xmlns:p/xmlns:placeName[@key=\"#{node}\"]")[0].nil? ? node = "" : node = doc.xpath("//xmlns:div/xmlns:p/xmlns:placeName[@key=\"#{node}\"]")[0]
+                node.delete('id')
+                node.name = 'a'
+                key = node['key']
+                node['class'] = 'pop-annotation'
+                node['tabindex'] = '0'
+                node['id'] = key
+                node.delete('key')
+                node.delete('type')
+                node.delete('n')
+                node.delete('style')
+            end
+        end
+
+        # add popover link to remaining annotations
+        doc.xpath('//xmlns:div/xmlns:p/xmlns:ref[@type="annotate"]').each do |node|
+            node.name = 'a'
+            key = node['xml:id']
+            node['class'] = 'pop-annotation'
+            node['tabindex'] = '0'
+            # delete original annotation id, so it doesn't conflict with new id
+            node.delete('id')
+            node['id'] = key
+            node.delete('type')
+            node.delete('n')
+            node.delete('style')
+        end
+
+        # remove remaining persName and placeName xml elements, leave their text
+        node_removal(doc.css('persName'))
+        node_removal(doc.css('placeName'))
+
+        # text emphasis
         doc.css('hi').each do |node|
             rend = node['rend']
             node.name = rend
@@ -140,7 +169,6 @@ task :letters, [:arg1] do |t, args|
         doc.remove_namespaces!
 
         # change div type to tabpanel div
-
         doc.css('TEI text body div').each do |node|
             type = node.attr('id').to_s
             if type.include? "trans"
@@ -196,36 +224,13 @@ task :letters, [:arg1] do |t, args|
         # remove pb (temporary?)
         doc.css('pb').remove
 
-        # define paragraph method
-        def paragraph(doc, element)
-            element.each do |node|
-                new_node = doc.create_element 'p'
-                new_node.inner_html = node.inner_html
-                node.replace new_node
-            end
-        end
-
-        # define node removal method
-        def node_removal(node_removed)
-            node_removed.each do |node|
-                node_content = node.inner_html
-                node.before node_content
-                node.remove
-            end
-        end
-
-        # dateline element to paragraph
-        dateline = doc.css('dateline')
-        paragraph(doc, dateline)
-
         # date element to text
         date_opener = doc.css('opener date')
         node_removal(date_opener) unless date_opener.attr('type')
 
         # remove opener element
-        opener = doc.css('opener')
-        node_removal(opener)
-
+        node_removal(doc.css('opener'))
+        
         # salute and signed elements to paragraph
         salute = doc.css('salute')
         signed = doc.css('signed')
