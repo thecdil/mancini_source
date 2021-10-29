@@ -1,0 +1,25 @@
+<script>
+    /* add annotation data from CSV */
+    var annotations = {
+        {%- for l in site.data.annotations -%}
+        {{ l.id | jsonify }} : { "annotation": {{ l.text | escape | jsonify }} }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+    };
+  
+    /* add popovers to each element */
+    $(".pop-annotation").each(function() {
+  
+      var popId = $(this).attr('id');
+      var record = annotations[popId];
+      if (record) {
+        var popoverOptions = {
+              content: record.annotation,
+              trigger: 'focus',
+              html: true
+        };
+        $(this).popover(popoverOptions);
+      }
+  
+    });
+    
+</script>  
