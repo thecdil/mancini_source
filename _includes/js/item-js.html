@@ -2,8 +2,8 @@
     (function(){
         /* add item data */
         var items = { 
-        {%- for item in site.data.mancini -%}
-        {{ item.id | jsonify }} : { "date": {{ item.date_actual | jsonify }} }{% unless forloop.last %}, {% endunless %}
+        {%- for item in site.letters -%}
+        {{ item.letter_id | jsonify }} : { "date": {{ item.letter_date | jsonify }} }{% unless forloop.last %}, {% endunless %}
         {% endfor %}
         };
 

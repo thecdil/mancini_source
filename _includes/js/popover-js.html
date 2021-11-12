@@ -1,5 +1,26 @@
 <script>
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
+  /* add annotation data from CSV */
+  var peopledata = {
+      {%- for l in site.data.persname_main -%}
+      {{ l.key | jsonify }} : { "name": {{ l.name | escape | jsonify }}, {% if l.annotation %}"annotation": {{ l.annotation | escape | jsonify }}{%- endif -%} }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+  };
+
+  /* add popovers to each element */
+  $(".pop-annotation").each(function() {
+
+    var popId = $(this).attr('id');
+    var record = peopledata[popId];
+    if (record) {
+      var popoverOptions = {
+            title: record.name,
+            content: record.annotation,
+            trigger: 'focus',
+            html: true
+      };
+      $(this).popover(popoverOptions);
+    }
+
+  });
+  
 </script>
