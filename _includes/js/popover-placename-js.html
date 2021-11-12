@@ -5,8 +5,6 @@
         {{ l.key | jsonify }} : { "city": {{ l.city | escape | jsonify }}, {% if l.annotation %}"annotation": {{ l.annotation | escape | jsonify }}{%- endif -%} }{% unless forloop.last %},{% endunless %}
         {%- endfor -%}
     };
-  
-    console.log(placedata)
 
     /* add popovers to each element */
     $(".pop-annotation").each(function() {
