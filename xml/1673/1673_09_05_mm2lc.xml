@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 37 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_09_05_mm2lc" type="letter" n="37">lett 37 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-09-05">September 5 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8541;DSCF8542;DSCF8543;DSCF8544">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-09-05">September 5 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-09" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_09_05_mm2lc_raw" n="37" facs="DSCF8541">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 37
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 19
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	5 Settembre 1673 da Torino
+                Sigilli – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8542"/>
+                <note resp="#smn">
+                [[Image is a sheet 15 cm wide; this first page of the letter and the second page are a single sheet, folded booklet-style in the middle]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">De turino</placeName>
+                        <date when="1673-09-05">li 5<hi rend="sup">me</hi> sep[[tembre]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>&#232; arrivato alla fine Oliva con la sedia roullante. ch&#232; et <hi rend="sup">di</hi> molto [<hi rend="strike">di</hi>] bon gusto &#232; mi e piaciuta in estremo. fra quatro o sei giorni sara accomodata; quy &#232; passato Monsieur [[<hi rend="strike">d'an</hi>]] d'Angeau per andar a modena a persuader la duchessa di modena, da parte de Re, accio si risolva, di dar la figliola al duca d'yorck, come non &#232; che otto giorni che manca dalla corte, gli[ink blot?] o domandato s'aveva inteso dir niente circa la mia venuta, e delle isanse ch avete fatto apresso[[ink blot?]] il Re. mi a risposto non averne nessuna notit[[paper fold hides the end of the word, but the word is presumably "notitia"]]</p>
+                <pb facs="DSCF8543"/>
+                <note resp="#smn">
+                [[Image is a sheet 15 cm wide; the first page of the letter and this second page are a single sheet, folded booklet-style in the middle]]    
+                </note>
+                <p>pero io temo che le letre quavete scritte se non l'avete duplicate l'hordinario seguente, che poss[[i/a]]no [[she seems to have written an "i" and then written an "a" over it]] esser perse perche per altro ognun crede che il Re in gratia vostra non mi neguera la licensa di [[something crossed out–maybe "rien"]] ritornare in francia. pero sapiate un poco se sono state rese. il cardinal de tre ve ne potra dar qualque aviso. et con questo vi saluto di tutto core &#232; resto per sempre tutta vostra</p>
+                <closer>
+                    <signed rend="ti-3"><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>    
+                    <pb facs="DSCF8544"/>
+                    <note resp="#smn">
+                    [[The image shows the back side of page 2 of the letter, which was the outside of the folded-up letter. Rectangularly folded, with writing on the left side that indicates that the French ambassador (Monsieur Dangeau) had a hand in delivering this letter:
+                    "Auta dann loche del'
+                    Sg<hi rend="sup">r</hi> Anbasiator di francia”
+
+                    And on the right side, very faint writing in Marie's hand, upside down relative to the writing on the other side:
+                    "A Monsieur
+                    Monsieur
+                    Conestable Colona
+                    A Roma"
+
+                    + 2 black wax seals to the left and right of the writing]]
+                    </note>
+                    <note resp="#smn">
+                    [[Lower down on the image, just to the left of the center fold of the booklet, parallel with the fold, is written the date by an archivist or a secretary, except that it appears to say "15" rather than "5." The ink looks different from Marie's ink.]]
+                    </note>
+                </postscript>
+            </div>
+            <div type="letter" xml:id="letter_1673_09_05_mm2lc_edit" n="37" facs="DSCF8541">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8542"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-09-05">il 5 settembre 1673</date>
+                    </dateline>
+                </opener>
+                <p>&#200; arrivato alla fine Oliva con la sedia <ref type="annotate" xml:id="a1673_09_05_mm2lc" n="1" style="Marie is referring here to the sort of single-seated enclosed carriage called a 'chaise roulante' in French.">rullante</ref> che &#232; di molto buon gusto e mi &#232; piaciuta in estremo. Fra quattro o sei giorni sara accomodata; qui &#232; passato monsieur Dangeau per andar a Modena a persuader la duchessa di Modena, da parte del Re, acci&#242; si risolva, di dar la figliola al duca di York; siccome non &#232; che otto giorni che manca dalla corte, gli ho domandato se aveva inteso dir niente circa la mia venuta, e delle istanze che avete fatto appresso al Re. Mi ha risposto di non averne nessuna notizia,</p>
+                <pb facs="DSCF8543"/>
+                <p>perci&#242; io temo che le lettere che avete scritto, se non le avete duplicate con il corriere ordinario seguente, che possano essersi perse; anche perch&#233;, ognuno crede che il Re in grazia vostra non mi negherebbe la licenza di ritornare in Francia. Perci&#242; sappiate un poco se sono state rese. Il cardinal d'Estr&#233;es ve ne potr&#224; dare qualche avviso. E con questo vi saluto di tutto cuore e resto per sempre tutta vostra</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <pb facs="DSCF8544"/>
+                <postscript>Avuta dal lacch&#232; del signor Ambasciator di Francia</postscript>
+            </div>
+            <div type="letter" xml:id="letter_1673_09_05_mm2lc_translation" n="37" facs="DSCF8541">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8542"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-09-05">5 September 1673</date>
+                    </dateline>
+                </opener>
+                <p><persName key="oliva-gian-paolo">Oliva</persName> has finally arrived with the chaise roulante, which is in very good taste and pleased me immensely. In four or six days, it will be fixed up. <persName key="dangeau">Monsieur Dangeau</persName> came through here on his way to <placeName key="modena">Modena</placeName> to persuade the Duchess of Modena, on behalf of the King, to resolve to give her daughter to the Duke of York. Given that this is only eight days away from the court, I asked him whether he had heard any talk of my coming there, and of the requests you have made to the King. He replied that he had no knowledge of that,</p>
+                <pb facs="DSCF8543"/>
+                <p>and so I fear that the letters you wrote, if you did not send them again with the following ordinary courier, may have been lost; also because everyone believes that the King, as a favor to you, would not deny me permission to return to France. So try to find out whether they were delivered. Cardinal d'Estr&#233;es will be able to give you some information about it. And with that, I send you my heartfelt best wishes and I remain forever yours entirely.</p>
+                <closer rend="ti-4">
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <pb facs="DSCF8544"/>
+               <!--possibly a different tag? as it's an official notification as opposed to a written postscript-->
+               <postscript>Received from the lackey of the Ambassador of France</postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

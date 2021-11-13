@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 44 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_12_11_mm2lc" type="letter" n="44">lett 44 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-12-11">December 11 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8562;DSCF8563;DSCF8564">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-12-11">December 11 1673</origDate>
+                            <origPlace>
+                                <placeName key="mechelen">Mechelen</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-12" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_12_11_mm2lc_raw" n="44" facs="DSCF8562">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 44
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 26
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	11 Dicembre 1673 da Malines
+                Sigillo mancante – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8563"/>
+                <note resp="#smn">
+                [[On the left side of the image is a page of writing, which is actually the fourth and final page of the letter—see below.]]  
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="mechelen">di malines</placeName>
+                        <date when="1673-12-11">le 11<hi rend="sup">me</hi>decem[[bre]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>Mi ritrovo in malines a quatro legue di brusselles doppo 55 giorni di marcia dove subitto il conte di monterey secondo i primi ordini mi a fatto intendere che mi transporti in Anvers a quatro legue di qua non volendo ch io entri in brusselles sensa che voi ly criviate che vi contentate temendo che di la io non vada altrove pero fateme tanto piacere di scrivergli subitto che gia che sono nelli stati del Re di spagna che mi permetta di andar in</p>
+                <pb facs="DSCF8564"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]   
+                </note>
+                <p>brusselles [[something crossed out—maybe "im"]] nel convento di Medames lebarllemont il quale et il piu bello et il piu nobile sensa contreditto <hi rend="sup">di quanti ve ne sono</hi> [[<hi rend="strike">ch</hi>]] ' io poi promettero al incontro di non escirne [[<hi rend="strike">a</hi>]] et daro parola a conte di quello che voi vorrete circa la mia sicuressa in quella citta, che puro che non me contrariano nelle cose ragionevoli io sto piu volontieri [[<hi rend="strike">q</hi>]] nelli stati de Re[[a final letter crossed out]] che per tutto altrove habiate ancora questa bonta per me di non farmi aver questo smacco conforme ho hauto in  </p>
+                <note resp="#smn">
+                [[On the left half of the sheet, turned 90&#xb0;:]] 
+                </note>
+                <p>francia che pare ch'io habbia da essere esclusa de tutte le citta capitale delle provincie. il marquese de bourgomenero in cambio di pigliarsi [[<hi rend="strike">ab</hi>]] arbitrio sopra di questo non a volsuto saper niente essendo stoto maravigliato di non trovar nessuna letra vostra &#232; io sono venuta su la sua parola non credendo che il conte mi fermasse conforme a fatto adesso mi ordina di andar a Anvers in casa del governatore io vi staro fin che voi scriviate quello</p>
+                <pb facs="DSCF8563"/>
+                <note resp="#smn">
+                [[On the left side of the image is a page of writing, which is actually the fourth and final page of the letter:]]
+                </note>
+                <p>desidero non potendomi persuadere ch' vogliate piu tosto che stia in Anvers for del monasterio, che in un convento a bruselles o scritto alla Regina di spagna che mi favorisse della sua protettione vi prego ancor voi di favorirmi apresso di lei accio possi viver quieta in queste parte con reputatione vostra, et satisfactione mia fin tanto che sia di ritorno con voi habiate la bonta di scriver quanto prima [[something crossed out—maybe "al"]] al conte di monterey accio non mi contrari davantaggio et crediate che questo &#232; il modo di farmi ridurre a quanto potete desiderar da quy &#232; tutta vostra</p>
+                <closer>
+                    <signed rend="ti-4"><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_12_11_mm2lc_edit" n="44" facs="DSCF8562">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8563"/>
+                <opener>
+                    <dateline>
+                        <placeName key="mechelen">Da Malines</placeName>, 
+                        <date when="1673-12-11">li 11 dicembre 1673</date>
+                    </dateline>
+                </opener>
+                <p>Mi ritrovo a Malines, a quattro leghe da Bruxelles, dopo 55 giorni di marcia; da dove, subito il conte di Monterey, secondo i primi ordini, mi ha fatto intendere che mi trasporter&#224; ad Anversa, a quattro leghe da qua, non volendo che io entri a Bruxelles senza che voi gli scriviate che ve ne contentate; temendo che da l&#224; io non vada altrove. Perci&#242; fatemi tanto il piacere di scrivergli subito che gi&#224; che sono negli stati del Re di Spagna mi permetta di andar a</p>
+                <pb facs="DSCF8564"/>
+                <p>Bruxelles, nel convento delle Dame di Berlaymont; il quale &#232; il pi&#249; bello ed il pi&#249; nobile, senza contraddittorio, di quanti ve ne sono. Io, poi, prometter&#242;, <ref type="annotate" xml:id="a1673_12_11_mm2lc" n="1" style=" The meaning is 'in cambio.'">all'incontro</ref>, di non uscirne e dar&#242; parola al Conte di quello che voi vorrete circa la mia sicurezza in quella citt&#224;; che finch&#233; non mi contrariano nelle cose ragionevoli, io sto pi&#249; volontieri negli stati del Re che dappertutto altrove. Abbiate ancora questa bont&#224; per me di non farmi avere questo smacco conforme ho avuto in Francia, che pare che io abbia da essere esclusa de tutte le citt&#224; capitali delle province. Il marchese di Borgomanero, in cambio di pigliarsi arbitrio sopra di questo non ha voluto sapere niente, essendo stato meravigliato di non trovare nessuna lettera vostra. Ed io sono venuta sulla sua parola, non credendo che il Conte mi fermasse conforme ha fatto; adesso mi ordina di andare ad Anversa in casa del governatore ed io vi star&#242; finch&#233; voi non scriviate quello che</p>
+                <pb facs="DSCF8563"/>
+                <p>desidero, non potendomi persuadere che vogliate piuttosto che stia ad Anversa, fuori dal monastero, che in un convento a Bruxelles. Ho scritto alla Regina di Spagna che mi favorisse della sua protezione; vi prego ancor voi di favorirmi presso di lei, acci&#242; possa viver quieta in queste parti con reputazione vostra, e soddisfazione mia, fintanto che sia di ritorno con voi. Abbiate la bont&#224; di scrivere quanto prima al Conte di Monterey, acci&#242; non mi contrari di pi&#249; e crediate che questo &#232; il modo di farmi ridurre a quanto potete desiderare. Da qui e tutta vostra </p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_12_11_mm2lc_translation" n="44" facs="DSCF8562">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8563"/>
+                <opener>
+                    <dateline>
+                        <placeName key="mechelen">Mechelen</placeName>, 
+                        <date when="1673-12-11">11 December 1673</date>
+                    </dateline>
+                </opener>
+                <p>I am in <placeName key="mechelen">Mechelen</placeName>, four leagues from <placeName key="brussels">Brussels</placeName>, after fifty-five days of travel; and from here right away the <persName key="monterey">Count of Monterey</persName>, following the first orders, gave me to understand that he will move me to <placeName key="antwerp">Antwerp</placeName>, four leagues from here, not wanting me to enter <placeName key="brussels">Brussels</placeName> unless you write to him that you are satisfied with that, since he fears that from there I might go elsewhere. Therefore, just do me the favor of writing to him immediately that since I am in the states of the King of Spain, he should permit me to go to</p>
+                <pb facs="DSCF8564"/>
+                <p><placeName key="brussels">Brussels</placeName>, to the convent of the Ladies of Berlaymont, which is indisputably the most beautiful and the noblest of all there are. Then I will promise, in exchange, not to go out of there, and I will give my word to the count to accept whatever you may want regarding my security in that city; for as long as they do not vex me by thwarting my will in reasonable things, I will stay here in the states of the King more gladly than anywhere else. Show me this further kindness, do not subject me to a humiliation like I had in France, where it appears I had to be kept out of the capital cities of all the provinces. The <persName key="borgomanero">Marquis of Borgomanero</persName>, in exchange for taking his own freedom of choice about this, refused to listen to anything, having been astounded to find not a single letter from you. And I came here on the strength of his word, not believing that the count would stop me as he has done; now he is ordering me to go to <placeName key="antwerp">Antwerp</placeName> to the house of the governor, and I will stay there until you write what</p>
+                <pb facs="DSCF8563"/>
+                <p>I want, as I cannot convince myself that you would want me to stay in <placeName key="antwerp">Antwerp</placeName>, outside of the convent, rather than in a convent in <placeName key="brussels">Brussels</placeName>. I have written to the Queen of Spain for her to favor me with her protection; I beg you, too, to support me with her, so that I can live in peace in these parts with your reputation intact, and with my satisfaction, until such time as I am back with you. Have the kindness to write as soon as possible to the Count of Monterey so that he does not annoy me any further, and do believe that this is the way to get me to consent to what you may desire.</p>
+                <closer>
+                    <salute>From here, and entirely yours.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

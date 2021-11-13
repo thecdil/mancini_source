@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 29 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_04_19_mm2os" type="letter" n="29">lett 29 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-04-19">April 19 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8521;DSCF8522;DSCF8523">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                            <handNote xml:id="unk" medium="black">
+                                Secretary or archivist.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-04-19">April 19 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-07-27" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_04_19_mm2lc_raw" n="29" facs="DSCF8521">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 29
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 12 
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	19 Aprile 1673 da Torino
+                Sigillo – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8522"/>
+                <note resp="#smn">
+                [[On the left side of the image, the rectangularly folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur le Conestable 
+                Colonna
+                A Roma"
+                + 1 red wax seal
+                Also, on the opposite flap of the folded "envelope," in a professional scribe's hand:
+                doppo dehavere scrito M.<hi rend="sup">e</hi> gia serrato il piego madama me invia la an nessagg V.<hi rend="sup">e</hi> ??? I need help with this]]   
+                </note>
+                <note resp="#smn">
+                [[Along the left edge of the left side of the paper, parallel with the edge, is written the date by an archivist or a secretary. The ink looks similar to Marie's ink.]]    
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">di thurino</placeName> 
+                        <date when="1673-04-19">li 19&#xb0; aprile 1673</date>
+                    </dateline>
+                </opener>
+                <p>Vi feci saper l'hordinario passato per un servitor di mio fratello il viaggio ch'avevo fatto sino a chambery; per dir adio a m.<hi rend="sup">a</hi> mazarini laquale non avendo ritrovato me ne tornai sensa indugio; non condussi don mauritio perche ero certa [[<hi rend="strike">q</hi>]] che non poteva intraprender sensa <hi rend="sup">pericolo</hi> un viaggio cosi pronto et malagevole; vorrei obtener una licensa come m.<hi rend="sup">a</hi> di chalais cioe di poter uscir qualque volta conforme ly &#233; stata concessa; il principe di sonnino che non sa quello io avessi fatto in simil [[one letter crossed out]] congiontura rispondo che saria stata piu in atto che in theoriqua; averei certo impedito [[something crossed out]] il suo arrivo da vienna a Roma; o averia <hi rend="sup">luy</hi> lasciato limpresa o la vita; questi pero sono consigli</p>
+                <pb facs="DSCF8523"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <p>troppi violenti per un homo moderato io mi trattengo tutta via quy in casa del Sig<hi rend="sup">r</hi> principe de carignano del quale ricevo ogni sorte di cortesia et con questo finisco abraciando y figlioli et protestandomi sempre vost[[ra]] [[last part of the word is ripped away]] [[descending squiggly line which stands in sometimes for Marie's signature or initials]]</p>
+            </div>
+            <div type="letter" xml:id="letter_1673_07_19_mm2lc_edit" n="29" facs="DSCF8521">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8522"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-04-19">il 19 aprile 1673</date>
+                    </dateline>
+                </opener>
+                <p>Vi feci sapere con il corriere ordinario passato, per un servitor di mio fratello, il viaggio che avevo fatto sino a Chamb&#233;ry per dire addio a madama Mazarini; la quale non avendo ritrovato, me ne tornai senza indugio. Non condussi don Maurizio perch&#233; ero certa che non poteva intraprendere senza pericolo un viaggio cos&#236; <ref type="annotate" xml:id="a1673_04_19_mm2lc" n="1">pronto</ref> e malagevole; vorrei ottenere una licenza come quella di madama di Chalais, cio&#232; di poter uscire qualche volta conforme le &#232; stata concessa. Il principe di Sonnino non sa quello che io avrei fatto in simile congiuntura; rispondo che la mia reazione sarebbe stata pi&#249; pratica che teorica; avrei certo impedito il suo arrivo da Vienna a Roma: o lui avrebbe lasciato l'impresa o la vita. Questi per&#242; sono consigli</p>
+                <pb facs="DSCF8523"/>
+                <p>troppi violenti per un uomo moderato; io mi trattengo tuttavia qui in casa del signore principe di Carignano, dal quale ricevo ogni sorta di cortesia e con questo finisco abbracciando i figlioli e protestandomi sempre vostra.</p>
+                
+            </div>
+            <div type="letter" xml:id="letter_1673_07_19_mm2lc_translation" n="29" facs="DSCF8521">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8522"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-04-19">19 April 1673</date>
+                    </dateline>
+                </opener>
+                <p>I informed you by the last regular mail, via one of my brother's servants, of the trip I had made to Chamb&#233;ry to say good-bye to <persName key="mancini-hortense">Madame Mazarin</persName>; as I did not find her there, I returned without delay. I did not bring <persName key="bologna-maurizio">Don Maurizio</persName> with me because I was certain that he could not undertake such a sudden and taxing journey without risk to his health. I would like to obtain an authorization like that of Madame de Chalais, that is, to be able to go out from time to time as she has been allowed to do. <persName key="sonnino">The Prince of Sonnino</persName> does not know what I would have done in a similar situation; my answer is that my reaction would have been more practical than theoretical. I would certainly have prevented his coming to Rome from Vienna; he would have given up either that endeavor or his <ref type="annotate" xml:id="a1673_04_19_mm2lc" n="1" style="Marie appears to be referring to a situation she mentioned in a previous letter to Lorenzo, dated 15 March 1673. She is critical of Lorenzo’s younger brother, the Prince of Sonnino, for not having kept a certain Don Federico from coming to Rome, and she is convinced that she would have handled the situation better if she had been there.">life.</ref> However, this advice is</p>
+                <pb facs="DSCF8523"/>
+                <p>too violent for a mild-mannered man. Anyway, I am still here at the house of the Prince of Carignan, who is showing me all possible courtesy. I will end there, with hugs for my dear sons and an assurance for you that I am ever yours.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

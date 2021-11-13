@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 46 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_12_22_mm2lc" type="letter" n="46">lett 46 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-12-22">December 22 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8568;DSCF8569;DSCF8570;DSCF8571;DSCF8572">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-12-22">December 22 1673</origDate>
+                            <origPlace>
+                                <placeName key="antwerp">Antwerp</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-07-31" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_12_22_mm2lc_raw" n="46" facs="DSCF8568">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 46
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 28
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	22 Dicembre 1673 da Anversa
+                Sigillo – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8569"/>
+                <note resp="#smn">
+                [[On the left side of the image is a page of writing, which is actually the fourth page of the letter—see below.]]   
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">d'anvers</placeName>
+                        <date when="1673-12-22">li 22 dece[[mbre]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>o riceuto col magior gusto del mondo la letra che vi sete compiaciuto di scrivermi la quale o subitto inviato al marquese di borgomenero assieme con [[one letter crossed out]] quella che li scrivete accio la faccia vedere al conte di monterey che si ritrova di presente al armata presso tillemont, il marquese et apresso di luy, et per complimento [[something crossed out]] per riputatione si trova impegnato di fare una campagna, di quanto il conte ordinara per me vi faro avisato tratanto ricevo molti honori del marquese d'ossera ch &#233; il governatore di questa citta, et de la moglie chera prima la</p>
+                <pb facs="DSCF8570"/>
+                <note resp="#smn">
+                [[This sheet is the verso of the previous sheet, image DSCF8569. On the right half of the sheet:]]    
+                </note>
+                <p>duquessa delerma mi [[ink blot?]] venne a veder hier sera assieme con tutte les dame de la <hi rend="sup">citta</hi> [["villa" slightly crossed out]] tutti quetti offitiali spagnoli sono molto compiti non vi &#233; cortesia, et honore che non mi facciano io mi trattengo tuttavia nel[[one letter crossed out—maybe a second “l”]] castello con gran patiensa; Oliva et partito gli o dato cinquanta doble per il viaggio, et gli &#233; parso poco pero non ly dite piu niente circa il venirme a trovare perche &#233; troppo inquieto non [[<hi rend="strike">a</hi>]] o que martino di servitore, et tre laque; et non poteva viver con nessuno, voi lo conoscete meglio di me pero mi compatirete del tempo che l'o sofferto non ly dite niente di</p>
+                <note resp="#smn">
+                [[On the left half of the sheet, turned 90&#xb0;:]]   
+                </note>
+                <p>questo; et fateme gratia d’ottenere se &#233; possibile dal patre Oliva la licensa [[<hi rend="strike">li</hi>]] che il patre brenier iesuita francese que sta di presente a lione si possa trasportar per farmi piacer in un de [[something crossed out]] i conventi del suo ordine a brusselles questo &#233; un padre que pass&#242; di turino, et ch’io [[veddi?]] due volte, et molto dotto et di bona conversatione il generale lo conoscera sensa dubbio essendo molto stimato, et grand predicatore. o riceuto poi la polisa di due cento doble et l'altra di sessantaquatro il mese [[something crossed out]] &#233; di tutto ve sono molto obligata &#233; ve</p>
+                <pb facs="DSCF8569"/>
+                <note resp="#smn">
+                [[On the left side of the image is a page of writing, which is actually the fourth page of the letter:]]   
+                </note>
+                <p>ne ringratio con tutto il core, vorrei ch il conte di monterey mi permetesse di entrar presto in convento perche fora spendo il doppio, et vero che il Re di francia mi a dato qualque denaro ma adesso sara finita la cucagna, la Regina di spagna doveria adesso aver saputo il mio arrivo <hi rend="sup">in</hi> questo paese et spero che mi favorira della sua protectione se voi lo desiderate; so ch'il conte di monterey vi a mandato uno espresso per dirvi che io ero gionta &#233; che a giudicato bene di fermarmi per assicurarsi della mia persona, pero diteli ch aprovate la mia venuta et che mi permetta di entrar in brusselles in monasterio perche</p>
+                <pb facs="DSCF8571"/>
+                <note resp="#smn">
+                [[On the left side of the image, the diagonally folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur Conesta
+                ble Colonna
+                A Rome"
+                + 1 red wax seal]]
+                </note>
+                <note resp="#smn">
+                [[On the left side of the image, just to the left of the center fold, parallel with the fold, is written the date by an archivist or a secretary. The ink looks slightly different from Marie's ink.]]   
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet, the fifth page of the letter:]]  
+                </note>
+                <p>temo che lui <hi rend="sup">vorra</hi> aspetter[[crossed out final letter]] rispotte vostre dirette a luy prima di lassarmi uscir dal castello ne si contentera di quella mi scrivete percio vi suplicco ancora di favorirmi come avete cominciato &#233; siate certa ch io vi daro sempre magior campo di lodarvi de me, et della mia bona condotta il conte di monterey si &#233; messo in testa ch'io me ne voglio andar altrove io impegno la mia vita se non basta la parola se parto mai di questo paese sensa vostro consenso; io sto <hi rend="sup">in</hi> un loco che si trova d'ogni cosa meglio ch'a pariggi vi mandaro qualche cosa che vi fo fare aposta et alli figlioli</p>
+                <pb facs="DSCF8572"/>
+                <note resp="#smn">
+                [[This sheet is the verso of the previous sheet, image DSCF8571. On the right half of the sheet, the sixth and final page of the letter:]]
+                </note>
+                <p>puro; ma se desidera[[last bit of the word is ripped away—presumably the word is "desiderate"]] niente di particolare [[again, part of the word is ripped away—maybe "o ettoffa"]]  o robbe di cammera fatemelo sapere che subitto sarete servito adio credeteme puro [[Marie first wrote an "s" and then wrote a "p" over it and completed the word "puro"]] sempre tutta vostra</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_12_22_mm2lc_edit" n="46" facs="DSCF8568">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8569"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Da Anversa</placeName>, 
+                        <date when="1673-12-22">il 22 dicembre 1673</date>
+                    </dateline>
+                </opener>
+                <p>Ho ricevuto col maggior gusto del mondo la lettera che vi siete compiaciuto di scrivermi, la quale ho subito inviato al marchese di Borgomanero assieme con quella che gli scrivete, acci&#242; la faccia vedere al conte di Monterey che si trova presente all'armata presso Tirlemont; il Marchese &#232; presso di lui, e per complemento e per reputazione si trova impegnato a fare una campagna. Di quanto il Conte ordiner&#224; per me, vi far&#242; avvisato; frattanto ricevo molti onori dal marchese d'Ossera, che &#232; il governatore di questa citta; e la moglie, che era prima la</p>
+                <pb facs="DSCF8570"/>
+                <p>duchessa de Lerma, mi venne a vedere ieri sera assieme con tutte le dame della citt&#224;. Tutti quegli ufficiali spagnoli sono molto compiti, non vi &#232; cortesia e onore che non mi facciano; io mi trattengo tuttavia nel castello con gran pazienza; Oliva &#232; partito, gli ho dato cinquanta doppie per il viaggio, e gli &#232; parso poco, perci&#242; non gli dite pi&#249; niente circa il venirmi a trovare perch&#233; &#232; troppo inquieto. Non ho che Martino come servitore, e tre lacch&#232;; e non potevo vivere con nessuno, voi lo conoscete meglio di me, perci&#242; mi compatirete del tempo che l'ho sofferto. Non gli dite niente di questo; e fatemi la grazia di ottenere, se &#232; possibile, da padre Oliva, la licenza che padre Brenier, gesuita francese che &#232; presente a Lione, si possa trasportare, per farmi piacere, in uno dei conventi del suo ordine a Bruxelles. Questo &#232; un padre che pass&#242; da Torino, e che io vidi due volte; &#232; molto dotto e di buona conversazione; il generale lo conoscer&#224; senza dubbio, essendo molto stimato e gran predicatore. Ho ricevuto poi la polizza di duecento doppie e l'altra di sessantaquattro il mese; e di tutto vi sono molto obbligata e ve</p>
+                <pb facs="DSCF8569"/>
+                <p>ne ringrazio con tutto il cuore. Vorrei che il conte di Monterey mi permettesse di entrare presto in convento perch&#233; fuori spendo il doppio; &#232; vero che il Re di Francia mi ha dato qualche denaro ma adesso sar&#224; finita la cuccagna; la Regina di Spagna dovr&#224; adesso aver saputo del mio arrivo in questo paese e spero che mi favorir&#224; della sua protezione se voi lo desiderate; so che il conte di Monterey vi ha mandato un espresso per dirvi che io ero giunta e che ha giudicato bene di fermarmi per assicurarsi della mia persona; perci&#242; ditegli che approvate la mia venuta e che mi permetta di entrare a Bruxelles in monastero perch&#233;</p>
+                <pb facs="DSCF8571"/>
+                <p>temo che lui vorr&#224; aspettare risposte vostre dirette a lui prima di lasciarmi uscir dal castello, n&#233; si contenter&#224; di quella che mi scrivete; perci&#242; vi supplico ancora di favorirmi come avete cominciato e siate certo che io vi dar&#242; sempre maggior campo di lodarvi di me, e della mia buona condotta. Il conte di Monterey si &#232; messo in testa che io me ne voglio andare altrove; io impegno la mia vita, se non basta la parola, se parto mai di questo paese senza il vostro consenso. Io sto in un luogo che si trova d'ogni cosa meglio che a Parigi; vi mander&#242; qualche cosa che vi faccio fare apposta e ai figlioli</p>
+                <pb facs="DSCF8572"/>
+                <p>pure; ma se desiderate niente di particolare, o stoffa o robe di camera, fatemelo sapere che subito sarete servito. Addio, credetemi pure sempre tutta vostra</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_12_22_mm2lc_translation" n="46" facs="DSCF8568">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8569"/>
+                <opener>
+                    <dateline>
+                        <placeName key="antwerp">Antwerp</placeName>, 
+                        <date when="1673-12-22">22 December 1673</date>
+                    </dateline>
+                </opener>
+                <p>I received with the greatest pleasure in the world the letter that you were content to write to me, which I sent immediately to the <persName key="borgomanero">Marquis of Borgomanero</persName> along with the one you write to him, so that he will show it to the <persName key="monterey">Count of Monterey</persName>, who is at present with the army near Tienen; the marquis is with him—both to lead a complementary force and to boost his reputation, he finds himself engaged in waging a military campaign. I will apprise you of what the count orders with regard to me; in the meantime, I am being treated with great honor by the <persName key="osera">Marquis of Osera</persName>, who is the governor of this city, and by his wife, who was formerly the </p>
+                <pb facs="DSCF8570"/>
+                <p><persName key="lerma">Duchess of Lerma</persName>. She came to see me yesterday evening with all the ladies of the city. All of these Spanish officials are very courteous, there is no mark of courtesy and honor that they do not show me; and yet I remain in the castle very patiently. <persName key="oliva-gian-paolo">Oliva</persName> has left; I gave him fifty doppie for the journey, and he found it to be too little, so don’t say anything more to him about coming to join me because he is too agitated. The only man I have serving me is Martino, and three lackeys. And he could not get along with anyone, you know him better than I, so you will sympathize with me for the length of time I endured him. Don’t say anything about this to him; and do me the favor of obtaining, if it is possible, from <persName key="oliva-gian-paolo">Father Oliva</persName>, the permit so that <persName key="brenier">Father Brenier</persName>, a French Jesuit who is currently in <placeName key="lyon">Lyon</placeName>, can move, as a favor to me, to one of the monasteries of his order in <placeName key="brussels">Brussels</placeName>. He is a priest who passed through Turin, and whom I saw twice; he is very learned, and a good conversationalist; the Superior General will know him no doubt, as he is highly esteemed and a great preacher. Also, I have received the bill of exchange for two hundred doppie and the other, for sixty-four per month; and for everything, I am very obliged to you, and </p>
+                <pb facs="DSCF8569"/>
+                <p>I thank you with all my heart. I would like the <persName key="monterey">Count of Monterey</persName> to permit me to enter a convent soon because outside I spend twice as much; it is true that the King of France gave me a little money, but now the milk and honey are almost used up; the Queen of Spain should have learned by now of my arrival in this country, and I hope that she will favor me with her protection if you wish her to. I know that the Count of Monterey sent you an express letter to tell you that I had arrived and that he thought it best to take me into custody to secure my person; therefore, tell him that you approve of my coming here and that you permit me to enter a convent in Brussels because</p>
+                <pb facs="DSCF8571"/>
+                <p>I fear that he will want to wait for your direct replies to him before letting me leave the castle, and he will not be satisfied with what you write to me. Therefore, I implore you again to support me as you have begun to do, and you may be certain that I will give you ever greater cause to be pleased with me and with my good conduct. The <persName key="monterey">Count of Monterey</persName> has got it into his head that I want to go away to some other place; I swear on my life, if my word is not enough, that I will never leave this country without your permission. I am in a place that is in every way better than Paris; I will send you a few things that I am having made to order for you, and things for the children </p>
+                <pb facs="DSCF8572"/>
+                <p>as well; but if you want anything in particular, fabric or night clothes, let me know and you will have them right away.</p>
+                <closer>
+                    <salute>Farewell, do believe me that I am entirely yours.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

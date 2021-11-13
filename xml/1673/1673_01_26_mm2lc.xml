@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 20 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_01_26_mm2lc" type="letter" n="20">lett 20 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-01-26">January 26 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8505;DSCF8506">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-01-26">January 26 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-15" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_01_26_mm2lc_raw" n="20" facs="DSCF8505">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 20
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 3 
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	26 Gennaio 1673 da Torino
+                Sigilli – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8506"/>
+                <note resp="#smn">
+                [[On the left side of the image, the rectangularly folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur le Conestable 
+                Colonna
+                A Rome"
+                + 2 red wax seals]]
+                </note>
+                <note resp="#smn">
+                [[Along the left edge of the left side of the paper, parallel with the edge, are written the place and date by an archivist or a secretary. The ink looks similar to Marie's ink.]]   
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">De thurin</placeName>
+                        <date when="1673-01-26">ce 26<hi rend="sup">me</hi>ian[[vier]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>pietro marquese retornandosene a Roma potra raguagliarvi [[something crossed out, maybe "dove"]] <hi rend="sup">il</hi> mio arrivo in questa citt&#224; dove mi ritrovo in un convento [[something crossed out]] <hi rend="sup">&#233;</hi> me <hi rend="sup">ce</hi> tratterro fin ch' dio minspiri altramente; sarei stata a nevers con mio fratello et sua moglie se mi fusse stato concesso; ma gia che avete mostrato tanta ansieta che susse for di francia son venuta in italia per darvi questa sodisfactione; et per farvi conoscer la mia indiferensa; [[something crossed out, maybe "per q"]] assicurandovi ch'in ogni loguo saro sempre l'istessa per voi</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_01_26_mm2lc_edit" n="20" facs="DSCF8505">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8506"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">De Turin</placeName> 
+                        <date when="1673-01-26">ce 26<hi rend="sup">me</hi> janvier <ref type="annotate" xml:id="a1673_01_26_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
+                    </dateline>
+                </opener>
+                <p>Pietro Marchese ritornandosene a Roma potr&#224; ragguagliarvi del mio arrivo in questa citt&#224; dove mi ritrovo in un convento e mi ci tratterr&#242; finch&#233; Dio mi ispiri altrimenti; sarei stata a Nevers con mio fratello e sua moglie se mi fosse stato concesso; ma gi&#224; che avete mostrato tanta ansiet&#224; che fossi fuor di Francia, son venuta in Italia per darvi questa soddisfazione; e per farvi conoscere la mia indifferenza; assicurandovi che in ogni luogo sar&#242; sempre la stessa per voi.</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_01_26_mm2lc_translation" n="20" facs="DSCF8505">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8506"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-01-26">26 January 1673</date>
+                    </dateline>
+                </opener>
+                <p>As Pietro Marchese is returning from here to <placeName key="rome">Rome</placeName>, he will be able to update you on my arrival in this city, where I am in a convent and will stay here until God inspires me otherwise. I would have stayed in <placeName key="nevers">Nevers</placeName> with my brother and his wife if I had been allowed to; but since you were so anxious for me to be out of France, I have come to Italy to give you that satisfaction, and to make clear to you my indifference, assuring you that in every place I will always be the same for you.</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

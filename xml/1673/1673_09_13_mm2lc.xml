@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 38 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_09_13_mm2lc" type="letter" n="38">lett 38 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-09-13">September 13 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8545;DSCF8546;DSCF8547">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-09-13">September 13 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-16" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_09_13_mm2lc_raw" n="38" facs="DSCF8545">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 38
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 20
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	13 Settembre 1673 da Torino
+                Sigillo – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8546"/>
+                <note resp="#smn">
+                [[On the left side of the image, the diagonally folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur Conestable 
+                Colonna
+                A Rome"
+                + 1 black wax seal]] 
+                </note>
+                <note resp="#smn">
+                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or a secretary. The ink looks slightly different from Marie's ink.]]   
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">de turino</placeName>
+                        <date when="1673-09-13">li 13 sep[[tembre]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>ho inteso quello scrivete a don mauritio, per il negotio di francia, maravigliandomi ch'il Re metta in consulta ricevermi in un monasterio. staro pero attendendo l'ultime risposte come ho detto, per la fine di questo. et vi sono obligata delli mille scudi ch <hi rend="sup">m</hi>avete rimesso, [[something crossed out]] avendo dato ordine, che di essi si pagiu tutto quello che devo. circa al resto lo rimetterete dove avete pensato. pero credo, che maverete <hi rend="sup">gia</hi> inviato qualque altra <hi rend="sup">[[something crossed out- maybe "poca"]]</hi> somma che forse ci sara encor di bisogno; vi raccommando andrea</p>
+                <pb facs="DSCF8547"/>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <p>che non puol vivere con sei scudi <hi rend="sup">il mese.</hi> [[something crossed out]] et ricordateve che sono sep<hi rend="sup">m</hi>re piu tenuta alla vostra bonta. della quale non mi rendero mai inmereitevole [[Marie first wrote "inmeritevole" and then wrote an "e" over the "i"]]. mentre saro comforme vi o piu volte detto tutta vostra</p>   
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_09_13_mm2lc_edit" n="38" facs="DSCF8545">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8546"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-09-13">il 13 settembre 1673</date>
+                    </dateline>
+                </opener>
+                <p>Ho inteso quello scrivete a don Maurizio, per il negozio di Francia, meravigliandomi che il Re metta in consulta di ricevermi in un monastero. Star&#242; perci&#242; attendendo le ultime risposte, come ho detto, per il fine di questo. E vi sono obbligata dei mille scudi che mi avete rimesso avendo dato ordine, che di essi si paghi tutto quello che devo. Circa al resto, lo rimetterete dove avete pensato. Per&#242; credo che mi avrete gi&#224; inviato qualche altra somma che forse ci sar&#224; ancor di bisogno; vi raccomando Andrea</p>
+                <pb facs="DSCF8547"/>
+                <p>che non pu&#242; vivere con sei scudi al mese. E ricordatevi che sono sempre pi&#249; tenuta alla vostra bont&#224;, della quale non mi render&#242; mai immeritevole mentre sar&#242;, come vi ho pi&#249; volte detto, tutta vostra</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8545"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-09-13">13 September 1673</date>
+                    </dateline>
+                </opener>
+                <p>I have heard what you write to <persName key="bologna-maurizio">Don Maurizio</persName>, about the France negotiations, and I am astounded that the King should put into consultation whether to receive me in a convent. So I will be awaiting the final replies, as I have said, by the end of this month. I am obliged to you for the thousand scudi that you sent me, having given orders for everything I owe to be paid from that sum. As for the <ref type="annotate" xml:id="a1673_09_13_mm2lc" n="1" style="Presumably, Marie is referring to the total sum that was obtained through the sale of her land, which she had been discussing in her letters beginning 7 August 1673.">remainder</ref>, you will send it where you thought. However, I believe you may already have sent some other amount which perhaps will still be needed. I am entrusting to you Andrea,</p>
+                <pb facs="DSCF8547"/>
+                <p>who cannot live on six scudi per month. And remember that I am ever more dependent on your generosity, of which I will never render myself undeserving, while I will be, as I have told you over and over, </p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

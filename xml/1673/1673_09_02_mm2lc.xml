@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 36 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_09_02_mm2lc" type="letter" n="36">lett 36 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-09-02">September 2 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8538;DSCF8539;DSCF8540">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-09-02">September 2 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-09" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_09_02_mm2lc_raw" n="36" facs="DSCF8538">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 36
+                Lettere di Maria Mancini – 
+                Numero d'ordine – 18
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	2 Settembre 1673 da Torino
+                Sigillo – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8539"/>
+                <note resp="#smn">
+                [[On the left side of the image, the diagonally folded paper with address written on outside: 
+                "A Monsieur
+                Monsieur Conestable 
+                Colonna
+                A Roma"
+                + 1 black wax seal]]
+                </note>
+                <note resp="#smn">
+                [[On the right half of the sheet:]]    
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">de turino</placeName>
+                        <date when="1673-09-02">li 2 sep[[tembre]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>ricevo la vostra letra per don mauritio et vedo quanto desiderate, &#232; de piu quello che scrivete a luy al que mi conformo in tutto al vostro gusto, sto attendendo le risposte &#232; in tanto o pregato il marquese di Borgomenero che si porti quy subitto come mi a promesso et come spero che fara; lo stesso mavisa, qu'Oliva &#232; arrivato a milano, al quale feci scriver da Don mauritio, a fiorensa ][something crossed out- maybe "ch'"]] in nome vostro accio</p>
+                <pb facs="DSCF8540"/>
+                <note resp="#smn">
+                [On the right half of the sheet:]    
+                </note>
+                <p>fosse luy il condottore de [[something crossed out— maybe a repetition of "de"]] sedia roullante, la quale non dubito che non sia di bon gusto. mentre &#232; opra del<hi rend="strike">la</hi> vostro ingegno. pregandovi ad aver per bene qu'Oliva venga apresso di me pero obligateme de scriverli mostrando d'averlo a gusto, rallegrandomi che ve siate riauto et vi prego di avervi cura dispiacendomi di sentir che vi sia qualque impedimento circa a don mauritio che potendolo</p>
+                <note resp="#smn">
+                [On the left half of the sheet, turned 90&#xb0;:]    
+                </note>
+                <p>superare me ne darete gusto, ma pero che non sia in preiuditio vostro. la procura gia l'o possata et aspetto li denari con desiderio perche ne o necessita. et con questo resto vostra abraciando i figlioli di tutto core</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>
+                    <note resp="#smn">
+                    [A blank space equal to about 3 lines worth, then more writing:]
+                    </note>
+                    <p>circa il monasterio ne valensa ne vienna non sono a proposito per l' la strettessa &#232; vienna &#232; sul passo come lione      adio</p>
+                </postscript>
+            </div>
+            <div type="letter" xml:id="letter_1673_09_02_mm2lc_edit" n="36" facs="DSCF8538">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8539"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-09-02">il 2 settembre 1673</date>
+                    </dateline>
+                </opener>
+                <p>Ricevo la vostra lettera da don Maurizio e vedo, inoltre, quanto desiderate, da quello che scrivete a lui; al quale mi conformo in tutto al vostro gusto. Sto attendendo le <ref type="annotate" xml:id="a1673_09_02_mm2lc" n="1">risposte</ref> e intanto ho pregato il marchese di Borgomanero che si porti qui subito come mi ha promesso e come spero che far&#224;; lo stesso mi avvisa, che &#232; arrivata a Milano Oliva; a lui feci scrivere in nome vostro da don Maurizio, a Firenze, acci&#242;</p>
+                <pb facs="DSCF8540"/>
+                <p>fosse lui il conduttore della sedia <ref type="annotate" xml:id="b1673_09_02_mm2lc" n="2">rullante</ref>, la quale non dubito che non sia di buon gusto mentre &#232; opera del vostro ingegno. Vi prego di fare in modo che Oliva venga appresso di me, perci&#242; obbligatevi a me di scrivergli mostrando di averlo a gusto. Rallegrandomi che vi siate riavuto, vi prego di aver cura di voi, dispiacendomi di sentire che vi sia qualche impedimento circa a don Maurizio e che potendolo superare me ne darete gusto; ma per&#242; che non sia in pregiudizio vostro. La procura gi&#224; l'ho passata e aspetto i denari con desiderio perch&#233; ne necessito. E con questo resto vostra abbracciando i figlioli di tutto cuore.</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>Circa il monastero, n&#233; Valensa n&#233; <ref type="annotate" xml:id="c1673_09_02_mm2lc" n="3">Vienna</ref> sono a proposito per la strettezza, e Vienna &#232; sul passo come Lione. Addio.</postscript>
+            </div>
+            <div type="letter" xml:id="letter_1673_09_02_mm2lc_translation" n="36" facs="DSCF8538">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8539"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-09-02">2 September 1673</date>
+                    </dateline>
+                </opener>
+                <p>I am in receipt of your letter via <persName key="bologna-maurizio">Don Maurizio</persName>, and I see what you want, and also what you write to him, about which I will adhere on all points to your desires. I am waiting for the <ref type="annotate" xml:id="a1673_09_02_mm2lc" n="1" style="Marie has been asking Lorenzo to request from Louis XIV that she be allowed to enter a convent somewhere in France and preferably, near Paris. “The replies” to which she refers here are the replies of the French king to the requests that she hopes Lorenzo has been sending him.">replies</ref>, and meanwhile I have asked the <persName key="borgomanero">Marquis of Borgomanero</persName> to come here at once, as he has promised me and as I hope he will do. He himself notified me that <persName key="oliva-gian-paolo">Oliva</persName> has arrived in <placeName key="milan">Milan</placeName>; I had <persName key="bologna-maurizio">Don Maurizio</persName> write in your name to <persName key="oliva-gian-paolo">Oliva</persName> in <placeName key="florence">Florence</placeName>, so that</p>
+                <pb facs="DSCF8540"/>
+                <p>he would be the one to drive the <ref type="annotate" xml:id="b1673_09_02_mm2lc" n="2" style=" Marie is referring here to a sort of single-seated enclosed carriage on two wheels, pulled by a horse, which she calls a 'sedia rullante' in imitation of the French 'chaise roulante'--literally, a 'rolling chair.'"><hi rend="italic">chaise roulante</hi></ref>, which I do not doubt will be in good taste, coming as it does from you. I beg you to ensure that <persName key="oliva-gian-paolo">Oliva</persName> will come to be by my side; to that end, promise me to write to him to show that that is your pleasure. Happy that you are <ref type="annotate" xml:id="c1673_09_02_mm2lc" n="3" style="In her letter of 30 August 1673, Marie expressed regret to Lorenzo over the illness she had heard he suffered.">recovered</ref>, I beg you to take care of yourself. I am sorry to hear that there is some obstacle for you regarding <persName key="bologna-maurizio">Don Maurizio</persName>, which, if you can overcome it, you will bring me pleasure, so long as it is not to your <ref type="annotate" xml:id="d1673_09_02_mm2lc" n="4" style="In her letters of 7 August 1673 and 15 March 1673, Marie remarked that she was aware Lorenzo might have need of Don Maurizio in Rome, although he was currently with her.">detriment</ref>. I have already given the proxy order, and I am longing for the money to arrive because I need it.</p>
+                <closer>
+                    <salute>And with that, I remain yours, and I embrace my dear sons with all my heart.</salute>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>Regarding the convent, neither Valence nor <ref type="annotate" xml:id="e1673_09_02_mm2lc" n="5" style="Marie is referring to Vienne, France, just south of Lyon, and before that, she mentions Valence, France, further south.">Vienne</ref> is appropriate for lack of space, and Vienne is on the way, as Lyon is. Goodbye. </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 31 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_06_08_mm2lc" type="letter" n="31">lett 31 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-06-08">June 8 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8527;DSCF8528"> 
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-06-08">June 8 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-12" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_06_08_mm2lc_raw" n="31" facs="DSCF8527">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 31
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 14
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	8 Giugno 1673 da Torino
+                Sigillo mancante – tutta di pugno –
+
+                oggetto:
+                </note>
+                <note resp="#smn">
+                [[Scanned image cuts off a number written in pencil at the bottom of the card]]  
+                </note>
+                <pb facs="DSCF8528"/>
+                <note resp="#smn">
+                [[a sheet 15 cm wide]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">di thurino</placeName> 
+                        <date when="1673-06-08">li 8 iugno 1673</date>
+                    </dateline>
+                </opener>
+                <p>havendo intesi i vostri sensi dal Sig<hi rend="sup">r</hi> marquese di Bourgomenero, subito mi sono ricondotta nel convento della visitatione, per starvi fin tanto che il caldo [[Marie first wrote "car" but then wrote an "l" over the "r" and completed the word "caldo"]] me lo permetta; sperando che voi mi concederete di potermi [[crossed out letter]] trasmettere in un altro di tal commodita che non habbia piu a pensar ad altro che a star[[the end of the word isn’t clear—maybe "starci"]] fin che piacera a dio d'inspirarmi altrimente; habiate qualque compiancensa per me, se volete obligarmi a essere eternamente vostra</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_06_08_mm2lc_edit" n="31" facs="DSCF8527">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8528"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Da Torino</placeName>, 
+                        <date when="1673-06-08">il 8 giugno 1673</date>
+                    </dateline>
+                </opener>
+                <p>Avendo intesi i vostri sensi dal signor marchese di Borgomanero, subito mi sono ricondotta nel convento della Visitazione, per starvi fin tanto che il caldo me lo permetta; sperando che voi mi concederete di potermi trasmettere in un altro di tal comodit&#224; che non abbia pi&#249; a pensar ad altro che a starci finch&#233; piacer&#224; a Dio di ispirarmi altrimenti; abbiate qualche compiacenza per me, se volete obbligarmi a essere eternamente vostra</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_06_08_mm2lc_translation" n="31" facs="DSCF8527">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8528"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>, 
+                        <date when="1673-06-08">8 June 1673</date>
+                    </dateline>
+                </opener>
+                <p>Having learned of your sentiments from the <persName key="borgomanero">Marquis of Borgomanero</persName>, I returned immediately to the convent of the Visitation, to stay here as long as the heat will permit it. I hope you will allow me to move to another convent comfortable enough that I might not have to think of anything but staying there until it may please God to inspire me otherwise. Have a bit of complaisance for me, if you would oblige me to be eternally your</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

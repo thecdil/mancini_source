@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 22 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_02_08_mm2lc" type="letter" n="22">lett 22 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-02-08">February 8 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8509;DSCF8510">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-02-08">February 8 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-15" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_02_08_mm2lc_raw" n="22" facs="DSCF8509">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 22
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 5 
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	8 Febbraio 1673 da Torino
+                Sigillo mancante – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8510"/>
+                <note resp="#smn">
+                [[a sheet 15 cm wide]]   
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">De thurino</placeName>
+                        <date when="1673-02-08">ce 8<hi rend="sup">me</hi> fev[[rier]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>Conforme mi scrivete in una vostra o fatto l'ordine in faccia alla contessa per riscoter i logui de monti; sto aspettando don mauritio; et sento da mio fratello que giunse hier sera; ch'il marquese de bourgomen&#233; ly a detto che l'aspettava a milano di giorno in giorno; sento impatientia grande quegli giunga per poter dar [[something crossed out]] testimoniansa della mia; bona condotta la quale sara sempre tale che potete desiderare essendo lontana da voi; ne manquaro mai a nessuna conveniesce que vi devo restando <hi rend="sup">per</hi> sempre vostra</p>
+                <closer>
+                    <signed rend="ti-4"><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>
+                    <p>ho riceuto la letra del generale per quel frate et ve ne sono molto obligata</p>
+                </postscript>
+            </div>
+            <div type="letter" xml:id="letter_1673_02_08_mm2lc_edit" n="22" facs="DSCF8509">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8510"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">De thurino</placeName> 
+                        <date when="1673-02-08">ce 8<hi rend="sup">me</hi>  fev[[rier]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>Conforme mi scrivete in una vostra, ho fatto l'ordine in faccia alla contessa per riscuotere il dovuto dei luoghi dei monti; sto aspettando Don Maurizio; e sento da mio fratello, che giunse ieri sera, che il marchese de Bourgomen&#233; gli ha detto che l'aspettava a Milano di giorno in giorno; sento impazienza  grande che quegli giunga per poter dar testimonianza della mia buona condotta, la quale sar&#224; sempre tale che potete desiderare essendo lontana da voi; n&#233; mancher&#242; mai a nessuna convenienza che vi devo restando per sempre vostra.</p>
+                <closer rend="ti-4">
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>
+                    <p>Ho ricevuto la lettera del generale per quel frate e ve ne sono molto obbligata.</p>
+                </postscript>
+            </div>
+            <div type="letter" xml:id="letter_1673_02_08_mm2lc_translation" n="22" facs="DSCF8509">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8510"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">Turin</placeName>,  
+                        <date when="1673-02-08">8 February 1673</date>
+                    </dateline>
+                </opener>
+                <p>In accordance with what you write me in one of your letters, I have given the order in front of the <ref type="annotate" xml:id="a1673_02_08_mm2lc" n="1" style="It is not clear what Marie means when she says that she has given this order for payment 'in faccia alla contessa,' given that Countess Ortensia Stella was in Rome and not with Marie in Turin, so Marie could not be describing an in-person exchange. 'In faccia alla contessa' could conceivably be interpreted as 'despite the countess' —contrary to the countess’ wishes—but this seems unlikely, since Marie and Ortensia Stella were on good terms. Presumably, Marie is expressing the idea that the countess was aware of the order and perhaps had some hand in it.">countess</ref> for the payment from the mountain lands to be collected. I am waiting for <persName key="bologna-maurizio">Don Maurizio</persName>, and I hear from my brother, who arrived yesterday evening, that the Marquis of Borgomanero told him he was expecting him in Milan from one day to the next. I am very impatient for him to arrive so that he can bear witness to my good conduct, which will always be just as you could desire it to be when I am away from you; nor shall I ever fail in the obligations I owe you, remaining yours for always.</p>
+                <closer rend="ti-4">
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+                <postscript>I have received the letter from the Master General for that friar, and I am much obliged to you for <ref type="annotate" xml:id="b1673_02_08_mm2lc" n="2" style="This is a reference to a request Marie had made of Lorenzo in her letter of 13 December 1672">it.</ref></postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

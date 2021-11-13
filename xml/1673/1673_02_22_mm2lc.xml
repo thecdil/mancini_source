@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>lett 24 Marie to Lorenzo</title>
+                <author key="mancini-marie">Marie Mancini</author>
+                <respStmt>
+                    <resp>Transcribed and translated by</resp>
+                    <name xml:id="smn">Sarah M. Nelson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="am">Alessandro Martina</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Correspondence of Marie Mancini</authority>
+                <publisher>University of Idaho Library</publisher>
+                <address>
+                    <addrLine>https://thecdil.github.io/mancini_source/</addrLine>
+                </address>
+                <distributor>
+                    <name>Center for Digital Inquiry and Learning</name>
+                    <address>
+                        <addrLine>Room 211</addrLine>
+                        <addrLine>University of Idaho Library</addrLine>
+                        <addrLine>Moscow, ID 83844-2350</addrLine>
+                        <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
+                    </address>
+                </distributor>
+                <date>2020</date>
+                <availability>
+                    <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence of Marie Mancini</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title key="1673_02_22_mm2lc" type="letter" n="24">lett 24 Marie to Lorenzo</title>
+                    <author key="mancini-marie">Marie Mancini</author>
+                    <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
+                    <date when="1673-02-22">February 22 1673</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="colonna-archive">
+                            Colonna Archive, library of the abbey of Santa Scolastica, Subiaco, Italy
+                        </repository>
+                        <collection>
+                            Lettere di Maria Mancini
+                        </collection>
+                        <idno type="collection">IICP1</idno>
+                    </msIdentifier>
+                    <msContents facs="DSCF8511;DSCF8512">
+                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="mancini-marie" medium="black">
+                                Marie Mancini handwritten
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1673-02-22">February 22 1673</origDate>
+                            <origPlace>
+                                <placeName key="turin">Turin</placeName>
+                            </origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2020-06-15" who="#lrm">
+                Initial creation of XML from non-XML electronic files
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" xml:id="letter_1673_02_22_mm2lc_raw" n="24" facs="DSCF8511">
+                <head type="raw" xml:lang="it" />
+                <note resp="#smn" xml:id="archive-note">
+                Collocazione II-C.P.1. lettera 24
+                Lettere di Maria Mancini – 1673
+                Numero d'ordine – 7 
+
+                D. Maria Colonna-Mancini –
+
+                =
+
+                Lettera al Contestabile Colonna
+                in data	22 Febbraio 1673 da Torino
+                Sigillo mancante – tutta di pugno –
+
+                oggetto:
+                </note>
+                <pb facs="DSCF8512"/>
+                <note resp="#smn">
+                [[a sheet 15 cm wide]]  
+                </note>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">De thurin</placeName>
+                        <date when="1673-02-22">ce 22 fev[[rier]] 1673</date>
+                    </dateline>
+                </opener>
+                <p>Dalla vostra letra delli otto del corrente mi par di [[something crossed out, maybe "de"]] veder che non aprovate molto la mia fermata in questo loguo; et di questo mi maragviglio poi che sapevio che sono partita di lione con questa intentione; et quy come o fatto altrove non averete che desiderar circa la mia condotta; aspettaro quy il ritorno di mio fratello che sara subitto che la moglie a partorito; in questo intervallo di tempo pregaro dio che mi voglia disponer a conformarmi a i vostri desidery poiche sensa esser cosi disposta ne voi potreste goder del mio ritorno ne io starei [[Marie first wrote "restarei" and then darkened the "s" so that it obscures the "re"]] sodisfatta; sto impatiente di sentir miglior nuove di carlino essendo molto inquieta della sua malatia &#232; abraciandolo come l'altri dui mi comfermo per sempre l'istessa V[[ostra]]</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_02_22_mm2lc_edit" n="24" facs="DSCF8511">
+                <head type="edit" xml:lang="it" />
+                <pb facs="DSCF8512"/>
+                <opener>
+                    <dateline>
+                        <placeName key="turin">De Turin</placeName> 
+                        <date when="1673-02-22">ce 22 f&#233;v[rier] <ref type="annotate" xml:id="a1673_02_22_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
+                    </dateline>
+                </opener>
+                <p>Dalla vostra lettera dell'otto del <ref type="annotate" xml:id="b1673_02_22_mm2lc" n="2" style="The meaning is 'del corrente mese.'">corrente</ref> mese mi par di vedere che non approvate molto la mia fermata in questo luogo; e di questo mi meraviglio poich&#233;  sapevi che sono partita da Lione con questa intenzione; e qui, come ho fatto altrove, non avrete che desiderare circa la mia condotta; aspetter&#242; qui il ritorno di mio fratello che sar&#224; qui subito dopo che la moglie ha partorito; in questo intervallo di tempo pregher&#242; Dio che mi voglia disponer a conformarmi ai vostri desideri poich&#233; senza esser cosi disposta n&#233; voi potreste goder del mio ritorno n&#233; io starei soddisfatta; sto impaziente di sentir miglior nuove di Carlino essendo molto inquieta della sua malattia; ed abbracciandolo come gli altri due mi confermo per sempre la stessa vostra</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" xml:id="letter_1673_02_22_mm2lc_translation" n="04" facs="DSCF8511">
+                <head type="translation" xml:lang="en" />
+                <pb facs="DSCF8512"/>
+                <dateline>
+                        <placeName key="turin">Turin</placeName>,  
+                        <date when="1673-02-22">22 February 1673</date>
+                    </dateline>
+                <p>From your letter of the eighth of this month, it appears to me that you do not really approve of my stop in this place; and this amazes me, since you knew that I left Lyon with this intention, and here, as I have done elsewhere, my conduct will leave nothing to be desired by you. I will await here the return of my brother, which will happen as soon as his wife has given birth; in the meantime I will pray to God that He might dispose me to conform to your wishes, since unless I were so disposed, neither could you enjoy my return nor could I be content. I am impatient to hear better news of Carlino, as I am very worried about his illness; and with hugs for him and for the other two, I confirm myself to be forever your same</p>
+                <closer>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
