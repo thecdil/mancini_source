@@ -3,7 +3,7 @@ layout: none
 ---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/1672_12_02_mm2lc_DSCF8488",
+  "@id": "{{ site.digital-objects }}/iiif/images/1672_12_02_mm2lc_DSCF8488",
   "protocol": "http://iiif.io/api/image",
   "width": 4256,
   "height": 2848,
