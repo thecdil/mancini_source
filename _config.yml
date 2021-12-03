@@ -9,10 +9,16 @@ baseurl: /mancini_source
 
 # Collections
 collections:
-  parts:
-    output: false
   letters:
     output: true
+
+# set defaults
+defaults:
+  - scope:
+      path: ""
+      type: "letters"
+    values:
+      layout: "letter"
 
 # Use Bootstrap (true, false)
 bootstrap: true

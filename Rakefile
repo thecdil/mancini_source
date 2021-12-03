@@ -22,8 +22,8 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, rec, date, locations, people, languages, title, images, thumbnail, full, manifest)
-                "---\nletter_id: " + letter + "\nnumber: " + number + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\npeople: " + people + "\nlanguage: " + languages + "\nlayout: letter" + "\ntitle: " + title + "\nimages: " + images + "\nthumbnail: " + thumbnail + "\nfull: " + full + "\nmanifest: " + manifest + "\n---\n\n"
+        def frontmatter(letter, number, auth, rec, date, locations, people, languages, title, images, manifest)
+                "---\nletter_id: " + letter + "\nnumber: " + number + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\npeople: " + people + "\nlanguage: " + languages + "\ntitle: " + title + "\nimages: " + images + "\nmanifest: " + manifest + "\n---\n\n"
         end
 
         # get frontmatter variables
@@ -35,8 +35,8 @@ task :letters, [:arg1] do |t, args|
         title = creator + " to " + recipient + ", " + date
         firstimage = doc.at_css('text body div[1]').attr("facs")
         images = doc.css('teiHeader fileDesc sourceDesc msDesc msContents').attr("facs")
-        thumbnail = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/250,/0/default.jpg'
-        full = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg'
+        # thumbnail = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/250,/0/default.jpg'
+        # full = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg'
         manifest = '/img/derivatives/iiif/' + key + '/manifest.json'
 
         # get unique locations keys
@@ -77,7 +77,7 @@ task :letters, [:arg1] do |t, args|
         languages_uniq = languages_ar.join('; ')
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, creator, recipient, date, locations_uniq, people_uniq, languages_uniq, title, images, thumbnail, full, manifest)
+        newdoc << frontmatter(key, n, creator, recipient, date, locations_uniq, people_uniq, languages_uniq, title, images, manifest)
 
         # define node removal method, to remove xml elements but keep their inner text
         def node_removal(node_removed)
