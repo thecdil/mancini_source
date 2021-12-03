@@ -1,7 +1,9 @@
-
+---
+layout: none
+---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://www.lib.uidaho.edu/digital/objects/mancini/iiif/images/1672_mm2lc_DSCF8483",
+  "@id": "{{ site.digital-objects }}/iiif/images/1672_mm2lc_DSCF8483",
   "protocol": "http://iiif.io/api/image",
   "width": 4256,
   "height": 2848,
