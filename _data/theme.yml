@@ -1,3 +1,3 @@
 map-cluster: true # suggested for large collection or with many items in same location
 map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
-year-navigation: "1672;1673;1674;1675"
+year-navigation: "1672;1673"
