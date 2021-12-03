@@ -122,8 +122,8 @@ var items = [
 ];
 
 /* init browse page */
-/* randomize items once at page load */
-shuffle(items);
+/* randomize items once at page load (removing to default to sorting by date) */
+//shuffle(items);
 var query = "";
 /* filter if hash in initial URL */
 if(window.location.hash) {
@@ -168,9 +168,14 @@ function sorting(json_object, key_to_sort_by) {
     json_object.sort(sortByKey);
 };
 
+/* sort by date on page load */
+sorting(items, 'letter_date');
+filterItems(items, query);
+
 /* add sort function on click of sort options */
 $(".browse-sort-item").click(function (event) {
     var field = $(this).data('filter'); // Get the text of the element
+    console.log(field)
     var dname = $(this).text(); // Get the text of the element
     var query = $('#quickSearch').val();
     $(".browse-sort-item").removeClass('active');
