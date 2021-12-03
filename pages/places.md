@@ -9,7 +9,7 @@ permalink: places.html
 Learn more about the places in Marie's letters. Click on a place to browse related letters.
 
 {% capture letters %}{% for item in site.data.placename_main %}{{ item.city | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
-{%- assign uniqueLetters = letters | split: ';' | uniq -%}
+{%- assign uniqueLetters = letters | split: ';' | uniq | sort -%}
 {%- assign glossary = site.data.placename_main | sort: "city" -%}
 
 <ul class="list-inline">
@@ -30,7 +30,7 @@ Learn more about the places in Marie's letters. Click on a place to browse relat
 {%- if x == letter -%}
     <dt class="glossary-def"><div id="{{ item.key }}"><a href="{{ '/browse.html#' | append: item.key | relative_url }}">
     {{ item.city }}, {{ item.country }}</a></div></dt> 
-    {% if item.annotation %}<dd>- {{ item.annotation }}</dd>{%- endif -%}
+    {% if item.annotation %}<dd>{{ item.annotation }}</dd>{%- endif -%}
 {% endif %}
 {%- endfor -%}
 </dl>

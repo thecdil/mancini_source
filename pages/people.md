@@ -9,7 +9,7 @@ permalink: people.html
 Learn more about the people in Marie's letters. Click on a name to browse related letters.
 
 {% capture letters %}{% for item in site.data.persname_main %}{{ item.name | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
-{%- assign uniqueLetters = letters | split: ';' | uniq -%}
+{%- assign uniqueLetters = letters | split: ';' | uniq | sort -%}
 {%- assign glossary = site.data.persname_main | sort: "name" -%}
 
 <ul class="list-inline">
@@ -30,7 +30,7 @@ Learn more about the people in Marie's letters. Click on a name to browse relate
 {%- if x == letter -%}
     <dt class="glossary-def"><div id="{{ item.key }}"><a href="{{ '/browse.html#' | append: item.key | relative_url }}">
     {{ item.name }}</a></div></dt> 
-    {% if item.annotation %}<dd>- {{ item.annotation }}</dd>{%- endif -%}
+    {% if item.annotation %}<dd>{{ item.annotation }}</dd>{%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </dl>

@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<div class="container py-4 {% if page.title == 'About' %}about-page{% else %}page-narrow{% endif %}">
+<div class="container py-4 {% if page.title == 'About' or page.title == 'People' or page.title == 'Places' %}about-page{% else %}page-narrow{% endif %}">
     {{ content }}
 </div>

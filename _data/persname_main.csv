@@ -1,5 +1,5 @@
 key,name,other_names,filename-code,comment,annotation
-altezza-reale,sua Altezza Reale,,,from 1673_04_13_mm2lc,"Charles-Emmanuel II, Duke of Savoy (1634-1675). He was the sovereign of Savoy, which was an independent state in the seventeenth century; he was a grandson of Henri IV of France. Charles-Emmanuel II was one of Hortense Mancini's early suitors, and she was his guest living in the château of Chambéry from 1672 until his death in 1675. He also offered his hospitality to Marie in his capital city of Turin."
+altezza-reale,Charles-Emmanuel II,,,from 1673_04_13_mm2lc,"Charles-Emmanuel II, Duke of Savoy (1634-1675). He was the sovereign of Savoy, which was an independent state in the seventeenth century; he was a grandson of Henri IV of France. Charles-Emmanuel II was one of Hortense Mancini's early suitors, and she was his guest living in the château of Chambéry from 1672 until his death in 1675. He also offered his hospitality to Marie in his capital city of Turin."
 andrea,Andrea,,andrea,from 1672_xx_01_mm2os; 1672_07_25_mm2os; 1672_09_23_mm2lc; 1672_09_27_mm2lc; 1672_10_02_mm2lc; 1673_09_13_mm2lc,A man in Marie's service.
 anna,Anna,,,from 1672_07_14,filler-annotation
 antonia,Antonia,,,from 1672_07_14,filler-annotation
@@ -42,4 +42,4 @@ stella-ortensia,Ortensia Stella,la contessa;Madame la comtesse Stella,os,,"Count
 tiche,Tiche,,,from 1672_07_14,A woman in Marie's service.
 unknown,Unknown,,unk,,filler-annotation
 federico,Don Federico,,fed,,filler-annotation
-savoy	Duke of Savoy		sav	from 1673_06_28	filler-annotation
+savoy,Duke of Savoy,,sav,from 1673_06_28,filler-annotation
