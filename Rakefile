@@ -101,6 +101,19 @@ task :letters, [:arg1] do |t, args|
         dateline = doc.css('dateline')
         paragraph(doc, dateline)
 
+        # date element to text
+        date_opener = doc.css('opener date')
+        node_removal(date_opener) unless date_opener.attr('type')
+
+        # remove opener element
+        node_removal(doc.css('opener'))
+
+        # salute and signed elements to paragraph
+        salute = doc.css('salute')
+        signed = doc.css('signed')
+        paragraph(doc, salute)
+        paragraph(doc, signed)
+
         # add popover link to people the first time they appear
         people_ar.each do |node|
             if doc.xpath("//xmlns:div/xmlns:p/xmlns:persName[@key=\"#{node}\"]")[0]
@@ -223,19 +236,6 @@ task :letters, [:arg1] do |t, args|
 
         # remove pb (temporary?)
         doc.css('pb').remove
-
-        # date element to text
-        date_opener = doc.css('opener date')
-        node_removal(date_opener) unless date_opener.attr('type')
-
-        # remove opener element
-        node_removal(doc.css('opener'))
-        
-        # salute and signed elements to paragraph
-        salute = doc.css('salute')
-        signed = doc.css('signed')
-        paragraph(doc, salute)
-        paragraph(doc, signed)
 
         doc.css('closer p').each do |node|
             if node['class']
