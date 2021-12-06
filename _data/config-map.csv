@@ -1,6 +1,2 @@
 field,display_name,search
-date_actual,Date,true
-creator,Creator,true
-recipient,Recipient,true
-location,Location,true
-language,Language,true
+annotation,About
