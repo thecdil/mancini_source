@@ -3,13 +3,13 @@ require 'nokogiri'
 desc "Use nokogiri to generate HTML pages from TEI xml"
 task :letters, [:arg1] do |t, args|
     args.with_defaults(
-        :arg1 => "*/*"
+        :arg1 => "*"
       )
 
     # iterate over all XML files in input dir
     Dir.glob("xml/#{args.arg1}.xml").each do |xmlname|
         names = xmlname.split("/")
-        filename = names[2]
+        filename = names[1]
         lettername = filename.split(".").first
 
         # Get output name
