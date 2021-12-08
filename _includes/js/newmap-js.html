@@ -63,7 +63,7 @@
     var map = L.map('newmap', {
 		center: [43.753608, 3.905236],
 		zoom: 5,
-		layers: [stamen, cluster1]
+		layers: [stamen, cluster1, cluster2]
 	});
 
     var overlays = {
@@ -71,7 +71,7 @@
         '1763': cluster2
     };
 
-    var layerControl = L.control.layers(overlays,null,{collapsed:false}).addTo(map);
+    var layerControl = L.control.layers(null,overlays,{collapsed:false}).addTo(map);
 
 
 </script>
