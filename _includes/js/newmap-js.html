@@ -1,24 +1,20 @@
+{%- assign objects = site.letters | where_exp: 'object','object.location_origin != "unk"' -%}
+{%- assign locations = site.data.placename_main -%}
+
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>
-<script src="{{ '/assets/lib/leaflet/leaflet.featuregroup.subgroup.js' | relative_url }}"></script>
-
-
-{% assign objects = site.letters | where_exp: 'object','object.location_origin != "unk"' %}
-{% assign locations = site.data.placename_main %}
 
 <script>
 
-    var newgeodata = { "type": "FeatureCollection", "features": [
+    var locationData = { "type": "FeatureCollection", "features": [
     {% for object in objects %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{% for l in locations %}{% if l.key contains object.location_origin %}{{ l.longitude | strip }},{{ l.latitude | strip }}{% endif %}{% endfor %}] }, "properties":
-    { "title": {{ object.title | escape | jsonify }}, "location": {{ object.location_origin | escape | jsonify }}, {% for l in locations %}{% if l.key contains object.location_origin %}"city": {{ l.city | escape | jsonify }}, "country": {{ l.country | escape | jsonify }},{% endif %}{% endfor %} "id": {{ object.letter_id | jsonify }}, "creator": {{ object.creator | jsonify }}, "recipient": {{ object.recipient | jsonify }}, "date": {{ object.letter_date | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    { "title": {{ object.title | escape | jsonify }}, "location": {{ object.location_origin | escape | jsonify }}, {% for l in locations %}{% if l.key contains object.location_origin %}"city": {{ l.city | escape | jsonify }}, "country": {{ l.country | escape | jsonify }},{% endif %}{% endfor %} "id": {{ object.letter_id | jsonify }}, "creator": {{ object.creator | jsonify }}, "recipient": {{ object.recipient | jsonify }}, "date": {{ object.letter_date | jsonify }}, "images": {{ object.images | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
-
-    console.log(newgeodata);
 
     var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
       attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -28,10 +24,13 @@
       ext: 'jpg',
     });
 
+    /* object popup function */
     function objectPopups(feature, layer) {
+        var photos = feature.properties.images;
+        var photoArray = photos.split(';');
+        var thumbSrc = '{{ site.digital-objects | relative_url }}/thumb/' + photoArray[1] + '_th.jpg';
         var itemHref = '{{ site.baseurl }}/letters/' + feature.properties.id + '.html';
-        var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' + feature.properties.title + '</a></h4><p class="mt-0">';
-        popupTemplate += '<strong>Date:</strong> ' + feature.properties.date + '<br>';
+        var popupTemplate = '<h4 class="text-dark text-center">' + feature.properties.city + ', ' + feature.properties.country + '<br><small class="text-muted">' + feature.properties.date + '</small></h4><div class="text-center"><a href="' + itemHref + '" >' + '<img class="mapthumb" src="' + thumbSrc + '" alt="item thumbnail">' + '</a></div><p><h5 class="text-center">' + feature.properties.title + '</h5>';
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Letter</a></div>';
         layer.bindPopup(popupTemplate);
     }
@@ -39,7 +38,7 @@
     var cluster1 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
     var cluster2 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
 
-    var layer1 = L.geoJSON(newgeodata, {
+    var layer1 = L.geoJSON(locationData, {
         filter: function(feature){
             if(feature.properties.date.includes('1672')){
                 return true
@@ -48,7 +47,7 @@
         onEachFeature: objectPopups
     });
 
-    var layer2 = L.geoJSON(newgeodata, {
+    var layer2 = L.geoJSON(locationData, {
         filter: function(feature){
             if(feature.properties.date.includes('1673')){
                 return true
