@@ -36,6 +36,9 @@
         layer.bindPopup(popupTemplate);
     }
 
+    var cluster1 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
+    var cluster2 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
+
     var layer1 = L.geoJSON(newgeodata, {
         filter: function(feature){
             if(feature.properties.date.includes('1672')){
@@ -54,15 +57,18 @@
         onEachFeature: objectPopups
     });
 
+    layer1.addTo(cluster1);
+    layer2.addTo(cluster2);
+
     var map = L.map('newmap', {
 		center: [43.753608, 3.905236],
 		zoom: 5,
-		layers: [stamen, layer1]
+		layers: [stamen, cluster1]
 	});
 
     var overlays = {
-        '1762': layer1,
-        '1763': layer2
+        '1762': cluster1,
+        '1763': cluster2
     };
 
     var layerControl = L.control.layers(overlays,null,{collapsed:false}).addTo(map);
