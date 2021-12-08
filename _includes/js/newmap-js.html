@@ -17,6 +17,8 @@ crossorigin=""></script>
     { "title": {{ object.title | escape | jsonify }}, "location": {{ object.location_origin | escape | jsonify }}, {% for l in locations %}{% if l.key contains object.location_origin %}"city": {{ l.city | escape | jsonify }}, "country": {{ l.country | escape | jsonify }},{% endif %}{% endfor %} "id": {{ object.letter_id | jsonify }}, "creator": {{ object.creator | jsonify }}, "recipient": {{ object.recipient | jsonify }}, "date": {{ object.letter_date | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
+    //https://leafletjs.com/reference.html#geojson
+
     var cities = L.layerGroup();
 
     var mLittleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities);
@@ -36,14 +38,14 @@ crossorigin=""></script>
     });
 
     var map = L.map('newmap', {
-		center: [39.73, -104.99],
-		zoom: 10,
+		center: [43.753608, 3.905236],
+		zoom: 5,
 		layers: [stamen, cities, citiestwo]
 	});
 
     var overlays = {
-		'Cities': cities,
-        'More Cities': citiestwo
+		'1762': cities,
+        '1763': citiestwo
 	};
 
     var layerControl = L.control.layers(overlays,null,{collapsed:false}).addTo(map);
