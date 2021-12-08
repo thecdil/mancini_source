@@ -1,6 +1,5 @@
 {%- assign objects = site.letters | where_exp: 'object','object.location_origin != "unk"' -%}
 {%- assign locations = site.data.placename_main -%}
-
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
@@ -9,13 +8,14 @@
 <script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>
 
 <script>
-
+    /* add letter origin data, get latlong from locations data */
     var locationData = { "type": "FeatureCollection", "features": [
     {% for object in objects %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{% for l in locations %}{% if l.key contains object.location_origin %}{{ l.longitude | strip }},{{ l.latitude | strip }}{% endif %}{% endfor %}] }, "properties":
     { "title": {{ object.title | escape | jsonify }}, "location": {{ object.location_origin | escape | jsonify }}, {% for l in locations %}{% if l.key contains object.location_origin %}"city": {{ l.city | escape | jsonify }}, "country": {{ l.country | escape | jsonify }},{% endif %}{% endfor %} "id": {{ object.letter_id | jsonify }}, "creator": {{ object.creator | jsonify }}, "recipient": {{ object.recipient | jsonify }}, "date": {{ object.letter_date | jsonify }}, "images": {{ object.images | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
+    /* baselayer */
     var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
       attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       subdomains: 'abcd',
@@ -35,9 +35,11 @@
         layer.bindPopup(popupTemplate);
     }
 
+    /* set up clustergroups */
     var cluster1 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
     var cluster2 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
 
+    /* get layer1 data, filter by date */
     var layer1 = L.geoJSON(locationData, {
         filter: function(feature){
             if(feature.properties.date.includes('1672')){
@@ -47,6 +49,7 @@
         onEachFeature: objectPopups
     });
 
+    /* get layer2 data, filter by date */
     var layer2 = L.geoJSON(locationData, {
         filter: function(feature){
             if(feature.properties.date.includes('1673')){
@@ -56,21 +59,24 @@
         onEachFeature: objectPopups
     });
 
+    /* add layers to clusters */
     layer1.addTo(cluster1);
     layer2.addTo(cluster2);
 
+    /* init map */
     var map = L.map('newmap', {
 		center: [43.753608, 3.905236],
 		zoom: 5,
 		layers: [stamen, cluster1, cluster2]
 	});
 
+    /* establish overlays */
     var overlays = {
         '1762': cluster1,
         '1763': cluster2
     };
 
+    /* add checkbox control of overlays, and keep it open */
     var layerControl = L.control.layers(null,overlays,{collapsed:false}).addTo(map);
-
 
 </script>
