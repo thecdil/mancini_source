@@ -1,12 +1,13 @@
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
+<!-- load leaflet dependencies -->
+<script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.featuregroup.subgroup.js' | relative_url }}"></script>
 
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-crossorigin=""></script>
 
-{% assign objects = site.letters | where_exp: 'object','object.location_origin != unk' %}
+{% assign objects = site.letters | where_exp: 'object','object.location_origin != "unk"' %}
 {% assign locations = site.data.placename_main %}
 
 <script>
@@ -17,17 +18,7 @@ crossorigin=""></script>
     { "title": {{ object.title | escape | jsonify }}, "location": {{ object.location_origin | escape | jsonify }}, {% for l in locations %}{% if l.key contains object.location_origin %}"city": {{ l.city | escape | jsonify }}, "country": {{ l.country | escape | jsonify }},{% endif %}{% endfor %} "id": {{ object.letter_id | jsonify }}, "creator": {{ object.creator | jsonify }}, "recipient": {{ object.recipient | jsonify }}, "date": {{ object.letter_date | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
-    //https://leafletjs.com/reference.html#geojson
-
-    var cities = L.layerGroup();
-
-    var mLittleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities);
-    var mDenver = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities);
-
-    var citiestwo = L.layerGroup();
-
-    var mAurora = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(citiestwo);
-    var mGolden = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(citiestwo);
+    console.log(newgeodata);
 
     var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
       attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -37,17 +28,44 @@ crossorigin=""></script>
       ext: 'jpg',
     });
 
+    function objectPopups(feature, layer) {
+        var itemHref = '{{ site.baseurl }}/letters/' + feature.properties.id + '.html';
+        var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' + feature.properties.title + '</a></h4><p class="mt-0">';
+        popupTemplate += '<strong>Date:</strong> ' + feature.properties.date + '<br>';
+        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Letter</a></div>';
+        layer.bindPopup(popupTemplate);
+    }
+
+    var layer1 = L.geoJSON(newgeodata, {
+        filter: function(feature){
+            if(feature.properties.date.includes('1672')){
+                return true
+            }
+        },
+        onEachFeature: objectPopups
+    });
+
+    var layer2 = L.geoJSON(newgeodata, {
+        filter: function(feature){
+            if(feature.properties.date.includes('1673')){
+                return true
+            }
+        },
+        onEachFeature: objectPopups
+    });
+
     var map = L.map('newmap', {
 		center: [43.753608, 3.905236],
 		zoom: 5,
-		layers: [stamen, cities, citiestwo]
+		layers: [stamen, layer1]
 	});
 
     var overlays = {
-		'1762': cities,
-        '1763': citiestwo
-	};
+        '1762': layer1,
+        '1763': layer2
+    };
 
     var layerControl = L.control.layers(overlays,null,{collapsed:false}).addTo(map);
+
 
 </script>
