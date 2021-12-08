@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+
+{% assign objects = site.letters | where_exp: 'object','object.location_origin != unk' %}
+{% assign locations = site.data.placename_main %}
+
+<script>
+
+    var newgeodata = { "type": "FeatureCollection", "features": [
+    {% for object in objects %}
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{% for l in locations %}{% if l.key contains object.location_origin %}{{ l.longitude | strip }},{{ l.latitude | strip }}{% endif %}{% endfor %}] }, "properties":
+    { "title": {{ object.title | escape | jsonify }}, "location": {{ object.location_origin | escape | jsonify }}, {% for l in locations %}{% if l.key contains object.location_origin %}"city": {{ l.city | escape | jsonify }}, "country": {{ l.country | escape | jsonify }},{% endif %}{% endfor %} "id": {{ object.letter_id | jsonify }}, "creator": {{ object.creator | jsonify }}, "recipient": {{ object.recipient | jsonify }}, "date": {{ object.letter_date | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ]};
+
+    var cities = L.layerGroup();
+
+    var mLittleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities);
+    var mDenver = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities);
+
+    var citiestwo = L.layerGroup();
+
+    var mAurora = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(citiestwo);
+    var mGolden = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(citiestwo);
+
+    var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+      attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      subdomains: 'abcd',
+      minZoom: 1,
+      maxZoom: 16,
+      ext: 'jpg',
+    });
+
+    var map = L.map('newmap', {
+		center: [39.73, -104.99],
+		zoom: 10,
+		layers: [stamen, cities, citiestwo]
+	});
+
+    var overlays = {
+		'Cities': cities,
+        'More Cities': citiestwo
+	};
+
+    var layerControl = L.control.layers(overlays,null,{collapsed:false}).addTo(map);
+
+</script>
