@@ -142,7 +142,7 @@
         var photoArray = photos.split(';');
         var thumbSrc = '{{ site.digital-objects | relative_url }}/thumb/' + photoArray[1] + '_th.jpg';
         var itemHref = '{{ site.baseurl }}/letters/' + feature.properties.id + '.html';
-        var popupTemplate = '<h4 class="text-dark text-center">' + feature.properties.city + ', ' + feature.properties.country + '<br><small class="text-muted">' + feature.properties.date + '</small></h4><div class="text-center"><a href="' + itemHref + '" >' + '<img class="mapthumb" src="' + thumbSrc + '" alt="item thumbnail">' + '</a></div><p><h5 class="text-center">' + feature.properties.title + '</h5>';
+        var popupTemplate = '<h4 class="text-dark text-center">' + feature.properties.city + ', ' + feature.properties.country + '<br><small class="text-muted">' + feature.properties.date + '</small></h4><div class="text-center"><a href="' + itemHref + '" >' + '<img class="mapthumb" src="' + thumbSrc + '" alt="item thumbnail">' + '</a></div><p><h5 class="text-center">' + feature.properties.creator + '<br><small>to</small><br>' + feature.properties.recipient + '</h5>';
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Letter</a></div>';
         layer.bindPopup(popupTemplate);
     }
