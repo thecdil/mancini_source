@@ -85,7 +85,9 @@
             var thumbSrc = '{{ site.digital-objects | relative_url }}/thumb/' + photoArray[1] + '_th.jpg';
         }
         var popupTemplate = '<h4 class="text-dark text-center">' + feature.properties.city + ', ' + feature.properties.country + '</h4><p class="mt-0 text-center">';
-        popupTemplate += feature.properties.annotation + '<br>';
+        if (feature.properties.annotation != 'filler-annotation'){
+            popupTemplate += feature.properties.annotation + '<br>';
+        }
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Related Letters</a></div>';
         layer.bindPopup(popupTemplate);
     }
