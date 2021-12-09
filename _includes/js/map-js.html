@@ -1,5 +1,7 @@
 {%- assign items = site.data.placename_main | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
 {%- assign fields = site.data.config-map -%}
+{%- assign objects = site.letters | where_exp: 'object','object.location_origin != "unk"' -%}
+{%- assign locations = site.data.placename_main -%}
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | absolute_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/fuse.min.js' | absolute_url }}"></script>
@@ -13,8 +15,7 @@
     var geodata = { "type": "FeatureCollection", "features": [ 
     {% for item in items %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
-    { "title": {{ item.city | escape | jsonify }}, 
-    {% for f in fields %}{{ f.field | escape | jsonify }}: {{ item[f.field] | escape | jsonify }},{% endfor %} "images":{{ item.images | strip | escape | jsonify }}, "country": {{ item.country | escape | jsonify }}, "id": {{ item.key | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    { "city": {{ item.city | escape | jsonify }}, "images":{{ item.images | strip | escape | jsonify }}, "country": {{ item.country | escape | jsonify }}, "id": {{ item.key | jsonify }}, {% if item.annotation %}"annotation": {{ item.annotation | jsonify }}{% endif %} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
     var letterdata = {
@@ -31,7 +32,7 @@
         var longitudeHash = hashfilter.split(',')[1]
         var map = L.map('map').setView([latitudeHash,longitudeHash],16);
     } else {
-        var map = L.map('map').setView([43.753608,3.905236],5);
+        var map = L.map('map').setView([45.76464881089339, 4.860924346244711],5);
     }
 
     /* add map layer options */
@@ -68,14 +69,14 @@
 
     {% if site.data.theme.map-cluster == true %}
     /* create cluster group */
-    var markers = L.markerClusterGroup({ maxClusterRadius: {{ site.data.theme.map-cluster-radius | default: 15 }}, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
+    var markers = L.markerClusterGroup({ maxClusterRadius: 25, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
 
     /* object popup function */
     function objectPopups(feature, layer) {
         {% if site.data.theme.map-search == true %}/* bind feature for search */
         feature.layer = layer;{% endif %}
         /* create pop up */
-        var itemHref = '{{ site.baseurl }}/browse.html#' + feature.properties.title;
+        var itemHref = '{{ site.baseurl }}/browse.html#' + feature.properties.city;
         if (feature.properties.youtube) {
             var thumbSrc = 'https://img.youtube.com/vi/' + feature.properties.youtube + '/default.jpg';
         } else {
@@ -83,18 +84,14 @@
             var photoArray = photos.split(';');
             var thumbSrc = '{{ site.digital-objects | relative_url }}/thumb/' + photoArray[1] + '_th.jpg';
         }
-        var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' + feature.properties.title + ', ' + feature.properties.country + '</a></h4><p class="mt-0">';
-        {% for f in fields %}{% if f.display_name %}
-        if (feature.properties[{{ f.field | escape | jsonify }}]) {
-            popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
-        }
-        {% endif %}{% endfor %}
+        var popupTemplate = '<h4 class="text-dark text-center">' + feature.properties.city + ', ' + feature.properties.country + '</h4><p class="mt-0 text-center">';
+        popupTemplate += feature.properties.annotation + '<br>';
         popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Related Letters</a></div>';
         layer.bindPopup(popupTemplate);
     }
     function objectMarkers(feature,latlng) {
         var marker = L.marker(latlng);
-        {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
+        markers.addLayer(marker);
         return marker;
     }
 
@@ -102,8 +99,8 @@
     L.geoJson(geodata, {
         onEachFeature: objectPopups,
         pointToLayer: objectMarkers
-    }){% if site.data.theme.map-cluster != true %}.addTo(map);{% else %};
-    map.addLayer(markers);{% endif %}
+    });
+    map.addLayer(markers);
     
     {% if site.data.theme.map-cluster == true and site.data.theme.map-search == true %}
     /* uncluster when search is clicked */
@@ -115,6 +112,82 @@
         markers.enableClustering();
         document.querySelector('input.search-input').value = "";
     });{% endif %}
+    
+})();
+
+(function(){
+    /* add letter origin data, get latlong from locations data */
+    var locationData = { "type": "FeatureCollection", "features": [
+    {% for object in objects %}
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{% for l in locations %}{% if l.key contains object.location_origin %}{{ l.longitude | strip }},{{ l.latitude | strip }}{% endif %}{% endfor %}] }, "properties":
+    { "title": {{ object.title | escape | jsonify }}, "location": {{ object.location_origin | escape | jsonify }}, {% for l in locations %}{% if l.key contains object.location_origin %}"city": {{ l.city | escape | jsonify }}, "country": {{ l.country | escape | jsonify }},{% endif %}{% endfor %} "id": {{ object.letter_id | jsonify }}, "creator": {{ object.creator | jsonify }}, "recipient": {{ object.recipient | jsonify }}, "date": {{ object.letter_date | jsonify }}, "images": {{ object.images | jsonify }} } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ]};
+
+    console.log(locationData)
+
+    /* baselayer */
+    var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+      attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      subdomains: 'abcd',
+      minZoom: 1,
+      maxZoom: 16,
+      ext: 'jpg',
+    });
+
+    /* object popup function */
+    function itemPopups(feature, layer) {
+        var photos = feature.properties.images;
+        var photoArray = photos.split(';');
+        var thumbSrc = '{{ site.digital-objects | relative_url }}/thumb/' + photoArray[1] + '_th.jpg';
+        var itemHref = '{{ site.baseurl }}/letters/' + feature.properties.id + '.html';
+        var popupTemplate = '<h4 class="text-dark text-center">' + feature.properties.city + ', ' + feature.properties.country + '<br><small class="text-muted">' + feature.properties.date + '</small></h4><div class="text-center"><a href="' + itemHref + '" >' + '<img class="mapthumb" src="' + thumbSrc + '" alt="item thumbnail">' + '</a></div><p><h5 class="text-center">' + feature.properties.title + '</h5>';
+        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Letter</a></div>';
+        layer.bindPopup(popupTemplate);
+    }
+
+    /* set up clustergroups */
+    var cluster1 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
+    var cluster2 = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true });
+
+    /* get layer1 data, filter by date */
+    var layer1 = L.geoJSON(locationData, {
+        filter: function(feature){
+            if(feature.properties.date.includes('1672')){
+                return true
+            }
+        },
+        onEachFeature: itemPopups
+    });
+
+    /* get layer2 data, filter by date */
+    var layer2 = L.geoJSON(locationData, {
+        filter: function(feature){
+            if(feature.properties.date.includes('1673')){
+                return true
+            }
+        },
+        onEachFeature: itemPopups
+    });
+
+    /* add layers to clusters */
+    layer1.addTo(cluster1);
+    layer2.addTo(cluster2);
+
+    /* init map */
+    var originmap = L.map('newmap', {
+		center: [47.67694442536175, 4.054887098758403],
+		zoom: 5,
+		layers: [stamen, cluster1, cluster2]
+	});
+
+    /* establish overlays */
+    var overlays = {
+        '1762': cluster1,
+        '1763': cluster2
+    };
+
+    /* add checkbox control of overlays, and keep it open */
+    L.control.layers(null,overlays,{collapsed:false}).addTo(originmap);
 
 })();
 

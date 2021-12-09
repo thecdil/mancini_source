@@ -1,7 +1,7 @@
 ---
-title: Map
+title: Locations
 layout: map
-permalink: map.html
+permalink: locations.html
 ---
 
-# Map
+# Locations
