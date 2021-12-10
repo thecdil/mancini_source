@@ -22,8 +22,8 @@ task :letters, [:arg1] do |t, args|
         newdoc = File.new("_letters/" + output_name, 'w')
 
         # frontmatter
-        def frontmatter(letter, number, auth, rec, date, locations, location_origin, people, languages, title, images, manifest)
-                "---\nletter_id: " + letter + "\nnumber: " + number + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\nlocation_origin: " + location_origin + "\npeople: " + people + "\nlanguage: " + languages + "\ntitle: " + title + "\nimages: " + images + "\nmanifest: " + manifest + "\n---\n\n"
+        def frontmatter(letter, number, auth, rec, date, locations, location_origin, description, people, languages, title, images, manifest)
+                "---\nletter_id: " + letter + "\nnumber: " + number + "\ncreator: " + auth + "\nrecipient: " + rec + "\nletter_date: " + date + "\nlocations: " + locations + "\nlocation_origin: " + location_origin + "\ndescription: " + description + "\npeople: " + people + "\nlanguage: " + languages + "\ntitle: " + title + "\nimages: " + images + "\nmanifest: " + manifest + "\n---\n\n"
         end
 
         # get frontmatter variables
@@ -39,6 +39,7 @@ task :letters, [:arg1] do |t, args|
         # full = '/img/derivatives/iiif/images/' + key + '_' + firstimage + '/full/1140,/0/default.jpg'
         manifest = '/img/derivatives/iiif/' + key + '/manifest.json'
         location_origin = doc.css('teiHeader fileDesc sourceDesc msDesc history origin origPlace placeName').attr("key")
+        doc.css('teiHeader fileDesc notesStmt note').nil? ? description = "" : description = '"' + doc.css('teiHeader fileDesc notesStmt note').text.strip + '"'
 
         # get unique locations keys
         # get all location keys
@@ -78,7 +79,7 @@ task :letters, [:arg1] do |t, args|
         languages_uniq = languages_ar.join('; ')
 
         # add frontmatter to newdoc first
-        newdoc << frontmatter(key, n, creator, recipient, date, locations_uniq, location_origin, people_uniq, languages_uniq, title, images, manifest)
+        newdoc << frontmatter(key, n, creator, recipient, date, locations_uniq, location_origin, description, people_uniq, languages_uniq, title, images, manifest)
 
         # define node removal method, to remove xml elements but keep their inner text
         def node_removal(node_removed)
