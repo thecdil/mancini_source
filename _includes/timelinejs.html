@@ -12,7 +12,8 @@
     - "json" = (optional) path or link to timelinejs json file. 
 
 {% endcomment %}
-{%- assign json = include.json | default: '/assets/data/timelinejs.json' | relative_url -%}
+{%- assign json = include.json | default: '/data/timelinejs.json' | relative_url -%}
+
 <!-- timelinejs, https://timeline.knightlab.com/ -->
 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 

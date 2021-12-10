@@ -4,32 +4,31 @@
 # Curate the timeline by adding a "where" expression to the assign on the first line.
 # For details, see https://collectionbuilder.github.io/cb-docs/docs/advanced/timelinejs/  
 ---
-{%- assign items = site.data.letters | where_exp: 'item', 'item.letter_date' -%}
+{%- assign items = site.letters | where_exp: 'item', 'item.letter_date' -%}
 {
     "title": {
         "media": {
-          "url": "https://cdil.lib.uidaho.edu/mancini/assets/images/mancini-letter.jpg",
+          "url": "{{ 'assets/images/mancini-letter.jpg' | relative_url }}",
           "caption": {{ site.title | jsonify }},
           "credit": {{ site.title | jsonify }}
         },
         "text": {
-          "headline": {{ site.title | append: ' Timeline' | jsonify }},
+          "headline": "A Timeline of Marie Mancini's Letters",
           "text": {{ site.description | jsonify }}
         }
     },
     "events": [
-      {% for item in items %}{% if item.letter_date %}{
+      {% for item in items %}{% if item.letter_date %}{%- assign images = item.images | split: ';' -%}{
         "media": {
-          "url": "{% if item.youtubeid %}{{ 'https://www.youtube.com/watch?v=' | append: item.youtubeid }}{% elsif item.vimeoid %}{{ 'https://vimeo.com/' | append: item.vimeoid }}{% elsif item.filename contains 'http' %}{{ item.filename }}{% else %}{{ item.filename | prepend: '/objects/' | absolute_url }}{% endif %}",
+          "url": "{{ site.digital-objects }}/thumb/{{ images[1] | append: '_th.jpg' }}",
           "caption": {{ item.title | jsonify }},
-          "link": "{{ '/item.html' | absolute_url | append: '?id=' | append: item.objectid }}",
+          "link": "{{ item.letter_id | prepend: '/letters/' | relative_url | append: '.html' }}",
           "credit": "{{ site.title }}"
         },
-        "start_date": { {% if item.letter_date contains '-' %}{% assign dates = item.letter_date | split: '-' %}
+        "start_date": { {% assign dates = item.letter_date | split: '-' %}
           "month": "{{ dates[1] }}",
           "day": "{{ dates[2] }}",
-          "year": "{{ dates[0] }}"{% elsif item.letter_date contains '/' %}"year": "{{ item.letter_date | strip | split: '/' | last }}"{% else %}
-          "year": "{{ item.letter_date }}"{% endif %}
+          "year": "{{ dates[0] }}"
         },
         "text": {
           "headline": {{ item.title | jsonify }}{% if item.description %},
