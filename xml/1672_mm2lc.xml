@@ -64,7 +64,7 @@
                         </collection>
                         <idno type="collection">IICP1</idno>
                     </msIdentifier>
-                    <msContents facs="DSCF8481;DSCF8482;DSCF8483;DSCF8484">
+                    <msContents facs="DSCF8481;DSCF8483;DSCF8484;DSCF84841">
                         <p>Document is one leaf, handwritten on recto and verso.</p>
                     </msContents>
                     <physDesc>
@@ -134,7 +134,7 @@
 
                 [[scanned image cuts off a number written in pencil at the bottom of the page, which might be: 16720016-18 ??]]
                 </note>
-                <pb facs="DSCF8482"/>
+                <pb facs="DSCF84841"/>
                 <note resp="#smn" xml:id="archive-note">
                 [[text is typed]]
                 Sopra quanto mi &#232; stato riferito da vostra parte vi diro que non ricuso gli [[blank space]] che mi fate, al contrario avevo gusto di fare aparir al mondo che  voi sempre mi considerate; in quanto poi alla resolutione ch'o preso di ritirarmi in Francia non &#232; stata causata ch' per i sospetti ch(o auto della mia poca salute
@@ -173,7 +173,7 @@
                         <date when="1672">1672</date>
                     </dateline>
                 </opener>
-                <pb facs="DSCF8482"/>
+                <pb facs="DSCF84841"/>
                 <pb facs="DSCF8483"/>
                 <p>Sopra quanto mi &#232; stato riferito da vostra parte vi dir&#242; che non ricuso le offerte che mi fate, al contrario avr&#242; gusto nel far apparir al mondo che voi sempre mi considerate; in quanto poi alla risoluzione che ho preso di ritirarmi in Francia, non &#232; stata causata che dai sospetti che ho avuto della mia poca salute, unito anche a quel che mio fratello ha detto più volte a me e ad altri, cio&#232; dei disegni che voi avevate contro di me. Potrei dire anche delle altre cose ma le tacer&#242; tutte quando voi non vogliate che le faccia apparir al mondo; e perci&#242; accetter&#242; volontieri tutte le bontà che volete avere per me, n&#233; dovete dubitare mai che, in qualunque loco ove io sia, non vi renda buon conto della mia persona. Vi far&#242; conoscere che non &#232;</p>
                 <pb facs="DSCF8484"/>
@@ -181,7 +181,7 @@
             </div>
             <div type="letter" xml:id="letter_1672_mm2lc_translation" n="01" facs="DSCF8481">
                 <head type="translation" xml:lang="en" />
-                <pb facs="DSCF8482"/>
+                <pb facs="DSCF84841"/>
                 <pb facs="DSCF8483"/>
                 <opener>
                     <dateline>
