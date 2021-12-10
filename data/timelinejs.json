@@ -8,12 +8,12 @@
 {
     "title": {
         "media": {
-          "url": "{{ 'assets/images/mancini-letter.jpg' | relative_url }}",
+          "url": "{{ 'assets/images/mancini_home_th.jpg' | relative_url }}",
           "caption": {{ site.title | jsonify }},
           "credit": {{ site.title | jsonify }}
         },
         "text": {
-          "headline": "A Timeline of Marie Mancini's Letters",
+          "headline": "Timeline of Marie's Letters",
           "text": {{ site.description | jsonify }}
         }
     },

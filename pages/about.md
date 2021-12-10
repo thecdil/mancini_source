@@ -6,6 +6,19 @@ permalink: about.html
 
 # About
 
+Begun in Spring 2020, this project seeks to publish Marie Mancini's approximately 900 letters that are held in the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. 
+Approximately 100 letters have been transcribed so far, 31 of which have been translated into English and are browsable on this site.
+
+Ultimately, the goal of this project is not only to provide a space for Marie Mancini's voice to be freely accessed, but also to provide avenues for historical exploration. 
+To this end, users may:
+
+<a href="browse.html">Explore and read</a> the letters;<br>
+Browse Marie's correspondence in <a href="timeline.html">chronological order;</a><br>
+<a href="map.html">View</a> her travels across Europe;<br>
+<a href="data">Download</a> the letters' text for further research.
+
+...with more options to come!
+
 Based at the [University of Idaho](https://www.uidaho.edu/), this project's work has been accomplished so far thanks to a cross-disciplinary and cross-institutional group of researchers, and is supported by the University of Idaho Library's [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) and a University of Idaho [Research, Infrastructure and Scholarly Excellence (RISE)](https://www.uidaho.edu/research/faculty/find-funding/internal-funding) grant.
 
 ---
