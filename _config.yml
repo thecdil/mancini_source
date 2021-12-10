@@ -7,6 +7,8 @@ url: https://cdil.lib.uidaho.edu
 # baseurl is your github repository's name prefixed with a /
 baseurl: /mancini
 
+description: The Correspondence of Marie Mancini
+
 # Collections
 collections:
   letters:
