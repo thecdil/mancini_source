@@ -1,3 +1,4 @@
+# IIIF derivative creation workflow for Mancini project
 
 Import photos to [Wax](https://github.com/minicomp/wax) theme, run [bundlex exec rake wax:derivatives:iiif mancini](https://minicomp.github.io/wiki/wax/running-the-tasks/derivatives/#waxderivativesiiif), then copy over derivatives to this project following these steps:
 

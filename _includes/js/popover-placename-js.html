@@ -12,6 +12,9 @@
       var popId = $(this).attr('id');
       var record = placedata[popId];
       if (record) {
+        if (record.annotation.includes('filler-annotation')){
+          $(this).contents().unwrap();
+        } else
         var popoverOptions = {
               title: record.city,
               content: record.annotation,
