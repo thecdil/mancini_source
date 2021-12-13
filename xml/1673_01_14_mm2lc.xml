@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie once again exclaims her aversions to returning to Rome and requests one of her sons be sent to learn from Monsieur Boniel.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -146,7 +146,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="lyon">lione</placeName>
+                        lione
                         <date when="1673-01-14">il 14 gennaro 1672 [[the year should be 1673]]</date>
                     </dateline>
                 </opener>
@@ -157,7 +157,7 @@
                 </note>
                 <p>ta ch' ritrovo in me &#233; di superar l'aversione che o di tornare in Roma pregaro dio per vostra consolatione que me la levi; non cessando encor che lontana di esser sempre vostra</p>  
                 <closer>
-                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
+                    <signed>Maria Mancini Colonna</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_01_14_mm2lc_edit" n="02" facs="DSCF8466">
@@ -165,16 +165,16 @@
                 <pb facs="DSCF8467"/>
                 <opener>
                     <dateline>
-                        <placeName key="lyon">Lione</placeName>, 
+                        Lione, 
                         <date when="1673-01-14">il 14 gennaio 1672</date>
                     </dateline>
                 </opener>
-                <p>Non dubito che non siate per aver piena soddisfazione di vedermi ripigliar la volta dell'Italia, lascio la Francia senza disgusto; far&#242; la prima posa a <placeName key="turin">Torino</placeName> (se trovo il duca portato a favorirmi), con il pensiero di mettermi l&#224; in un monastero; so che voi non desideravate altro se non che abbandonassi la Francia; cerco d'incontrar il vostro gusto. Potrei anche andare a <placeName key="milan">Milano</placeName>, ma non sono ancora certa se volete mandarmi uno de miei ragazzi, quello che avr&#224; pi&#249; volont&#224; di venirmi a trovare; potrete mandarlo in lettiga questo febbraio con una donna. Monsieur Boniel avr&#224; poi cura di ammaestrarlo negli studi a guisa di un secondo Lotti; e frattanto credetemi che la maggior difficol-</p>
+                <p>Non dubito che non siate per aver piena soddisfazione di vedermi ripigliar la volta dell'Italia, lascio la Francia senza disgusto; far&#242; la prima posa a Torino (se trovo il duca portato a favorirmi), con il pensiero di mettermi l&#224; in un monastero; so che voi non desideravate altro se non che abbandonassi la Francia; cerco d'incontrar il vostro gusto. Potrei anche andare a Milano, ma non sono ancora certa se volete mandarmi uno de miei ragazzi, quello che avr&#224; pi&#249; volont&#224; di venirmi a trovare; potrete mandarlo in lettiga questo febbraio con una donna. Monsieur Boniel avr&#224; poi cura di ammaestrarlo negli studi a guisa di un secondo Lotti; e frattanto credetemi che la maggior difficol-</p>
                 <pb facs="DSCF8468"/>
                 <p>t&#224; che ritrovo in me, &#232; di superare l'avversione che ho di tornare a Roma.</p>
                 <closer>
                     <salute>Pregher&#242; Dio che, per vostra consolazione, me la levi. Non cessando ancora che lontana di esser sempre vostra,</salute>
-                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
+                    <signed>Maria Mancini Colonna</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_01_14_mm2lc_translation" n="02" facs="DSCF8466">

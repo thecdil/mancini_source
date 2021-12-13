@@ -49,7 +49,7 @@
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1672_07_14_mm2os" type="letter" n="04">lett 4 Marie to Ortenisa Stella</title>
+                    <title key="1672_07_14_mm2lc" type="letter" n="04">lett 4 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="ortensia-stella">Ortensia Stella</persName>
                     <date when="1672-07-14">July 14 1672</date>
@@ -109,7 +109,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_raw" n="04" facs="DSCF8221">
+            <div type="letter" xml:id="letter_1672_07_14_mm2lc_raw" n="04" facs="DSCF8221">
                 <head type="raw" xml:lang="fr" />
                 <note resp="#smn" xml:id="archive-note">
 
@@ -126,7 +126,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">a grenoble</placeName>
+                        a grenoble
                         <date when="1672-07-14">ce 14<hi rend="sup">me</hi>[[iullect?]]</date>
                     </dateline>
                 </opener>
@@ -145,12 +145,12 @@
                     <signed></signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_edit" n="04" facs="DSCF8221">
+            <div type="letter" xml:id="letter_1672_07_14_mm2lc_edit" n="04" facs="DSCF8221">
                 <head type="edit" xml:lang="fr" />
                 <pb facs="DSCF8222"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">&#xc0; Grenoble</placeName>
+                        Grenoble
                         <date when="1672-07-14">ce 14<hi rend="sup">me</hi> juillet</date>
                     </dateline>
                 </opener>
@@ -162,7 +162,7 @@
                     <signed></signed>.
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_07_14_mm2os_translation" n="04" facs="DSCF8221">
+            <div type="letter" xml:id="letter_1672_07_14_mm2lc_translation" n="04" facs="DSCF8221">
                 <head type="translation" xml:lang="en" />
                 <pb facs="DSCF8222"/>
                 <opener>
