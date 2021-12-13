@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'csv'
 
 desc "Use nokogiri to generate HTML pages from TEI xml"
 task :letters, [:arg1] do |t, args|
@@ -258,6 +259,50 @@ task :letters, [:arg1] do |t, args|
 
         # close file
         newdoc.close
+    end
+end
+
+desc "Create annotations csv"
+task :annotations do
+
+    # fieldnames
+    # id,text
+    field_names = "id,text".split(",")
+
+    # open file
+    CSV.open("_data/annotations.csv", "w") do |csv|
+        # write the header fields 
+        csv << field_names
+        # iterate over all XML files in input dir
+        Dir.glob(File.join(["xml", "*.xml"])).each do |xmlname|
+            # read the xml with Nokogiri
+            begin
+
+                doc = Nokogiri::XML(File.read(xmlname))
+
+            rescue
+                
+                # handle parsing error
+                puts "Error parsing file #{xmlname}"
+
+            else
+                # parse fields in the xml
+                begin
+                    # remove xml namespace
+                    doc.remove_namespaces!
+
+                    # create id and text field values
+                    doc.css('ref').each do |node|
+                        id = node['id']
+                        text = node['style']
+                        # make into array, following csv order from field_names above
+                        field_values = [id,text]
+                        # write values into csv row
+                        csv << field_values
+                    end
+                end
+            end
+        end
     end
 end
 
