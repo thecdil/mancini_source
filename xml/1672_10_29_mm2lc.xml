@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie explains to Lorenzo some of her reasoning for leaving Rome as a product of her illness in the city and desire to see her family in Grenoble and Paris.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -119,7 +119,7 @@
                     =
                     
                     Lettera al Contestabile Colonna
-                    in data	29 Ottobre 1672 d’Avenay
+                    in data	29 Ottobre 1672 d'Avenay
                     Sigillo – tutta di pugno –
                     
                     oggetto:
@@ -141,7 +141,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="avenay">D'avenay</placeName>
+                        D'avenay
                         <date when="1672-10-29">le 29<hi rend="sup">me</hi> octto[[bre]] 1672</date>
                     </dateline>
                 </opener>
@@ -150,9 +150,9 @@
                 <note resp="#smn">
                     [[On the right half of the sheet:]]
                 </note>
-                <p>in un convento in quella citta o poco lontano; dove non avevo pensier di veder altri che loro conforme o fatto sino hora ne vi deve parer stravagante che io [[<hi rend="strike">scel</hi>]] scegliessi una citta comme pariggi per star; mentre vi sono tutti y miei parenti et dove trovavo ogni sorte dapoggio et di commodita il Re per il contrario volendo aver ogni sorte di compiacensa per voi mi a mandato in un <hi rend="sup">monasterio</hi> deserto a trenta legue di pariggi dove mi trovo con pochissima salute, se mi darete campo d’aderere un poco alli miei desideri mi trovarete altresi sempre pronta a risarcir col proprio sangue il danno che credete vi abbia [[<hi rend="strike">fatto</hi>]] potuto fare.</p>
+                <p>in un convento in quella citta o poco lontano; dove non avevo pensier di veder altri che loro conforme o fatto sino hora ne vi deve parer stravagante che io [[<hi rend="strike">scel</hi>]] scegliessi una citta comme pariggi per star; mentre vi sono tutti y miei parenti et dove trovavo ogni sorte dapoggio et di commodita il Re per il contrario volendo aver ogni sorte di compiacensa per voi mi a mandato in un <hi rend="sup">monasterio</hi> deserto a trenta legue di pariggi dove mi trovo con pochissima salute, se mi darete campo d'aderere un poco alli miei desideri mi trovarete altresi sempre pronta a risarcir col proprio sangue il danno che credete vi abbia [[<hi rend="strike">fatto</hi>]] potuto fare.</p>
                 <closer>
-                    <signed><persName key="mancini-marie">Maria Mancini Colonna.</persName></signed>
+                    <signed>Maria Mancini Colonna.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_10_29_mm2lc_edit" n="13" facs="DSCF8485">
@@ -161,7 +161,7 @@
                 <opener>
                     <dateline>
                         <placeName key="avenay">D'Avenay</placeName>
-                        <date when="1672-10-29" type="annotate" xml:id="c1672_10_29_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ce 29 octobre 1672</date>
+                        <date when="1672-10-29" type="annotate" xml:id="1672_10_29_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ce 29 octobre 1672</date>
                     </dateline>
                 </opener>
                 <p>Dalle tante istanze che fate per riavermi conosco abbastanza che mi sono ingannata circa i sospetti che ho avuto del vostro poco affetto e stima verso di me. Vi prego di credere che la poca salute ch'avevo in Roma mi aveva nutrito un'avversione per quella citt&#224;, la quale accresciuta dall'impossibilit&#224; di uscirne, mi fece prendere una cos&#236; gran risoluzione di allontanarmene con mio tanto rischio; e dopo non ho operato in modo di avere rimproveri da nessuno, n&#233; meritavo di essere trattata in questa forma. Quando partii da Grenoble, non ebbi altra mira che di andare a Parigi per parlare al Re, vedere tutti i miei parenti et dopo mettermi</p>
@@ -176,15 +176,15 @@
                 <pb facs="DSCF8486"/>
                 <opener>
                     <dateline>
-                        <placeName key="avenay" type="annotate" xml:id="a1672_10_29_mm2lc" n="1" style="The Benedictine abbey of Avenay, which was founded in 660 CE, was completely destroyed during the Revolution. The village of Avenay-Val-d’Or where it was located is eighteen miles south of Reims.">Avenay</placeName>
+                        <placeName key="avenay" type="annotate" xml:id="1672_10_29_mm2lc_b" style="The Benedictine abbey of Avenay, which was founded in 660 CE, was completely destroyed during the Revolution. The village of Avenay-Val-d'Or where it was located is eighteen miles south of Reims.">Avenay</placeName>
                         <date when="1672-10-29">29 October 1672</date>
                     </dateline>
                 </opener>
-                <p>From the many appeals you’ve been making to get me back, I see quite clearly that I was mistaken in the suspicions I had of your lack of affection and esteem for me. I beg you to believe that the poor health I had in <placeName key="rome">Rome</placeName> had fed in me an aversion for that city which, increased by my inability to leave it, made me resolve to take such a grave course of action as to move away, at such great risk to me. And since then, I have not behaved in a way that would merit reproach from anyone, nor have I deserved to be treated in such a way. <ref type="annotate" xml:id="b1672_10_29_mm2lc" n="2" style="Marie left Grenoble in early August 1672, after having traveled in the company of her sister Hortense, Duchesse Mazarin, since they had fled together from Rome on 29 May 1672. They went their separate ways after Grenoble—Marie to 'throw herself at the feet of the King' in Paris, and Hortense to take up residence in Chambéry as a guest of the Duc de Savoie, a former suitor of hers.">When</ref> I left <placeName key="grenoble">Grenoble</placeName>, I had no other aim than to go to <placeName key="paris">Paris</placeName> to speak to the <persName key="louis-xiv">King</persName>, to see all my relatives, and then to enter</p>
+                <p>From the many appeals you've been making to get me back, I see quite clearly that I was mistaken in the suspicions I had of your lack of affection and esteem for me. I beg you to believe that the poor health I had in <placeName key="rome">Rome</placeName> had fed in me an aversion for that city which, increased by my inability to leave it, made me resolve to take such a grave course of action as to move away, at such great risk to me. And since then, I have not behaved in a way that would merit reproach from anyone, nor have I deserved to be treated in such a way. <ref type="annotate" xml:id="1672_10_29_mm2lc_c" style="Marie left Grenoble in early August 1672, after having traveled in the company of her sister Hortense, Duchesse Mazarin, since they had fled together from Rome on 29 May 1672. They went their separate ways after Grenoble—Marie to 'throw herself at the feet of the King' in Paris, and Hortense to take up residence in Chamb&#233;ry as a guest of the Duc de Savoie, a former suitor of hers.">When</ref> I left <placeName key="grenoble">Grenoble</placeName>, I had no other aim than to go to <placeName key="paris">Paris</placeName> to speak to the <persName key="louis-xiv">King</persName>, to see all my relatives, and then to enter</p>
                 <pb facs="DSCF8487"/>
                 <p>a convent in that city or not far from there. As I had no thought of seeing anyone but them, I have acted in keeping with that plan until now, and it should not seem odd to you that I would choose to stay in a city like <placeName key="paris">Paris</placeName>, since all my relatives are there and since I used to find there all manner of support, comfort, and convenience. The <persName key="louis-xiv">King</persName>, on the contrary, wanted to show you all possible courtesy, and so he has sent me to a desolate monastery thirty leagues from <placeName key="paris">Paris</placeName>, where I am in very poor health. If you will allow me a little freedom to follow my wishes, you will also find me ever ready to repay with my very blood the harm that you believe I may have caused.</p>
                 <closer>
-                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName>.</signed>
+                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
                 </closer>
             </div>
         </body>

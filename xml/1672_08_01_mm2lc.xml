@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>In this impassioned letter between Marie and Lorenzo, Marie berates Lorenzo for being consistantly unfair in sullying her reputation.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -147,7 +147,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">De grenoble</placeName> 
+                        De grenoble
                         <date when="1672-08-01">ce premier aout 1672</date>
                     </dateline>
                 </opener>
@@ -159,7 +159,7 @@
                 <p>attendero che il tempo vi faccia perder il cattivo concetto ch avete di me et mi dia campo di dispormi a prender qualque altra resolutione che prego dio che minspiri se sara per lo meglio.</p>
                 <closer>
                     <signed rend="ti-9">
-                        <persName key="mancini-marie">M.M.C.</persName>
+                        M.M.C.
                     </signed>
                 </closer>
             </div>
@@ -168,15 +168,15 @@
                 <pb facs="DSCF8470"/>
                 <opener>
                     <dateline>
-                        <placeName key="grenoble">De Grenoble</placeName> 
-                        <date when="1672-08-01">ce premier <ref type="annotate" xml:id="a1672_08_01_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ao&#251;t</ref> 1672</date>
+                        De Grenoble
+                        <date when="1672-08-01">ce premier <ref type="annotate" xml:id="1672_08_01_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ao&#251;t</ref> 1672</date>
                     </dateline>
                 </opener>
                 <p>Potevate fare a meno di scrivermi una simile lettera, come quella che mio fratello mi ha consegnato; mi avete sempre reso poca giustizia e perci&#242; volete ancora adesso rendermi colpevole di quello che il mondo dice contro di voi; io so che nessuno potr&#224; dir con verit&#224; che io mi sia lamentata di voi sopra i sospetti che dite. E quando pure li avessi avuti, non sarei stata così imprudente da palesarli e, non avendoli, non avrei avuto la malignit&#224; di inventarli. Saint Simon &#232; un gran bugiardo se dice che io mi sia lamentata d'altro di voi che della poca stima e affetto che ho capito avevate per me; e pure questo mi sforz&#242; a dirlo. Del resto poi io non pretendo di aver pregiudicato, con la mia partenza, n&#233; a voi n&#233; ai figli n&#233; alla casa; e anzi, cercher&#242; di riparare al danno che voi mi avete detto pi&#249; volte che vi ho fatto entrando in casa vostra.</p>
                 <pb facs="DSCF8471"/>
                 <p>Attender&#242; che il tempo vi faccia perdere il cattivo concetto che avete di me e mi dia campo di dispormi a prender qualche altra risoluzione che prego Dio che mi ispiri se sar&#224; per il meglio.</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M.M.C.</persName></signed>
+                    <signed>M.M.C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_08_01_translation" facs="DSCF8469">
