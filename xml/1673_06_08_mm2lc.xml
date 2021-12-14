@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie returns rapidly to the convent after hearing sentiments of the Marquis of Borgomanero from Lorenzo.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -134,13 +134,13 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">di thurino</placeName> 
+                        di thurino 
                         <date when="1673-06-08">li 8 iugno 1673</date>
                     </dateline>
                 </opener>
-                <p>havendo intesi i vostri sensi dal Sig<hi rend="sup">r</hi> marquese di Bourgomenero, subito mi sono ricondotta nel convento della visitatione, per starvi fin tanto che il caldo [[Marie first wrote "car" but then wrote an "l" over the "r" and completed the word "caldo"]] me lo permetta; sperando che voi mi concederete di potermi [[crossed out letter]] trasmettere in un altro di tal commodita che non habbia piu a pensar ad altro che a star[[the end of the word isn’t clear—maybe "starci"]] fin che piacera a dio d'inspirarmi altrimente; habiate qualque compiancensa per me, se volete obligarmi a essere eternamente vostra</p>
+                <p>havendo intesi i vostri sensi dal Sig<hi rend="sup">r</hi> marquese di Bourgomenero, subito mi sono ricondotta nel convento della visitatione, per starvi fin tanto che il caldo [[Marie first wrote "car" but then wrote an "l" over the "r" and completed the word "caldo"]] me lo permetta; sperando che voi mi concederete di potermi [[crossed out letter]] trasmettere in un altro di tal commodita che non habbia piu a pensar ad altro che a star[[the end of the word isn't clear—maybe "starci"]] fin che piacera a dio d'inspirarmi altrimente; habiate qualque compiancensa per me, se volete obligarmi a essere eternamente vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                    <signed>M. M. Colonna</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_06_08_mm2lc_edit" n="31" facs="DSCF8527">
@@ -148,13 +148,13 @@
                 <pb facs="DSCF8528"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Da Torino</placeName>, 
+                        Da Torino, 
                         <date when="1673-06-08">il 8 giugno 1673</date>
                     </dateline>
                 </opener>
                 <p>Avendo intesi i vostri sensi dal signor marchese di Borgomanero, subito mi sono ricondotta nel convento della Visitazione, per starvi fin tanto che il caldo me lo permetta; sperando che voi mi concederete di potermi trasmettere in un altro di tal comodit&#224; che non abbia pi&#249; a pensar ad altro che a starci finch&#233; piacer&#224; a Dio di ispirarmi altrimenti; abbiate qualche compiacenza per me, se volete obbligarmi a essere eternamente vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                    <signed>M. M. Colonna</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_06_08_mm2lc_translation" n="31" facs="DSCF8527">
@@ -166,7 +166,7 @@
                         <date when="1673-06-08">8 June 1673</date>
                     </dateline>
                 </opener>
-                <p>Having learned of your sentiments from the <persName key="borgomanero">Marquis of Borgomanero</persName>, I returned immediately to the convent of the Visitation, to stay here as long as the heat will permit it. I hope you will allow me to move to another convent comfortable enough that I might not have to think of anything but staying there until it may please God to inspire me otherwise. Have a bit of complaisance for me, if you would oblige me to be eternally your</p>
+                <p>Having learned of your sentiments from the <persName key="borgomanero">Marquis of Borgomanero</persName>, I returned immediately to the convent of the Visitation, to stay here as long as the heat will permit it. I hope you will allow me to move to another convent comfortable enough that I might not have to think of anything but staying there until it may please God to inspire me otherwise. Have a bit of complaisance for me, if you would oblige me to be eternally yours</p>
                 <closer>
                     <signed><persName key="mancini-marie">M. M. Colonna</persName></signed>
                 </closer>

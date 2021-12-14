@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie thanks Lorenzo for facilitating in the transfer of 190 doppie. She also informs Lorenzo of firing Pietro Marchese and returning him back to the service of her brother.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -142,13 +142,13 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">De thurin</placeName>
+                        De thurin
                         <date when="1673-03-29">ce 29<hi rend="sup">me</hi> mars 1673</date>
                     </dateline>
                 </opener>
                 <p>Son debitrice a due vostre ma come sono stata un poco indispota non potei pontualmente risponder ricevo la poliza di cambio di cento novanta doppie; et vi ringratio di quanto avete operato per facilitarmi il modo di riscoterli; in quanto a pietro marchese nol limpieguero piu a niente; et lo conosco meglio di voi; credo ch se nandera presto a ritrovar mio fratello non essendomi quy necessario; godo ch' li miei ragazzi stiano tutti bene abracciateli per me et dateli la beneditione in mio nome et al solito mi sottoscrivo vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_03_29_mm2lc_edit" n="28" facs="DSCF8519">
@@ -156,13 +156,13 @@
                 <pb facs="DSCF8520"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">De Turin</placeName> 
-                        <date when="1673-03-29">ce 29<hi rend="sup">me</hi> mars <ref type="annotate" xml:id="a1673_03_29_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
+                        De Turin 
+                        <date when="1673-03-29">ce 29<hi rend="sup">me</hi> mars <ref type="annotate" xml:id="1673_03_29_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
                     </dateline>
                 </opener>
-                <p>Son debitrice di due <ref type="annotate" xml:id="b1673_03_29_mm2lc" n="2" style="The meaning is 'due vostre lettere.'">vostre</ref> ma come sono stata un poco indisposta non potei puntualmente rispondere; ricevo la polizza di cambio di centonovanta doppie; e vi ringrazio di quanto avete operato per facilitarmi il modo di riscuoterli. In quanto a Pietro Marchese, non lo impiegher&#242; pi&#249; a niente, e lo conosco meglio di voi; credo che se ne andr&#224; presto a trovar mio fratello, non essendomi qui necessario. Godo che i miei ragazzi stiano tutti bene, abbracciateli per me e dategli la benedizione in mio nome ed al solito mi sottoscrivo vostra</p>
+                <p>Son debitrice di due <ref type="annotate" xml:id="1673_03_29_mm2lc_b" style="The meaning is 'due vostre lettere.'">vostre</ref> ma come sono stata un poco indisposta non potei puntualmente rispondere; ricevo la polizza di cambio di centonovanta doppie; e vi ringrazio di quanto avete operato per facilitarmi il modo di riscuoterli. In quanto a Pietro Marchese, non lo impiegher&#242; pi&#249; a niente, e lo conosco meglio di voi; credo che se ne andr&#224; presto a trovar mio fratello, non essendomi qui necessario. Godo che i miei ragazzi stiano tutti bene, abbracciateli per me e dategli la benedizione in mio nome ed al solito mi sottoscrivo vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_03_29_mm2lc_translation" n="28" facs="DSCF8519">
@@ -174,7 +174,7 @@
                         <date when="1673-03-29">29 March 1673</date>
                     </dateline>
                 </opener>
-                <p>I am in your debt for two letters, but as I have been a bit indisposed, I was not able to reply punctually. I am in receipt of the bill of exchange for one hundred ninety doppie, and I thank you for what you have done to facilitate my cashing it in. Regarding <persName key="marchese-pietro">Pietro Marchese</persName>, I will no longer employ him for anything, and I know him better than you; I believe he will soon go to join my brother, since he’s of no use to me here.</p>
+                <p>I am in your debt for two letters, but as I have been a bit indisposed, I was not able to reply punctually. I am in receipt of the bill of exchange for one hundred ninety doppie, and I thank you for what you have done to facilitate my cashing it in. Regarding <persName key="marchese-pietro">Pietro Marchese</persName>, I will no longer employ him for anything, and I know him better than you; I believe he will soon go to join my brother, since he's of no use to me here.</p>
                 <closer>
                     <salute>I am glad that my boys are all well; hug them for me and give them my blessing, and as always, I sign off as your</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>

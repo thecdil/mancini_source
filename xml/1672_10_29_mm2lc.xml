@@ -176,7 +176,7 @@
                 <pb facs="DSCF8486"/>
                 <opener>
                     <dateline>
-                        <placeName key="avenay" type="annotate" xml:id="1672_10_29_mm2lc_b" style="The Benedictine abbey of Avenay, which was founded in 660 CE, was completely destroyed during the Revolution. The village of Avenay-Val-d'Or where it was located is eighteen miles south of Reims.">Avenay</placeName>
+                        <placeName key="avenay">Avenay</placeName>
                         <date when="1672-10-29">29 October 1672</date>
                     </dateline>
                 </opener>

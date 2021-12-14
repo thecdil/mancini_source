@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie writes again from the residence of Prince of Carignan and explains some of the reasons for her sudden departure from the convent in Turin.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -147,7 +147,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">di thurino</placeName> 
+                        di thurino 
                         <date when="1673-04-19">li 19&#xb0; aprile 1673</date>
                     </dateline>
                 </opener>
@@ -158,32 +158,32 @@
                 </note>
                 <p>troppi violenti per un homo moderato io mi trattengo tutta via quy in casa del Sig<hi rend="sup">r</hi> principe de carignano del quale ricevo ogni sorte di cortesia et con questo finisco abraciando y figlioli et protestandomi sempre vost[[ra]] [[last part of the word is ripped away]] [[descending squiggly line which stands in sometimes for Marie's signature or initials]]</p>
             </div>
-            <div type="letter" xml:id="letter_1673_07_19_mm2lc_edit" n="29" facs="DSCF8521">
+            <div type="letter" xml:id="letter_1673_04_19_mm2lc_edit" n="29" facs="DSCF8521">
                 <head type="edit" xml:lang="it" />
                 <pb facs="DSCF8522"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Da Torino</placeName>, 
+                        Da Torino, 
                         <date when="1673-04-19">il 19 aprile 1673</date>
                     </dateline>
                 </opener>
-                <p>Vi feci sapere con il corriere ordinario passato, per un servitor di mio fratello, il viaggio che avevo fatto sino a Chamb&#233;ry per dire addio a madama Mazarini; la quale non avendo ritrovato, me ne tornai senza indugio. Non condussi don Maurizio perch&#233; ero certa che non poteva intraprendere senza pericolo un viaggio cos&#236; <ref type="annotate" xml:id="1673_04_19_mm2lc_a" style="  The use of 'pronto' here is an hispanicism; the meaning is 'un viaggio così repentino.'">pronto</ref> e malagevole; vorrei ottenere una licenza come quella di madama di Chalais, cio&#232; di poter uscire qualche volta conforme le &#232; stata concessa. Il principe di Sonnino non sa quello che io avrei fatto in simile congiuntura; rispondo che la mia reazione sarebbe stata pi&#249; pratica che teorica; avrei certo impedito il suo arrivo da Vienna a Roma: o lui avrebbe lasciato l'impresa o la vita. Questi per&#242; sono consigli</p>
+                <p>Vi feci sapere con il corriere ordinario passato, per un servitor di mio fratello, il viaggio che avevo fatto sino a Chamb&#233;ry per dire addio a madama Mazarini; la quale non avendo ritrovato, me ne tornai senza indugio. Non condussi don Maurizio perch&#233; ero certa che non poteva intraprendere senza pericolo un viaggio cos&#236; <ref type="annotate" xml:id="1673_04_19_mm2lc_a" style="The use of 'pronto' here is an hispanicism; the meaning is 'un viaggio così repentino.'">pronto</ref> e malagevole; vorrei ottenere una licenza come quella di madama di Chalais, cio&#232; di poter uscire qualche volta conforme le &#232; stata concessa. Il principe di Sonnino non sa quello che io avrei fatto in simile congiuntura; rispondo che la mia reazione sarebbe stata pi&#249; pratica che teorica; avrei certo impedito il suo arrivo da Vienna a Roma: o lui avrebbe lasciato l'impresa o la vita. Questi per&#242; sono consigli</p>
                 <pb facs="DSCF8523"/>
                 <p>troppi violenti per un uomo moderato; io mi trattengo tuttavia qui in casa del signore principe di Carignano, dal quale ricevo ogni sorta di cortesia e con questo finisco abbracciando i figlioli e protestandomi sempre vostra.</p>
                 
             </div>
-            <div type="letter" xml:id="letter_1673_07_19_mm2lc_translation" n="29" facs="DSCF8521">
+            <div type="letter" xml:id="letter_1673_04_19_mm2lc_translation" n="29" facs="DSCF8521">
                 <head type="translation" xml:lang="en" />
                 <pb facs="DSCF8522"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Turin</placeName>, 
+                        Turin, 
                         <date when="1673-04-19">19 April 1673</date>
                     </dateline>
                 </opener>
-                <p>I informed you by the last regular mail, via one of my brother's servants, of the trip I had made to Chamb&#233;ry to say good-bye to <persName key="mancini-hortense">Madame Mazarin</persName>; as I did not find her there, I returned without delay. I did not bring <persName key="bologna-maurizio">Don Maurizio</persName> with me because I was certain that he could not undertake such a sudden and taxing journey without risk to his health. I would like to obtain an authorization like that of Madame de Chalais, that is, to be able to go out from time to time as she has been allowed to do. <persName key="sonnino">The Prince of Sonnino</persName> does not know what I would have done in a similar situation; my answer is that my reaction would have been more practical than theoretical. I would certainly have prevented his coming to Rome from Vienna; he would have given up either that endeavor or his <ref type="annotate" xml:id="1673_04_19_mm2lc_b" style="Marie appears to be referring to a situation she mentioned in a previous letter to Lorenzo, dated 15 March 1673. She is critical of Lorenzo's younger brother, the Prince of Sonnino, for not having kept a certain Don Federico from coming to Rome, and she is convinced that she would have handled the situation better if she had been there.">life.</ref> However, this advice is</p>
+                <p>I informed you by the last regular mail, via one of my brother's servants, of the trip I had made to Chamb&#233;ry to say good-bye to <persName key="mancini-hortense">Madame Mazarin</persName>; as I did not find her there, I returned without delay. I did not bring <persName key="bologna-maurizio">Don Maurizio</persName> with me because I was certain that he could not undertake such a sudden and taxing journey without risk to his health. I would like to obtain an authorization like that of Madame de Chalais, that is, to be able to go out from time to time as she has been allowed to do. <persName key="sonnino">The Prince of Sonnino</persName> does not know what I would have done in a similar situation; my answer is that my reaction would have been more practical than theoretical. I would certainly have prevented his coming to <placeName key="rome">Rome</placeName> from <placeName key="vienna">Vienna</placeName>; he would have given up either that endeavor or his <ref type="annotate" xml:id="1673_04_19_mm2lc_b" style="Marie appears to be referring to a situation she mentioned in a previous letter to Lorenzo, dated 15 March 1673. She is critical of Lorenzo's younger brother, the Prince of Sonnino, for not having kept a certain Don Federico from coming to Rome, and she is convinced that she would have handled the situation better if she had been there.">life.</ref> However, this advice is</p>
                 <pb facs="DSCF8523"/>
-                <p>too violent for a mild-mannered man. Anyway, I am still here at the house of the Prince of Carignan, who is showing me all possible courtesy. I will end there, with hugs for my dear sons and an assurance for you that I am ever yours.</p>
+                <p>too violent for a mild-mannered man. Anyway, I am still here at the house of the <persName key="principe-carignano">Prince of Carignan</persName>, who is showing me all possible courtesy. I will end there, with hugs for my dear sons and an assurance for you that I am ever yours.</p>
             </div>
         </body>
     </text>

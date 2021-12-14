@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie expresses sympathy for Lorenzo's humiliation from the marriage fragmenting. They exchange servants as a result of Lorenzo's residence shift.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -142,13 +142,13 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Di thurino</placeName> 
+                        Di thurino
                         <date when="1673-03-15">li 15<hi rend="sup">me</hi>mar[[zo]] 1673</date>
                     </dateline>
                 </opener>
                 <p>O inteso con dispiacere ch' siate stato obligato di partir di Roma; per non esser spettator d'un matrimonio cosi desavantagioso alla casa; bisognava impedir la venuta di don federico &#232; non fidarsi de parole de preti che non han ne fede ne lege d'honor; [[a crossed-out letter]] vi dico questo in passando et son certa che se fusse stata io il principe de sonnino non mi saria successo tal smacco; so ch'averete forse bisogno di don mauritio il quale verra a trovarvi se lo giudicate a proposito; [[something crossed out, maybe "qu"]] non essendomi quy molto necessario; in tutti casi potrete inviare marcatelli in suo loco; et con questo resto pregando dio que vi consoli di tante aflitioni che vi manda &#232; sono sempre l'istessa vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_03_15_mm2lc_edit" n="27" facs="DSCF8517">
@@ -156,13 +156,13 @@
                 <pb facs="DSCF8518"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Da Torino</placeName> 
+                        Da Torino 
                         <date when="1673-03-15">il 15 marzo 1673</date>
                     </dateline>
                 </opener>
                 <p>Ho inteso con dispiacere che siate stato obbligato a partire da Roma; per non esser spettatore di un matrimonio cos&#236; svantaggioso alla casa; bisognava impedire la venuta di don Federico e non fidarsi delle parole dei preti che non hanno n&#233; fede n&#233; legge d'onore; vi dico questo in passando e son certa che se fossi stata io il principe di Sonnino non mi sarebbe successo un tal smacco; so che avreste forse bisogno di don Maurizio il quale verr&#224; a trovarvi se lo giudicate a proposito, non essendomi qui molto necessario; in tutti i casi potrete inviare Marcatelli in suo loco; e con questo resto pregando Dio che vi consoli di tante afflizioni che vi manda e sono sempre la stessa vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_03_15_mm2lc_translation" n="27" facs="DSCF8517">
@@ -174,7 +174,7 @@
                         <date when="1673-03-15">15 March 1673</date>
                     </dateline>
                 </opener>
-                <p>I understand, with regret, that you were obliged to leave <placeName key="rome">Rome</placeName>, to avoid being witness to a marriage that was so disadvantageous to the family. <persName key="federico">Don Federico</persName> should have been prevented from coming, and the words of faithless and lawless priests should not have been trusted. I’m telling you this in passing, and I am sure that if I had been the <persName key="sonnino">Prince of Sonnino</persName>, no such humiliation would have happened to me. I know that you might need <persName key="bologna-maurizio">Don Maurizio</persName>, who will come to join you if you see fit, since he is not really necessary to me here; in any case, you can send <persName key="marcatelli">Marcatelli</persName> in his place.</p>
+                <p>I understand, with regret, that you were obliged to leave <placeName key="rome">Rome</placeName>, to avoid being witness to a marriage that was so disadvantageous to the family. <persName key="federico">Don Federico</persName> should have been prevented from coming, and the words of faithless and lawless priests should not have been trusted. I'm telling you this in passing, and I am sure that if I had been the <persName key="sonnino">Prince of Sonnino</persName>, no such humiliation would have happened to me. I know that you might need <persName key="bologna-maurizio">Don Maurizio</persName>, who will come to join you if you see fit, since he is not really necessary to me here; in any case, you can send <persName key="marcatelli">Marcatelli</persName> in his place.</p>
                 <closer>
                     <salute>And with that, I continue to pray to God that He might console you from all the afflictions he sends you, and I remain ever yours.</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>

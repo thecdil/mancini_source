@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie writes from the estate of Prince Carignan.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -142,7 +142,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">de thurin</placeName> 
+                        de thurin 
                         <date when="1673-04-13">ce 13 [[Marie first wrote "23" and then wrote a "1" over the "2"]] avril 1673</date>
                     </dateline>
                 </opener>
@@ -153,7 +153,7 @@
                 </note>
                 <p>et mi tratta benissimo i miei nepoti che sono quy mi tengono bona compagnia; et sono molto bene allevati; spero listesso de miei ragazi li quali abraccio di tutto core et mi confermo al solito vostra</p> 
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_04_13_mm2lc_edit" n="30" facs="DSCF8524">
@@ -161,15 +161,15 @@
                 <pb facs="DSCF8525"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">De Turin</placeName> 
-                        <date when="1673-04-13">ce 13 avril <ref type="annotate" xml:id="a1673_04_13_mm2lc" n="1">1673</ref></date>
+                        De Turin 
+                        <date when="1673-04-13">ce 13 avril <ref type="annotate" xml:id="1673_04_13_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the places and dates of her Italian letters in French.">1673</ref></date>
                     </dateline>
                 </opener>
                 <p>La mia subitanea partenza vi avrà sorpreso ma non potei impedirmi di andare a dire addio a madama Mazarini la quale desiderava vedermi; ma la trovai partita e perci&#242; subito me ne ritornai conforme avevo promesso a sua Altezza Reale; non mi &#232; stato permesso di rientrare nel convento e perci&#242; sono venuta in casa del signore principe di Carignano, giudicando non poter star in altro loco con pi&#249; decoro e convenienza; mi ha ricevuto</p>
                 <pb facs="DSCF8526"/>
                 <p>e mi tratta benissimo; i miei nipoti che sono qui mi tengono buona compagnia; e sono molto bene allevati; spero lo stesso dei miei ragazzi, i quali abbraccio di tutto cuore e mi confermo al solito vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_04_13_mm2lc_translation" n="30" facs="DSCF8524">
@@ -181,7 +181,7 @@
                         <date when="1673-04-13">13 April 1673</date>
                     </dateline>
                 </opener>
-                <p>My sudden departure will have surprised you, but I couldn’t keep myself from going to say good-bye to <persName key="mancini-hortense">Madame Mazarin</persName>, who wished to see me; but I found her gone, and so I returned from there at once, just as I had promised His Royal Highness. I was not allowed to reenter the convent, and so I came to the house of the <persName key="principe-carignano">Prince of Carignan</persName>, judging that there could be no more decent and proper place for me to stay. He welcomed me</p>
+                <p>My sudden departure will have surprised you, but I couldn't keep myself from going to say good-bye to <persName key="mancini-hortense">Madame Mazarin</persName>, who wished to see me; but I found her gone, and so I returned from there at once, just as I had promised His Royal Highness. I was not allowed to reenter the convent, and so I came to the house of the <persName key="principe-carignano">Prince of Carignan</persName>, judging that there could be no more decent and proper place for me to stay. He welcomed me</p>
                 <pb facs="DSCF8526"/>
                 <p>and he is treating me extremely well. My nephews who are here are keeping me good company, and they are very well brought up.</p>
                 <closer>

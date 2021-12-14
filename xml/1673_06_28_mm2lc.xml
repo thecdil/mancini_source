@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie informs Lorenzo of her return to a convent in Paris.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -145,7 +145,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">di turino</placeName>
+                        di turino
                         <date when="1673-06-28">li 28 iugno 1673</date>
                     </dateline>
                 </opener>
@@ -156,7 +156,7 @@
                 </note>
                 <p>monasterio a pariggi dove daro la parola al Re di trattenermi tutto quel tempo che staro lontana da voi; fra tanto vi prego dabracciar y figlioli et recordarvi che son [[something crossed out- maybe "tutta"]] sempre vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_06_28_mm2lc_edit" n="32" facs="DSCF8529">
@@ -164,7 +164,7 @@
                 <pb facs="DSCF8530"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Da Torino</placeName>, 
+                        Da Torino, 
                         <date when="1673-06-28">il 28 giugno 1673</date>
                     </dateline>
                 </opener>
@@ -172,7 +172,7 @@
                 <pb facs="DSCF8531"/>
                 <p>monastero a Parigi dove dar&#242; la parola al Re di trattenermi tutto quel tempo che star&#242; lontana da voi; frattanto vi prego di abbracciare i figlioli e ricordarvi che sono sempre vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_06_28_mm2lc_translation" n="32" facs="DSCF8529">
@@ -184,9 +184,9 @@
                         <date when="1673-06-28">28 June 1673</date>
                     </dateline>
                 </opener>
-                <p>Although you do not consider me worthy of a response, I still persist in beseeching you to forget the past and not to deny me those satisfactions that can greatly contribute to your peace and to mine. It no longer suits me to remain here, and it will please both me and you in several respects if I leave this country, which is the dominion of the Duke of Savoy. I beg you therefore to console me by giving me leave to return to France to a</p>
+                <p>Although you do not consider me worthy of a response, I still persist in beseeching you to forget the past and not to deny me those satisfactions that can greatly contribute to your peace and to mine. It no longer suits me to remain here, and it will please both me and you in several respects if I leave this country, which is the dominion of the <persName key="savoy-duke">Duke of Savoy</persName>. I beg you therefore to console me by giving me leave to return to <placeName key="france">France</placeName> to a</p>
                 <pb facs="DSCF8531"/>
-                <p>convent in Paris, where I will give the King my word to remain for as long as I shall be away from you.</p>
+                <p>convent in <placeName key="paris">Paris</placeName>, where I will give the King my word to remain for as long as I shall be away from you.</p>
                 <closer>
                     <salute>In the meantime, please hug my dear sons and remember that I am ever your</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
