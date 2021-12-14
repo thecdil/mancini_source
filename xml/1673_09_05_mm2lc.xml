@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie informs Lorenzo of Oliva's arrival and briefly mentions a courrier envoy for the arranged marriage of the Duchess of Modena to the Duke of York. Marie also updates Lorenzo on his desired entrance into France.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -131,7 +131,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">De turino</placeName>
+                        De turino
                         <date when="1673-09-05">li 5<hi rend="sup">me</hi> sep[[tembre]] 1673</date>
                     </dateline>
                 </opener>
@@ -169,15 +169,15 @@
                 <pb facs="DSCF8542"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Da Torino</placeName>, 
+                        Da Torino, 
                         <date when="1673-09-05">il 5 settembre 1673</date>
                     </dateline>
                 </opener>
-                <p>&#200; arrivato alla fine Oliva con la sedia <ref type="annotate" xml:id="a1673_09_05_mm2lc" n="1" style="Marie is referring here to the sort of single-seated enclosed carriage called a 'chaise roulante' in French.">rullante</ref> che &#232; di molto buon gusto e mi &#232; piaciuta in estremo. Fra quattro o sei giorni sara accomodata; qui &#232; passato monsieur Dangeau per andar a Modena a persuader la duchessa di Modena, da parte del Re, acci&#242; si risolva, di dar la figliola al duca di York; siccome non &#232; che otto giorni che manca dalla corte, gli ho domandato se aveva inteso dir niente circa la mia venuta, e delle istanze che avete fatto appresso al Re. Mi ha risposto di non averne nessuna notizia,</p>
+                <p>&#200; arrivato alla fine Oliva con la sedia <ref type="annotate" xml:id="1673_09_05_mm2lc_a" style="Marie is referring here to the sort of single-seated enclosed carriage called a 'chaise roulante' in French.">rullante</ref> che &#232; di molto buon gusto e mi &#232; piaciuta in estremo. Fra quattro o sei giorni sara accomodata; qui &#232; passato monsieur Dangeau per andar a Modena a persuader la duchessa di Modena, da parte del Re, acci&#242; si risolva, di dar la figliola al duca di York; siccome non &#232; che otto giorni che manca dalla corte, gli ho domandato se aveva inteso dir niente circa la mia venuta, e delle istanze che avete fatto appresso al Re. Mi ha risposto di non averne nessuna notizia,</p>
                 <pb facs="DSCF8543"/>
                 <p>perci&#242; io temo che le lettere che avete scritto, se non le avete duplicate con il corriere ordinario seguente, che possano essersi perse; anche perch&#233;, ognuno crede che il Re in grazia vostra non mi negherebbe la licenza di ritornare in Francia. Perci&#242; sappiate un poco se sono state rese. Il cardinal d'Estr&#233;es ve ne potr&#224; dare qualche avviso. E con questo vi saluto di tutto cuore e resto per sempre tutta vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
                 <pb facs="DSCF8544"/>
                 <postscript>Avuta dal lacch&#232; del signor Ambasciator di Francia</postscript>
@@ -191,9 +191,9 @@
                         <date when="1673-09-05">5 September 1673</date>
                     </dateline>
                 </opener>
-                <p><persName key="oliva-gian-paolo">Oliva</persName> has finally arrived with the chaise roulante, which is in very good taste and pleased me immensely. In four or six days, it will be fixed up. <persName key="dangeau">Monsieur Dangeau</persName> came through here on his way to <placeName key="modena">Modena</placeName> to persuade the Duchess of Modena, on behalf of the King, to resolve to give her daughter to the Duke of York. Given that this is only eight days away from the court, I asked him whether he had heard any talk of my coming there, and of the requests you have made to the King. He replied that he had no knowledge of that,</p>
+                <p><persName key="oliva-gian-paolo">Oliva</persName> has finally arrived with the chaise roulante, which is in very good taste and pleased me immensely. In four or six days, it will be fixed up. <persName key="dangeau">Monsieur Dangeau</persName> came through here on his way to <placeName key="modena">Modena</placeName> to persuade the <persName key="martinozzi-laura">Duchess of Modena</persName>, on behalf of the <persName key="louis-xiv">King</persName>, to resolve to give her daughter to the <persName key="james-ii">Duke of York</persName>. Given that this is only eight days away from the court, I asked him whether he had heard any talk of my coming there, and of the requests you have made to the <persName key="#louis-xiv">King</persName>. He replied that he had no knowledge of that,</p>
                 <pb facs="DSCF8543"/>
-                <p>and so I fear that the letters you wrote, if you did not send them again with the following ordinary courier, may have been lost; also because everyone believes that the King, as a favor to you, would not deny me permission to return to France. So try to find out whether they were delivered. Cardinal d'Estr&#233;es will be able to give you some information about it. And with that, I send you my heartfelt best wishes and I remain forever yours entirely.</p>
+                <p>and so I fear that the letters you wrote, if you did not send them again with the following ordinary courier, may have been lost; also because everyone believes that the <persName key="#louis-xiv">King</persName>, as a favor to you, would not deny me permission to return to <placeName key="france">France</placeName>. So try to find out whether they were delivered. <persName key="cesar-destrees">Cardinal d'Estr&#233;es</persName> will be able to give you some information about it. And with that, I send you my heartfelt best wishes and I remain forever yours entirely.</p>
                 <closer rend="ti-4">
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>

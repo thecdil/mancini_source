@@ -177,7 +177,7 @@
                 <pb facs="DSCF8522"/>
                 <opener>
                     <dateline>
-                        Turin, 
+                        <placeName key="turin">Turin</placeName>, 
                         <date when="1673-04-19">19 April 1673</date>
                     </dateline>
                 </opener>

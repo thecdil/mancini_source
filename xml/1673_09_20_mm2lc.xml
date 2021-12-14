@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie shares a waiting period with Lorenzo for is entrance into France. Marie also shares her dismissal of the Marqius of Borgomanero</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -139,13 +139,13 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="turin">a grenoble</placeName>
+                        a grenoble
                         <date when="1673-09-20">li 20 sep[[tembre]] 1673</date>
                     </dateline>
                 </opener>
                 <p>benche non habia riceuto vostre letre. sento che state attende<hi rend="sup">ndo</hi> sempre le risposte di francia come faro anche io per insino a tanto ch'il marque<hi rend="sup">se</hi> di bourgomenero sia qua. il quale o pregato di nuovo di venirme a trovar prontamente. insieme poi risolveremo quello mi parera meglio. io o poi lincentiato M<hi rend="sup">r</hi> boniel per darvi questa sodisfactione, sapendo che lo desideravio. perche per altro mi era molto necessario. &#232; con questo resto al solito vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_09_20_mm2lc_edit" n="39" facs="DSCF8548">
@@ -153,13 +153,13 @@
                 <pb facs="DSCF8549"/>
                 <opener>
                     <dateline>
-                        <placeName key="turin">Da Torino</placeName>, 
+                        Da Torino, 
                         <date when="1673-09-20">il 20 settembre 1673</date>
                     </dateline>
                 </opener>
                 <p>Bench&#233; non abbia ricevuto le vostre lettere sento che state attendendo sempre le risposte dalla Francia come far&#242; anche io sino a tanto che sia qua il marchese di Borgomanero; il quale ho pregato di nuovo di venirmi a trovare prontamente. Insieme poi risolveremo quello che mi parr&#224; meglio. Io ho poi licenziato monsieur Boniel per darvi questa soddisfazione, sapendo che lo desideravate, perch&#233; per altro mi era molto necessario. E con questo resto al solito vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_09_20_mm2lc_translation" n="39" facs="DSCF8548">
@@ -171,7 +171,7 @@
                         <date when="1673-09-20">20 September 1673</date>
                     </dateline>
                 </opener>
-                <p>Although I have not received your letters, I hear that you are still waiting for the replies from France, as I will do, too, until such time as the <persName key="borgomanero">Marquis of Borgomanero</persName> is here, whom I have begged once more to come and join me immediately. Then we will decide together what seems best for me. I have dismissed <persName key="boniel">Monsieur Boniel</persName> in the end, to give you that satisfaction, knowing that you wanted it, because otherwise he was quite indispensable to me. And with that,</p>
+                <p>Although I have not received your letters, I hear that you are still waiting for the replies from <placeName key="france">France</placeName>, as I will do, too, until such time as the <persName key="borgomanero">Marquis of Borgomanero</persName> is here, whom I have begged once more to come and join me immediately. Then we will decide together what seems best for me. I have dismissed <persName key="boniel">Monsieur Boniel</persName> in the end, to give you that satisfaction, knowing that you wanted it, because otherwise he was quite indispensable to me. And with that,</p>
                 <closer>
                     <salute>I remain as always yours.</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
