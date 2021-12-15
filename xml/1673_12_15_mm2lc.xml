@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie sends a plea to Father Gian Paolo Oliva to help her gain passage into the city of Antwerp. She references a past relationship between the two and puts her own life on the line in order to gain passage. She promises to never return to the convent without his permission should she gain passage.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -134,7 +134,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="antwerp">d'anvers</placeName> 
+                        d'anvers
                         <date when="1673-12-15">ce 15<hi rend="sup">me</hi> dece[[mbre]] 1673</date>
                     </dateline>
                 </opener>
@@ -149,7 +149,7 @@
                 </note>
                 <p>per amor de miei figli li quali abraccio teneramente, et li mando un stuccio per uno, et uno altro per voi <hi rend="sup">et</hi> resto piu que mai vostra   </p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
                 <postscript>
                     <note resp="#smn">
@@ -167,15 +167,15 @@
                 <pb facs="DSCF8566"/>
                 <opener>
                     <dateline>
-                        <placeName key="antwerp">D'Anvers</placeName>, 
-                        <date when="1673-12-15">ce 15<hi rend="sup">me</hi> d&#233;cembre <ref type="annotate" xml:id="a1673_12_15_mm2lc" n="1" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
+                        D'Anvers, 
+                        <date when="1673-12-15">ce 15<hi rend="sup">me</hi> d&#233;cembre <ref type="annotate" xml:id="1673_12_15_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">1673</ref></date>
                     </dateline>
                 </opener>
                 <p>Oliva, non avendo visto lettere vostre, e perci&#242; temendo che non abbiate approvato la mia venuta, si &#232; licenziato subito, n&#233; io gli ho potuto impedire di partire; perci&#242;, se lo potete far ritornar io ne avrei gusto, non avendo nessuno appresso di me. Frattanto, io me ne sto qui nella cittadella di Anversa, con ordine del governatore che io non esca, neanche ho potuto veder la citt&#224;; per amor di Dio, e per il bene che mi</p>
                 <pb facs="DSCF8567"/>
                 <p>avete voluto altre volte, non mi fate ricevere questo affronto di essere arrestata pi&#249; lungo tempo, ma scrivete a questo governatore che vi contentate che io vada a Bruxelles in un convento, che io vi prometto di non uscirne da l&#236; mai pi&#249; senza consenso vostro; e quando io mancassi, fatemi perder la vita, che sar&#224; meritamente, la qual cosa vi sar&#224; facile dappertutto di farlo. Addio, non mi rifiutate questa ultima grazia, se non lo volete far per amor mio fatelo per amor dei miei figli, i quali abbraccio teneramente, e gli mando un astuccio per uno, e un altro per voi, e resto pi&#249; che mai vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
                 <postscript><p>Il marchese di Borgomanero, non vedendo vostre lettre n&#233; di don Maurizio, mi ha lasciato il piede nel fango qui, vi ha da pensare a me, ci pensi... dopo essere venuta qua sulla sua parola mi trovo ritenuta senza saper dove dar la testa; il governatore regolandosi dal primo ordine che ebbe dalla Regina.</p></postscript>
             </div>
@@ -188,14 +188,14 @@
                         <date when="1673-12-15">15 December 1673</date>
                     </dateline>
                 </opener>
-                <p><persName key="oliva-gian-paolo">Oliva</persName>, having seen no letters from you, and therefore fearing that you had not approved my coming here, promptly resigned, and I was not able to keep him from leaving; so if you are able to get him to return, I would be pleased, since I have no one with me. In the meantime, I remain here in the citadel of <placeName key="antwerp">Antwerp</placeName>, under an order from the governor that I not go out; I have not even been able to see the city. For the love of God, and for the love that you</p>
+                <p><persName key="oliva-gian-paolo">Oliva</persName>, having seen no letters from you, and therefore fearing that you had not approved my coming here, promptly resigned, and I was not able to keep him from leaving; so if you are able to get him to return, I would be pleased, since I have no one with me. In the meantime, I remain here in the citadel of <placeName key="#antwerp">Antwerp</placeName>, under an order from the governor that I not go out; I have not even been able to see the city. For the love of God, and for the love that you</p>
                 <pb facs="DSCF8567"/>
                 <p>once felt for me, do not make me suffer this outrage of being arrested any longer, but write to this governor that you are satisfied that I should go to <placeName key="brussels">Brussels</placeName> to a convent, that I promise you never to go out of the convent again without your permission; and if I should ever fail to keep my word, put me to death, which will be deserved, and which action will be easy for you to carry out everywhere.</p>
                 <closer>
                     <salute>Farewell, do not refuse me this last favor; if you do not want to do it out of love for me, do it out of love for my sons, whom I embrace tenderly, and I am sending them a case for each, and another for you, and I remain more than ever yours.</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
-                <postscript>The <persName key="borgomanero">Marquis of Borgomanero</persName>, seeing no letters from you nor from <persName key="bologna-maurizio">Don Maurizio</persName>, <ref type="annotate" xml:id="b1673_12_15_mm2lc" n="1" style="Meaning 'he's left me hanging,' 'he's left me in the lurch.'">has left me here with my feet in the mud</ref>; he is supposed to look after me, so he should do it. After having come here on the strength of his word, I find myself stuck here, not knowing which way to turn, with the governor acting according to the first order he received from the Queen.</postscript>
+                <postscript>The <persName key="borgomanero">Marquis of Borgomanero</persName>, seeing no letters from you nor from <persName key="bologna-maurizio">Don Maurizio</persName>, <ref type="annotate" xml:id="1673_12_15_mm2lc_b" style="Meaning 'he's left me hanging,' 'he's left me in the lurch.'">has left me here with my feet in the mud</ref>; he is supposed to look after me, so he should do it. After having come here on the strength of his word, I find myself stuck here, not knowing which way to turn, with the governor acting according to the first order he received from the Queen.</postscript>
             </div>
         </body>
     </text>

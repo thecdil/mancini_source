@@ -1,5 +1,5 @@
 key,country,city,latitude,longitude,comment,annotation
-antwerp,Belgium,Antwerp,51.260197,4.402771,"given the Italian name: ""anversa""",filler-annotation
+antwerp,Belgium,Antwerp,51.260197,4.402771,"given the Italian name: 'anversa'",filler-annotation
 avenay,France,Avenay,49.095228,-0.464817,,"The Benedictine abbey of Avenay, which was founded in 660 CE, was completely destroyed during the Revolution. The village of Avenay-Val-d’Or where it was located is eighteen miles south of Reims."
 brussels,Belgium,Brussels,50.878053,4.341405,"given different spelling ""Brusselles""",filler-annotation
 cologne,Germany,Cologne,50.936271,6.957777,,filler-annotation

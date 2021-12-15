@@ -42,7 +42,7 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Coming soon!</note>
+                <note>Marie describes her difficulties getting passage into Brussels and asks for Lorenzo's formal approval to the government to allow her to enter.</note>
             </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -134,7 +134,7 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="mechelen">di malines</placeName>
+                        di malines
                         <date when="1673-12-11">le 11<hi rend="sup">me</hi>decem[[bre]] 1673</date>
                     </dateline>
                 </opener>
@@ -154,7 +154,7 @@
                 </note>
                 <p>desidero non potendomi persuadere ch' vogliate piu tosto che stia in Anvers for del monasterio, che in un convento a bruselles o scritto alla Regina di spagna che mi favorisse della sua protettione vi prego ancor voi di favorirmi apresso di lei accio possi viver quieta in queste parte con reputatione vostra, et satisfactione mia fin tanto che sia di ritorno con voi habiate la bonta di scriver quanto prima [[something crossed out—maybe "al"]] al conte di monterey accio non mi contrari davantaggio et crediate che questo &#232; il modo di farmi ridurre a quanto potete desiderar da quy &#232; tutta vostra</p>
                 <closer>
-                    <signed rend="ti-4"><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed rend="ti-4">M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_12_11_mm2lc_edit" n="44" facs="DSCF8562">
@@ -162,17 +162,17 @@
                 <pb facs="DSCF8563"/>
                 <opener>
                     <dateline>
-                        <placeName key="mechelen">Da Malines</placeName>, 
+                        Da Malines, 
                         <date when="1673-12-11">li 11 dicembre 1673</date>
                     </dateline>
                 </opener>
                 <p>Mi ritrovo a Malines, a quattro leghe da Bruxelles, dopo 55 giorni di marcia; da dove, subito il conte di Monterey, secondo i primi ordini, mi ha fatto intendere che mi trasporter&#224; ad Anversa, a quattro leghe da qua, non volendo che io entri a Bruxelles senza che voi gli scriviate che ve ne contentate; temendo che da l&#224; io non vada altrove. Perci&#242; fatemi tanto il piacere di scrivergli subito che gi&#224; che sono negli stati del Re di Spagna mi permetta di andar a</p>
                 <pb facs="DSCF8564"/>
-                <p>Bruxelles, nel convento delle Dame di Berlaymont; il quale &#232; il pi&#249; bello ed il pi&#249; nobile, senza contraddittorio, di quanti ve ne sono. Io, poi, prometter&#242;, <ref type="annotate" xml:id="a1673_12_11_mm2lc" n="1" style=" The meaning is 'in cambio.'">all'incontro</ref>, di non uscirne e dar&#242; parola al Conte di quello che voi vorrete circa la mia sicurezza in quella citt&#224;; che finch&#233; non mi contrariano nelle cose ragionevoli, io sto pi&#249; volontieri negli stati del Re che dappertutto altrove. Abbiate ancora questa bont&#224; per me di non farmi avere questo smacco conforme ho avuto in Francia, che pare che io abbia da essere esclusa de tutte le citt&#224; capitali delle province. Il marchese di Borgomanero, in cambio di pigliarsi arbitrio sopra di questo non ha voluto sapere niente, essendo stato meravigliato di non trovare nessuna lettera vostra. Ed io sono venuta sulla sua parola, non credendo che il Conte mi fermasse conforme ha fatto; adesso mi ordina di andare ad Anversa in casa del governatore ed io vi star&#242; finch&#233; voi non scriviate quello che</p>
+                <p>Bruxelles, nel convento delle Dame di Berlaymont; il quale &#232; il pi&#249; bello ed il pi&#249; nobile, senza contraddittorio, di quanti ve ne sono. Io, poi, prometter&#242;, <ref type="annotate" xml:id="1673_12_11_mm2lc_a"  style="The meaning is 'in cambio.'">all'incontro</ref>, di non uscirne e dar&#242; parola al Conte di quello che voi vorrete circa la mia sicurezza in quella citt&#224;; che finch&#233; non mi contrariano nelle cose ragionevoli, io sto pi&#249; volontieri negli stati del Re che dappertutto altrove. Abbiate ancora questa bont&#224; per me di non farmi avere questo smacco conforme ho avuto in Francia, che pare che io abbia da essere esclusa de tutte le citt&#224; capitali delle province. Il marchese di Borgomanero, in cambio di pigliarsi arbitrio sopra di questo non ha voluto sapere niente, essendo stato meravigliato di non trovare nessuna lettera vostra. Ed io sono venuta sulla sua parola, non credendo che il Conte mi fermasse conforme ha fatto; adesso mi ordina di andare ad Anversa in casa del governatore ed io vi star&#242; finch&#233; voi non scriviate quello che</p>
                 <pb facs="DSCF8563"/>
                 <p>desidero, non potendomi persuadere che vogliate piuttosto che stia ad Anversa, fuori dal monastero, che in un convento a Bruxelles. Ho scritto alla Regina di Spagna che mi favorisse della sua protezione; vi prego ancor voi di favorirmi presso di lei, acci&#242; possa viver quieta in queste parti con reputazione vostra, e soddisfazione mia, fintanto che sia di ritorno con voi. Abbiate la bont&#224; di scrivere quanto prima al Conte di Monterey, acci&#242; non mi contrari di pi&#249; e crediate che questo &#232; il modo di farmi ridurre a quanto potete desiderare. Da qui e tutta vostra </p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1673_12_11_mm2lc_translation" n="44" facs="DSCF8562">
@@ -180,15 +180,15 @@
                 <pb facs="DSCF8563"/>
                 <opener>
                     <dateline>
-                        <placeName key="mechelen">Mechelen</placeName>, 
+                        <placeName key="#mechelen">Mechelen</placeName>, 
                         <date when="1673-12-11">11 December 1673</date>
                     </dateline>
                 </opener>
-                <p>I am in <placeName key="mechelen">Mechelen</placeName>, four leagues from <placeName key="brussels">Brussels</placeName>, after fifty-five days of travel; and from here right away the <persName key="monterey">Count of Monterey</persName>, following the first orders, gave me to understand that he will move me to <placeName key="antwerp">Antwerp</placeName>, four leagues from here, not wanting me to enter <placeName key="brussels">Brussels</placeName> unless you write to him that you are satisfied with that, since he fears that from there I might go elsewhere. Therefore, just do me the favor of writing to him immediately that since I am in the states of the King of Spain, he should permit me to go to</p>
+                <p>I am in <placeName key="#mechelen">Mechelen</placeName>, four leagues from <placeName key="brussels">Brussels</placeName>, after fifty-five days of travel; and from here right away the <persName key="monterey">Count of Monterey</persName>, following the first orders, gave me to understand that he will move me to <placeName key="antwerp">Antwerp</placeName>, four leagues from here, not wanting me to enter <placeName key="#brussels">Brussels</placeName> unless you write to him that you are satisfied with that, since he fears that from there I might go elsewhere. Therefore, just do me the favor of writing to him immediately that since I am in the states of the King of Spain, he should permit me to go to</p>
                 <pb facs="DSCF8564"/>
-                <p><placeName key="brussels">Brussels</placeName>, to the convent of the Ladies of Berlaymont, which is indisputably the most beautiful and the noblest of all there are. Then I will promise, in exchange, not to go out of there, and I will give my word to the count to accept whatever you may want regarding my security in that city; for as long as they do not vex me by thwarting my will in reasonable things, I will stay here in the states of the King more gladly than anywhere else. Show me this further kindness, do not subject me to a humiliation like I had in France, where it appears I had to be kept out of the capital cities of all the provinces. The <persName key="borgomanero">Marquis of Borgomanero</persName>, in exchange for taking his own freedom of choice about this, refused to listen to anything, having been astounded to find not a single letter from you. And I came here on the strength of his word, not believing that the count would stop me as he has done; now he is ordering me to go to <placeName key="antwerp">Antwerp</placeName> to the house of the governor, and I will stay there until you write what</p>
+                <p><placeName key="#brussels">Brussels</placeName>, to the convent of the Ladies of Berlaymont, which is indisputably the most beautiful and the noblest of all there are. Then I will promise, in exchange, not to go out of there, and I will give my word to the count to accept whatever you may want regarding my security in that city; for as long as they do not vex me by thwarting my will in reasonable things, I will stay here in the states of the King more gladly than anywhere else. Show me this further kindness, do not subject me to a humiliation like I had in <placeName key="france">France</placeName>, where it appears I had to be kept out of the capital cities of all the provinces. The <persName key="borgomanero">Marquis of Borgomanero</persName>, in exchange for taking his own freedom of choice about this, refused to listen to anything, having been astounded to find not a single letter from you. And I came here on the strength of his word, not believing that the Count would stop me as he has done; now he is ordering me to go to <placeName key="#antwerp">Antwerp</placeName> to the house of the governor, and I will stay there until you write what</p>
                 <pb facs="DSCF8563"/>
-                <p>I want, as I cannot convince myself that you would want me to stay in <placeName key="antwerp">Antwerp</placeName>, outside of the convent, rather than in a convent in <placeName key="brussels">Brussels</placeName>. I have written to the Queen of Spain for her to favor me with her protection; I beg you, too, to support me with her, so that I can live in peace in these parts with your reputation intact, and with my satisfaction, until such time as I am back with you. Have the kindness to write as soon as possible to the Count of Monterey so that he does not annoy me any further, and do believe that this is the way to get me to consent to what you may desire.</p>
+                <p>I want, as I cannot convince myself that you would want me to stay in <placeName key="#antwerp">Antwerp</placeName>, outside of the convent, rather than in a convent in <placeName key="#brussels">Brussels</placeName>. I have written to the Queen of Spain for her to favor me with her protection; I beg you, too, to support me with her, so that I can live in peace in these parts with your reputation intact, and with my satisfaction, until such time as I am back with you. Have the kindness to write as soon as possible to the <persName key="#monterey">Count of Monterey</persName> so that he does not annoy me any further, and do believe that this is the way to get me to consent to what you may desire.</p>
                 <closer>
                     <salute>From here, and entirely yours.</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>
