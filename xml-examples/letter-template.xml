@@ -110,7 +110,7 @@
     <text>
         <body>
             <div type="letter" xml:id="letter_1672_07_14_mm2lc_raw" n="04" facs="DSCF8221">
-                <head type="raw" xml:lang="fr" />
+                <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
 
                 </note>
@@ -146,7 +146,7 @@
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_07_14_mm2lc_edit" n="04" facs="DSCF8221">
-                <head type="edit" xml:lang="fr" />
+                <head type="edit" xml:lang="it" />
                 <pb facs="DSCF8222"/>
                 <opener>
                     <dateline>

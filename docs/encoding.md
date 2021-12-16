@@ -17,7 +17,7 @@
         - `key`: unique identifier for a single location; used in xml encoding; only one key may exist per location, but a single key may be attached to multiple values in the `name` column
     - [editor_tags](https://docs.google.com/spreadsheets/d/1eKKw5Y33Yk4MzeiUJoUkh8yhO-J4BHNmGoucA-Y9YK8/edit?usp=sharing): a two- or three-initial code for each person on project (first, middle, last initials), to be recorded in xml encoding and in metadata spreadsheet
     - [annotations](https://docs.google.com/spreadsheets/d/1aOrT2d-n5jl50cxi7on7YjdD0Ca-lfpL1k_SFzl54ho/edit?usp=sharing): Annotation content linked to its unique `id`
-        - `id`: `xml:id` attribute given to notation, in following format: `uniqueletter` + `filnameid` (i.e. `a1672_10_29_mm2lc`)
+        - `id`: `xml:id` attribute given to notation, in following format: `filnameid` + `unique letter` (i.e. `1672_10_29_mm2lc_a`)
         - `text`: annotation text
 
 # Encoding Workflow
@@ -38,6 +38,8 @@
     - Paste the dumb quote into the "Replace with" box. Click "Replace all".
     - Find a left-facing smart quote and replace the content of the "Find" box with it, keeping the dumb quote in the "Replace with" box.
     - Click "Replace all".
+        - Note: this same process will also have to be done with smart ('curly') apostrophes.
+
 
 ## XML
 
@@ -54,6 +56,8 @@
     - `fileDesc`
         - `titleStmt` > `respStmt` > `name`
             - Add your editor id to `xml:id` attribute and replace my name with yours
+        - `notesStmt`
+            - Provide a brief summary of the letter
         - `sourceDesc`
             - `bibl`
                 - `author` and `persName`
@@ -80,5 +84,38 @@
         - Include the attributes `when` and `who`. Value of `when` should be the date you begin editing. Value of `who` should be your editor code with a pound (`#`) sign in front of it.
         - If you are just creating the file, the value of this element should be: `Initial creation of XML from non-XML electronic files`. If you finish the file, notice at a future point and come back to fix it, you should add another `change` element according to these rules, explaining what change you made.
 
+- **Encoding the File**
+    - **Raw**
+        - **Do not include `persName` or `placeName` tags anywhere in the `div`**
+        - It is important to observe how many `notes` from the archive tag are present and put them below the first `note` marked with the xml:id `archive-note`
+        - Delete any unused `note` tags
+        - The `dateline` will often include superscript letters. Use the following formula to encode superscript:
+            - to superscript "me" in "ce 14me"
+            - ce 14`<hi rend="super">me</hi>`
+        - Each `<pb facs>` object should have a unique ID associated with an image that is inserted on the webpage. They should also *ascend* in numerical value.
+            - Note: some letters are shorter than others and may only have 2 facsimiles (facs) while others might have 3 or 4. All facs are in the "demo-material" documents as well as the "mancini-metadata"
+        - Be sure to adhere to the page and paragraph breaks of the original document. They are formatted like this in the Google Doc file, but be sure that each paragraph break corresponds with a `p` tag in the xml file.
+        - The `closer` tag is used to notate a signature and salute. Do not encode a `salute` and do not put a `persName` tag on the person signing the letter.
+    - **Edited**
+        - **Do not include `persName` or `placeName` tags anywhere in the `div`**
+        - Each `<pb facs>` object should have a unique ID associated with an image that is inserted on the webpage. They should also *ascend* in numerical value.
+            - Note: some letters are shorter than others and may only have 2 facsimiles (facs) while others might have 3 or 4. All facs are in the "demo-material" documents as well as the "mancini-metadata"
+        - Be sure to adhere to the page and paragraph breaks of the original document. They are formatted like this in the Google Doc file, but be sure that each paragraph break corresponds with a `p` tag in the xml file.
+        - The `closer` tag is used to notate a signature and salute. Do not encode a `salute` and do not put a `persName` tag on the person signing the letter.
+    - **Translated**
+        - **Tag all `persName` and `placeName` content in the `div`**
+        - Each `<pb facs>` object should have a unique ID associated with an image that is inserted on the webpage. They should also *ascend* in numerical value.
+            - Note: some letters are shorter than others and may only have 2 facsimiles (facs) while others might have 3 or 4. All facs are in the "demo-material" documents as well as the "mancini-metadata"
+        - Be sure to adhere to the page and paragraph breaks of the original document. They are formatted like this in the Google Doc file, but be sure that each paragraph break corresponds with a `p` tag in the xml file.
+        - The `closer` tag is used to notate a signature and salute. When applicable, tag the `salute`. Be sure to tag the `persName` in the signature.
+
+- **General Tips**
+    - It is a good practice to move methodically and slowly while encoding each letter.
+    - Whenever possible, copy and paste. Everytime you type something new, you open up the possibility of an error being made. This error could be very small (in the case of a small typo in the body of work) or it could render the letter useless when generated for the website (in the case of a mistyped filename).
+    - Always double check your file names and keys in the `div`, `ref`, `persName`, and `placeName` tags. Often the template file names will accidentally get left in.  
+    - If you have a questions about something, write it on your personal notepad (digital or physical) but also put a comment in the file. This makes the your point of question a lot easier to find.
+        - A comment can be made like this:
+        - `<!--INSERT COMMENT HERE-->`
+    - When writing the letter summaries in the `notesStmt` tag, it is a good idea to read the previous letter and the one that follows it so that you can write a summary that is informative to the broader collection of letters.
 
     
