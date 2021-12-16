@@ -91,7 +91,7 @@
         - Delete any unused `note` tags
         - The `dateline` will often include superscript letters. Use the following formula to encode superscript:
             - to superscript "me" in "ce 14me"
-            - ce 14`<hi rend="super">`me`</hi>`
+            - ce 14`<hi rend="super">me</hi>`
         - Each `<pb facs>` object should have a unique ID associated with an image that is inserted on the webpage. They should also *ascend* in numerical value.
             - Note: some letters are shorter than others and may only have 2 facsimiles (facs) while others might have 3 or 4. All facs are in the "demo-material" documents as well as the "mancini-metadata"
         - Be sure to adhere to the page and paragraph breaks of the original document. They are formatted like this in the Google Doc file, but be sure that each paragraph break corresponds with a `p` tag in the xml file.
@@ -111,7 +111,7 @@
 
 - **General Tips**
     - It is a good practice to move methodically and slowly while encoding each letter.
-    - Whenever possible, copy and paste. Everytime you type something new, you open up the possibility of an error being made. This error could be very small (in the case of a small typo in the body of work) or it could render the letter useless when rendered for the website (in the case of a mistyped filename).
+    - Whenever possible, copy and paste. Everytime you type something new, you open up the possibility of an error being made. This error could be very small (in the case of a small typo in the body of work) or it could render the letter useless when generated for the website (in the case of a mistyped filename).
     - Always double check your file names and keys in the `div`, `ref`, `persName`, and `placeName` tags. Often the template file names will accidentally get left in.  
     - If you have a questions about something, write it on your personal notepad (digital or physical) but also put a comment in the file. This makes the your point of question a lot easier to find.
         - A comment can be made like this:
