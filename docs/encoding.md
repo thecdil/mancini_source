@@ -108,6 +108,11 @@
             - Note: some letters are shorter than others and may only have 2 facsimiles (facs) while others might have 3 or 4. All facs are in the "demo-material" documents as well as the "mancini-metadata"
         - Be sure to adhere to the page and paragraph breaks of the original document. They are formatted like this in the Google Doc file, but be sure that each paragraph break corresponds with a `p` tag in the xml file.
         - The `closer` tag is used to notate a signature and salute. When applicable, tag the `salute`. Be sure to tag the `persName` in the signature.
+    - **After Encoding the 3 Versions**
+        - Similiar to replacing the smart quotes and apostrophes with dumb ones, you must replace special characters with their appropriate decimal code entity equivalent.
+            - (i.e. é becomes `&#233;`)
+            - A full directory of character codes can be found in the entities.csv file
+        - Double check to make sure each tag is properly nested and has a corresponding closing tag.
 
 - **General Tips**
     - It is a good practice to move methodically and slowly while encoding each letter.
