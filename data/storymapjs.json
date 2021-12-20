@@ -8,7 +8,7 @@
 {
     "storymap": {
         "language": "en",
-        "map_type": "stamen:toner",
+        "map_type": "stamen:watercolor",
         "map_as_image": false,
         "slides": [{
             "type": "overview",

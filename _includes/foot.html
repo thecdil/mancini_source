@@ -6,6 +6,7 @@
 
 {%- if layout.lazyload == true or page.lazyload == true -%}<script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>{%- endif -%}
 {%- if layout.gallery == true -%}{% include js/gallery-js.html %}{%- endif -%}
+{%- if layout.jarallax == true -%}{% include js/jarallax-js.html %}{%- endif -%}
 {%- if page.layout == "timeline" -%}{% include js/tooltip-js.html %}{%- endif -%}
 {% if page.layout == "data" %}{% include js/table-js.html %}{% endif %}
 {% if page.layout == "browse" %}{% include js/browse-js.html %}{% endif %}

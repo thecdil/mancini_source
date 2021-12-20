@@ -1,0 +1,56 @@
+<style>
+    .jarallax {
+        position: relative;
+        z-index: 0;
+        height: 250px
+    }
+    .jarallax > .jarallax-img {
+        position: absolute;
+        object-fit: cover;
+        /* support for plugin https://github.com/bfred-it/object-fit-images */
+        font-family: 'object-fit: cover;';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .gap {
+        padding: 50px;
+        overflow: hidden;
+    }
+    .title {
+        color: #f8f9fa;
+        font-family: 'Merienda One', cursive;
+        margin-top: 10%;
+    }
+    .index-title {
+        margin-top: 5%;
+    }
+    p, h2 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 650px;
+    }
+</style>
+
+<!-- Background Image Parallax -->
+<div data-jarallax data-speed="0.2" class="jarallax">
+    <img class="jarallax-img" src="assets/images/mancini-letter.jpg" alt="A sample photograph of one of Marie Mancini's letters">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            {%- if page.layout == "home" -%}
+                <div class="title index-title">
+                    <h1 class="display-4">The Letters of</h1>
+                    <h1 class="display-3">Marie Mancini</h1>
+                </div>
+            {%- else -%}
+                <div class="title">
+                    <h1 class="display-3">{{ page.title }}</h1>
+                </div>
+            {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>

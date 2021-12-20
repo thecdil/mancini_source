@@ -1,12 +1,11 @@
 ---
-title: About
-layout: page
+title: About The Project
+layout: about-page
 permalink: about.html
+jarallax: true
 ---
 
-# About
-
-Begun in Spring 2020, this project seeks to publish Marie Mancini's approximately 900 letters that are held in the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. 
+Begun in Spring 2020, The Letters of Marie Mancini seeks to publish Marie Mancini's approximately 900 letters that are held in the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. 
 Approximately 100 letters have been transcribed so far, 31 of which have been translated into English and are browsable on this site.
 
 Ultimately, the goal of this project is not only to provide a space for Marie Mancini's voice to be freely accessed, but also to provide avenues for historical exploration. 
