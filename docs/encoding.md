@@ -2,7 +2,7 @@
 - **Create a letter ID**:
     - Naming convention: `yyyy_mm_dd_SenderInitials2ReceiverInitials`
     - Example: `1672_10_29_mm2lc`
-    - Find sender and receiver initials in Google Drive Folder **tags** > [**sender_receiver_initials** spreadsheet](https://docs.google.com/spreadsheets/d/1gtVSXLl0bJPLRc5CgRwxkGnlTrcL7JHRWyaRYGuU0CA/edit?usp=sharing) > **filename-code** column
+    - Find sender and receiver initials in Google Drive Folder **tags** > [**sender_receiver_initials** spreadsheet](https://docs.google.com/spreadsheets/d/1gtVSXLl0bJPLRc5CgRwxkGnlTrcL7JHRWyaRYGuU0CA/edit?usp=sharing) > **id** column
 
 # Spreadsheet Documentation:
 - **[mancini_metadata](https://docs.google.com/spreadsheets/d/1ve8mjVhXRjiXzofISLAPInTzww7tZuK9NUtxJyBvMNk/edit?usp=sharing)**: metadata describes each letter and who has worked on it
