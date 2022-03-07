@@ -67,7 +67,7 @@
         - `sourceDesc`
             - `bibl`
                 - `title`
-                    Update title value, and key, type and n attributes
+                    Update title value, and key (should be the letter filename, minus the file extension), type and n attributes
                 - `author` and `persName`
                     - Update `key` attribute according to persNames spreadsheet, update value
                 - `date`
