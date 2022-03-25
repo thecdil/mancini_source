@@ -18,6 +18,8 @@ Only the file you specify will undergo the transformation and be output in the `
 
 On Mac, if you get an error "Operation not permitted" when you run the rake command, follow these instructions to change permissions: <https://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/>
 
+If you've just copied the repository, you need to run `bundle install` in order for the rake commands to work.
+
 ## Generate annotations.csv
 
 `rake annotations` will pull all annotations created in the xml files with the <ref> element, adding the values of their `xml:id` and `style` attributes to `_data/annotations.csv`.
