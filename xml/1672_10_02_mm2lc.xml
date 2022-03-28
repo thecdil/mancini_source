@@ -99,7 +99,8 @@
          <encodingDesc>
             <editorialDecl>
                 <interpretation>
-                    
+                    <p>
+                    </p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -112,6 +113,7 @@
             </change>
             <change when="2022-03-21" who="#kx">
                 Final edit of file
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -170,7 +172,7 @@
                 <opener>
                     <dateline>
                         <placeName>Dal Lys</placeName>, 
-                        <date>ce 2 octobre <ref type="annotate" xml:id="1672_10_02_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the places and dates of her Italian letters in French. Here she writes the place in Italian and the date in French">1672</ref></date>
+                        <date><ref type="annotate" xml:id="1672_10_02_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the places and dates of her Italian letters in French. Here she writes the place in Italian and the date in French">ce 2 octobre 1672</ref></date>
                     </dateline>
                 </opener>
                 <p>Andrea ritornando a Roma, non ho voluto mancar di scrivervi e pregarvi di volerlo rimetter al servizio di Marcantonio, conforme era avanti partisse; mando certe robe ai ragazzi come anche un abito grigio per la duchessa di Bassanello che le potrete presentar in mio nome; io mi trattengo tuttavia nel monastero del Lys;  n&#233; so se &#232; vostra intenzione che io vada anche pi&#249; lontano di Parigi; mentre non vedo nessuno qua come se fossi a cento leghe dalla corte; ritrovo ben maggior</p>
@@ -189,7 +191,7 @@
                         <date when="1672-10-02">2 October 1672</date>
                     </dateline>
                 </opener>
-                <p>With<persName key="andrea">Andrea</persName> returning to <placeName key="rome">Rome</placeName>, I wanted to be sure to write to you and ask you to please put him back in Marcantonio's service, as he was before he left. I am sending some things for the boys, as well as a gray dress for the <persName key="lucrezia-colonna">Duchess of Bassanello</persName>, which you can give her from me. I am still staying in the monastery; and I don't know whether it is your intention that I should go still further from <placeName key="paris">Paris</placeName>; whereas I see no one here, just as if I were a hundred leagues from the court; I find it much more</p>
+                <p>With <persName key="andrea">Andrea</persName> returning to <placeName key="rome">Rome</placeName>, I wanted to be sure to write to you and ask you to please put him back in <persName key="marcantonio">Marcantonio's</persName> service, as he was before he left. I am sending some things for the boys, as well as a gray dress for the <persName key="lucrezia-colonna">Duchess of Bassanello</persName>, which you can give her from me. I am still staying in the monastery; and I don't know whether it is your intention that I should go still further from <placeName key="paris">Paris</placeName>; whereas I see no one here, just as if I were a hundred leagues from the court; I find it much more</p>
                 <pb facs="DSCF8474"/>
                 <p>convenient to be only thirteen leagues away, because I can get more quickly any clothing I want and anything else I need; other than that, I do not look to <placeName key="paris">Paris</placeName> for anything else. Let me know if this is your intention and believe me to be ever yours.</p>
                 <closer>
