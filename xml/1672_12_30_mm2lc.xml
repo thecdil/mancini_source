@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>lett 8 Marie to Lorenzo</title>
+                <title>lett 17 Marie to Lorenzo</title>
                 <author key="mancini-marie">Marie Mancini</author>
                 <respStmt>
                     <resp>Transcribed and translated by</resp>
@@ -18,6 +18,10 @@
                 <respStmt>
                     <resp>Encoded by</resp>
                     <name xml:id="lrm">Liam R. Marchant</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="kx">Klytie Xu</name>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -35,21 +39,24 @@
                         <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
                     </address>
                 </distributor>
-                <date>2020</date>
+                <date>2022</date>
                 <availability>
                     <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
                     </p>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Marie expresses her satisfaction with the expressions of affection Lorenzo has included in his latest letter to her. She indicates that she has arrived in Nevers with her brother and questions why Lorenzo has departed from Rome and where he is going.</note>
+            </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
             </seriesStmt>
             <sourceDesc>
                 <bibl>
-                    <title key="1672_10_02_mm2lc" type="letter" n="08">lett 8 Marie to Lorenzo</title>
+                    <title key="1672_12_30_mm2lc" type="letter" n="17">lett 17 Marie to Lorenzo</title>
                     <author key="mancini-marie">Marie Mancini</author>
                     <persName type="addressee" key="colonna-lorenzo">Lorenzo Colonna</persName>
-                    <date when="1672-10-02">October 2 1672</date>
+                    <date when="1672-12-30">December 30 1672</date>
                 </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -61,7 +68,7 @@
                         </collection>
                         <idno type="collection">IICP1</idno>
                     </msIdentifier>
-                    <msContents facs="DSCF8472;DSCF8473;DSCF8474">
+                    <msContents facs="DSCF8496;DSCF8497;DSCF8498">
                         <p>Document is one leaf, handwritten on recto and verso.</p>
                     </msContents>
                     <physDesc>
@@ -72,24 +79,27 @@
                                 </extent>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="1">
+                        <handDesc hands="2">
                             <handNote xml:id="mancini-marie" medium="black">
                                 Marie Mancini handwritten
+                            </handNote>
+                            <handNote xml:id="unk">
+                                Secretary or archivist
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate when="1672-10-02">October 2 1672</origDate>
+                            <origDate when="1672-12-30">December 30 1672</origDate>
                             <origPlace>
-                                <placeName key="lys">Lys</placeName>
+                                <placeName key="nevers">Nevers</placeName>
                             </origPlace>
                         </origin>
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-         <encodingDesc>
+        <encodingDesc>
             <editorialDecl>
                 <interpretation>
                     
@@ -97,96 +107,98 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <change when="2020-05-28" who="#lrm">
+            <change when="2020-05-29" who="#lrm">
                 Initial creation of XML from non-XML electronic files
             </change>
             <change when="2020-06-29" who="#lrm">
                 Creation of "edit" file
             </change>
+            <change when="2022-03-22" who="#kx">
+                Final edit of file
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="letter" xml:id="letter_1672_10_02_mm2lc_raw" n="08" facs="DSCF8472">
+            <div type="letter" xml:id="letter_1672_12_30_mm2lc_raw" n="17" facs="DSCF8496">
                 <head type="raw" xml:lang="it" />
                 <note resp="#smn" xml:id="archive-note">
-                Collocazione II-C.P.1. lettera 8
+                Collocazione II-C.P.1. lettera 17
                 Lettere di Maria Mancini – 1672
-                Numero d'ordine – 8
+                Numero d'ordine – 17
 
                 D. Maria Colonna-Mancini –
 
                 =
 
                 Lettera al Contestabile Colonna
-                in data	2 Ottobre 1672 dal Lys
-                Sigillo – tutta di pugno –
+                in data	30 Dicembre 1672 da Nevers
+                Sigilli – tutta di pugno –
 
                 oggetto:
                 </note>
-                <pb facs="DSCF8473"/>
+                <pb facs="DSCF8497"/>
                 <note resp="#smn">
-                [[On the left side of the image, the diagonally folded paper with address written on outside: 
+                [[On the left side of the image, the rectangularly folded paper with address written on outside: 
                 "A Monsieur
-                Monsieur le Conestable 
-                Colonna
-                Roma"
-                + 1 red wax seal]]
+                Monsieur le 
+                Conestable Colonna
+                A Roma"
+                + 2 red wax seals]]
                 </note>
                 <note resp="#smn">
-                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or a secretary. The ink looks slightly different from Marie's ink.]]    
+                [[Along the bottom edge of the left side of the paper, is written the date by an archivist or secretary. The ink looks similar to Marie's ink.]]    
                 </note>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]   
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="lys">del lys</placeName> 
-                        <date when="1672-10-02">ce 2 octtobre 1672</date>
+                        <placeName>De nevers</placeName>
+                        <date>ce 30<hi rend="sup">me</hi>decem[bre] 1672</date>
                     </dateline>
                 </opener>
-                <p>andrea ritornando a Roma non o volsuto mancar di scrivervi et pregarvi di volerlo rimetter al' servitio di marcantonio conforme era avanti partisse; mando certte robbe a i ragazzi come ancho un habito griso per la duchessa di bassanello che li potrete presentar in mio nome; io mi trattengo tutta via nel monasterio del lys; ne so s&#233; &#233; vostra intentione ch'io vadi anche piu lontano di pariggi; mentre non vedo nessuno qua come se fussi a cento legue della corte; ritrovo ben magior</p>
-                <pb facs="DSCF8474"/>
+                <p>Ricevo la vostra a nivers delli 26 novembre &#233; vedo con mia molta sodisfactione l'espresioni affetuose che mi fate, circa li miei desideri vi assicuro che non sallontanaranno da [[<hi rend="strike">l</hi>]] i vostri, quando voi <hi rend="sup">mi</hi> continuarete [[something crossed out]] i buoni sentimenti che mi dimostrate; mi ritrovo quy con mio fratello che vi potra testimoniare in che forma io vivo et in che dispotitione mi ritrovo; sento dalla publica voce la votra partensa di Roma &#233; non sapendo il motivo; resto sospesa fin que lo sapia da voi</p>
+                <pb facs="DSCF8498"/>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]    
                 </note>
-                <p>comodita di non esser qua tredici legue; perche posso aver piu prontamente tutto quello desidero per vestirmi &#233; per altro che mi fa di bisogno; del resto non ne pretendo altro di pariggi; fateme saper se &#233; vostra intentione &#233; credetemi sempre vostra</p>
+                <p>avendo a core ogni vostro dispiacere come mio proprio. non mi dilonguero davantaggio non sapendo dove vi trovera questa letra resto intanto tutta vost[[ra — the end of the word has been ripped away on the edge of the paper]] [[something crossed out]]</p> 
                 <closer>
-                    <signed rend="ti-3"><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                    <signed>Maria Mancini Colonna</signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_10_02_mm2lc_edit" n="08" facs="DSCF8472">
+            <div type="letter" xml:id="letter_1672_12_30_mm2lc_edit" n="17" facs="DSCF8496">
                 <head type="edit" xml:lang="it" />
-                <pb facs="DSCF8473"/>
+                <pb facs="DSCF8497"/>
                 <opener>
                     <dateline>
-                        <placeName key="lys">Dal Lys</placeName>, 
-                        <date when="1672-10-02" type="annotate" xml:id="a1672_10_02_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the places and dates of her Italian letters in French. Here she writes the place in Italian and the date in French">ce 2 octobre 1672</date>
+                        <placeName>De Nevers</placeName> 
+                        <date type="annotate" xml:id="1672_12_30_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ce 30 d&#233;cembre 1672</date>
                     </dateline>
                 </opener>
-                <p>Andrea ritornando a Roma, non ho voluto mancar di scrivervi e pregarvi di volerlo rimetter al servizio di Marcantonio, conforme era avanti partisse; mando certe robe ai ragazzi come anche un abito grigio per la duchessa di Bassanello che le potrete presentar in mio nome; io mi trattengo tuttavia nel monastero del Lys;  n&#233; so se &#232; vostra intenzione che io vada anche pi&#249; lontano di Parigi; mentre non vedo nessuno qua come se fossi a cento leghe dalla corte; ritrovo ben maggior</p>
-                <pb facs="DSCF8474"/>
-                <p>comodit&#224; di esser distante solo tredici leghe, perch&#232; posso aver piu prontamente tutto quello che desidero per vestirmi e per altro che mi fa di bisogno; del resto non pretendo altro da Parigi; fatemi saper se &#232; vostra intenzione e credetemi sempre vostra.</p>
+                <p>Ricevo a Nevers la <ref type="annotate" xml:id="1672_12_30_mm2lc_b" style="The meaning is 'la vostra lettera.'">vostra</ref> del 26 novembre e vedo con mia molta soddisfazione le espressioni affettuose che mi fate; circa i miei desideri vi assicuro che non si allontaneranno dai vostri, quando voi mi continuerete i buoni sentimenti che mi dimostrate; mi ritrovo qui con mio fratello che vi potr&#224; testimoniare in che forma io vivo e in che disposizione mi ritrovo; sento dalla pubblica voce della vostra partenza da Roma e non sapendone il motivo resto sospesa finch&#233; non lo sappia da voi</p>
+                <pb facs="DSCF8498"/>
+                <p>avendo a cuore ogni vostro dispiacere come mio proprio. Non mi dilungher&#242; avanti, non sapendo dove vi trover&#224; questa lettera; resto intanto tutta vostra.</p>
                 <closer>
-                    <salute></salute>
-                    <signed rend="ti-2"><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                    <signed>Maria Mancini Colonna</signed>
                 </closer>
             </div>
-            <div type="letter" xml:id="letter_1672_10_02_mm2lc_translation" n="08" facs="DSCF8472">
+            <div type="letter" xml:id="letter_1672_12_30_mm2lc_translation" n="17" facs="DSCF8496">
                 <head type="translation" xml:lang="en" />
-                <pb facs="DSCF8473"/>
+                <pb facs="DSCF8497"/>
                 <opener>
                     <dateline>
-                        <placeName key="lys">The Lys</placeName>, 
-                        <date when="1672-10-02">2 October 1672</date>
+                        <placeName key="nevers">Nevers</placeName>, 
+                        <date when="1672-12-30">30 December 1672</date>
                     </dateline>
                 </opener>
-                <p>With <persName key="andrea">Andrea</placeName> returning to <placeName key="rome">Rome</placeName>, I wanted to be sure to write to you and ask you to please put him back in Marcantonio's service, as he was before he left. I am sending some things for the boys, as well as a gray dress for the <persName key="lucrezia-colonna">Duchess of Bassanello</persName>, which you can give her from me. I am still staying in the monastery; and I don’t know whether it is your intention that I should go still further from <placeName key="paris">Paris</placeName>; whereas I see no one here, just as if I were a hundred leagues from the court; I find it much more</p>
-                <pb facs="DSCF8474"/>
-                <p>convenient to be only thirteen leagues away, because I can get more quickly any clothing I want and anything else I need; other than that, I do not look to <placeName key="paris">Paris</placeName> for anything else. Let me know if this is your intention and believe me to be ever yours.</p>
+                <p>I have received in <placeName key="nevers">Nevers</placeName> your letter of 26 November, and I see with great satisfaction the expressions of affection that you send me; regarding my wishes, I assure you that they will not diverge from yours as long as you continue the good feelings you are showing me. I am here with my brother, who can attest to the way I am living and the disposition in which I find myself. I hear through public channels about your departure from <placeName key="rome">Rome<placeName>, and not knowing the reason for it, I'll remain in suspense until I learn it from you,</p>
+                <pb facs="DSCF8498"/>
+                <p>since I take to heart every one of your sorrows as if it were my own. I won't go on any longer, since I don't know where this letter will find you; in the meantime,</p>
                 <closer>
-                    <salute></salute>
-                    <signed rend="ti-2"><persName key="mancini-marie">M. M. Colonna</persName></signed>
+                    <salute>I remain all yours.</salute>
+                    <signed><persName key="mancini-marie">Maria Mancini Colonna</persName></signed>
                 </closer>
             </div>
         </body>

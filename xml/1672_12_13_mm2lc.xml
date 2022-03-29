@@ -19,6 +19,10 @@
                     <resp>Encoded by</resp>
                     <name xml:id="lrm">Liam R. Marchant</name>
                 </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="kx">Klytie Xu</name>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>The Correspondence of Marie Mancini</authority>
@@ -35,11 +39,14 @@
                         <addrLine>https://cdil.lib.uidaho.edu/</addrLine>
                     </address>
                 </distributor>
-                <date>2020</date>
+                <date>2022</date>
                 <availability>
                     <p>The Correspondence of Marie Mancini is freely distributed by the Center for Digital Inquiry and Learning at the University of Idaho Library and licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) United States License.
                     </p>
                 </availability>
+            <notesStmt>
+                <note>Marie beseeches Lorenzo to intercede with the Master General of the Minerva on behalf of a friar at the monastery who wishes to take his doctorate. She also lets Lorenzo know that she is still waiting for her brother to travel with her to Nevers and Lyons.</note>
+            </notesStmt>
             </publicationStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
@@ -103,6 +110,9 @@
             <change when="2020-06-29" who="#lrm">
                 Creation of "edit" file
             </change>
+            <change when="2022-03-22" who="#kx">
+                Final edit of file
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -130,13 +140,13 @@
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="avenay">D'avenay</placeName>
-                        <date when="1672-12-13">ce 13<hi rend="sup">me</hi> decem[[bre]] 1672</date>
+                        <placeName>D'avenay</placeName>
+                        <date>ce 13<hi rend="sup">me</hi> decem[[bre]] 1672</date>
                     </dateline>
                 </opener>
                 <p>Sono stata pregata d'una di queste monache d'interceder apresso il general de la minerva letre per adattorarsi un frate del suo ordine vi mando la minuta accio questo sugetto possa obtener per vostro mezo questa gratia dal general ch' &#233; tanto amico vostro &#233; percio vi sara facile d'impetrarla; sto sempre aspestando mio fratello per andar con luy a nevers et della forse a lione; in un monasterio [[<hi rend="strike">&#233; dove</hi>]] <hi rend="sup">di dove non manquero</hi> di scrivervi; et con questo abracciando y miei ragazi resto per sempre tutta vostra</p>
                 <closer>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_12_13_mm2lc_edit" n="16" facs="DSCF8494">
@@ -144,14 +154,13 @@
                 <pb facs="DSCF8495"/>
                 <opener>
                     <dateline>
-                        <placeName key="avenay">D'Avenay</placeName> 
-                        <date when="1672-12-13" type="annotate" xml:id="a1672_12_13_mm2lc" n="1" style="Note that Marie’s Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ce 13 d&#233;cembre 1672</date>
+                        <placeName>D'Avenay</placeName> 
+                        <date when="1672-12-13" type="annotate" xml:id="1672_12_13_mm2lc_a" style="Note that Marie's Italian is influenced by her French, and she often writes the dates of her Italian letters in French.">ce 13 d&#233;cembre 1672</date>
                     </dateline>
                 </opener>
                 <p>Sono stata pregata da una di queste monache d'interceder presso il general de la Minerva (vedi lettera) per l'adottorarsi di un fratello del suo ordine; vi mando la minuta in modo che questo soggetto possa ottener per vostro mezzo questa grazia dal general che &#233; tanto amico vostro e perci&#242; vi sar&#224; facile d'impetrarla; sto sempre aspettando mio fratello per andar con lui a Nevers, e da lì forse a Lione; in un monastero da dove non mancher&#242; di scrivervi; e con questa abbracciando i miei ragazzi resto per sempre tutta vostra.</p>
                 <closer>
-                    <salute></salute>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed>M. M. C.</signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_12_13_mm2lc_translation" n="16" facs="DSCF8494">
@@ -163,7 +172,7 @@
                         <date when="1672-12-13">13 December 1672</date>
                     </dateline>
                 </opener>
-                <p>I have been asked by one of these nuns to intercede with the Master General of the <ref type="annotate" xml:id="a1672_12_13_mm2lc" n="1" style="When Marie refers to 'il generale della Minerva,' she means 'il maestro generale della basilica di Santa Maria sopra Minerva'–the Master General of the basilica of Santa Maria sopra Minerva, on the Piazza della Minerva in Rome. The basilica was the seat of the top hierarchy of the Dominican order, and the Master General was the head of the order.">Minerva</ref> (see letter) for a friar of his order to take his doctorate; I am sending you the draft so that through your assistance, this individual can obtain that favor from the Master General, who is such a good friend of yours, and so it will be easy for you to request it. I am still waiting for my brother in order to go with him to <placeName key="nevers">Nevers</placeName>, and from there perhaps to <placeName key="lyon">Lyon</placeName>, to a monastery from which I will not fail to write to you; and with that,</p>
+                <p>I have been asked by one of these nuns to intercede with the <persName key="master-general">Master General of the Minverva</persName> (see letter) for a friar of his order to take his doctorate; I am sending you the draft so that through your assistance, this individual can obtain that favor from the <persName key="master-general">Master General</persName>, who is such a good friend of yours, and so it will be easy for you to request it. I am still waiting for my brother in order to go with him to <placeName key="nevers">Nevers</placeName>, and from there perhaps to <placeName key="lyon">Lyon</placeName>, to a monastery from which I will not fail to write to you; and with that,</p>
                 <closer>
                     <salute>sending kisses to my boys, I remain for always entirely yours.</salute>
                     <signed><persName key="mancini-marie">M. M. C.</persName></signed>

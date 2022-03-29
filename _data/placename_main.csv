@@ -1,27 +1,29 @@
-key,country,city,latitude,longitude,comment,annotation
-antwerp,Belgium,Antwerp,51.260197,4.402771,"given the Italian name: 'anversa'",filler-annotation
-avenay,France,Avenay,49.095228,-0.464817,,"The Benedictine abbey of Avenay, which was founded in 660 CE, was completely destroyed during the Revolution. The village of Avenay-Val-d’Or where it was located is eighteen miles south of Reims."
-brussels,Belgium,Brussels,50.878053,4.341405,"given different spelling ""Brusselles""",filler-annotation
-cologne,Germany,Cologne,50.936271,6.957777,,filler-annotation
-florence,Italy,Florence,43.76910440789305,11.241624602192811,,filler-annotation
+key,city,country,latitude,longitude,comment,annotation
+antwerp,Antwerp,Belgium,51.260197,4.402771,given the Italian name: 'anversa',filler-annotation
+avenay,Avenay,France,49.095228,-0.464817,,"The Benedictine abbey of Avenay, which was founded in 660 CE, was completely destroyed during the Revolution. The village of Avenay-Val-d'Or where it was located is eighteen miles south of Reims."
+brussels,Brussels,Belgium,50.878053,4.341405,"given different spelling ""Brusselles""",filler-annotation
+cologne,Cologne,Germany,50.936271,6.957777,,filler-annotation
+florence,Florence,Italy,43.76910440789305,11.241624602192811,,filler-annotation
 france,France,France,,,,filler-annotation
-frankfurt,Germany,Frankfurt,50.108799036752806,8.70384809419527,,filler-annotation
-fribourg,Switzerland,Fribourg,46.80492218166121,7.159592817303644,,filler-annotation
-grenoble,France,Grenoble,45.182234,5.718279,,filler-annotation
-london,England,London,51.51574107879232,-0.1304440593683865,,filler-annotation
-lyon,France,Lyon,45.762818,4.834074,,filler-annotation
-lys,France,convent Du Lys; Lys; lis,48.517179,2.631357,,"The Cistercian abbey Notre Dame du Lys was located in Dammarie-lès-Lys, near Melun, 40 miles southeast of Paris. It was a royal abbey which housed young girls of prominent families and women protected by the crown. Founded in 1244 by Saint Louis and his mother, Blanche de Castille, it was destroyed by fire in 1358 during the Hundred Years War, rebuilt starting in the fifteenth century, and destroyed again during the Revolution. Only ruins remain today."
-madrid,Spain,Madrid,40.415998,-3.70497,,filler-annotation
-mechelen,Belgium,Mechelen,51.028212,4.480911,"given the French name: ""malines""",filler-annotation
-milan,Italy,Milan,45.465516,9.187645,,filler-annotation
-monnaie,France,rue Vieille-Monnaie,47.498558,0.784137,,filler-annotation
-nevers,France,Nevers,46.991215,3.162462,,filler-annotation
-ostend,Belgium,Ostend,51.215907,2.92448,"given Italian name ""ostende""",filler-annotation
-paris,France,Paris,48.852893,2.351778,,filler-annotation
-rome,Italy,Rome,41.903677,12.493679,,filler-annotation
-san-seb,Spain,San Sebastian,43.31988,-1.982396,,filler-annotation
-savoy,France; Italy,Savoy,45.885017,6.128744,,"In the seventeenth century, the Duchy of Savoy was a state subject to the Holy Roman Empire. The territory of the Duchy of Savoy covered parts of what are now France and Italy."
-strasbourge,France,Strasbourg,48.582267167844186,7.747329308767652,,filler-annotation
-tienen,Belgium,Tienen,50.807312,4.932998,"given the French name, with a variant spelling: ""tillemont""",filler-annotation
-turin,Italy,Turin,45.077690,7.676437,"""thurin""? from 1673_02_07_mm2lc","In the seventeenth century, Turin was the capital of the Duchy of Savoy, which was a state subject to the Holy Roman Empire. The territory of the Duchy of Savoy covered parts of what are now France and Italy. Both Marie and her sister Hortense were the beneficiaries of the Duke of Savoy’s hospitality—Marie in Turin, and Hortense in Chambéry. The Duke had been one of Hortense’s suitors before her marriage, and he gave her the use of his residence in Chambéry from her arrival there in 1672 until his untimely death in 1675."
-chambery,France,Chambéry,45.586413,5.906777,,filler-annotation
+frankfurt,Frankfurt,Germany,50.108799036752806,8.70384809419527,,filler-annotation
+fribourg,Fribourg,Switzerland,46.80492218166121,7.159592817303644,,filler-annotation
+grenoble,Grenoble,France,45.182234,5.718279,,filler-annotation
+london,London,England,51.51574107879232,-0.1304440593683865,,filler-annotation
+lyon,Lyon,France,45.762818,4.834074,,filler-annotation
+lys,Lys,France,48.517179,2.631357,convent Du Lys; lis,"The Cistercian abbey Notre Dame du Lys was located in Dammarie-lès-Lys, near Melun, 40 miles southeast of Paris. It was a royal abbey which housed young girls of prominent families and women protected by the crown. Founded in 1244 by Saint Louis and his mother, Blanche de Castille, it was destroyed by fire in 1358 during the Hundred Years War, rebuilt starting in the fifteenth century, and destroyed again during the Revolution. Only ruins remain today."
+madrid,Madrid,Spain,40.415998,-3.70497,,filler-annotation
+mechelen,Mechelen,Belgium,51.028212,4.480911,"given the French name: ""malines""",filler-annotation
+milan,Milan,Italy,45.465516,9.187645,,filler-annotation
+monnaie,rue Vieille-Monnaie,France,47.498558,0.784137,,filler-annotation
+nevers,Nevers,France,46.991215,3.162462,,filler-annotation
+ostend,Ostend,Belgium,51.215907,2.92448,"given Italian name ""ostende""",filler-annotation
+paris,Paris,France,48.852893,2.351778,,filler-annotation
+piedmont,Piedmont,Italy,45.05350406,7.515285586,,filler-annotation
+rome,Rome,Italy,41.903677,12.493679,,filler-annotation
+san-seb,San Sebastian,Spain,43.31988,-1.982396,,filler-annotation
+savoy,Savoy,France; Italy,45.885017,6.128744,,"In the seventeenth century, the Duchy of Savoy was a state subject to the Holy Roman Empire. The territory of the Duchy of Savoy covered parts of what are now France and Italy."
+strasbourge,Strasbourg,France,48.582267167844186,7.747329308767652,,filler-annotation
+tienen,Tienen,Belgium,50.807312,4.932998,"given the French name, with a variant spelling: ""tillemont""",filler-annotation
+turin,Turin,Italy,45.077690,7.676437,"""thurin""? from 1673_02_07_mm2lc","In the seventeenth century, Turin was the capital of the Duchy of Savoy, which was a state subject to the Holy Roman Empire. The territory of the Duchy of Savoy covered parts of what are now France and Italy. Both Marie and her sister Hortense were the beneficiaries of the Duke of Savoy's hospitality—Marie in Turin, and Hortense in Chambéry. The Duke had been one of Hortense's suitors before her marriage, and he gave her the use of his residence in Chambéry from her arrival there in 1672 until his untimely death in 1675."
+chambery,Chambéry,France,45.586413,5.906777,,filler-annotation
+venice ,Venice,Italy,45.43601002298464,12.313831395059388,,filler-annotation

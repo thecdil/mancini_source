@@ -1,6 +1,7 @@
 type,letter,hexcode,example,
 grave,A,&#192;,À
 grave,a,&#224;,à
+cedilla,c,&#xe7;,ç
 grave,E,&#200;,È
 grave,e,&#232;,è
 grave,I,&#204;,Ì
@@ -15,6 +16,8 @@ accute,A,&#193;,Á
 accute,a,&#225;,á
 circ,E,&#202;,Ê
 circ,e,&#234;,ê
+circ,o,&#xf4;,ô
+circ,i,&#xee;,î
 percent,%,&#x25;,,
 left curly bracket,{,&#x7b;,,
 right curly bracket,},&#x7D;,,

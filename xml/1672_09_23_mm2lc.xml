@@ -19,6 +19,10 @@
                     <resp>Encoded by</resp>
                     <name xml:id="lrm">Liam R. Marchant</name>
                 </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name xml:id="kx">Klytie Xu</name>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>The Correspondence of Marie Mancini</authority>
@@ -41,6 +45,9 @@
                     </p>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Marie acknowledges to Lorenzo that her maids have arrived and that she will send Andrea back to Rome to serve her sons.</note>
+            </notesStmt>
             <seriesStmt>
                 <title>The Correspondence of Marie Mancini</title>
             </seriesStmt>
@@ -106,6 +113,9 @@
             <change when="2020-06-29" who="#lrm">
                 Creation of "edit" file
             </change>
+            <change when="2022-03-10" who="#kx">
+                Final edit of file
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -129,23 +139,18 @@
                 </note>
                 <pb facs="DSCF8476"/>
                 <note resp="#smn">
-                [[On the left side of the image, the diagonally folded paper with address written on outside: 
-                "A Monsieur
-                Monsieur le Conestable 
-                Colonna
-                A Roma"
-                + 1 red wax seal]]
+                [[On the left side of the image, the diagonally folded paper with address written on outside: "A Monsieur Monsieur le Conestable Colonna A Roma" + 1 red wax seal]]
                 </note>
                 <note resp="#smn">
-                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or a secretary. The ink looks slightly different from Marie’s ink.]] 
+                [[Along the bottom edge of the left side of the paper, parallel with the edge and upside down, is written the date by an archivist or a secretary. The ink looks slightly different from Marie's ink.]] 
                 </note>
                 <note resp="#smn">
                 [[On the right half of the sheet:]]  
                 </note>
                 <opener>
                     <dateline>
-                        <placeName key="lys">del lis</placeName>
-                        <date when="1672-09-23">li 23 sep[[tembre]] 1672</date>
+                        <placeName>del lis</placeName>
+                        <date>li 23 sep[[tembre]] 1672</date>
                     </dateline>
                 </opener>
                 <p>Sono arivate le donne con le Robbe le quali manno recata molta consolatione; di veder che in questa occasion habiate ricontrato con gusto la mia sodisfatione; non mancaro d'averne cura et particolarmente di maria madalena la quale sta in loco da poter deventar santa se vole; questo monasterio essendo un esempio di vertu; dove credo non vi potrete lamentar della mia condotta; essendo tale che li miei nemici stessi saranno obligati di lodarla; spero che ne sarete contento &#233; que sempre piu averete campo di dimostrarmi la stima che sino hora mavete negata assicurandovi ch'eternamente ne conservero [[something crossed out]] verso di voi; vi racco</p>
@@ -153,9 +158,9 @@
                 <note resp="#smn">
                 [[On the right half of the sheet:]]
                 </note>
-                <p>mando y ragazzi abraciateli per amor mio; rimandero andrea per servirli essendo piu aproposito per loro che per me nel monasterio; la povera contessa vi prego d'averne cura et delle altre que sono restate del rimanente restaro sempre pregando dio per voi et per tutta la casa</p>
+                <p>mando y ragazzi abraciateli per amor mio; rimande<hi rend="sup">ro</hi> andrea per servirli essendo piu aproposito per loro che per me nel monasterio; la povera contessa vi prego d'averne cura et delle altre que sono restate del rimanente restaro sempre pregando dio per voi et per tutta la casa</p>
                 <closer>
-                    <signed rend="ti-3"><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed><persName>M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_09_23_mm2lc_edit" n="10" facs="DSCF8475">
@@ -163,16 +168,15 @@
                 <pb facs="DSCF8476"/>
                 <opener>
                     <dateline>
-                        <placeName key="lys">Del Lys</placeName>, 
-                        <date when="1672-09-23">il 23 settembre 1672</date>
+                        <placeName>Del Lys</placeName>, 
+                        <date>il 23 settembre 1672</date>
                     </dateline>
                 </opener>
                 <p>Sono arrivate le donne con le robe, le quali mi hanno recata molta consolazione; di veder che in questa occasione abbiate rincontrato con gusto la mia soddisfazione; non mancher&#242; d'averne cura e particolarmente di Maria Maddalena, la quale sta in loco di poter diventar santa se vuole; questo monastero essendo un esempio di virt&#249; dove credo non vi potrete lamentar della mia condotta, essendo tale che i miei nemici stessi saranno obbligati a lodarla. Spero che ne sarete contento; e che sempre pi&#249; avrete campo di dimostrarmi la stima che sino ad ora mi avete negata, assicurandovi che eternamente ne conserver&#242; verso di voi. Vi raccomando</p>
                 <pb facs="DSCF8477"/>
                 <p>i ragazzi, abbracciateli per amor mio; rimander&#242; Andrea per servirli essendo pi&#249; a proposito per loro che per me nel monastero; la povera contessa, vi prego d'averne cura, e pure delle altre che sono restate. Per il rimanente, rester&#242; sempre pregando Dio per voi e per tutta la casa.</p>
                 <closer>
-                    <salute></salute>
-                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed><persName>M. M. C.</persName></signed>
                 </closer>
             </div>
             <div type="letter" xml:id="letter_1672_09_23_mm2lc_translation" n="10" facs="DSCF8475">
@@ -184,12 +188,12 @@
                         <date when="1672-09-23">23 September 1672</date>
                     </dateline>
                 </opener>
-                <p>The women have arrived with the things, and they have brought me great consolation, since I can see that on this occasion, it has pleased you to seek my satisfaction. I will not fail to take care of them, and particularly of <persName key="maddalena">Maria Maddalena</persName>, who is in the right place to be able to become a saint if she wishes; this monastery is an exemplar of virtue, where I don’t believe you will be able to complain of my conduct, since it is such that even my enemies will be obliged to praise it. I hope that you will be happy with it, and that you will have ever more occasion to show me the esteem you have denied me until now, as I assure you that I will eternally maintain my esteem for you. Take good care</p>
+                <p>The women have arrived with the things, and they have brought me great consolation, since I can see that on this occasion, it has pleased you to seek my satisfaction. I will not fail to take care of them, and particularly of <persName key="maddalena">Maria Maddalena</persName>, who is in the right place to be able to become a saint if she wishes; this monastery is an exemplar of virtue, where I don't believe you will be able to complain of my conduct, since it is such that even my enemies will be obliged to praise it. I hope that you will be happy with it, and that you will have ever more occasion to show me the esteem you have denied me until now, as I assure you that I will eternally maintain my esteem for you. Take good care</p>
                 <pb facs="DSCF8477"/>
-                <p>of the boys, kiss them for me and give them my love. I will send back Andrea to serve them, since he is more appropriate for them than for me in the monastery; I beg you to take care of the poor <ref type="annotate" xml:id="a1672_09_23_mm2lc" n="1" style="Countess Hortense–or Ortensia–Stella was one of the French maids of honor who accompanied Marie to Rome at the time of her marriage to Lorenzo Onofrio Colonna. She belonged to the Colonna household and appears to have been married in Rome to a certain Count Stella. She became the close friend and confidante of Marie, to whom Marie wrote with great affection; however, it is likely that Countess Stella and Lorenzo were also lovers, and she may have borne him children. Dulong, Marie Mancini, 278-79, 367-68.">countess</ref>, and also the other women who remained with you. In the meantime, I will always keep praying to God for you and for the whole household.</p>
+                <p>of the boys, kiss them for me and give them my love. I will send back <persName key="andrea">Andrea</persName> to serve them, since he is more appropriate for them than for me in the monastery; I beg you to take care of the poor <persName key="ortensia-stella">countess</persName>, and also the other women who remained with you. In the meantime, I will always keep praying to God for you and for the whole household.</p>
                 <closer>
                     <salute></salute>
-                    <signed rend="ti-3"><persName key="mancini-marie">M. M. C.</persName></signed>
+                    <signed><persName key="mancini-marie">M. M. C.</persName></signed>
                 </closer>
             </div>
         </body>

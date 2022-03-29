@@ -162,5 +162,35 @@ layout: none
       "@type": "sc:Manifest",
       "label": "1673_12_11_mm2lc"
     }
+    {
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/1672_12_10_mm2lc/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1672_12_10_mm2lc"
+    },
+    {
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/1672_12_30_mm2lc/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1672_12_30_mm2lc"
+    },
+    {
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/1672_10_02_mm2lc/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1672_10_02_mm2lc"
+    },
+    {
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/1672_12_13_mm2lc/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1672_12_13_mm2lc"
+    },
+    {
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/1672_09_27_mm2lc/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1672_09_27_mm2lc"
+    },
+    {
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/1672_09_23_mm2lc/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1672_09_23_mm2lc"
+    }
   ]
 }
