@@ -65,13 +65,13 @@
                         <idno type="collection">IICP1</idno>
                     </msIdentifier>
                     <msContents facs="DSCF8568;DSCF8569;DSCF8570;DSCF8571;DSCF8572">
-                        <p>Document is one leaf, handwritten on recto and verso.</p>
+                        <p>Document is two leaves, handwritten on recto and verso.</p>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
-                                    <measure type="composition" unit="leaf" quantity="1">1 leaf</measure>
+                                    <measure type="composition" unit="leaf" quantity="2">2 leaves</measure>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
