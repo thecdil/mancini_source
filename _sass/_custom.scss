@@ -1,5 +1,6 @@
 body {
-    font-family: 'Amiri', serif;
+    /*font-family: 'Amiri', serif;*/
+    font-family: 'EB Garamond', serif;
     font-size: 20px;
 }
 .pop-annotation {
@@ -7,10 +8,11 @@ body {
 }
 
 a {
-    color: #17a2b8;
+    color: #0066CC;
     &:hover {
-        color: #17a2b8;
+        color: #0066CC;
     }
+    font-weight: 500;
 }
 
 .about-page {
