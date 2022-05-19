@@ -62,6 +62,9 @@
             - Replace the author value with whoever the author is. Replace the "key" attribute with the author key from the persname_main spreadsheet 
         - `titleStmt` > `respStmt` > `name` value "Liam R. Marchant"
             - Replace "lrm" `xml:id` attribute with your editor tag and replace Liam's name with yours
+        - `publicationStmt` > `availability` > `p`
+            - First `p` should be creative commons CDIL copyright statement. No need to edit this.
+            - Second `p` should be Subiaco archive copyright statement. Copy and paste from corresponding row in [citations](https://docs.google.com/spreadsheets/d/1YLfvmCyZZmr9Ze9tWL4883ZREZasZN4r-RuJeLYFLo4/edit?usp=sharing) spreadsheet.
         - `notesStmt` > `note`
             - Provide a brief summary of the letter. It is a good idea to read the previous letter and the one that follows this letter so that you can write a summary that is informative to the broader collection of letters.
         - `sourceDesc`

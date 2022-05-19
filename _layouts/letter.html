@@ -4,33 +4,35 @@ layout: default
 
 {% assign year = page.letter_date | split: "-" | first %}
 
-<div class="container py-4">
+<div class="container-fluid py-4 px-5">
     <h1 class="pb-3">{{ page.creator }} to {{ page.recipient }}, {{ page.letter_date }}</h1>
     <div class="row my-4 mx-auto">
         <div class="col-md-6">
-            <div class='item-view'>
+            <div class="item-view px-5">
                 <div id="osd" class="image-viewer"></div>
             </div>
         </div>
-        <div class="col-md-6 pl-5">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="trans-tab" data-toggle="tab" href="#trans" role="tab" aria-controls="trans" aria-selected="true">Translation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="raw-tab" data-toggle="tab" href="#raw" role="tab" aria-controls="raw" aria-selected="false">Raw</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false">Edited</a>
-                </li>
-                <li class="nav-item ml-auto mt-2">
-                    <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" title="View letter on timeline">View on Timeline</a>
-                </li>
-            </ul>
-            <div class="tab-content my-3" id="myTabContent">
+        <div class="col-md-6">
+            <div class="pl-5">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="trans-tab" data-toggle="tab" href="#trans" role="tab" aria-controls="trans" aria-selected="true">Translation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="raw-tab" data-toggle="tab" href="#raw" role="tab" aria-controls="raw" aria-selected="false">Raw</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false">Edited</a>
+                    </li>
+                    <li class="nav-item ml-auto mt-2">
+                        <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" title="View letter on timeline">View on Timeline</a>
+                    </li>
+                </ul>
+                <div class="tab-content my-3" id="myTabContent">
 
-                {{ content }}
-                
+                    {{ content }}
+                    
+                </div>
             </div>
         </div>
     </div>
