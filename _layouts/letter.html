@@ -5,15 +5,15 @@ layout: default
 {% assign year = page.letter_date | split: "-" | first %}
 
 <div class="container-fluid py-4 px-5">
-    <h1 class="pb-3">{{ page.creator }} to {{ page.recipient }}, {{ page.letter_date }}</h1>
-    <div class="row my-4 mx-auto">
+    <h1 class="pt-3 pb-2 text-center">{{ page.creator }} to {{ page.recipient }}, {{ page.letter_date }}</h1>
+    <div class="row mt-4 mx-auto">
         <div class="col-md-6">
-            <div class="item-view px-5">
+            <div class="item-view pl-5">
                 <div id="osd" class="image-viewer"></div>
             </div>
         </div>
         <div class="col-md-6">
-            <div class="pl-5">
+            <div class="px-5">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="trans-tab" data-toggle="tab" href="#trans" role="tab" aria-controls="trans" aria-selected="true">Translation</a>
@@ -36,16 +36,24 @@ layout: default
             </div>
         </div>
     </div>
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8 text-center">
+            <hr>
+            <h4><em>Source</em></h4>
+            <p>Permission to publish this letter has been granted by the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. The Colonna Archive's preferred citation for the physical letter is below.</p>
+            <p><em>{{ page.citation }}</em></p>
+        </div>
+    </div>
     <div class="text-center">
-        <a id="prev-button" class="btn btn-secondary">&laquo; Previous</a>
-        <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
-        <a id="for-button" class="btn btn-secondary">Next &raquo;</a>
+        <a id="prev-button" class="btn btn-info">&laquo; Previous</a>
+        <a class="btn btn-info" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
+        <a id="for-button" class="btn btn-info">Next &raquo;</a>
     </div>
 
     <div id="item-nav">
         <div class="d-none d-md-block">
-            <a id="back-button" class="previous btn btn-lg btn-secondary">&laquo;</a>
-            <a id="next-button" class="next btn btn-lg btn-secondary">&raquo;</a>
+            <a id="back-button" class="previous btn btn-lg btn-info">&laquo;</a>
+            <a id="next-button" class="next btn btn-lg btn-info">&raquo;</a>
         </div>
     </div>
 </div>
