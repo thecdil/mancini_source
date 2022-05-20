@@ -6,7 +6,7 @@
 {%- if site.fontawesome == true -%}<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">{%- endif -%}
 <script defer src="{{ '/assets/lib/fontawesome-free/js/all.min.js' | relative_url }}"></script>
 {% if layout.gallery == true %}<link rel="stylesheet" href="{{ '/assets/lib/lightgallery/css/lightgallery.min.css' | relative_url }}" type="text/css">{% endif %}
-{% if page.layout == "home" %}<link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">{% endif %}
+{% if page.layout == 'home' or page.layout == 'about-page' %}<link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">{% endif %}
 {% if page.layout == 'data' %}<link rel="stylesheet" type="text/css" href="{{ '/assets/lib/datatables/datatables.min.css' | relative_url }}">{%- endif -%}
 {% if page.layout == 'map' %}<link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.fusesearch.css' | relative_url }}">
