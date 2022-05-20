@@ -1,17 +1,22 @@
 ---
 layout: default
-lazyload: true
-jarallax: true
+custom-foot: js/splash-js.html
 ---
 
-{% include jarallax.html %}
+<div id="splash">
+    <div class="row justify-content-center">
+        <h1 id="written-text">I am very lonely and entirely yours,</h1>
+        <button id="remove-content" class="btn btn-lg btn-info" style="position: absolute; margin-top: 20%;">Enter</button>
+    </div>
+    <img class="img-fluid" src="assets/images/mancini-letter.jpg" alt="splash image">
+</div>
 
 <div class="container">
     <div class="row pt-4">
         <div class="col-md-12">
             <p class="pt-5 pb-3">Marie Mancini's (1639-1715) unpublished letters to Lorenzo Colonna (her estranged husband) and others reside in the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. <em>The Letters of Marie Mancini</em> is an initiative to transcribe, translate, visualize, and make them available to the public.</p>
             <div class="col-md-12">
-                {% include storymapjs.html %}
+                {% comment %}{% include storymapjs.html %}{% endcomment %}
             </div>
         </div>
     </div>

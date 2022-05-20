@@ -89,3 +89,33 @@ a {
 .leaflet-fusesearch-panel .header {
     padding-bottom: 1.5em;
 }
+
+/* splash page */
+
+#splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 200;
+    color: white;
+}
+
+#splash h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 80px;
+}
+
+@keyframes writing {
+    from { width: 0px }
+    to { width: 1184px }
+}
+
+#written-text {
+    position: absolute;
+    margin-top: 10%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: writing 6s;
+}

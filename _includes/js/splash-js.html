@@ -1,0 +1,25 @@
+<script>
+    // remove splash content when button is clicked    
+    let splashContent = document.querySelector('#splash');
+
+    document.querySelector('#remove-content').addEventListener('click', () => { splashContent.style.display='none'; });
+
+    // js option for written-text
+    /*
+    let spanWidth = document.querySelector('#written-text span').getBoundingClientRect().width + 'px';
+
+    console.log(spanWidth);
+
+    let textWriting = [
+        { width: '0px' },
+        { width: spanWidth }
+    ];
+
+    let textTiming = {
+        duration: 6000,
+        iterations: 1,
+    };
+
+    document.querySelector('#written-text').animate(textWriting, textTiming);
+    */
+</script>
