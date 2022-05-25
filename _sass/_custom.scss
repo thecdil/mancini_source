@@ -104,7 +104,6 @@ a {
 
 #splash h1 {
     font-family: 'Marck Script', cursive;
-    font-size: 80px;
 }
 
 @keyframes writing {
@@ -113,9 +112,10 @@ a {
 }
 
 #written-text {
+    width: 0px;
     position: absolute;
     margin-top: 10%;
     white-space: nowrap;
     overflow: hidden;
-    animation: writing 6s;
+    /*animation: writing 6s;*/
 }
