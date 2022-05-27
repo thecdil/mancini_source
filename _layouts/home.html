@@ -2,18 +2,27 @@
 layout: default
 custom-foot: 
 lazyload: true
-custom-foot: js/jarallax-js.html
 ---
 
-{% include jarallax.html %}
+<style>
+    .site-title {
+        font-family: 'Merienda One', cursive;
+        font-size: 2rem;
+    }
+</style>
 
-<div class="container">
+<div class="container page-narrow">
     <div class="row pt-4">
         <div class="col-md-12">
-            <p class="pt-5 pb-3">Marie Mancini's (1639-1715) unpublished letters to Lorenzo Colonna (her estranged husband) and others reside in the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. <em>The Letters of Marie Mancini</em> is an initiative to transcribe, translate, visualize, and make them available to the public.</p>
-            <div class="col-md-12">
-                {% include storymapjs.html %}
-            </div>
+            <h1 class="site-title text-center"><span class="display-3">The Letters of</span><br><span class="display-2">Marie Mancini</span></h1>
+            <p class="pt-5 pb-3">In the spring of 1672, Italian noblewoman Marie Mancini came to the conclusion that her husband, the preeminant Lorenzo Onofrio Colonna, was trying to poison her. To escape, she fled Rome with her sister, Hortense, arriving in France where the two hoped to win the protection of King Louis XIV (Marie's former lover), which would allow them to live independently from their husbands.</p>
+            <p>However, Marie and Hortense were not welcomed to court by the king. They were forced to find their own way to subsist independently, and managed to do so without returning to their husbands for the remainder of their lives.</p> 
+            <p>Despite her estrangement from her husband, Marie corresponded with him regularly. Today, her extant letters reside in the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. Created by collaborators at the University of Idaho, <em>The Letters of Marie Mancini</em> project is an initiative to transcribe, translate, visualize, and make them available to the public.</p>
         </div>
     </div>
 </div>
+
+
+
+
+{% include storymapjs.html %}

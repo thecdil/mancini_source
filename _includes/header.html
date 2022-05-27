@@ -1,11 +1,11 @@
-<nav class="navbar {% if page.layout == 'home' %}sticky-top{% endif %} navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+    <a class="navbar-brand site-title" href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/logos/wax-seal-1-in-between.png' | relative_url }}" class="img-fluid"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav pl-5 ml-auto">
+        <ul class="navbar-nav">
             {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
             {% for nav in navItems %}
             {% if nav.stub %}
