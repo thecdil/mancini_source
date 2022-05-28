@@ -2,11 +2,30 @@ body {
     /*font-family: 'Amiri', serif;*/
     font-family: 'EB Garamond', serif;
     font-size: 23px;
+    color: #494440;
 }
 
 .nav-link {
+    /* font-family: 'Merienda One', cursive; */
+    font-family: 'Marck Script', cursive;
+    /* font-family: 'Nothing You Could Do', cursive; */
+    font-size: 35px;
+    color: #494440;
+    &:hover {
+        color: black;
+    }
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.navbar-brand {
+    margin-right: 0rem !important;
+}
+
+.site-title {
     font-family: 'Merienda One', cursive;
-    font-size: 20px;
 }
 
 .pop-annotation {

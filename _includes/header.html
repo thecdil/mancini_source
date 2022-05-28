@@ -1,31 +1,39 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <a class="navbar-brand site-title" href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/logos/wax-seal-1-in-between.png' | relative_url }}" class="img-fluid"></a>
+<nav class="navbar navbar-expand-lg">
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav">
-            {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
-            {% for nav in navItems %}
-            {% if nav.stub %}
-            <li class="nav-item {% if page.url contains nav.stub %}active{% endif %}">
-                <a class="nav-link" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+        <ul class="navbar-nav mx-auto">
+            <div class="d-flex align-items-center">
+            <li class="nav-item {% if page.url contains 'browse.html' %}active{% endif %}">
+                <a class="nav-link" href="{{ 'browse.html' | relative_url }}">Browse</a>
             </li>
-            {%- else -%}
+            <li class="nav-item {% if page.url contains 'people.html' %}active{% endif %}">
+                <a class="nav-link" href="{{ 'people.html' | relative_url }}">People</a>
+            </li>
+            <li class="nav-item {% if page.url contains 'locations.html' %}active{% endif %}">
+                <a class="nav-link" href="{{ 'locations.html' | relative_url }}">Maps</a>
+            </li>
+            <a class="navbar-brand px-5" href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/logos/wax-seal-1-in-between.png' | relative_url }}" class="img-fluid" alt="Red circular seal. Written in the center is a cursive M.">
+            </a>
+            <li class="nav-item {% if page.url contains 'timeline.html' %}active{% endif %}">
+                <a class="nav-link" href="{{ 'timeline.html' | relative_url }}">Timeline</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/data/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/data/' | relative_url }}">Data</a>
+            </li>
             <li class="nav-item dropdown">
-                {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' %}
-                {%- assign childStubs = navChildren | map: 'stub' -%}
-                <a class="nav-link  dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
+                <a class="nav-link  dropdown-toggle{% if page.url contains 'about' %} active{% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                 <div class="dropdown-menu">
-                    {% for c in navChildren %}
-                    <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
-                    {% endfor %}
+                    <a class="dropdown-item {% if page.url contains 'about-mancini.html' %}active{% endif %}" href="{{ 'about-mancini.html' | relative_url }}">Marie Mancini</a>
+                    <a class="dropdown-item {% if page.url contains 'about.html' %}active{% endif %}" href="{{ 'about.html' | relative_url }}">This Project</a>
                 </div>
             </li>
-            {% endif %}
-            {% endfor %}
+        </div>
         </ul>
     </div>
-    </div>
+
 </nav>
