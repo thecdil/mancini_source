@@ -1,38 +1,39 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand d-lg-none" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/logos/wax-seal-1-in-between.png' | relative_url }}" class="img-fluid" alt="Red circular seal. Written in the center is a cursive M.">
+    </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#manciniNavBar" aria-controls="manciniNavBar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse" id="manciniNavBar">
         <ul class="navbar-nav mx-auto">
-            <div class="d-flex align-items-center">
-            <li class="nav-item {% if page.url contains 'browse.html' %}active{% endif %}">
-                <a class="nav-link" href="{{ 'browse.html' | relative_url }}">Browse</a>
-            </li>
-            <li class="nav-item {% if page.url contains 'people.html' %}active{% endif %}">
-                <a class="nav-link" href="{{ 'people.html' | relative_url }}">People</a>
-            </li>
-            <li class="nav-item {% if page.url contains 'locations.html' %}active{% endif %}">
-                <a class="nav-link" href="{{ 'locations.html' | relative_url }}">Maps</a>
-            </li>
-            <a class="navbar-brand px-5" href="{{ '/' | relative_url }}">
-                <img src="{{ '/assets/images/logos/wax-seal-1-in-between.png' | relative_url }}" class="img-fluid" alt="Red circular seal. Written in the center is a cursive M.">
-            </a>
-            <li class="nav-item {% if page.url contains 'timeline.html' %}active{% endif %}">
-                <a class="nav-link" href="{{ 'timeline.html' | relative_url }}">Timeline</a>
-            </li>
-            <li class="nav-item {% if page.url contains '/data/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/data/' | relative_url }}">Data</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link  dropdown-toggle{% if page.url contains 'about' %} active{% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item {% if page.url contains 'about-mancini.html' %}active{% endif %}" href="{{ 'about-mancini.html' | relative_url }}">Marie Mancini</a>
-                    <a class="dropdown-item {% if page.url contains 'about.html' %}active{% endif %}" href="{{ 'about.html' | relative_url }}">This Project</a>
-                </div>
-            </li>
-        </div>
+                <li class="nav-item {% if page.url contains 'browse.html' %}active{% endif %}">
+                    <a class="nav-link" href="{{ 'browse.html' | relative_url }}">Letters</a>
+                </li>
+                <li class="nav-item {% if page.url contains 'people.html' %}active{% endif %}">
+                    <a class="nav-link" href="{{ 'people.html' | relative_url }}">People</a>
+                </li>
+                <li class="nav-item {% if page.url contains 'locations.html' %}active{% endif %}">
+                    <a class="nav-link" href="{{ 'locations.html' | relative_url }}">Maps</a>
+                </li>
+                <a class="navbar-brand px-5 d-none d-lg-block" href="{{ '/' | relative_url }}">
+                    <img src="{{ '/assets/images/logos/wax-seal-1-in-between.png' | relative_url }}" class="img-fluid" alt="Red circular seal. Written in the center is a cursive M.">
+                </a>
+                <li class="nav-item {% if page.url contains 'timeline.html' %}active{% endif %}">
+                    <a class="nav-link" href="{{ 'timeline.html' | relative_url }}">Timeline</a>
+                </li>
+                <li class="nav-item {% if page.url contains '/data/' %}active{% endif %}">
+                    <a class="nav-link" href="{{ '/data/' | relative_url }}">Data</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle{% if page.url contains 'about' %} active{% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item {% if page.url contains 'about-mancini.html' %}active{% endif %}" href="{{ 'about-mancini.html' | relative_url }}">Marie Mancini</a>
+                        <a class="dropdown-item {% if page.url contains 'about.html' %}active{% endif %}" href="{{ 'about.html' | relative_url }}">This Project</a>
+                    </div>
+                </li>
         </ul>
     </div>
 
