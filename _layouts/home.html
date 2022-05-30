@@ -5,21 +5,62 @@ lazyload: true
 ---
 
 <div class="container px-5">
-    <h1 class="site-title display-3 pt-4 pb-3">The Letters of Marie Mancini</h1>
-    <div class="row justify-content-end align-items-center">
-        <div class="col-md-9">
-            <p>In the spring of 1672, Italian noblewoman Marie Mancini came to the conclusion that her husband, the preeminant Lorenzo Onofrio Colonna, was trying to poison her. To escape, she fled Rome with her sister, Hortense, to France where the two hoped to win the protection of King Louis XIV (Marie's former lover), which would allow them to live independently from their husbands.</p>
-            <p>However, Marie and Hortense were not welcomed to court by the king. They were forced to find their own way to subsist independently, and managed to do so without returning to their husbands for the remainder of their lives.</p>
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1 class="site-title text-right display-3 pt-5 pb-3">The Letters of<br> <span class="display-2">Marie Mancini</span></h1>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4 text-center">
             <img src="{{ '/assets/images/marie-photo-circle.png' | relative_url }}" class="img-fluid">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8 index-content">
+            <p>In the spring of 1672, Italian noblewoman Marie Mancini became aware that her husband, the preeminant Lorenzo Onofrio Colonna, intended to poison her. To escape, she fled Rome with her sister, Hortense, to France where the two hoped to win the protection of King Louis XIV (Marie's former lover), which would allow them to live independently from their husbands.</p>
+            <p>However, Marie and Hortense were not welcomed to court by the king. They were forced to find their own way to subsist independently.</p>
+            <p>Marie's letters to her friends and her estranged husband </p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid px-5">
+    <div class="row py-5">
+        <div class="card-deck px-5">
+            <div class="card bg-light">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="{{ '/assets/images/logos/featherquill2.png' | relative_url }}" class="img-fluid ml-3">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="custom-card-title my-auto pt-4"><strong>Letters</strong></p>
+                        <p class="custom-card-text pr-3 pb-3 pt-1">View Marie's letters and read their transcriptions and translations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-light">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="{{ '/assets/images/logos/map-solid.svg' | relative_url }}" class="img-fluid ml-3">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="custom-card-title my-auto pt-4"><strong>Maps</strong></p>
+                        <p class="custom-card-text pr-3 pb-3 pt-1">Explore the trajectory of Marie's journey across Europe as she wrote her letters.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-light">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="{{ '/assets/images/logos/m-letter.png' | relative_url }}" class="img-fluid ml-3 pr-2">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="custom-card-title my-auto pt-4"><strong>About</strong></p>
+                        <p class="custom-card-text pr-3 pb-3 pt-1">Learn about <em>The Letters of Marie Mancini Project.</em></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
+{% comment %}{% include storymapjs.html %}{% endcomment %}
 
 
-
-{% include storymapjs.html %}
-
-<p>Despite her estrangement from her husband, Marie corresponded with him regularly. Today, her extant letters reside in the Colonna Archive at the Library of the Abbey of Santa Scolastica, in Subiaco, Italy. Created by collaborators at the University of Idaho, <em>The Letters of Marie Mancini</em> project is an initiative to transcribe, translate, visualize, and make them available to the public.</p>

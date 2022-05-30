@@ -10,14 +10,14 @@ body {
     font-family: 'Marck Script', cursive;
     /* font-family: 'Nothing You Could Do', cursive; */
     font-size: 35px;
-    color: #494440;
+    color: #494440 !important;
     &:hover {
-        color: black;
+        color: black !important;
     }
 }
 
 .nav-item {
-    padding: 0px 10px;
+    padding: 7px 10px 0px;
 }
 
 .navbar-brand {
@@ -25,7 +25,19 @@ body {
 }
 
 .site-title {
-    font-family: 'Merienda One', cursive;
+    font-family: 'Marck Script', cursive;
+}
+
+.index-content {
+    margin-left: 5em;
+}
+
+.custom-card-title {
+    font-size: 35px;
+}
+
+.custom-card-text {
+    font-size: 20px;
 }
 
 .pop-annotation {
