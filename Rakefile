@@ -220,7 +220,7 @@ task :letters, [:arg1] do |t, args|
 
         # change head to heading
         doc.css('head').each do |node|
-            new_node = doc.create_element 'h4'
+            new_node = doc.create_element 'h3'
             type = node['type'].to_s.capitalize
             language = node['lang'].to_s
             case language
