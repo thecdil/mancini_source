@@ -6,7 +6,8 @@ custom-foot: js/osd_iiif_image_viewer.html;js/item-js.html;js/popover-js.html;js
 {% assign year = page.letter_date | split: "-" | first %}
 
 <div class="container-fluid py-4 px-5">
-    <h1 class="pt-3 pb-2 text-center">{{ page.creator }} to {{ page.recipient }}, {{ page.letter_date }}</h1>
+    <h1 class="pt-3 text-center">{{ page.creator }} to {{ page.recipient }}</h1>
+    <h2 class="pb-2 text-center">{{ page.letter_date | date: "%A, %B %e, %Y" }}</h2>
     <div class="row mt-4 mx-auto">
         <div class="col-md-6">
             <div class="item-view pl-5">
@@ -20,16 +21,16 @@ custom-foot: js/osd_iiif_image_viewer.html;js/item-js.html;js/popover-js.html;js
                         <a class="nav-link active" id="trans-tab" data-toggle="tab" href="#trans" role="tab" aria-controls="trans" aria-selected="true">Translation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="raw-tab" data-toggle="tab" href="#raw" role="tab" aria-controls="raw" aria-selected="false">Raw</a>
+                        <a class="nav-link" id="raw-tab" data-toggle="tab" href="#raw" role="tab" aria-controls="raw" aria-selected="false">Diplomatic</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false">Edited</a>
                     </li>
-                    <li class="nav-item ml-auto mt-2">
-                        <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" title="View letter on timeline">View on Timeline</a>
-                    </li>
                 </ul>
                 <div class="tab-content my-3" id="myTabContent">
+                    <!--<div class="ml-auto mt-2 small">
+                        <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" title="View letter on timeline">View on Timeline</a>
+                    </div>-->
 
                     {{ content }}
                     
@@ -47,7 +48,7 @@ custom-foot: js/osd_iiif_image_viewer.html;js/item-js.html;js/popover-js.html;js
     </div>
     <div class="text-center">
         <a id="prev-button" class="btn btn-info">&laquo; Previous</a>
-        <a class="btn btn-info" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
+        <a class="btn btn-info" href="{{ '/browse.html' | relative_url }}">Browse</a>
         <a id="for-button" class="btn btn-info">Next &raquo;</a>
     </div>
 
