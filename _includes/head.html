@@ -2,29 +2,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/mancini2.ico' | relative_url }}">
-{%- if site.bootstrap == true -%}<link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | absolute_url }}">{%- endif -%}
+<link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | absolute_url }}">
 <script defer src="{{ '/assets/lib/fontawesome-free/js/all.min.js' | relative_url }}"></script>
 {% if layout.gallery == true %}<link rel="stylesheet" href="{{ '/assets/lib/lightgallery/css/lightgallery.min.css' | relative_url }}" type="text/css">{% endif %}
-{% if page.layout == 'home' or page.layout == 'about-page' %}<link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">{% endif %}
 {% if page.layout == 'data' %}<link rel="stylesheet" type="text/css" href="{{ '/assets/lib/datatables/datatables.min.css' | relative_url }}">{%- endif -%}
 {% if page.layout == 'map' %}<link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/lib/leaflet/leaflet.fusesearch.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/lib/leaflet/MarkerCluster.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/lib/leaflet/MarkerCluster.Default.css' | relative_url }}">{%- endif -%}
+
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" type="text/css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet"> 
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">

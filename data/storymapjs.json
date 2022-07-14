@@ -25,7 +25,7 @@
         }, {% for item in items %}{% if item.letter_date %}{%- assign images = item.images | split: ';' -%}{% for l in location_names %}{% if l.key == item.location_origin %}{
             "date": "{{ item.letter_date }}",
             "text": {
-                "headline": "{{ l.city }}, {{ l.country }}<br><div class='small'>{{ item.letter_date }}<br>{{ item.creator }} to {{ item.recipient }}</div>"{% if item.description %},
+                "headline": "{{ l.city }}, {{ l.country }}<br><div class='small'>{{ item.letter_date | date: '%A, %B %e, %Y' }}<br>{{ item.creator }} to {{ item.recipient }}</div>"{% if item.description %},
                 "text": {{ item.description | jsonify }}{% endif %}
             },
             "location": {

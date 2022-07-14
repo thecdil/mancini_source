@@ -13,7 +13,7 @@ To this end, users may:
 
 <a href="browse.html">Explore and read</a> the letters;<br>
 Browse Marie's correspondence in <a href="timeline.html">chronological order;</a><br>
-<a href="locations.html">View</a> her travels across Europe;<br>
+<a href="maps.html">View</a> her travels across Europe;<br>
 <a href="data">Download</a> the letters' text for further research.
 
 ...with more options to come!
