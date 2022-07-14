@@ -68,7 +68,7 @@ body {
     cursor: pointer;
 }
 
-a {
+a, a:not([href]) {
     color: #0066CC;
     &:hover {
         color: #0066CC;
@@ -86,6 +86,15 @@ a {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
+}
+
+.tab-pane p {
+    font-size: 21px;
+}
+
+.small, small {
+    font-size: 80% !important;
+    font-weight: 400;
 }
 
 /* timeline */

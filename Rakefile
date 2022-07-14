@@ -220,7 +220,7 @@ task :letters, [:arg1] do |t, args|
 
         # change head to heading
         doc.css('head').each do |node|
-            new_node = doc.create_element 'h3'
+            new_node = doc.create_element 'p'
             type = node['type'].to_s.capitalize
             language = node['lang'].to_s
             case language
@@ -233,9 +233,9 @@ task :letters, [:arg1] do |t, args|
             when "sp"
                 full_lang = "Spanish"
             end
-            new_node.inner_html = type + " (" + full_lang + ")"
+            new_node.inner_html = "[" + full_lang + "]"
             node.replace new_node
-            new_node['class'] = 'mb-3'
+            new_node['class'] = 'small text-right'
         end
 
         # remove pb (temporary?)
