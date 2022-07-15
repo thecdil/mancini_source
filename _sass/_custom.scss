@@ -159,3 +159,29 @@ a, a:not([href]) {
 .leaflet-fusesearch-panel .header {
     padding-bottom: 1.5em;
 }
+
+.vco-text-content-container, .vco-credit, .vco-caption {
+    font-family: 'EB Garamond', serif;
+    //font-size: 15px !important;
+}
+
+.vco-text-content p {
+    font-size: 20px !important;
+}
+
+.vco-headline .small {
+    padding-top: .5em;
+}
+
+.vco-caption {
+    visibility: hidden;
+}
+
+.vco-menubar-button:hover {
+    background: #902728;
+    color: #FFF;
+}
+
+.vco-mapmarker-active {
+    color: #902728 !important;
+}

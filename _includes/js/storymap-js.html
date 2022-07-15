@@ -1,0 +1,26 @@
+{% comment %}
+
+    Embed a StoryMapJS feature, https://storymap.knightlab.com/
+
+    E.G. --> {% include storymapjs.html %}
+
+    Embeds a StoryMapJS built from a JSON file appropriate for any CollectionBuilder page (such as Home or About page).
+    Automatically generates a storymapjs json file in "data/timelinejs.json" .
+    By default, this include uses this json file. 
+
+    Options:
+    - "json" = (optional) path or link to storymapjs json file. 
+
+{% endcomment %}
+{%- assign json = include.json | default: '/data/storymapjs.json' | relative_url -%}
+
+<!-- storymapjs, https://storymap.knightlab.com/ -->
+
+<script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
+
+<script>
+    var storymap = new KLStoryMap.StoryMap('storymap-embed', '{{ json }}');
+    window.onresize = function(event) {
+        storymap.updateDisplay(); // this isn't automatic
+    }
+</script>

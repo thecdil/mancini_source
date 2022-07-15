@@ -15,7 +15,7 @@
             "date": "1672-1673",
             "text": {
                 "headline": "Marie's Journey",
-                "text": "<p>Timeline of Marie's Letters</p> <span class='vco-note'>Follow Marie's route through Europe as she writes to her family and friends.</span>"
+                "text": "<p>Follow Marie's route through Europe as described in the letters she wrote to her family and friends.</p>"
             },
             "media": {
                 "url": "{{ 'assets/images/mancini_home_th.jpg' | relative_url }}",
@@ -25,7 +25,7 @@
         }, {% for item in items %}{% if item.letter_date %}{%- assign images = item.images | split: ';' -%}{% for l in location_names %}{% if l.key == item.location_origin %}{
             "date": "{{ item.letter_date }}",
             "text": {
-                "headline": "{{ l.city }}, {{ l.country }}<br><div class='small'>{{ item.letter_date | date: '%A, %B %e, %Y' }}<br>{{ item.creator }} to {{ item.recipient }}</div>"{% if item.description %},
+                "headline": "{{ l.city }}, {{ l.country }}, {{ item.letter_date | date: '%B %e, %Y' }}<div class='small'>{{ item.creator }} to {{ item.recipient }}</div>"{% if item.description %},
                 "text": {{ item.description | jsonify }}{% endif %}
             },
             "location": {
