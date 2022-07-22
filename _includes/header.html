@@ -15,8 +15,12 @@
                 <li class="nav-item {% if page.url contains 'people.html' %}active{% endif %}">
                     <a class="nav-link" href="{{ 'people.html' | relative_url }}">People</a>
                 </li>
-                <li class="nav-item {% if page.url contains 'maps.html' %}active{% endif %}">
-                    <a class="nav-link" href="{{ 'maps.html' | relative_url }}">Maps</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle{% if page.url contains 'about' %} active{% endif %}" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Maps</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item {% if page.url contains 'storymap.html' %}active{% endif %}" href="{{ 'storymap.html' | relative_url }}">Story Map</a>
+                        <a class="dropdown-item {% if page.url contains 'locations.html' %}active{% endif %}" href="{{ 'locations.html' | relative_url }}">Letter Locations</a>
+                    </div>
                 </li>
                 <a class="navbar-brand px-5 d-none d-lg-block" href="{{ '/' | relative_url }}">
                     <img src="{{ '/assets/images/logos/wax-seal-1-in-between.png' | relative_url }}" class="img-fluid" alt="Red circular seal. Written in the center is a cursive M.">
