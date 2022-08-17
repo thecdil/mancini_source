@@ -64,6 +64,13 @@ body {
     }
 }
 
+.card .lang-btn {
+    color: #FFFFFF !important;
+    &:hover {
+        color: #FFFFFF !important;
+    }
+}
+
 .pop-annotation {
     cursor: pointer;
 }
