@@ -17,12 +17,12 @@ custom-foot: js/tooltip-js.html
 {%- assign navYears = navYears | split: ";" -%}
 {%- endif -%}
 <div class="dropdown float-right" id="year-nav">
-    <button class="btn btn-info dropdown-toggle" type="button" id="yearButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button class="btn btn-info btn-lg dropdown-toggle" type="button" id="yearButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Year
     </button>
     <div class="dropdown-menu" aria-labelledby="yearButton">
         {% for y in navYears %}
-        <a class="dropdown-item" href="#{{ y }}">{{ y }}</a>{% endfor %}
+        <a class="dropdown-item year-dropdown" href="#{{ y }}">{{ y }}</a>{% endfor %}
     </div>
 </div>
 

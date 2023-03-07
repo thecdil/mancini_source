@@ -32,12 +32,24 @@ body {
     }
 }
 
+.footer-link {
+    color: #494440 !important;
+    &:hover {
+        color: black !important;
+    }
+}
+
 .navbar-brand {
     margin-right: 0rem !important;
 }
 
 .dropdown-item {
     font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+.year-dropdown {
+    font-family: 'EB Garamond', serif;
     font-size: 25px;
 }
 
