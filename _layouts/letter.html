@@ -2,12 +2,13 @@
 layout: default
 custom-foot: js/osd_iiif_image_viewer.html;js/item-js.html;js/popover-js.html;js/popover-placename-js.html;js/popover-annotate-js.html
 ---
-
+{% comment %} really weird bug with page.letter_date, can't use contains "-" in liquid for some reason, but split and join fixes it...  need to detect if page.letter_date is only a year, since the date display will be scrambled if feed only a year. {% endcomment %}
+{% assign date = page.letter_date | split: "-" | join: "-" %}
 {% assign year = page.letter_date | split: "-" | first %}
 
 <div class="container-fluid py-4 px-4">
     <h1 class="pt-3 text-center">{{ page.creator }} to {{ page.recipient }}</h1>
-    <h2 class="pb-2 text-center">{{ page.letter_date | date: "%A, %B %e, %Y" }}</h2>
+    <h2 class="pb-2 text-center">{% if date contains "-" %}{{ date | date: "%A, %B %e, %Y" }}{% else %}{{ date }}{% endif %}</h2>
     <div class="row mt-4 mx-auto">
         <div class="col-md-6">
             <div class="item-view pl-5">
