@@ -26,7 +26,8 @@ Based at the [University of Idaho](https://www.uidaho.edu/), this project's work
 Before coming to the U of I in 1999, Nelson taught at Bates College and Bowdoin College, as well as at the University of Wisconsin, where she earned her M.A. and Ph.D. 
 Her research focus has broadened from the French Renaissance to the early modern period, but her interest in questions of gender has remained constant.
 
-**Olivia Wikle** is the Digital Initiatives Librarian at the University of Idaho and a core member of the CDIL faculty. 
+**Olivia Wikle** is the Head of Digital Scholarship and Initiatives at Iowa State University. 
+Prior to this, she was the Digital Initiatives Librarian at the University of Idaho and a core member of the CDIL faculty. 
 She holds a B.A. in Music from Truman State University, an M.A. in Musicology from The Ohio State University, and a Master of Library Science from Indiana University.
 Her research centers around digital humanities and digital collections practice and theory.
  
@@ -34,4 +35,5 @@ Her research centers around digital humanities and digital collections practice 
 He earned a Master of Arts degree from West Virginia University in linguistics and second language acquisition and an M.A. from the University of Bologna in philosophy. 
 His research interests are linguistics, the philosophy of language, rhetoric and poetry. 
  
-**Liam Marchant**, a junior studying music composition at the University of Idaho, is an undergraduate research assistant for this project, employed with CDIL.
+**Liam Marchant** graduated cum laude from the University of Idaho in 2022 with degrees in Composition and Saxophone Performance.
+From 2020-2022 he was employed with CDIL as an undergraduate research assistant for this project.
